@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1410"
+     height="880"
+     viewBox="0 0 1410 880"
+     role="img"
+     aria-labelledby="title description">
+    <title id="title">Cloud Services</title>
+    <desc id="description">
+        Comparison of responsibility layers across On Premises, IaaS, PaaS, and SaaS.
+        Red cells represent customer-managed layers, and green cells represent
+        service-provider-managed layers.
+    </desc>
+
+    <defs>
+        <style>
+            .title {
+            font-family: "Segoe UI", "Noto Sans SC", "Noto Sans JP", sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            fill: #172b4d;
+            text-anchor: middle;
+            }
+
+            .header {
+            font-family: "Segoe UI", "Noto Sans SC", "Noto Sans JP", sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            fill: #172b4d;
+            text-anchor: middle;
+            }
+
+            .header-small {
+            font-family: "Segoe UI", "Noto Sans SC", "Noto Sans JP", sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            fill: #172b4d;
+            text-anchor: middle;
+            }
+
+            .cell {
+            font-family: "Segoe UI", "Noto Sans SC", "Noto Sans JP", sans-serif;
+            font-size: 14px;
+            fill: #172b4d;
+            text-anchor: middle;
+            }
+
+            .cell-ja {
+            font-size: 13px;
+            }
+
+            .grid {
+            fill: none;
+            stroke: #7a869a;
+            stroke-width: 1;
+            shape-rendering: crispEdges;
+            }
+
+            .outer-grid {
+            fill: none;
+            stroke: #42526e;
+            stroke-width: 2;
+            shape-rendering: crispEdges;
+            }
+        </style>
+
+        <!-- Reusable multilingual row labels -->
+        <g id="applications">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">应用程序</tspan>
+                <tspan x="0" dy="20">Applications</tspan>
+                <tspan class="cell-ja" x="0" dy="20">アプリケーション</tspan>
+            </text>
+        </g>
+
+        <g id="data">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">数据</tspan>
+                <tspan x="0" dy="20">Data</tspan>
+                <tspan class="cell-ja" x="0" dy="20">データ</tspan>
+            </text>
+        </g>
+
+        <g id="runtime">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">运行时环境</tspan>
+                <tspan x="0" dy="20">Runtime</tspan>
+                <tspan class="cell-ja" x="0" dy="20">ランタイム</tspan>
+            </text>
+        </g>
+
+        <g id="middleware">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">中间件</tspan>
+                <tspan x="0" dy="20">Middleware</tspan>
+                <tspan class="cell-ja" x="0" dy="20">ミドルウェア</tspan>
+            </text>
+        </g>
+
+        <g id="operating-system">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">操作系统</tspan>
+                <tspan x="0" dy="20">O/S</tspan>
+                <tspan class="cell-ja" x="0" dy="20">OS（オペレーティングシステム）</tspan>
+            </text>
+        </g>
+
+        <g id="virtualization">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">虚拟化</tspan>
+                <tspan x="0" dy="20">Virtualization</tspan>
+                <tspan class="cell-ja" x="0" dy="20">仮想化</tspan>
+            </text>
+        </g>
+
+        <g id="servers">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">服务器</tspan>
+                <tspan x="0" dy="20">Servers</tspan>
+                <tspan class="cell-ja" x="0" dy="20">サーバー</tspan>
+            </text>
+        </g>
+
+        <g id="storage">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">存储</tspan>
+                <tspan x="0" dy="20">Storage</tspan>
+                <tspan class="cell-ja" x="0" dy="20">ストレージ</tspan>
+            </text>
+        </g>
+
+        <g id="networking">
+            <text class="cell" x="0" y="-19">
+                <tspan x="0">网络</tspan>
+                <tspan x="0" dy="20">Networking</tspan>
+                <tspan class="cell-ja" x="0" dy="20">ネットワーク</tspan>
+            </text>
+        </g>
+    </defs>
+
+    <!-- Background -->
+    <rect width="1410" height="880" fill="#ffffff"/>
+
+    <!-- Title row -->
+    <rect x="0" y="0" width="1410" height="64" fill="#f4f5f7"/>
+    <text class="title" x="705" y="41">Cloud Services</text>
+
+    <!-- Header row -->
+    <rect x="0" y="64" width="170" height="120" fill="#b3d4ff"/>
+    <rect x="170" y="64" width="260" height="120" fill="#b3d4ff"/>
+    <rect x="430" y="64" width="330" height="120" fill="#b3d4ff"/>
+    <rect x="760" y="64" width="325" height="120" fill="#b3d4ff"/>
+    <rect x="1085" y="64" width="325" height="120" fill="#b3d4ff"/>
+
+    <!-- Layer labels column -->
+    <rect x="0" y="184" width="170" height="696" fill="#b3d4ff"/>
+
+    <!-- On Premises: all layers customer managed -->
+    <rect x="170" y="184" width="260" height="696" fill="#ffbdad"/>
+
+    <!-- IaaS -->
+    <rect x="430" y="184" width="330" height="400" fill="#ffbdad"/>
+    <rect x="430" y="584" width="330" height="296" fill="#abf5d1"/>
+
+    <!-- PaaS -->
+    <rect x="760" y="184" width="325" height="160" fill="#ffbdad"/>
+    <rect x="760" y="344" width="325" height="536" fill="#abf5d1"/>
+
+    <!-- SaaS: all layers provider managed -->
+    <rect x="1085" y="184" width="325" height="696" fill="#abf5d1"/>
+
+    <!-- Column headers -->
+    <text class="header" x="85" y="93">
+        <tspan x="85">层级</tspan>
+        <tspan x="85" dy="25">Layer</tspan>
+        <tspan x="85" dy="25">レイヤー</tspan>
+    </text>
+
+    <text class="header" x="300" y="93">
+        <tspan x="300">本地部署</tspan>
+        <tspan x="300" dy="25">On Premises</tspan>
+        <tspan x="300" dy="25">オンプレミス</tspan>
+    </text>
+
+    <text class="header-small" x="595" y="89">
+        <tspan x="595">基础设施即服务</tspan>
+        <tspan x="595" dy="24">Infrastructure as a Service</tspan>
+        <tspan x="595" dy="24">インフラストラクチャ・</tspan>
+        <tspan x="595" dy="19">アズ・ア・サービス</tspan>
+    </text>
+
+    <text class="header-small" x="922.5" y="93">
+        <tspan x="922.5">平台即服务</tspan>
+        <tspan x="922.5" dy="25">Platform as a Service</tspan>
+        <tspan x="922.5" dy="25">プラットフォーム・アズ・ア・サービス</tspan>
+    </text>
+
+    <text class="header-small" x="1247.5" y="93">
+        <tspan x="1247.5">软件即服务</tspan>
+        <tspan x="1247.5" dy="25">Software as a Service</tspan>
+        <tspan x="1247.5" dy="25">ソフトウェア・アズ・ア・サービス</tspan>
+    </text>
+
+    <!-- Applications row: center y=224 -->
+    <use href="#applications" transform="translate(85 224)"/>
+    <use href="#applications" transform="translate(300 224)"/>
+    <use href="#applications" transform="translate(595 224)"/>
+    <use href="#applications" transform="translate(922.5 224)"/>
+    <use href="#applications" transform="translate(1247.5 224)"/>
+
+    <!-- Data row: center y=304 -->
+    <use href="#data" transform="translate(85 304)"/>
+    <use href="#data" transform="translate(300 304)"/>
+    <use href="#data" transform="translate(595 304)"/>
+    <use href="#data" transform="translate(922.5 304)"/>
+    <use href="#data" transform="translate(1247.5 304)"/>
+
+    <!-- Runtime row: center y=384 -->
+    <use href="#runtime" transform="translate(85 384)"/>
+    <use href="#runtime" transform="translate(300 384)"/>
+    <use href="#runtime" transform="translate(595 384)"/>
+    <use href="#runtime" transform="translate(922.5 384)"/>
+    <use href="#runtime" transform="translate(1247.5 384)"/>
+
+    <!-- Middleware row: center y=464 -->
+    <use href="#middleware" transform="translate(85 464)"/>
+    <use href="#middleware" transform="translate(300 464)"/>
+    <use href="#middleware" transform="translate(595 464)"/>
+    <use href="#middleware" transform="translate(922.5 464)"/>
+    <use href="#middleware" transform="translate(1247.5 464)"/>
+
+    <!-- Operating system row: center y=544 -->
+    <use href="#operating-system" transform="translate(85 544)"/>
+    <use href="#operating-system" transform="translate(300 544)"/>
+    <use href="#operating-system" transform="translate(595 544)"/>
+    <use href="#operating-system" transform="translate(922.5 544)"/>
+    <use href="#operating-system" transform="translate(1247.5 544)"/>
+
+    <!-- Virtualization row: center y=624 -->
+    <use href="#virtualization" transform="translate(85 624)"/>
+    <use href="#virtualization" transform="translate(300 624)"/>
+    <use href="#virtualization" transform="translate(595 624)"/>
+    <use href="#virtualization" transform="translate(922.5 624)"/>
+    <use href="#virtualization" transform="translate(1247.5 624)"/>
+
+    <!-- Servers row: center y=704 -->
+    <use href="#servers" transform="translate(85 704)"/>
+    <use href="#servers" transform="translate(300 704)"/>
+    <use href="#servers" transform="translate(595 704)"/>
+    <use href="#servers" transform="translate(922.5 704)"/>
+    <use href="#servers" transform="translate(1247.5 704)"/>
+
+    <!-- Storage row: center y=784 -->
+    <use href="#storage" transform="translate(85 784)"/>
+    <use href="#storage" transform="translate(300 784)"/>
+    <use href="#storage" transform="translate(595 784)"/>
+    <use href="#storage" transform="translate(922.5 784)"/>
+    <use href="#storage" transform="translate(1247.5 784)"/>
+
+    <!-- Networking row: center y=844 -->
+    <use href="#networking" transform="translate(85 844)"/>
+    <use href="#networking" transform="translate(300 844)"/>
+    <use href="#networking" transform="translate(595 844)"/>
+    <use href="#networking" transform="translate(922.5 844)"/>
+    <use href="#networking" transform="translate(1247.5 844)"/>
+
+    <!-- Grid: vertical lines -->
+    <path class="grid" d="
+    M170 64 V880
+    M430 64 V880
+    M760 64 V880
+    M1085 64 V880
+  "/>
+
+    <!-- Grid: horizontal lines -->
+    <path class="grid" d="
+    M0 64 H1410
+    M0 184 H1410
+    M0 264 H1410
+    M0 344 H1410
+    M0 424 H1410
+    M0 504 H1410
+    M0 584 H1410
+    M0 664 H1410
+    M0 744 H1410
+    M0 824 H1410
+  "/>
+
+    <!-- Outer border -->
+    <rect class="outer-grid" x="1" y="1" width="1408" height="878"/>
+</svg>
