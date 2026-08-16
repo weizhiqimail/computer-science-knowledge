@@ -7,6 +7,7 @@
 - [AWS](AWS/)
 - [C-CPP](C-CPP/)
 - [linux](linux/)
+- [nginx](nginx/)
 - [Web协议详解与抓包实战](Web协议详解与抓包实战/)
 - [编译原理](编译原理/)
 - [产品](产品/)
