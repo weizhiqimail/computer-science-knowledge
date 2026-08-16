@@ -1,0 +1,11 @@
+{
+  "name": "nginx-static-cache-origin",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node origin-server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

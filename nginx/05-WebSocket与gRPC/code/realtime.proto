@@ -1,0 +1,11 @@
+syntax = "proto3";
+package demo;
+
+service RealtimeService {
+  rpc GetStatus (StatusRequest) returns (StatusReply);
+  rpc WatchEvents (StatusRequest) returns (stream EventReply);
+}
+
+message StatusRequest { string client_name = 1; }
+message StatusReply { string message = 1; string server_time = 2; }
+message EventReply { int32 sequence = 1; string message = 2; string server_time = 3; }

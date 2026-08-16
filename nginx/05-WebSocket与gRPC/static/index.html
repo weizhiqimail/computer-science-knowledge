@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>WebSocket与SSE</title>
+    <style>
+      body {
+        font-family: system-ui;
+        margin: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+      section {
+        padding: 20px;
+        background: #f4f5f7;
+      }
+      pre {
+        height: 280px;
+        overflow: auto;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>WebSocket</h1>
+      <input id="message" value="hello nginx" /><button id="send">发送</button>
+      <pre id="wslog"></pre>
+    </section>
+    <section>
+      <h1>SSE</h1>
+      <pre id="sselog"></pre>
+    </section>
+    <script>
+      const wslog = document.querySelector("#wslog");
+      const ws = new WebSocket(
+        `${location.protocol === "https:" ? "wss" : "ws"}://${location.host}/ws`,
+      );
+      ws.onmessage = (e) => (wslog.textContent += e.data + "\n");
+      ws.onopen = () => (wslog.textContent += "connected\n");
+      ws.onclose = () => (wslog.textContent += "closed\n");
+      document.querySelector("#send").onclick = () =>
+        ws.send(document.querySelector("#message").value);
+      const sselog = document.querySelector("#sselog");
+      const events = new EventSource("/events");
+      events.addEventListener(
+        "tick",
+        (e) => (sselog.textContent += e.data + "\n"),
+      );
+    </script>
+  </body>
+</html>

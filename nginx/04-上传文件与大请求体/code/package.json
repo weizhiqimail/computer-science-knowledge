@@ -1,0 +1,12 @@
+{
+  "name": "nginx-upload-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node upload-server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}

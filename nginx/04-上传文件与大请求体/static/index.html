@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>大文件上传实验</title>
+    <style>
+      body {
+        font-family: system-ui;
+        margin: 48px;
+        max-width: 760px;
+      }
+      form {
+        padding: 24px;
+        background: #f4f5f7;
+      }
+      pre {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>上传文件与大请求体</h1>
+    <form id="form">
+      <input name="file" type="file" required /><button>上传</button>
+    </form>
+    <pre id="result"></pre>
+    <script>
+      document.querySelector("#form").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const result = document.querySelector("#result");
+        result.textContent = "上传中…";
+        try {
+          const response = await fetch("/upload", {
+            method: "POST",
+            body: new FormData(e.currentTarget),
+          });
+          result.textContent = JSON.stringify(await response.json(), null, 2);
+        } catch (error) {
+          result.textContent = String(error);
+        }
+      });
+    </script>
+  </body>
+</html>
