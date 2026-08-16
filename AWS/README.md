@@ -8,4 +8,4 @@
 - [A05-弹性伸缩与置放群组](./docs/A05-弹性伸缩与置放群组.md)
 - [A06-VPC与对等连接](./docs/A06-VPC与对等连接.md)
 - [A07-VPC-各种图例](./docs/A07-VPC-各种图例.md)
-- [A09-VPC Endpoint 终端节点](./docs/A09-VPC Endpoint 终端节点.md)
+- [A09-VPCEndpoint终端节点](./docs/A09-VPCEndpoint终端节点.md)

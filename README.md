@@ -1,5 +1,9 @@
 # computer-science-knowledge
 
+- [computer-science-knowledge github](https://github.com/weizhiqimail/computer-science-knowledge)
+
+# 目录
+
 - [AWS](AWS/)
 - [C-CPP](C-CPP/)
 - [linux](linux/)

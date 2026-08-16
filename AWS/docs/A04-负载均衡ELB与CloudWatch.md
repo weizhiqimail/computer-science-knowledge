@@ -6,7 +6,7 @@
 
 ## **ELB的类型**
 
-- **Application Load Balancer：**如果您使用 **HTTP 和 HTTPS 流量的应用程序**需要灵活的功能集，请选择 Application Load Balancer。Application Load Balancer 在请求级别运行，面向包括微服务和容器在内的应用程序架构提供高级路由功能和可见性功能。
+- **Application Load Balancer**：如果您使用 **HTTP 和 HTTPS 流量的应用程序**需要灵活的功能集，请选择 Application Load Balancer。Application Load Balancer 在请求级别运行，面向包括微服务和容器在内的应用程序架构提供高级路由功能和可见性功能。
 - **Network Load Balancer**：如果您需要**超高性能、大规模分载 TLS、集中部署证书、UDP 支持以及将静态 IP 地址用于应用程序**，请选择网络负载均衡器。网络负载均衡器在连接级别运行，每秒钟能够安全地处理数百万个请求，同时维持超低延迟。
 - **Gateway Load Balancer**：如果需要部署和管理一系列**支持 GENEVE 的第三方虚拟设备**，请选择一个 Gateway Load Balancer。这类设备可帮您增强安全性、合规性和策略控制。
 
