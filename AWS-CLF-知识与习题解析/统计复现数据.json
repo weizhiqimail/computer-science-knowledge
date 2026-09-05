@@ -1,0 +1,1238 @@
+{
+  "total_questions": 719,
+  "category_counts": {
+    "C4-01": 42,
+    "C4-02": 10,
+    "C4-03": 62,
+    "C4-04": 54,
+    "C4-05": 26,
+    "C4-06": 8,
+    "C4-07": 18,
+    "C4-08": 16,
+    "C4-09": 13,
+    "C4-10": 24,
+    "C4-11": 3,
+    "C4-12": 17,
+    "C4-13": 19,
+    "C4-14": 54,
+    "C4-15": 40,
+    "C4-16": 10,
+    "C4-17": 28,
+    "C4-18": 13,
+    "C4-19": 24,
+    "C4-20": 47,
+    "C4-21": 10,
+    "C4-22": 42,
+    "C4-23": 31,
+    "C4-24": 30,
+    "C4-25": 22,
+    "C4-26": 56
+  },
+  "disputed_overlay_count": 94,
+  "top_services": [
+    [
+      "Amazon EC2",
+      175
+    ],
+    [
+      "Amazon S3",
+      83
+    ],
+    [
+      "AWS IAM",
+      76
+    ],
+    [
+      "On-Demand Instances",
+      46
+    ],
+    [
+      "Reserved Instances",
+      45
+    ],
+    [
+      "Amazon RDS",
+      42
+    ],
+    [
+      "AWS Trusted Advisor",
+      41
+    ],
+    [
+      "Shared Responsibility Model",
+      41
+    ],
+    [
+      "Spot Instances",
+      41
+    ],
+    [
+      "Amazon VPC",
+      37
+    ],
+    [
+      "Amazon DynamoDB",
+      36
+    ],
+    [
+      "Amazon GuardDuty",
+      35
+    ],
+    [
+      "AWS CAF",
+      33
+    ],
+    [
+      "AWS WAF",
+      33
+    ],
+    [
+      "AWS Support",
+      32
+    ],
+    [
+      "AWS Lambda",
+      31
+    ],
+    [
+      "Amazon Inspector",
+      30
+    ],
+    [
+      "Security Group",
+      30
+    ],
+    [
+      "Amazon CloudWatch",
+      29
+    ],
+    [
+      "AWS Direct Connect",
+      28
+    ],
+    [
+      "AWS Well-Architected Framework",
+      27
+    ],
+    [
+      "AWS CloudTrail",
+      27
+    ],
+    [
+      "AWS Shield",
+      26
+    ],
+    [
+      "Amazon CloudFront",
+      26
+    ],
+    [
+      "AWS Config",
+      25
+    ],
+    [
+      "AWS CloudFormation",
+      25
+    ],
+    [
+      "Amazon Aurora",
+      25
+    ],
+    [
+      "AWS Organizations",
+      24
+    ],
+    [
+      "AWS Cost Explorer",
+      23
+    ],
+    [
+      "Amazon Connect",
+      23
+    ],
+    [
+      "AWS Systems Manager",
+      22
+    ],
+    [
+      "Amazon EBS",
+      21
+    ],
+    [
+      "AWS Budgets",
+      20
+    ],
+    [
+      "AWS Storage Gateway",
+      19
+    ],
+    [
+      "Dedicated Hosts",
+      19
+    ],
+    [
+      "Amazon Redshift",
+      18
+    ],
+    [
+      "Amazon Cognito",
+      18
+    ],
+    [
+      "AWS DataSync",
+      17
+    ],
+    [
+      "AWS Artifact",
+      17
+    ],
+    [
+      "Savings Plans",
+      17
+    ],
+    [
+      "Amazon EFS",
+      16
+    ],
+    [
+      "AWS Elastic Beanstalk",
+      16
+    ],
+    [
+      "Amazon Route 53",
+      16
+    ],
+    [
+      "AWS Site-to-Site VPN",
+      16
+    ],
+    [
+      "Network ACL",
+      16
+    ],
+    [
+      "AWS Security Hub",
+      16
+    ],
+    [
+      "AWS Snow Family",
+      15
+    ],
+    [
+      "Amazon Athena",
+      15
+    ],
+    [
+      "Elastic Load Balancing",
+      15
+    ],
+    [
+      "AWS Outposts",
+      15
+    ],
+    [
+      "AWS Secrets Manager",
+      15
+    ],
+    [
+      "EC2 Auto Scaling",
+      15
+    ],
+    [
+      "AWS Marketplace",
+      15
+    ],
+    [
+      "AWS Fargate",
+      14
+    ],
+    [
+      "AWS Service Catalog",
+      14
+    ],
+    [
+      "Amazon Macie",
+      14
+    ],
+    [
+      "MFA",
+      14
+    ],
+    [
+      "AWS DMS",
+      14
+    ],
+    [
+      "Amazon Q",
+      13
+    ],
+    [
+      "Amazon QuickSight",
+      13
+    ],
+    [
+      "Amazon ECS",
+      13
+    ],
+    [
+      "AWS IAM Identity Center",
+      13
+    ],
+    [
+      "AWS Pricing Calculator",
+      12
+    ],
+    [
+      "Amazon SQS",
+      12
+    ],
+    [
+      "Amazon Detective",
+      12
+    ],
+    [
+      "Amazon Neptune",
+      12
+    ],
+    [
+      "Amazon Rekognition",
+      12
+    ],
+    [
+      "AWS Application Migration Service",
+      12
+    ],
+    [
+      "AWS Compute Optimizer",
+      11
+    ],
+    [
+      "Internet Gateway",
+      11
+    ],
+    [
+      "AWS Cost and Usage Report",
+      11
+    ],
+    [
+      "Amazon SNS",
+      11
+    ],
+    [
+      "IAM Role",
+      11
+    ],
+    [
+      "Amazon FSx",
+      11
+    ],
+    [
+      "Amazon Lightsail",
+      11
+    ],
+    [
+      "AWS Certificate Manager",
+      10
+    ],
+    [
+      "AWS CodeDeploy",
+      9
+    ],
+    [
+      "AWS Health",
+      9
+    ],
+    [
+      "VPC Endpoint",
+      9
+    ],
+    [
+      "AWS Global Accelerator",
+      9
+    ],
+    [
+      "AWS Migration Hub",
+      9
+    ],
+    [
+      "Amazon ElastiCache",
+      9
+    ],
+    [
+      "Amazon SageMaker AI",
+      8
+    ],
+    [
+      "AWS KMS",
+      8
+    ],
+    [
+      "AWS PrivateLink",
+      8
+    ],
+    [
+      "AWS Transit Gateway",
+      8
+    ],
+    [
+      "Amazon Polly",
+      8
+    ],
+    [
+      "AWS Application Discovery Service",
+      8
+    ],
+    [
+      "AWS Glue",
+      7
+    ],
+    [
+      "AWS Batch",
+      7
+    ],
+    [
+      "AWS Wavelength",
+      7
+    ],
+    [
+      "Amazon EventBridge",
+      7
+    ],
+    [
+      "Amazon EKS",
+      7
+    ],
+    [
+      "NAT Gateway",
+      7
+    ],
+    [
+      "AWS Backup",
+      7
+    ],
+    [
+      "AWS CodeBuild",
+      6
+    ],
+    [
+      "VPC Peering",
+      6
+    ],
+    [
+      "Amazon Kinesis",
+      6
+    ],
+    [
+      "Amazon DocumentDB",
+      6
+    ],
+    [
+      "AMI",
+      6
+    ]
+  ],
+  "top_correct": [
+    [
+      "AWS IAM",
+      38
+    ],
+    [
+      "Amazon EC2",
+      31
+    ],
+    [
+      "Amazon S3",
+      29
+    ],
+    [
+      "Reserved Instances",
+      17
+    ],
+    [
+      "Spot Instances",
+      13
+    ],
+    [
+      "Amazon RDS",
+      13
+    ],
+    [
+      "AWS Storage Gateway",
+      10
+    ],
+    [
+      "AWS CloudFormation",
+      10
+    ],
+    [
+      "AWS Direct Connect",
+      10
+    ],
+    [
+      "AWS CloudTrail",
+      10
+    ],
+    [
+      "Amazon DynamoDB",
+      9
+    ],
+    [
+      "Security Group",
+      9
+    ],
+    [
+      "AWS Artifact",
+      9
+    ],
+    [
+      "AWS Snow Family",
+      8
+    ],
+    [
+      "On-Demand Instances",
+      8
+    ],
+    [
+      "AWS Budgets",
+      8
+    ],
+    [
+      "AWS WAF",
+      8
+    ],
+    [
+      "AWS Organizations",
+      8
+    ],
+    [
+      "Amazon CloudFront",
+      8
+    ],
+    [
+      "AWS Support",
+      8
+    ],
+    [
+      "AWS Cost Explorer",
+      7
+    ],
+    [
+      "Amazon VPC",
+      7
+    ],
+    [
+      "MFA",
+      7
+    ],
+    [
+      "AWS Lambda",
+      7
+    ],
+    [
+      "Savings Plans",
+      7
+    ],
+    [
+      "AWS Outposts",
+      7
+    ],
+    [
+      "AWS IAM Identity Center",
+      7
+    ],
+    [
+      "AWS Fargate",
+      6
+    ],
+    [
+      "Amazon Q",
+      6
+    ],
+    [
+      "Amazon QuickSight",
+      6
+    ],
+    [
+      "AWS Elastic Beanstalk",
+      6
+    ],
+    [
+      "Amazon CloudWatch",
+      6
+    ],
+    [
+      "AWS Pricing Calculator",
+      6
+    ],
+    [
+      "Network ACL",
+      6
+    ],
+    [
+      "AWS Trusted Advisor",
+      6
+    ],
+    [
+      "AWS Secrets Manager",
+      6
+    ],
+    [
+      "AWS Global Accelerator",
+      6
+    ],
+    [
+      "EC2 Auto Scaling",
+      6
+    ],
+    [
+      "AWS Marketplace",
+      6
+    ],
+    [
+      "Amazon Macie",
+      5
+    ],
+    [
+      "Amazon Aurora",
+      5
+    ],
+    [
+      "AWS Transit Gateway",
+      5
+    ],
+    [
+      "IAM Role",
+      5
+    ],
+    [
+      "AWS Application Discovery Service",
+      5
+    ],
+    [
+      "Amazon Route 53",
+      5
+    ],
+    [
+      "AWS Shield",
+      5
+    ],
+    [
+      "Amazon Inspector",
+      4
+    ],
+    [
+      "AWS Compute Optimizer",
+      4
+    ],
+    [
+      "Amazon Athena",
+      4
+    ],
+    [
+      "Amazon FSx",
+      4
+    ],
+    [
+      "Amazon Cognito",
+      4
+    ],
+    [
+      "Migration Evaluator",
+      4
+    ],
+    [
+      "AWS DMS",
+      4
+    ],
+    [
+      "Amazon Neptune",
+      4
+    ],
+    [
+      "Elastic Load Balancing",
+      4
+    ],
+    [
+      "AWS Service Catalog",
+      3
+    ],
+    [
+      "AWS Glue",
+      3
+    ],
+    [
+      "Amazon SNS",
+      3
+    ],
+    [
+      "AWS KMS",
+      3
+    ],
+    [
+      "Amazon SQS",
+      3
+    ],
+    [
+      "Amazon Redshift",
+      3
+    ],
+    [
+      "AWS Health",
+      3
+    ],
+    [
+      "AWS Config",
+      3
+    ],
+    [
+      "AWS DataSync",
+      3
+    ],
+    [
+      "Internet Gateway",
+      3
+    ],
+    [
+      "Amazon Connect",
+      3
+    ],
+    [
+      "Amazon Rekognition",
+      3
+    ],
+    [
+      "AWS Security Hub",
+      2
+    ],
+    [
+      "Amazon EBS",
+      2
+    ],
+    [
+      "AWS Systems Manager",
+      2
+    ],
+    [
+      "AWS CAF",
+      2
+    ],
+    [
+      "AWS Site-to-Site VPN",
+      2
+    ],
+    [
+      "IAM Policy",
+      2
+    ],
+    [
+      "Amazon Kendra",
+      2
+    ],
+    [
+      "Amazon Polly",
+      2
+    ],
+    [
+      "Amazon Lightsail",
+      2
+    ],
+    [
+      "Amazon SageMaker AI",
+      2
+    ],
+    [
+      "AWS Migration Hub",
+      2
+    ],
+    [
+      "AWS Backup",
+      2
+    ],
+    [
+      "AWS CodeDeploy",
+      2
+    ],
+    [
+      "Amazon EFS",
+      2
+    ],
+    [
+      "Amazon GuardDuty",
+      2
+    ],
+    [
+      "AWS Application Migration Service",
+      2
+    ],
+    [
+      "AMI",
+      1
+    ],
+    [
+      "Amazon Personalize",
+      1
+    ],
+    [
+      "AWS Step Functions",
+      1
+    ],
+    [
+      "NAT Gateway",
+      1
+    ],
+    [
+      "AWS Cost and Usage Report",
+      1
+    ],
+    [
+      "AWS Batch",
+      1
+    ],
+    [
+      "EC2 Instance Store",
+      1
+    ],
+    [
+      "VPC Peering",
+      1
+    ],
+    [
+      "Amazon Comprehend",
+      1
+    ],
+    [
+      "Dedicated Hosts",
+      1
+    ],
+    [
+      "Amazon Detective",
+      1
+    ],
+    [
+      "AWS SCT",
+      1
+    ],
+    [
+      "Amazon ECS",
+      1
+    ],
+    [
+      "Amazon EventBridge",
+      1
+    ],
+    [
+      "AWS Control Tower",
+      1
+    ],
+    [
+      "Amazon Lex",
+      1
+    ],
+    [
+      "Amazon Transcribe",
+      1
+    ]
+  ],
+  "top_wrong": [
+    [
+      "Amazon S3",
+      89
+    ],
+    [
+      "Amazon EC2",
+      84
+    ],
+    [
+      "AWS IAM",
+      63
+    ],
+    [
+      "AWS Support",
+      40
+    ],
+    [
+      "Reserved Instances",
+      38
+    ],
+    [
+      "AWS Trusted Advisor",
+      33
+    ],
+    [
+      "Amazon GuardDuty",
+      32
+    ],
+    [
+      "On-Demand Instances",
+      32
+    ],
+    [
+      "Spot Instances",
+      28
+    ],
+    [
+      "Amazon DynamoDB",
+      27
+    ],
+    [
+      "AWS Lambda",
+      27
+    ],
+    [
+      "Amazon VPC",
+      27
+    ],
+    [
+      "Amazon RDS",
+      26
+    ],
+    [
+      "Amazon Inspector",
+      26
+    ],
+    [
+      "AWS WAF",
+      24
+    ],
+    [
+      "AWS Shield",
+      23
+    ],
+    [
+      "AWS Config",
+      22
+    ],
+    [
+      "Amazon CloudWatch",
+      22
+    ],
+    [
+      "Amazon EBS",
+      20
+    ],
+    [
+      "AWS Systems Manager",
+      20
+    ],
+    [
+      "Amazon Connect",
+      20
+    ],
+    [
+      "Amazon Aurora",
+      20
+    ],
+    [
+      "Security Group",
+      18
+    ],
+    [
+      "Dedicated Hosts",
+      18
+    ],
+    [
+      "AWS Direct Connect",
+      17
+    ],
+    [
+      "Amazon CloudFront",
+      16
+    ],
+    [
+      "Amazon Redshift",
+      15
+    ],
+    [
+      "AWS CloudTrail",
+      15
+    ],
+    [
+      "AWS Organizations",
+      14
+    ],
+    [
+      "Amazon EFS",
+      14
+    ],
+    [
+      "AWS Site-to-Site VPN",
+      14
+    ],
+    [
+      "AWS DataSync",
+      14
+    ],
+    [
+      "AWS Cost Explorer",
+      14
+    ],
+    [
+      "Amazon Cognito",
+      14
+    ],
+    [
+      "AWS Security Hub",
+      14
+    ],
+    [
+      "AWS Storage Gateway",
+      13
+    ],
+    [
+      "AWS CloudFormation",
+      13
+    ],
+    [
+      "AWS Snow Family",
+      12
+    ],
+    [
+      "Elastic Load Balancing",
+      12
+    ],
+    [
+      "Amazon ECS",
+      12
+    ],
+    [
+      "AWS Budgets",
+      12
+    ],
+    [
+      "Amazon Athena",
+      11
+    ],
+    [
+      "AWS Service Catalog",
+      11
+    ],
+    [
+      "Amazon Route 53",
+      11
+    ],
+    [
+      "Amazon Detective",
+      11
+    ],
+    [
+      "AWS Cost and Usage Report",
+      10
+    ],
+    [
+      "AWS Certificate Manager",
+      10
+    ],
+    [
+      "AWS Marketplace",
+      10
+    ],
+    [
+      "AWS Elastic Beanstalk",
+      10
+    ],
+    [
+      "AWS DMS",
+      10
+    ],
+    [
+      "AWS Application Migration Service",
+      10
+    ],
+    [
+      "Savings Plans",
+      10
+    ],
+    [
+      "Network ACL",
+      9
+    ],
+    [
+      "Amazon Macie",
+      9
+    ],
+    [
+      "AWS Secrets Manager",
+      9
+    ],
+    [
+      "Amazon Rekognition",
+      9
+    ],
+    [
+      "Amazon Lightsail",
+      9
+    ],
+    [
+      "Amazon ElastiCache",
+      9
+    ],
+    [
+      "AWS Artifact",
+      8
+    ],
+    [
+      "Amazon SQS",
+      8
+    ],
+    [
+      "AWS Fargate",
+      8
+    ],
+    [
+      "Amazon Neptune",
+      8
+    ],
+    [
+      "VPC Endpoint",
+      8
+    ],
+    [
+      "Amazon FSx",
+      8
+    ],
+    [
+      "Amazon Q",
+      7
+    ],
+    [
+      "AWS CodeDeploy",
+      7
+    ],
+    [
+      "AWS Wavelength",
+      7
+    ],
+    [
+      "AWS PrivateLink",
+      7
+    ],
+    [
+      "AWS Health",
+      7
+    ],
+    [
+      "EC2 Auto Scaling",
+      7
+    ],
+    [
+      "Amazon EKS",
+      7
+    ],
+    [
+      "AWS Outposts",
+      7
+    ],
+    [
+      "Amazon SNS",
+      7
+    ],
+    [
+      "AWS Migration Hub",
+      7
+    ],
+    [
+      "Internet Gateway",
+      7
+    ],
+    [
+      "Amazon SageMaker AI",
+      6
+    ],
+    [
+      "AWS CodeBuild",
+      6
+    ],
+    [
+      "Amazon Kinesis",
+      6
+    ],
+    [
+      "Amazon EventBridge",
+      6
+    ],
+    [
+      "Amazon DocumentDB",
+      6
+    ],
+    [
+      "AWS IAM Identity Center",
+      6
+    ],
+    [
+      "Amazon Polly",
+      6
+    ],
+    [
+      "NAT Gateway",
+      6
+    ],
+    [
+      "Amazon QuickSight",
+      6
+    ],
+    [
+      "AWS Pricing Calculator",
+      5
+    ],
+    [
+      "AWS CodePipeline",
+      5
+    ],
+    [
+      "VPC Peering",
+      5
+    ],
+    [
+      "AWS KMS",
+      5
+    ],
+    [
+      "AWS Compute Optimizer",
+      5
+    ],
+    [
+      "Amazon EMR",
+      5
+    ],
+    [
+      "AWS Batch",
+      5
+    ],
+    [
+      "Amazon Comprehend",
+      5
+    ],
+    [
+      "AWS Control Tower",
+      5
+    ],
+    [
+      "AWS Well-Architected Framework",
+      5
+    ],
+    [
+      "AWS Backup",
+      5
+    ],
+    [
+      "Amazon Personalize",
+      4
+    ],
+    [
+      "AWS Transfer Family",
+      4
+    ],
+    [
+      "IAM Role",
+      4
+    ],
+    [
+      "AWS RAM",
+      4
+    ],
+    [
+      "MFA",
+      4
+    ]
+  ]
+}
