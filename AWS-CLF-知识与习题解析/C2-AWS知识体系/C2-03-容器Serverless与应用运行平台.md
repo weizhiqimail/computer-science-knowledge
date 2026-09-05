@@ -273,7 +273,7 @@ AWS 题目如果写：Docker workload、containerized application、container im
 
 ### 3.6-★★★★★-Container-Image
 
-Container Image；；；；中文：容器镜像；它可以理解为：
+Container Image；  中文：容器镜像；它可以理解为：
 
 > 用来创建 Container 的只读应用模板。
 
@@ -338,7 +338,7 @@ Container Image
 
 ### 4.1-Registry-是什么？
 
-Registry；；；；中文：镜像注册表 / 镜像仓库服务；开发者构建 Container Image 以后，需要一个地方存放。不能只放在开发者电脑：
+Registry；  中文：镜像注册表 / 镜像仓库服务；开发者构建 Container Image 以后，需要一个地方存放。不能只放在开发者电脑：
 
 ```text
 Developer Laptop
@@ -452,7 +452,7 @@ Networking
 
 ### 5.1-★★★★-Cluster
 
-Cluster；；；；中文：集群；最基本理解：
+Cluster；  中文：集群；最基本理解：
 
 > 多个计算资源组成一个整体，共同承载工作负载。
 
@@ -543,7 +543,7 @@ ECS Cluster；可以理解成：
 
 #### 5.5.2-Task-Definition
 
-Task Definition；；；；中文：任务定义；可以理解成：
+Task Definition；  中文：任务定义；可以理解成：
 
 > ECS 运行任务时使用的“运行说明书”。
 
@@ -567,7 +567,7 @@ Actual Dish
 
 #### 5.5.3-ECS-Task
 
-Task；；；；中文：任务；在 ECS 中可以理解为：
+Task；  中文：任务；在 ECS 中可以理解为：
 
 > 按 Task Definition 真正启动出来的一份运行实例。
 
@@ -988,7 +988,7 @@ Fargate
 
 ### 7.1-★★★★★-Serverless
 
-Serverless；；；；中文：无服务器架构 / 无服务器计算；再次强调：
+Serverless；  中文：无服务器架构 / 无服务器计算；再次强调：
 
 ```text
 Serverless
@@ -1044,7 +1044,7 @@ Result
 
 ### 7.4-Function-是什么？
 
-Function；；；；中文：函数；例如：resizeImage()、sendOrderEmail()、processPaymentEvent()、generateThumbnail()；Lambda 的思想是：
+Function；  中文：函数；例如：resizeImage()、sendOrderEmail()、processPaymentEvent()、generateThumbnail()；Lambda 的思想是：
 
 > 把一段业务逻辑作为独立可触发的计算单元运行。
 
@@ -1065,7 +1065,7 @@ Lambda
 
 ### 7.5-Event-Driven：事件驱动
 
-Event；；；；中文：事件；例如：S3 Object Created、SQS Message Arrived、DynamoDB Item Changed、API Request、Scheduled Event；Event-Driven Architecture：
+Event；  中文：事件；例如：S3 Object Created、SQS Message Arrived、DynamoDB Item Changed、API Request、Scheduled Event；Event-Driven Architecture：
 
 ```text
 某件事发生
@@ -1095,7 +1095,7 @@ Resize Image
 
 ### 7.6-★★★★-Lambda-Trigger
 
-Trigger；；；；中文：触发器；它回答：
+Trigger；  中文：触发器；它回答：
 
 > 什么事情发生时，应该调用这个 Lambda；Function？
 
@@ -1172,7 +1172,7 @@ DynamoDB
 
 ### 7.9-Stateless-是什么？
 
-Stateless；；；；中文：无状态；意思不是：应用完全没有数据；而是：
+Stateless；  中文：无状态；意思不是：应用完全没有数据；而是：
 
 > 不应该把关键业务状态依赖在某个具体计算实例的本地内存或临时磁盘中。
 
@@ -1364,7 +1364,7 @@ AWS 再进一步管理：Server、OS、Runtime Infrastructure、Scaling Infrastr
 
 ### 9.1-Application-Platform：应用运行平台是什么？
 
-Application Platform；；；；中文：应用运行平台；它位于：
+Application Platform；  中文：应用运行平台；它位于：
 
 ```text
 Application
@@ -1492,7 +1492,7 @@ GlobalShop
 
 ### 10.1-★★★★★-Workload
 
-Workload；；；；中文：工作负载；它是 AWS 文档和考试中极其常见的词。不是“员工工作量”。而是：
+Workload；  中文：工作负载；它是 AWS 文档和考试中极其常见的词。不是“员工工作量”。而是：
 
 > 在计算系统中需要运行的一组应用、服务、任务和数据处理活动。
 
@@ -1502,7 +1502,7 @@ Workload；；；；中文：工作负载；它是 AWS 文档和考试中极其�
 
 ### 10.2-Runtime-是什么？
 
-Runtime；；；；中文：运行时 / 运行环境；例如：Node.js Runtime、Java Runtime、Python Runtime、.NET Runtime；Application Code 不能凭空执行。它需要 Runtime。在不同 Compute 抽象中：
+Runtime；  中文：运行时 / 运行环境；例如：Node.js Runtime、Java Runtime、Python Runtime、.NET Runtime；Application Code 不能凭空执行。它需要 Runtime。在不同 Compute 抽象中：
 
 ```text
 EC2
@@ -1518,7 +1518,7 @@ Lambda
 
 ### 10.3-Scheduling-是什么？
 
-Scheduling；；；；中文：调度；这里不是：日历预约；而是：
+Scheduling；  中文：调度；这里不是：日历预约；而是：
 
 > 决定某个 Workload 应该在哪个计算资源上运行。
 

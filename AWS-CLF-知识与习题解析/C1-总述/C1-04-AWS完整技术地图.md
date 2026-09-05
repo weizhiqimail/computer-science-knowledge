@@ -617,7 +617,7 @@ Detailed billing data
 
 ### 16.1-AWS-CAF
 
-**AWS Cloud Adoption Framework**；；；；中文：**AWS 云采用框架**；回答：
+**AWS Cloud Adoption Framework**；  中文：**AWS 云采用框架**；回答：
 
 > 公司作为一个组织应该怎么采用 Cloud？
 

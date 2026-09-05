@@ -171,19 +171,19 @@ Management
 
 ### 2.9-★★★★-SQS
 
-**Amazon Simple Queue Service**；Queue、队列；；；；中文：**简单队列服务**
+**Amazon Simple Queue Service**；Queue、队列；  中文：**简单队列服务**
 
 ---
 
 ### 2.10-★★★-SNS
 
-**Amazon Simple Notification Service**；Notification、通知；；；；中文：**简单通知服务**
+**Amazon Simple Notification Service**；Notification、通知；  中文：**简单通知服务**
 
 ---
 
 ### 2.11-★★★-ECS
 
-**Amazon Elastic Container Service**；；；；中文：**弹性容器服务**
+**Amazon Elastic Container Service**；  中文：**弹性容器服务**
 
 ---
 
@@ -201,7 +201,7 @@ Management
 
 ### 2.14-★★★-DMS
 
-**AWS Database Migration Service**；；；；中文：**数据库迁移服务**
+**AWS Database Migration Service**；  中文：**数据库迁移服务**
 
 ---
 
@@ -273,7 +273,7 @@ S3、SQS 都是非常核心的云基础服务。
 
 ## 5-★★★★-Managed
 
-**Managed Service**；；；；中文：**托管服务**；这是 AWS 最重要的词之一。传统：
+**Managed Service**；  中文：**托管服务**；这是 AWS 最重要的词之一。传统：
 
 ```text
 自己安装MySQL
@@ -301,7 +301,7 @@ Managed Database：
 
 ## 6-Fully-Managed
 
-**Fully Managed**；；；；中文：**完全托管**；通常强调：
+**Fully Managed**；  中文：**完全托管**；通常强调：
 
 > AWS 进一步承担底层基础设施运维。
 
@@ -315,7 +315,7 @@ Managed Database：
 
 ## 7-★★★★★-Serverless
 
-**Serverless**；；；；中文：**无服务器**；含义：
+**Serverless**；  中文：**无服务器**；含义：
 
 > 用户不直接配置和管理底层服务器。
 
@@ -338,7 +338,7 @@ Athena
 
 ## 8-★★★★★-Instance
 
-**Instance**；；；；中文：**实例**；AWS 中经常说：EC2 Instance、RDS DB Instance；Instance 可以理解为：
+**Instance**；  中文：**实例**；AWS 中经常说：EC2 Instance、RDS DB Instance；Instance 可以理解为：
 
 > 某个服务实际创建出来并运行的一个具体资源实例。
 
@@ -358,7 +358,7 @@ EC2 Instance
 
 ## 9-★★★★★-Resource
 
-**Resource**；；；；中文：**资源**；AWS 中的：EC2 Instance、S3 Bucket、RDS Database、VPC、Security Group、Lambda Function；都可以被笼统称为：**AWS Resources**
+**Resource**；  中文：**资源**；AWS 中的：EC2 Instance、S3 Bucket、RDS Database、VPC、Security Group、Lambda Function；都可以被笼统称为：**AWS Resources**
 
 ---
 
@@ -374,7 +374,7 @@ EC2 Instance
 
 ## 11-★★★★★-Gateway
 
-**Gateway**；；；；中文：**网关**；最原始的概念：
+**Gateway**；  中文：**网关**；最原始的概念：
 
 > 两个不同网络、系统或边界之间的“入口/出口/中转点”。
 
@@ -406,7 +406,7 @@ Client ↔ Backend API
 
 ## 12-★★★★-Endpoint
 
-**Endpoint**；；；；中文：**端点**；可以理解：
+**Endpoint**；  中文：**端点**；可以理解：
 
 > 网络通信所要连接的一个目标入口。
 
@@ -425,13 +425,13 @@ VPC中的私有访问入口
 
 ## 13-★★★★★-Region
 
-**Region**；；；；中文：**区域**；AWS 中是一个独立地理区域。例如：Asia Pacific (Tokyo)、ap-northeast-1
+**Region**；  中文：**区域**；AWS 中是一个独立地理区域。例如：Asia Pacific (Tokyo)、ap-northeast-1
 
 ---
 
 ## 14-★★★★★-Availability-Zone
 
-简称：**AZ**；；；；中文：**可用区**AWS 官方定义一个 AZ 可以由一个或多个独立数据中心组成。([AWS Documentation](https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html?utm_source=chatgpt.com))所以：
+简称：**AZ**；  中文：**可用区**AWS 官方定义一个 AZ 可以由一个或多个独立数据中心组成。([AWS Documentation](https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html?utm_source=chatgpt.com))所以：
 
 ```text
 Tokyo
@@ -446,13 +446,13 @@ Region 内部才有多个 AZ。
 
 ## 15-Zone
 
-**Zone**；；；；中文：**区域 / 分区**；AWS 中不同的 Zone 不一定代表同一种东西：Availability Zone、Local Zone、Wavelength Zone；所以看到 Zone 不能直接翻译完就结束，需要看前面的限定词。
+**Zone**；  中文：**区域 / 分区**；AWS 中不同的 Zone 不一定代表同一种东西：Availability Zone、Local Zone、Wavelength Zone；所以看到 Zone 不能直接翻译完就结束，需要看前面的限定词。
 
 ---
 
 ## 16-★★★-Cluster
 
-**Cluster**；；；；中文：**集群**；多个计算节点、数据库节点或其他资源组合成一个逻辑整体。例如：EKS Cluster；不能把 Cluster 简单理解成“一台服务器”。
+**Cluster**；  中文：**集群**；多个计算节点、数据库节点或其他资源组合成一个逻辑整体。例如：EKS Cluster；不能把 Cluster 简单理解成“一台服务器”。
 
 ---
 
@@ -471,7 +471,7 @@ Bucket
 
 ## 18-★★★★★-Object
 
-**Object**；；；；中文：**对象**；S3 中的数据基本单位。一个 Object 大致包含：
+**Object**；  中文：**对象**；S3 中的数据基本单位。一个 Object 大致包含：
 
 ```text
 Data
@@ -489,7 +489,7 @@ Key
 
 ## 19-★★★★-Volume
 
-**Volume**；；；；中文：**卷**；EBS 中：EBS Volume；可以先理解成：
+**Volume**；  中文：**卷**；EBS 中：EBS Volume；可以先理解成：
 
 > 一块逻辑云磁盘。
 
@@ -497,7 +497,7 @@ Key
 
 ## 20-★★★★-Snapshot
 
-**Snapshot**；；；；中文：**快照**；用于记录某个时间点的数据状态。最经典：
+**Snapshot**；  中文：**快照**；用于记录某个时间点的数据状态。最经典：
 
 ```text
 EBS Volume
@@ -511,13 +511,13 @@ EBS Snapshot
 
 ## 21-★★★★★-Policy
 
-**Policy**；；；；中文：**策略**；AWS IAM 中 Policy 用于表达：谁、是否允许、执行什么Action、访问什么Resource、满足什么Condition；不是公司员工手册意义上的普通 Policy。
+**Policy**；  中文：**策略**；AWS IAM 中 Policy 用于表达：谁、是否允许、执行什么Action、访问什么Resource、满足什么Condition；不是公司员工手册意义上的普通 Policy。
 
 ---
 
 ## 22-★★★★★-Role
 
-**Role**；；；；中文：**角色**；IAM Role 不是：
+**Role**；  中文：**角色**；IAM Role 不是：
 
 > “职位名称”。
 
@@ -531,7 +531,7 @@ EBS Snapshot
 
 ## 23-★★★-Principal
 
-**Principal**；；；；中文：**主体**；在 AWS Security 中表示：
+**Principal**；  中文：**主体**；在 AWS Security 中表示：
 
 > 谁在发起请求。
 
@@ -574,7 +574,7 @@ User Alice
 
 ## 25-★★★★-Encryption
 
-**Encryption**；；；；中文：**加密**；两个高频短语：
+**Encryption**；  中文：**加密**；两个高频短语：
 
 ### 25.1-Encryption-at-Rest
 
@@ -588,7 +588,7 @@ User Alice
 
 ## 26-★★★★-Latency
 
-**Latency**；；；；中文：**延迟**；通常表示一次通信/请求需要多久。例如：
+**Latency**；  中文：**延迟**；通常表示一次通信/请求需要多久。例如：
 
 ```text
 Japan User
@@ -605,7 +605,7 @@ Japan User
 
 ## 27-★★★-Throughput
 
-**Throughput**；；；；中文：**吞吐量**；不是“一个请求有多快”。而更接近：
+**Throughput**；  中文：**吞吐量**；不是“一个请求有多快”。而更接近：
 
 > 单位时间可以处理/传输多少数据。
 
@@ -656,25 +656,25 @@ Elasticity
 
 ## 30-★★★★★-API
 
-**API = Application Programming Interface**；；；；中文：**应用程序编程接口**；AWS 的所有资源并不是只有 Console 能操作。实际上可以：Management Console、CLI、SDK、API；来调用 AWS 能力。
+**API = Application Programming Interface**；  中文：**应用程序编程接口**；AWS 的所有资源并不是只有 Console 能操作。实际上可以：Management Console、CLI、SDK、API；来调用 AWS 能力。
 
 ---
 
 ## 31-★★★-CLI
 
-**CLI = Command Line Interface**；；；；中文：**命令行界面**；AWS CLI：**AWS Command Line Interface**；通过命令操作 AWS。
+**CLI = Command Line Interface**；  中文：**命令行界面**；AWS CLI：**AWS Command Line Interface**；通过命令操作 AWS。
 
 ---
 
 ## 32-★★★-SDK
 
-**SDK = Software Development Kit**；；；；中文：**软件开发工具包**；例如：AWS SDK for JavaScript、AWS SDK for Java、AWS SDK for Python；允许程序调用 AWS API。
+**SDK = Software Development Kit**；  中文：**软件开发工具包**；例如：AWS SDK for JavaScript、AWS SDK for Java、AWS SDK for Python；允许程序调用 AWS API。
 
 ---
 
 ## 33-★★★★-IaC
 
-**IaC = Infrastructure as Code**；；；；中文：**基础设施即代码**；核心思想：
+**IaC = Infrastructure as Code**；  中文：**基础设施即代码**；核心思想：
 
 ```text
 基础设施

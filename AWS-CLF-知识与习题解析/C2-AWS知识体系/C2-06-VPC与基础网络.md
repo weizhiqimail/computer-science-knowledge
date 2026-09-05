@@ -43,7 +43,7 @@ Switch
 
 ## 3-★★★★★-Amazon-VPC
 
-**正式名称：** Amazon Virtual Private Cloud；；；；中文： Amazon 虚拟私有云
+**正式名称：** Amazon Virtual Private Cloud；  中文： Amazon 虚拟私有云
 
 ### 3.1-为什么需要它
 
@@ -122,7 +122,7 @@ Route Table = 路由表。它回答：
 
 ## 7-★★★★★-Internet-Gateway
 
-**正式名称：** Internet Gateway；；；；中文： 互联网网关
+**正式名称：** Internet Gateway；  中文： 互联网网关
 
 ### 7.1-为什么需要它
 
@@ -150,7 +150,7 @@ Internet Gateway 不等于 NAT Gateway。IGW 是 VPC 与 Internet 的连接点�
 
 ## 8-★★★★★-NAT-Gateway
 
-**正式名称：** NAT Gateway；；；；中文： 网络地址转换网关
+**正式名称：** NAT Gateway；  中文： 网络地址转换网关
 
 ### 8.1-为什么需要它
 

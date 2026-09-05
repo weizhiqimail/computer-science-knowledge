@@ -112,7 +112,7 @@ Web请求：
 
 > 这个域名应该去哪里？
 
-所以出现：★★★★★ Amazon Route 53；负责：**DNS**；完整英文：**Domain Name System**；；；；中文：**域名系统**；以后会详细讲：
+所以出现：★★★★★ Amazon Route 53；负责：**DNS**；完整英文：**Domain Name System**；  中文：**域名系统**；以后会详细讲：
 
 ```text
 domain
@@ -145,7 +145,7 @@ S3
    ▼
 原图返回美国
 ```
-这会增加：**Latency**；；；；中文：**网络延迟**；于是出现：★★★★ Amazon CloudFront；它属于：**CDN = Content Delivery Network**；；；；中文：**内容分发网络**；GlobalShop 可以把商品图片缓存到更靠近用户的网络节点。
+这会增加：**Latency**；  中文：**网络延迟**；于是出现：★★★★ Amazon CloudFront；它属于：**CDN = Content Delivery Network**；  中文：**内容分发网络**；GlobalShop 可以把商品图片缓存到更靠近用户的网络节点。
 
 ---
 
@@ -191,7 +191,7 @@ Load Balancer
 
 ## 9-Web-和业务计算
 
-GlobalShop 的：商品服务、订单服务、库存服务、后台系统；需要计算资源。最经典：★★★★★ Amazon EC2；**EC2 = Elastic Compute Cloud**；；；；中文：**弹性计算云**；可以运行：Java、Node.js、Python、Go、.NET、...；应用。
+GlobalShop 的：商品服务、订单服务、库存服务、后台系统；需要计算资源。最经典：★★★★★ Amazon EC2；**EC2 = Elastic Compute Cloud**；  中文：**弹性计算云**；可以运行：Java、Node.js、Python、Go、.NET、...；应用。
 
 ---
 
@@ -229,7 +229,7 @@ EC2 EC2 EC2
 
 ## 12-商品图片存哪里？
 
-GlobalShop 有：5亿张商品图片如果全部塞进数据库：问题很多。商品图片适合：★★★★★ Amazon S3；**S3 = Simple Storage Service**；；；；中文：**简单存储服务**；它属于：**Object Storage**；；；；中文：**对象存储**；基本模型：
+GlobalShop 有：5亿张商品图片如果全部塞进数据库：问题很多。商品图片适合：★★★★★ Amazon S3；**S3 = Simple Storage Service**；  中文：**简单存储服务**；它属于：**Object Storage**；  中文：**对象存储**；基本模型：
 
 ```text
 Bucket
@@ -243,7 +243,7 @@ Bucket
 
 ## 13-EC2-自己的系统盘怎么办？
 
-运行服务器还需要类似磁盘的东西。于是：★★★★ Amazon EBS；**EBS = Elastic Block Store**；；；；中文：**弹性块存储**；典型关系：
+运行服务器还需要类似磁盘的东西。于是：★★★★ Amazon EBS；**EBS = Elastic Block Store**；  中文：**弹性块存储**；典型关系：
 
 ```text
 EC2
@@ -264,7 +264,7 @@ EFS = File Storage
 
 ## 14-订单存哪里？
 
-订单数据通常有：订单ID、用户ID、商品、价格、状态、支付状态、地址、创建时间；而且存在：关系、事务、查询；因此传统关系数据库非常合适。GlobalShop 可以使用：★★★★★ Amazon RDS；**RDS = Relational Database Service**；；；；中文：**关系型数据库服务**；或者：★★★★★ Amazon Aurora；AWS 的关系数据库产品。
+订单数据通常有：订单ID、用户ID、商品、价格、状态、支付状态、地址、创建时间；而且存在：关系、事务、查询；因此传统关系数据库非常合适。GlobalShop 可以使用：★★★★★ Amazon RDS；**RDS = Relational Database Service**；  中文：**关系型数据库服务**；或者：★★★★★ Amazon Aurora；AWS 的关系数据库产品。
 
 ---
 
@@ -329,7 +329,7 @@ D
 ↓
 E
 ```
-任何一步慢，都可能让用户一直等。所以系统需要：★★★★ Amazon SQS；**SQS = Simple Queue Service**；；；；中文：**简单队列服务**；实现：
+任何一步慢，都可能让用户一直等。所以系统需要：★★★★ Amazon SQS；**SQS = Simple Queue Service**；  中文：**简单队列服务**；实现：
 
 ```text
 订单创建成功
@@ -356,7 +356,7 @@ Decoupling
 
 ## 18-一条消息发给很多系统怎么办？
 
-可以考虑：★★★ Amazon SNS；**SNS = Simple Notification Service**；；；；中文：**简单通知服务**；典型：
+可以考虑：★★★ Amazon SNS；**SNS = Simple Notification Service**；  中文：**简单通知服务**；典型：
 
 ```text
 订单事件
@@ -367,13 +367,13 @@ Decoupling
  ▼ ▼     ▼
 SQS Email SMS
 ```
-这涉及：**Publish / Subscribe**；简称：**Pub/Sub**；；；；中文：**发布 / 订阅模式**
+这涉及：**Publish / Subscribe**；简称：**Pub/Sub**；  中文：**发布 / 订阅模式**
 
 ---
 
 ## 19-GlobalShop-怎么管理员工权限？
 
-不可能让所有员工都拥有：Administrator；权限。于是：★★★★★ AWS IAM；**IAM = Identity and Access Management**；；；；中文：**身份与访问管理**；例如：
+不可能让所有员工都拥有：Administrator；权限。于是：★★★★★ AWS IAM；**IAM = Identity and Access Management**；  中文：**身份与访问管理**；例如：
 
 ```text
 开发人员
@@ -396,7 +396,7 @@ EC2
 
 ## 20-数据怎么加密？
 
-GlobalShop 存：用户地址、订单、支付相关信息、商业数据；加密会涉及：★★★★ AWS KMS；**KMS = Key Management Service**；；；；中文：**密钥管理服务**；核心不是：
+GlobalShop 存：用户地址、订单、支付相关信息、商业数据；加密会涉及：★★★★ AWS KMS；**KMS = Key Management Service**；  中文：**密钥管理服务**；核心不是：
 
 > KMS 存文件。
 
@@ -447,7 +447,7 @@ all ports
 
 是否满足公司规则？
 ```
-则：★★★★ AWS Config；Config 来自：**Configuration**；；；；中文：**配置**；所以形成第一组极高频对比：
+则：★★★★ AWS Config；Config 来自：**Configuration**；  中文：**配置**；所以形成第一组极高频对比：
 
 ```text
 CloudWatch
@@ -473,7 +473,7 @@ Load Balancer
 AZ-A       AZ-B
 EC2        EC2
 ```
-这叫：★★★★★ Multi-AZ；；；；中文：**多可用区架构**；用于高可用。更进一步可能：
+这叫：★★★★★ Multi-AZ；  中文：**多可用区架构**；用于高可用。更进一步可能：
 
 ```text
 Tokyo Region
@@ -488,7 +488,7 @@ Osaka Region
 
 ## 25-公司以前还有本地机房怎么办？
 
-GlobalShop 不一定一夜之间全部迁 AWS。旧系统可能仍在东京自己的：On-Premises Data Center、本地数据中心；于是出现：VPN、Direct Connect、Storage Gateway、DataSync、DMS、Application Migration Service、Snow Family；这就是：**Hybrid Cloud**；；；；中文：**混合云**；以及：**Cloud Migration**；；；；中文：**云迁移**
+GlobalShop 不一定一夜之间全部迁 AWS。旧系统可能仍在东京自己的：On-Premises Data Center、本地数据中心；于是出现：VPN、Direct Connect、Storage Gateway、DataSync、DMS、Application Migration Service、Snow Family；这就是：**Hybrid Cloud**；  中文：**混合云**；以及：**Cloud Migration**；  中文：**云迁移**
 
 ---
 

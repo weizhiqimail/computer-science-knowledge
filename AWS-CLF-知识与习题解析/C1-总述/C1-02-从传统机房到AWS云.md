@@ -43,7 +43,7 @@ Company Data Center
 
 ## 3-★★★-Data-Center-是什么？
 
-**Data Center**；；；；中文：**数据中心 / 机房**；它不是简单的一间“放电脑的屋子”。真正的数据中心要解决：
+**Data Center**；  中文：**数据中心 / 机房**；它不是简单的一间“放电脑的屋子”。真正的数据中心要解决：
 
 ```text
 电力
@@ -87,13 +87,13 @@ Backup Generator
 
 ### 4.1-CAPEX
 
-**Capital Expenditure**；；；；中文：**资本性支出**；例如公司提前花：1000万元购买：服务器、存储设备、交换机、机房设施；不管这些服务器以后用不用，钱已经花掉了。
+**Capital Expenditure**；  中文：**资本性支出**；例如公司提前花：1000万元购买：服务器、存储设备、交换机、机房设施；不管这些服务器以后用不用，钱已经花掉了。
 
 ---
 
 ### 4.2-OPEX
 
-**Operating Expenditure**；；；；中文：**运营性支出 / 经营性支出**；例如：
+**Operating Expenditure**；  中文：**运营性支出 / 经营性支出**；例如：
 
 ```text
 这个月使用多少计算资源
@@ -117,7 +117,7 @@ AWS 官方将这一点列为云计算的重要优势之一：把数据中心和�
 
 ## 5-★★★★-Capacity-Planning：容量规划
 
-假设 GlobalShop 平时需要：100 台服务器双十一需要：2000 台服务器传统系统必须提前做：**Capacity Planning**；；；；中文：**容量规划**；问题是，你不知道未来真实需要多少。
+假设 GlobalShop 平时需要：100 台服务器双十一需要：2000 台服务器传统系统必须提前做：**Capacity Planning**；  中文：**容量规划**；问题是，你不知道未来真实需要多少。
 
 ---
 
@@ -188,7 +188,7 @@ AWS 官方所说的云计算优势之一就是：**Stop guessing capacity**；�
 
 ## 7-★★★★★-Cloud-Computing-是什么？
 
-**Cloud Computing**；；；；中文：**云计算**；可以先理解成：
+**Cloud Computing**；  中文：**云计算**；可以先理解成：
 
 > 通过网络按需获得计算、存储、数据库、网络等 IT 能力，并根据实际需求动态使用，而不是所有基础设施都必须自己提前采购和建设。
 
@@ -250,7 +250,7 @@ Amazon EC2
 
 ## 9-★★★-Provisioning
 
-**Provisioning**；；；；中文：**资源供应 / 资源配置 / 开通资源**；在云环境里经常出现：
+**Provisioning**；  中文：**资源供应 / 资源配置 / 开通资源**；在云环境里经常出现：
 
 ```text
 provision an EC2 instance
@@ -267,7 +267,7 @@ provision infrastructure
 
 ## 10-★★★★★-Pay-as-you-go
 
-**Pay as you go**；；；；中文：**按使用量付费 / 按需付费思想**；概念非常直观：
+**Pay as you go**；  中文：**按使用量付费 / 按需付费思想**；概念非常直观：
 
 ```text
 使用多少
@@ -286,7 +286,7 @@ AWS 官方定价原则也明确指出，不同资源采用不同计量单位，�
 
 ## 11-★★★★-Economies-of-Scale
 
-完整英文：**Economies of Scale**；；；；中文：**规模经济**；假设 GlobalShop 自己买服务器：购买：、500 台；AWS：为大量客户共同建设基础设施、规模：、远大于单个企业；大规模采购：服务器、网络、电力、带宽、数据中心设备；通常能够获得更低的单位成本。这就是：
+完整英文：**Economies of Scale**；  中文：**规模经济**；假设 GlobalShop 自己买服务器：购买：、500 台；AWS：为大量客户共同建设基础设施、规模：、远大于单个企业；大规模采购：服务器、网络、电力、带宽、数据中心设备；通常能够获得更低的单位成本。这就是：
 
 ```text
 Scale ↑
@@ -298,7 +298,7 @@ AWS 官方将“Benefit from massive economies of scale”列为云计算优势�
 
 ## 12-★★★★-Agility
 
-**Agility**；；；；中文：**敏捷性**；这里不是 Scrum 的 Agile。它强调：
+**Agility**；  中文：**敏捷性**；这里不是 Scrum 的 Agile。它强调：
 
 > 企业能够更快获得资源、更快试验、更快上线新产品。
 
@@ -326,7 +326,7 @@ AWS：
 
 ## 13-★★★★★-Scalability
 
-**Scalability**；；；；中文：**可扩展性**；意思是：
+**Scalability**；  中文：**可扩展性**；意思是：
 
 > 系统处理更大工作负载的能力。
 
@@ -343,7 +343,7 @@ AWS：
 
 ### 13.1-Vertical-Scaling
 
-**Vertical Scaling**；；；；中文：**纵向扩展 / 垂直扩展**；也叫：**Scale Up**；原来：2 CPU、4 GB RAM变成：32 CPU、128 GB RAM即：
+**Vertical Scaling**；  中文：**纵向扩展 / 垂直扩展**；也叫：**Scale Up**；原来：2 CPU、4 GB RAM变成：32 CPU、128 GB RAM即：
 
 > 把一台机器变强。
 
@@ -351,7 +351,7 @@ AWS：
 
 ### 13.2-Horizontal-Scaling
 
-**Horizontal Scaling**；；；；中文：**横向扩展 / 水平扩展**；也叫：**Scale Out**；原来：EC2；增加：EC2、EC2、EC2、EC2、EC2；即：
+**Horizontal Scaling**；  中文：**横向扩展 / 水平扩展**；也叫：**Scale Out**；原来：EC2；增加：EC2、EC2、EC2、EC2、EC2；即：
 
 > 增加机器数量。
 
@@ -361,7 +361,7 @@ AWS：
 
 ## 14-★★★★★-Elasticity
 
-**Elasticity**；；；；中文：**弹性**；它和 Scalability 不是完全一样。Scalability：
+**Elasticity**；  中文：**弹性**；它和 Scalability 不是完全一样。Scalability：
 
 > 能不能扩。
 
@@ -404,7 +404,7 @@ Scale In
 
 ## 15-★★★★★-High-Availability
 
-**HA = High Availability**；；；；中文：**高可用性**；解决：
+**HA = High Availability**；  中文：**高可用性**；解决：
 
 > 一部分系统发生故障时，业务仍然尽可能保持可用。
 
@@ -434,7 +434,7 @@ High Availability 关注的是：减少单点故障、减少停机时间、冗�
 
 ## 16-★★★★-Fault-Tolerance
 
-**Fault Tolerance**；；；；中文：**容错能力 / 故障容忍**；它与 High Availability 很接近，但语义更强。可以粗略理解：
+**Fault Tolerance**；  中文：**容错能力 / 故障容忍**；它与 High Availability 很接近，但语义更强。可以粗略理解：
 
 ```text
 High Availability
@@ -463,7 +463,7 @@ availability
 
 ## 17-★★★★-Disaster-Recovery
 
-**DR = Disaster Recovery**；；；；中文：**灾难恢复 / 灾备**；解决的不再只是一台服务器坏掉。可能考虑：
+**DR = Disaster Recovery**；  中文：**灾难恢复 / 灾备**；解决的不再只是一台服务器坏掉。可能考虑：
 
 ```text
 Availability Zone failure
@@ -531,7 +531,7 @@ Osaka Region
 
 ## 19-Cloud-并不意味着“不需要服务器”
 
-这是一个重要误解。比如 Lambda 被称为：**Serverless**；；；；中文：**无服务器**；不是：
+这是一个重要误解。比如 Lambda 被称为：**Serverless**；  中文：**无服务器**；不是：
 
 > AWS 真的没有服务器。
 
@@ -585,7 +585,7 @@ Application
 Data / IAM
 客户通常仍承担重要责任
 ```
-这最终形成：★★★★★ **AWS Shared Responsibility Model**；；；；中文：**AWS 责任共担模型**；后续安全章节详细展开。题库中也大量直接考“什么是 AWS 的责任、什么是客户责任”，例如 DynamoDB 题目要求区分 AWS 管理的底层基础设施与客户自己管理的数据访问权限。
+这最终形成：★★★★★ **AWS Shared Responsibility Model**；  中文：**AWS 责任共担模型**；后续安全章节详细展开。题库中也大量直接考“什么是 AWS 的责任、什么是客户责任”，例如 DynamoDB 题目要求区分 AWS 管理的底层基础设施与客户自己管理的数据访问权限。
 
 ---
 
