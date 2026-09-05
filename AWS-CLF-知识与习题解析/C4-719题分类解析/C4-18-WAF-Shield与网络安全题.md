@@ -5,9 +5,10 @@
 本文件共收录 **13** 道主分类题。范围：WAF、Shield、DDoS、Web 攻击与网络安全防护。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q35-WAF-Shield与网络安全题
 
-**题目：** A company needs to block SQL injection attacks. Which AWS service or feature can meet this requirement?
+**题目：** A company needs to block SQL injection attacks. Which AWS service or feature can meet this requirement?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. Network ACLs
 - D. Security groups
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `A`
-**需求/考点标签：** Web攻击防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Web攻击防护；
+
 **社区投票：** A 100%
 
 ### Q35.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q115-WAF-Shield与网络安全题
 
-**题目：** A social media company wants to protect its web application from common web exploits such as SQL injections and cross-site scripting. Which AWS service will meet these requirements?
+**题目：** A social media company wants to protect its web application from common web exploits such as SQL injections and cross-site scripting. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -51,9 +55,12 @@
 - C. Amazon GuardDuty
 - D. Amazon CloudWatch
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `B`
-**需求/考点标签：** Web攻击防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Web攻击防护；
+
 **社区投票：** B 100%
 
 ### Q115.1-题干怎么拆
@@ -77,7 +84,7 @@
 
 ## Q124-WAF-Shield与网络安全题
 
-**题目：** A company wants to block SQL injection attacks. Which AWS service or feature should the company use to meet this requirement?
+**题目：** A company wants to block SQL injection attacks. Which AWS service or feature should the company use to meet this requirement?；
 
 **选项：**
 
@@ -86,9 +93,12 @@
 - C. Security groups
 - D. AWS Certificate Manager (ACM)
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `A`
-**需求/考点标签：** Web攻击防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Web攻击防护；
+
 **社区投票：** A 100%
 
 ### Q124.1-题干怎么拆
@@ -112,7 +122,7 @@
 
 ## Q211-WAF-Shield与网络安全题
 
-**题目：** Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?
+**题目：** Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?；
 
 **选项：**
 
@@ -121,8 +131,10 @@
 - C. Elastic Load Balancing (ELB)
 - D. AWS Shield
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `D`
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q211.1-题干怎么拆
@@ -146,7 +158,7 @@
 
 ## Q223-WAF-Shield与网络安全题
 
-**题目：** A company website is experiencing DDoS attacks. Which AWS service can help protect the company website against these attacks?
+**题目：** A company website is experiencing DDoS attacks. Which AWS service can help protect the company website against these attacks?；
 
 **选项：**
 
@@ -155,9 +167,12 @@
 - C. AWS Shield
 - D. Amazon GuardDuty
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `C`
-**需求/考点标签：** DDoS防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** DDoS防护；
+
 **社区投票：** C 100%
 
 ### Q223.1-题干怎么拆
@@ -190,9 +205,12 @@
 - C. Amazon GuardDuty
 - D. AWS WAF
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `D`
-**需求/考点标签：** Web攻击防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Web攻击防护；
+
 **社区投票：** D 100%
 
 ### Q280.1-题干怎么拆
@@ -216,7 +234,7 @@
 
 ## Q309-WAF-Shield与网络安全题
 
-**题目：** Which AWS service could an administrator use to provide desktop environments for several employees?
+**题目：** Which AWS service could an administrator use to provide desktop environments for several employees?；
 
 **选项：**
 
@@ -225,8 +243,10 @@
 - C. AWS WAF
 - D. AWS WorkSpaces
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `D`
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q309.1-题干怎么拆
@@ -250,7 +270,7 @@
 
 ## Q468-WAF-Shield与网络安全题
 
-**题目：** A company wants to monitor and block malicious HTTP and HTTPS requests that its Amazon CloudFront distributions receive. Which AWS service should the company use to meet these requirements?
+**题目：** A company wants to monitor and block malicious HTTP and HTTPS requests that its Amazon CloudFront distributions receive. Which AWS service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -259,9 +279,12 @@
 - C. AWS WAF
 - D. Amazon Detective
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `C`
-**需求/考点标签：** 全球静态内容加速 / 威胁检测
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 全球静态内容加速 / 威胁检测；
+
 **社区投票：** C 100%
 
 ### Q468.1-题干怎么拆
@@ -285,7 +308,7 @@
 
 ## Q490-WAF-Shield与网络安全题
 
-**题目：** A company is building a web application using AWS. Which AWS service will help prevent network layer DDoS attacks against the web application?
+**题目：** A company is building a web application using AWS. Which AWS service will help prevent network layer DDoS attacks against the web application?；
 
 **选项：**
 
@@ -294,9 +317,12 @@
 - C. Amazon GuardDuty
 - D. AWS Shield
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `D`
-**需求/考点标签：** DDoS防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** DDoS防护；
+
 **社区投票：** D 100%
 
 ### Q490.1-题干怎么拆
@@ -320,7 +346,7 @@
 
 ## Q546-WAF-Shield与网络安全题
 
-**题目：** A company is hosting a web application on Amazon EC2 instances. The company wants to implement custom conditions to filter and control inbound web traffic. Which AWS service will meet these requirements?
+**题目：** A company is hosting a web application on Amazon EC2 instances. The company wants to implement custom conditions to filter and control inbound web traffic. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -329,8 +355,10 @@
 - C. Amazon Macie
 - D. AWS Shield
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `B`
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q546.1-题干怎么拆
@@ -363,9 +391,12 @@
 - C. AWS Shield Advanced
 - D. Amazon GuardDuty
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `C`
-**需求/考点标签：** DDoS防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** DDoS防护；
+
 **社区投票：** C 100%
 
 ### Q589.1-题干怎么拆
@@ -389,7 +420,7 @@
 
 ## Q606-WAF-Shield与网络安全题
 
-**题目：** A food delivery company needs to block users in certain countries from accessing its website. Which AWS service should the company use to meet this requirement?
+**题目：** A food delivery company needs to block users in certain countries from accessing its website. Which AWS service should the company use to meet this requirement?；
 
 **选项：**
 
@@ -398,9 +429,12 @@
 - C. Amazon Fraud Detector
 - D. Amazon Pinpoint
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `A`
-**需求/考点标签：** Block Storage
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** A 100%
 
 ### Q606.1-题干怎么拆
@@ -424,7 +458,7 @@
 
 ## Q713-WAF-Shield与网络安全题
 
-**题目：** A company needs to block SQL injection attacks. Which AWS service or feature provides this functionality?
+**题目：** A company needs to block SQL injection attacks. Which AWS service or feature provides this functionality?；
 
 **选项：**
 
@@ -433,9 +467,12 @@
 - C. Security groups
 - D. AWS Trusted Advisor
 
-**主分类：** C4-18 WAF-Shield与网络安全题
-**题库记录答案：** `A`
-**需求/考点标签：** Web攻击防护
+**主分类：** C4-18 WAF-Shield与网络安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Web攻击防护；
+
 **社区投票：** A 100%
 
 ### Q713.1-题干怎么拆

@@ -2,28 +2,15 @@
 
 > 资料口径说明：本章延续当前 AWS CLF-C02 学习项目既有规则，主要依据用户提供的 719 题题库、`chatGPT会话1.md`、`chatGPT会话2.md`、`cmd1.md` 与前序 C2 章节的结构整理。题库中的答案与评论用于识别高频考点、业务场景和易混项，不自动视为当前 AWS 官方结论。涉及会随时间变化的产品状态、考试范围与 Support 体系时，本章只沿用项目资料中已经明确记录的状态；正式考试前仍应再对照 AWS 当前官方页面。
 
-
 ## 1-本章目标
 
-一个系统部署完成后，真正的长期问题才开始：
-
-```text
-CPU 高不高？
-错误率多少？
-谁改了 Security Group？
-资源配置是否合规？
-上百台服务器怎么打补丁？
-基础设施能不能用代码重复创建？
-多 Account 怎么统一治理？
-资源规格是不是买大了？
-```
+一个系统部署完成后，真正的长期问题才开始：CPU 高不高？、错误率多少？、谁改了 Security Group？、资源配置是否合规？、上百台服务器怎么打补丁？、基础设施能不能用代码重复创建？、多 Account 怎么统一治理？、资源规格是不是买大了？
 
 题库粗略曝光中 Trusted Advisor 约 41、CloudWatch 29、CloudTrail 27、Config 25、CloudFormation 25、Organizations 24、Systems Manager 22，是高频混淆组。
 
 ## 2-★★★★★-Amazon-CloudWatch
 
-**正式名称：** Amazon CloudWatch
-**中文：** AWS 监控与可观测性服务
+**正式名称：** Amazon CloudWatch；；；中文： AWS 监控与可观测性服务
 
 ### 2.1-为什么需要它
 
@@ -49,12 +36,9 @@ CloudWatch ≠ CloudTrail。CloudWatch 关注系统运行；CloudTrail 关注 AW
 
 CPU utilization、metrics、logs、alarm、dashboard、runtime monitoring → CloudWatch。
 
-
-
 ## 3-★★★★★-AWS-CloudTrail
 
-**正式名称：** AWS CloudTrail
-**中文：** AWS API 活动审计日志服务
+**正式名称：** AWS CloudTrail；；；中文： AWS API 活动审计日志服务
 
 ### 3.1-为什么需要它
 
@@ -80,12 +64,9 @@ CloudTrail 不是 CPU/内存性能监控；那是 CloudWatch。
 
 who did what、API activity、audit trail、user activity → CloudTrail。
 
-
-
 ## 4-★★★★★-AWS-Config
 
-**正式名称：** AWS Config
-**中文：** AWS 资源配置记录与合规评估
+**正式名称：** AWS Config；；；中文： AWS 资源配置记录与合规评估
 
 ### 4.1-为什么需要它
 
@@ -111,8 +92,6 @@ Config ≠ CloudTrail：Config 看“资源配置状态/变化”，CloudTrail �
 
 configuration history、compliance rules、resource configuration → Config。
 
-
-
 ## 5-CloudWatch-/-CloudTrail-/-Config：考试最高频三分法
 
 ```text
@@ -125,7 +104,6 @@ CloudTrail
 Config
 → 资源被配置成什么样，是否合规？
 ```
-
 例如：
 
 ```text
@@ -138,11 +116,9 @@ EC2 CPU 95%
 Security Group 是否允许 0.0.0.0/0:22
 → Config
 ```
-
 ## 6-★★★★-AWS-Systems-Manager
 
-**正式名称：** AWS Systems Manager
-**中文：** AWS 集中运维管理服务
+**正式名称：** AWS Systems Manager；；；中文： AWS 集中运维管理服务
 
 ### 6.1-为什么需要它
 
@@ -168,12 +144,9 @@ Systems Manager 是运维平台，不是 CloudWatch 的监控替代，也不是 
 
 patch fleet、run commands at scale、session without SSH、operations management → Systems Manager。
 
-
-
 ## 7-★★★★★-AWS-CloudFormation
 
-**正式名称：** AWS CloudFormation
-**中文：** AWS 基础设施即代码 IaC 服务
+**正式名称：** AWS CloudFormation；；；中文： AWS 基础设施即代码 IaC 服务
 
 ### 7.1-为什么需要它
 
@@ -199,13 +172,9 @@ CloudFormation ≠ Systems Manager：前者定义/部署基础设施，后者做
 
 template、stack、repeatable infrastructure、IaC → CloudFormation。
 
-
-
 ## 8-Infrastructure-as-Code（IaC）
 
-IaC = Infrastructure as Code = 基础设施即代码。
-
-核心价值：
+IaC = Infrastructure as Code = 基础设施即代码。核心价值：
 
 - repeatable：可重复；
 - version controlled：可版本管理；
@@ -215,9 +184,7 @@ IaC = Infrastructure as Code = 基础设施即代码。
 
 ## 9-★★★★★-AWS-Trusted-Advisor
 
-Trusted Advisor 基于 AWS 最佳实践对账号环境进行检查并给出建议，常见类别包括成本、性能、安全、容错、Service Quotas 等方向。
-
-考试最容易与下面服务混淆：
+Trusted Advisor 基于 AWS 最佳实践对账号环境进行检查并给出建议，常见类别包括成本、性能、安全、容错、Service Quotas 等方向。考试最容易与下面服务混淆：
 
 ```text
 Trusted Advisor
@@ -229,12 +196,9 @@ Compute Optimizer
 Config
 → Compliance against resource configuration rules
 ```
-
 ## 10-★★★★-AWS-Compute-Optimizer
 
-Compute Optimizer 分析资源配置与历史利用情况，为受支持的计算资源提供 rightsizing 建议。
-
-例如：
+Compute Optimizer 分析资源配置与历史利用情况，为受支持的计算资源提供 rightsizing 建议。例如：
 
 ```text
 EC2 m5.4xlarge
@@ -244,7 +208,6 @@ Compute Optimizer
         ↓
 建议更合适规格
 ```
-
 它不是预算工具；预算阈值属于 AWS Budgets。
 
 ## 11-★★★★★-AWS-Organizations
@@ -258,14 +221,11 @@ Organization
 ├── Development OU
 └── Sandbox OU
 ```
-
 Organizations 既是治理服务，也会在 C2-15 的统一计费中再次出现。
 
 ## 12-★★★-AWS-Control-Tower
 
-当企业需要快速建立遵循最佳实践的多账号 Landing Zone，并持续应用 Guardrail/Control 思想时，可以使用 Control Tower。
-
-粗略区分：
+当企业需要快速建立遵循最佳实践的多账号 Landing Zone，并持续应用 Guardrail/Control 思想时，可以使用 Control Tower。粗略区分：
 
 ```text
 Organizations
@@ -274,18 +234,13 @@ Organizations
 Control Tower
 → 在 Organizations 等能力之上构建更标准化的多账号治理 Landing Zone
 ```
-
 ## 13-★★★-AWS-Service-Catalog
 
-Service Catalog 允许企业管理员发布“批准过的 IT 产品/模板”，让团队在受控范围内自助部署。
-
-例如只允许开发者创建经过安全团队批准的标准三层 Web Stack。
+Service Catalog 允许企业管理员发布“批准过的 IT 产品/模板”，让团队在受控范围内自助部署。例如只允许开发者创建经过安全团队批准的标准三层 Web Stack。
 
 ## 14-★★★-AWS-Resource-Access-Manager（RAM）
 
-RAM = Resource Access Manager。
-
-用于在 Account 之间共享某些 AWS 资源，常与 Organizations、多账号架构配合。
+RAM = Resource Access Manager。用于在 Account 之间共享某些 AWS 资源，常与 Organizations、多账号架构配合。
 
 ## 15-AWS-Health-/-Service-Health
 
@@ -319,7 +274,6 @@ Best Practice
 Multi Account
 Organizations → Control Tower / SCP / RAM / Service Catalog
 ```
-
 ## 17-本章最后要形成的判断方式
 
 不要把本章记成一串 AWS 产品名，而要形成下面的思考路径：
@@ -337,7 +291,6 @@ Organizations → Control Tower / SCP / RAM / Service Catalog
         ↓
 其他相似服务为什么不合适？
 ```
-
 真正稳定的考试能力不是“看到关键词就背答案”，而是能够从业务要求推导到技术能力，再从技术能力推导到 AWS 服务。
 
 ---

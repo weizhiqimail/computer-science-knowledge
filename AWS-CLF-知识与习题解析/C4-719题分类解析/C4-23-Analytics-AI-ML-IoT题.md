@@ -5,6 +5,7 @@
 本文件共收录 **31** 道主分类题。范围：Athena、Glue、Redshift、Kinesis、EMR、QuickSight、AI/ML/IoT。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q14-Analytics-AI-ML-IoT题
 
 **题目：** A company is using a central data platform to manage multiple types of data for its customers. The company wants to use AWS services to discover, transform, and visualize the data. Which combination of AWS services should the company use to meet these requirements? (Choose two.)
@@ -17,8 +18,10 @@
 - D. Amazon QuickSight
 - E. Amazon Quantum Ledger Database (Amazon QLDB)
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `AD`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `AD`；
+
 **社区投票：** AD 100%
 
 ### Q14.1-题干怎么拆
@@ -43,7 +46,7 @@
 
 ## Q43-Analytics-AI-ML-IoT题
 
-**题目：** A company has 5 TB of data stored in Amazon S3. The company plans to occasionally run queries on the data for analysis. Which AWS service should the company use to run these queries in the MOST cost-effective manner?
+**题目：** A company has 5 TB of data stored in Amazon S3. The company plans to occasionally run queries on the data for analysis. Which AWS service should the company use to run these queries in the MOST cost-effective manner?；
 
 **选项：**
 
@@ -52,9 +55,12 @@
 - C. Amazon Kinesis
 - D. Amazon RDS
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage / Cost Optimization
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage / Cost Optimization；
+
 **社区投票：** B 98%
 
 ### Q43.1-题干怎么拆
@@ -78,7 +84,7 @@
 
 ## Q96-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to operate a data warehouse to analyze data without managing the data warehouse infrastructure. Which AWS service will meet this requirement?
+**题目：** A company wants to operate a data warehouse to analyze data without managing the data warehouse infrastructure. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -87,9 +93,12 @@
 - C. AWS Lambda
 - D. Amazon RDS
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** 数据仓库
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 数据仓库；
+
 **社区投票：** B 100%
 
 ### Q96.1-题干怎么拆
@@ -113,7 +122,7 @@
 
 ## Q113-Analytics-AI-ML-IoT题
 
-**题目：** A company wants an AWS service to provide product recommendations based on its customer data. Which AWS service will meet this requirement?
+**题目：** A company wants an AWS service to provide product recommendations based on its customer data. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -122,8 +131,10 @@
 - C. Amazon Comprehend
 - D. Amazon Rekognition
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q113.1-题干怎么拆
@@ -152,7 +163,7 @@
 
 ## Q166-Analytics-AI-ML-IoT题
 
-**题目：** Which AWS service gives users the ability to build interactive business intelligence dashboards that include machine learning insights?
+**题目：** Which AWS service gives users the ability to build interactive business intelligence dashboards that include machine learning insights?；
 
 **选项：**
 
@@ -161,9 +172,12 @@
 - C. Amazon QuickSight
 - D. Amazon Redshift
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q166.1-题干怎么拆
@@ -187,7 +201,7 @@
 
 ## Q262-Analytics-AI-ML-IoT题
 
-**题目：** Which of the following is a managed AWS service that is used specifically for extract, transform, and load (ETL) data?
+**题目：** Which of the following is a managed AWS service that is used specifically for extract, transform, and load (ETL) data?；
 
 **选项：**
 
@@ -196,9 +210,12 @@
 - C. Amazon S3
 - D. AWS Snowball Edge
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** ETL与数据目录
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** ETL与数据目录；
+
 **社区投票：** B 100%
 
 ### Q262.1-题干怎么拆
@@ -231,9 +248,12 @@
 - C. Amazon Redshift
 - D. Amazon EC2
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** B 91%, A 9%
 
 ### Q318.1-题干怎么拆
@@ -257,7 +277,7 @@
 
 ## Q320-Analytics-AI-ML-IoT题
 
-**题目：** A company needs to search for text in documents that are stored in Amazon S3. Which AWS service will meet these requirements?
+**题目：** A company needs to search for text in documents that are stored in Amazon S3. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -266,9 +286,12 @@
 - C. Amazon Polly
 - D. Amazon Lex
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `A`
-**需求/考点标签：** Object Storage
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** A 100%
 
 ### Q320.1-题干怎么拆
@@ -292,7 +315,7 @@
 
 ## Q328-Analytics-AI-ML-IoT题
 
-**题目：** Which AWS service converts text to lifelike voices?
+**题目：** Which AWS service converts text to lifelike voices?；
 
 **选项：**
 
@@ -301,8 +324,10 @@
 - C. Amazon Polly
 - D. Amazon Textract
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q328.1-题干怎么拆
@@ -326,7 +351,7 @@
 
 ## Q332-Analytics-AI-ML-IoT题
 
-**题目：** A company operates a petabyte-scale data warehouse to analyze its data. The company wants a solution that will not require manual hardware and software management. Which AWS service will meet these requirements?
+**题目：** A company operates a petabyte-scale data warehouse to analyze its data. The company wants a solution that will not require manual hardware and software management. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -335,9 +360,12 @@
 - C. Amazon Neptune
 - D. Amazon ElastiCache
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** 数据仓库
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 数据仓库；
+
 **社区投票：** B 100%
 
 ### Q332.1-题干怎么拆
@@ -361,7 +389,7 @@
 
 ## Q333-Analytics-AI-ML-IoT题
 
-**题目：** A library wants to automate the classification of electronic books based on the contents of the books. Which AWS service should the library use to meet this requirement?
+**题目：** A library wants to automate the classification of electronic books based on the contents of the books. Which AWS service should the library use to meet this requirement?；
 
 **选项：**
 
@@ -370,8 +398,10 @@
 - C. Amazon Comprehend
 - D. Amazon Aurora
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q333.1-题干怎么拆
@@ -404,9 +434,12 @@
 - C. Amazon QuickSight Q
 - D. Amazon Lex
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q367.1-题干怎么拆
@@ -430,7 +463,7 @@
 
 ## Q398-Analytics-AI-ML-IoT题
 
-**题目：** Which AWS service or tool gives users the ability to connect with AWS and deploy resources programmatically?
+**题目：** Which AWS service or tool gives users the ability to connect with AWS and deploy resources programmatically?；
 
 **选项：**
 
@@ -439,8 +472,10 @@
 - C. AWS Direct Connect
 - D. AWS SDKs
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `D`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q398.1-题干怎么拆
@@ -464,7 +499,7 @@
 
 ## Q430-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to discover, prepare, move, and integrate data from multiple sources for data analytics and machine learning. Which AWS serverless data integration service should the company use to meet these requirements?
+**题目：** A company wants to discover, prepare, move, and integrate data from multiple sources for data analytics and machine learning. Which AWS serverless data integration service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -473,9 +508,12 @@
 - C. Amazon Athena
 - D. Amazon EMR
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `A`
-**需求/考点标签：** Serverless / AI/ML
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Serverless / AI/ML；
+
 **社区投票：** A 100%
 
 ### Q430.1-题干怎么拆
@@ -499,7 +537,7 @@
 
 ## Q452-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to gain insights from its data and build interactive data visualization dashboards. Which AWS service will meet these requirements?
+**题目：** A company wants to gain insights from its data and build interactive data visualization dashboards. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -508,9 +546,12 @@
 - C. Amazon QuickSight
 - D. Amazon Kinesis
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q452.1-题干怎么拆
@@ -534,7 +575,7 @@
 
 ## Q458-Analytics-AI-ML-IoT题
 
-**题目：** A company needs to create and publish interactive business intelligence dashboards. The dashboards require insights that are powered by machine learning. Which AWS service or tool will meet these requirements?
+**题目：** A company needs to create and publish interactive business intelligence dashboards. The dashboards require insights that are powered by machine learning. Which AWS service or tool will meet these requirements?；
 
 **选项：**
 
@@ -543,9 +584,12 @@
 - C. Amazon Redshift
 - D. Amazon Athena
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** 一对多通知 / 关系数据库高可用
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 一对多通知 / 关系数据库高可用；
+
 **社区投票：** B 100%
 
 ### Q458.1-题干怎么拆
@@ -569,7 +613,7 @@
 
 ## Q485-Analytics-AI-ML-IoT题
 
-**题目：** Which AWS service provides machine learning capability to detect and analyze content in images and videos?
+**题目：** Which AWS service provides machine learning capability to detect and analyze content in images and videos?；
 
 **选项：**
 
@@ -578,9 +622,12 @@
 - C. Amazon Personalize
 - D. Amazon Rekognition
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `D`
-**需求/考点标签：** AI/ML
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** AI/ML；
+
 **社区投票：** D 100%
 
 ### Q485.1-题干怎么拆
@@ -618,8 +665,10 @@
 - C. AWS Support Center
 - D. Amazon QuickSight
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q486.1-题干怎么拆
@@ -643,7 +692,7 @@
 
 ## Q489-Analytics-AI-ML-IoT题
 
-**题目：** Which AWS service is designed to help users handle large amounts of data in a data warehouse environment?
+**题目：** Which AWS service is designed to help users handle large amounts of data in a data warehouse environment?；
 
 **选项：**
 
@@ -652,9 +701,12 @@
 - C. Amazon Redshift
 - D. Amazon Aurora
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
-**需求/考点标签：** 数据仓库
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 数据仓库；
+
 **社区投票：** C 100%
 
 ### Q489.1-题干怎么拆
@@ -678,7 +730,7 @@
 
 ## Q537-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to use automated video analysis to identify employees that are accessing its offices. Which AWS service will meet this requirement?
+**题目：** A company wants to use automated video analysis to identify employees that are accessing its offices. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -687,8 +739,10 @@
 - C. Amazon Cognito
 - D. AWS Lambda
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `A`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q537.1-题干怎么拆
@@ -712,7 +766,7 @@
 
 ## Q550-Analytics-AI-ML-IoT题
 
-**题目：** A company needs to use SQL syntax to perform a direct query of objects in an Amazon S3 bucket. Which AWS service can the company use to meet this requirement?
+**题目：** A company needs to use SQL syntax to perform a direct query of objects in an Amazon S3 bucket. Which AWS service can the company use to meet this requirement?；
 
 **选项：**
 
@@ -721,9 +775,12 @@
 - C. AWS Lambda
 - D. Amazon Kinesis
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** B 100%
 
 ### Q550.1-题干怎么拆
@@ -747,7 +804,7 @@
 
 ## Q598-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to add a conversational chatbot to its website. Which AWS service can the company use to meet this requirement?
+**题目：** A company wants to add a conversational chatbot to its website. Which AWS service can the company use to meet this requirement?；
 
 **选项：**
 
@@ -756,9 +813,12 @@
 - C. AWS Glue
 - D. Amazon Rekognition
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** Block Storage
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** B 100%
 
 ### Q598.1-题干怎么拆
@@ -782,7 +842,7 @@
 
 ## Q615-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to develop an accessibility application that will convert text into audible speech. Which AWS service will meet this requirement?
+**题目：** A company wants to develop an accessibility application that will convert text into audible speech. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -791,8 +851,10 @@
 - C. Amazon Neptune
 - D. Amazon Timestream
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q615.1-题干怎么拆
@@ -816,7 +878,7 @@
 
 ## Q617-Analytics-AI-ML-IoT题
 
-**题目：** A company needs to use dashboards and charts to analyze insights from business data. Which AWS service will provide the dashboards and charts for these insights?
+**题目：** A company needs to use dashboards and charts to analyze insights from business data. Which AWS service will provide the dashboards and charts for these insights?；
 
 **选项：**
 
@@ -825,9 +887,12 @@
 - C. Amazon QuickSight
 - D. AWS CloudTrail
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q617.1-题干怎么拆
@@ -851,7 +916,7 @@
 
 ## Q622-Analytics-AI-ML-IoT题
 
-**题目：** A company needs to convert video files and audio files to a format that will play on smartphones. Which AWS service will meet this requirement?
+**题目：** A company needs to convert video files and audio files to a format that will play on smartphones. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -860,8 +925,10 @@
 - C. Amazon Elastic Transcoder
 - D. Amazon Polly
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `C`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q622.1-题干怎么拆
@@ -885,7 +952,7 @@
 
 ## Q632-Analytics-AI-ML-IoT题
 
-**题目：** Which AWS service uses speech-to-text conversion to help users create meeting notes?
+**题目：** Which AWS service uses speech-to-text conversion to help users create meeting notes?；
 
 **选项：**
 
@@ -894,8 +961,10 @@
 - C. Amazon Rekognition
 - D. Amazon Transcribe
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `D`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q632.1-题干怎么拆
@@ -919,7 +988,7 @@
 
 ## Q649-Analytics-AI-ML-IoT题
 
-**题目：** Which AWS service should a company use to organize, characterize, and search large numbers of images?
+**题目：** Which AWS service should a company use to organize, characterize, and search large numbers of images?；
 
 **选项：**
 
@@ -928,8 +997,10 @@
 - C. Amazon Aurora
 - D. Amazon QuickSight
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q649.1-题干怎么拆
@@ -953,7 +1024,7 @@
 
 ## Q668-Analytics-AI-ML-IoT题
 
-**题目：** A company has data lakes designed for high performance computing (HPC) workloads. Which Amazon EC2 instance type should the company use to meet these requirements?
+**题目：** A company has data lakes designed for high performance computing (HPC) workloads. Which Amazon EC2 instance type should the company use to meet these requirements?；
 
 **选项：**
 
@@ -962,9 +1033,12 @@
 - C. Memory optimized instances
 - D. Storage optimized instances
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** Data Lake
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Data Lake；
+
 **社区投票：** B 67%, D 33%
 
 ### Q668.1-题干怎么拆
@@ -993,7 +1067,7 @@
 
 ## Q681-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to build, train, and deploy machine learning (ML) models. Which AWS service can the company use to meet this requirement?
+**题目：** A company wants to build, train, and deploy machine learning (ML) models. Which AWS service can the company use to meet this requirement?；
 
 **选项：**
 
@@ -1002,9 +1076,12 @@
 - C. Amazon Forecast
 - D. Amazon SageMaker
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `D`
-**需求/考点标签：** AI/ML
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** AI/ML；
+
 **社区投票：** D 100%
 
 ### Q681.1-题干怎么拆
@@ -1033,7 +1110,7 @@
 
 ## Q683-Analytics-AI-ML-IoT题
 
-**题目：** A company wants to explore and analyze data in Amazon S3 by using a programming language. Which AWS service will meet these requirements?
+**题目：** A company wants to explore and analyze data in Amazon S3 by using a programming language. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -1042,9 +1119,12 @@
 - C. Amazon Comprehend
 - D. Amazon SageMaker
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** B 100%
 
 ### Q683.1-题干怎么拆
@@ -1077,8 +1157,10 @@
 - C. Amazon Lex
 - D. Amazon Comprehend
 
-**主分类：** C4-23 Analytics-AI-ML-IoT题
-**题库记录答案：** `B`
+**主分类：** C4-23 Analytics-AI-ML-IoT题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 80%, A 20%
 
 ### Q699.1-题干怎么拆

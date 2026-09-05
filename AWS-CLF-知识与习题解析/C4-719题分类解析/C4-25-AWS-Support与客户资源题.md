@@ -5,6 +5,7 @@
 本文件共收录 **22** 道主分类题。范围：Support、Marketplace、客户支持与 AWS 客户资源。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q71-AWS-Support与客户资源题
 
 **题目：** A company wants to assess its operational readiness. It also wants to identify and mitigate any operational risks ahead of a new product launch. Which AWS Support plan offers guidance and support for this kind of event at no additional charge?
@@ -16,9 +17,12 @@
 - C. AWS Developer Support
 - D. AWS Enterprise Support
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `D`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** D 79%, A 15%
 
 ### Q71.1-题干怎么拆
@@ -56,8 +60,10 @@
 - C. A designated technical account manager (TAM) to assist in monitoring and optimization
 - D. A consultative review and architecture guidance for the company’s applications
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `C`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 52%, D 48%
 
 ### Q135.1-题干怎么拆
@@ -88,7 +94,7 @@
 
 ## Q195-AWS-Support与客户资源题
 
-**题目：** A company needs to use third-party software for its workload on AWS. Which AWS service or feature can the company use to purchase the software?
+**题目：** A company needs to use third-party software for its workload on AWS. Which AWS service or feature can the company use to purchase the software?；
 
 **选项：**
 
@@ -97,8 +103,10 @@
 - C. AWS License Manager
 - D. AWS Marketplace
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `D`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q195.1-题干怎么拆
@@ -122,7 +130,7 @@
 
 ## Q236-AWS-Support与客户资源题
 
-**题目：** At what support level do users receive access to a support concierge?
+**题目：** At what support level do users receive access to a support concierge?；
 
 **选项：**
 
@@ -131,8 +139,10 @@
 - C. Business Support
 - D. Enterprise Support
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `D`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q236.1-题干怎么拆
@@ -161,7 +171,7 @@
 
 ## Q238-AWS-Support与客户资源题
 
-**题目：** A company wants to migrate to AWS and use the same security software it uses on premises. The security software vendor offers its security software as a service on AWS. Where can the company purchase the security solution?
+**题目：** A company wants to migrate to AWS and use the same security software it uses on premises. The security software vendor offers its security software as a service on AWS. Where can the company purchase the security solution?；
 
 **选项：**
 
@@ -170,9 +180,12 @@
 - C. AWS Management Console
 - D. AWS Marketplace
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** D 100%
 
 ### Q238.1-题干怎么拆
@@ -205,9 +218,12 @@
 - C. Submit a request on AWS Marketplace to monitor the event.
 - D. Review the coverage reports in the AWS Cost Management console.
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `B`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** B 100%
 
 ### Q246.1-题干怎么拆
@@ -231,7 +247,7 @@
 
 ## Q256-AWS-Support与客户资源题
 
-**题目：** A company is using the AWS Free Tier for several AWS services for an application. What will happen if the Free Tier usage period expires or if the application use exceeds the Free Tier usage limits?
+**题目：** A company is using the AWS Free Tier for several AWS services for an application. What will happen if the Free Tier usage period expires or if the application use exceeds the Free Tier usage limits?；
 
 **选项：**
 
@@ -240,8 +256,10 @@
 - C. The company will be charged for the services it consumed during the Free Tier period, plus additional charges for service
 - D. The company's AWS account will be frozen and can be restarted after a payment plan is established.
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `A`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q256.1-题干怎么拆
@@ -270,7 +288,7 @@
 
 ## Q265-AWS-Support与客户资源题
 
-**题目：** How does the AWS Enterprise Support Concierge team help users?
+**题目：** How does the AWS Enterprise Support Concierge team help users?；
 
 **选项：**
 
@@ -279,8 +297,10 @@
 - C. Answering billing and account inquiries
 - D. Answering questions regarding technical support cases
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `C`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 83%, Other 17%
 
 ### Q265.1-题干怎么拆
@@ -304,7 +324,7 @@
 
 ## Q271-AWS-Support与客户资源题
 
-**题目：** Which of the following are benefits that a company receives when it moves an on-premises production workload to AWS? (Choose two.)
+**题目：** Which of the following are benefits that a company receives when it moves an on-premises production workload to AWS? (Choose two.)；
 
 **选项：**
 
@@ -314,9 +334,12 @@
 - D. AWS offers high availability.
 - E. AWS provides economies of scale.
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `DE`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `DE`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** DE 100%
 
 ### Q271.1-题干怎么拆
@@ -341,7 +364,7 @@
 
 ## Q298-AWS-Support与客户资源题
 
-**题目：** A company needs to run a pre-installed third-party firewall on an Amazon EC2 instance. Which AWS service or feature can provide this solution?
+**题目：** A company needs to run a pre-installed third-party firewall on an Amazon EC2 instance. Which AWS service or feature can provide this solution?；
 
 **选项：**
 
@@ -350,8 +373,10 @@
 - C. AWS Marketplace
 - D. AWS Trusted Advisor
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `C`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q298.1-题干怎么拆
@@ -380,7 +405,7 @@
 
 ## Q319-AWS-Support与客户资源题
 
-**题目：** Which AWS feature provides a no-cost platform for AWS users to join community groups, ask questions, find answers, and read community-generated articles about best practices?
+**题目：** Which AWS feature provides a no-cost platform for AWS users to join community groups, ask questions, find answers, and read community-generated articles about best practices?；
 
 **选项：**
 
@@ -389,8 +414,10 @@
 - C. AWS IQ
 - D. AWS Enterprise Support
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `B`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q319.1-题干怎么拆
@@ -414,7 +441,7 @@
 
 ## Q407-AWS-Support与客户资源题
 
-**题目：** Which AWS Support plans provide access to an AWS technical account manager (TAM)? (Choose two.)
+**题目：** Which AWS Support plans provide access to an AWS technical account manager (TAM)? (Choose two.)；
 
 **选项：**
 
@@ -424,8 +451,10 @@
 - D. AWS Enterprise On-Ramp Support
 - E. AWS Enterprise Support
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `DE`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `DE`；
+
 **社区投票：** DE 75%, CE 25%
 
 ### Q407.1-题干怎么拆
@@ -455,7 +484,7 @@
 
 ## Q419-AWS-Support与客户资源题
 
-**题目：** A company wants to enhance security by launching a third-party ISP intrusion detection system from its AWS account. Which AWS service or resource should the company use to meet this requirement?
+**题目：** A company wants to enhance security by launching a third-party ISP intrusion detection system from its AWS account. Which AWS service or resource should the company use to meet this requirement?；
 
 **选项：**
 
@@ -464,8 +493,10 @@
 - C. AWS Quick Starts
 - D. AWS Security Center
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `B`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 60%, C 20%, D 20%
 
 ### Q419.1-题干怎么拆
@@ -495,7 +526,7 @@
 
 ## Q515-AWS-Support与客户资源题
 
-**题目：** An independent software vendor wants to deliver and share its custom Amazon Machine Images (AMIs) to prospective customers. Which AWS service will meet these requirements?
+**题目：** An independent software vendor wants to deliver and share its custom Amazon Machine Images (AMIs) to prospective customers. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -504,8 +535,10 @@
 - C. Amazon EC2
 - D. AWS Organizations
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `A`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q515.1-题干怎么拆
@@ -529,7 +562,7 @@
 
 ## Q520-AWS-Support与客户资源题
 
-**题目：** Which AWS Support plan provides the full set of AWS Trusted Advisor checks at the LOWEST cost?
+**题目：** Which AWS Support plan provides the full set of AWS Trusted Advisor checks at the LOWEST cost?；
 
 **选项：**
 
@@ -538,8 +571,10 @@
 - C. AWS Enterprise On-Ramp Support
 - D. AWS Enterprise Support
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `B`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 90%, A 10%
 
 ### Q520.1-题干怎么拆
@@ -568,7 +603,7 @@
 
 ## Q556-AWS-Support与客户资源题
 
-**题目：** Which benefit is always free of charge with AWS, regardless of a user’s AWS Support plan?
+**题目：** Which benefit is always free of charge with AWS, regardless of a user’s AWS Support plan?；
 
 **选项：**
 
@@ -577,8 +612,10 @@
 - C. Programmatic case management
 - D. AWS technical account manager (TAM)
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `B`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q556.1-题干怎么拆
@@ -607,7 +644,7 @@
 
 ## Q567-AWS-Support与客户资源题
 
-**题目：** A new AWS user needs to interact with AWS Support by using API calls. Which AWS Support plan will meet this requirement MOST cost-effectively?
+**题目：** A new AWS user needs to interact with AWS Support by using API calls. Which AWS Support plan will meet this requirement MOST cost-effectively?；
 
 **选项：**
 
@@ -616,9 +653,12 @@
 - C. AWS Business Support
 - D. AWS Enterprise Support
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `C`
-**需求/考点标签：** 谁执行了API操作
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 谁执行了API操作；
+
 **社区投票：** C 52%, B 44%
 
 ### Q567.1-题干怎么拆
@@ -657,9 +697,12 @@
 - C. AWS Trusted Advisor with AWS Business Support
 - D. AWS Health Dashboard with AWS Enterprise On-Ramp Support
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `C`
-**需求/考点标签：** Fault Tolerance / Cost Optimization
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Fault Tolerance / Cost Optimization；
+
 **社区投票：** C 86%, A 14%
 
 ### Q575.1-题干怎么拆
@@ -688,7 +731,7 @@
 
 ## Q577-AWS-Support与客户资源题
 
-**题目：** Which AWS team or offering helps users accelerate cloud adoption through paid engagements in any of several specialty practice areas?
+**题目：** Which AWS team or offering helps users accelerate cloud adoption through paid engagements in any of several specialty practice areas?；
 
 **选项：**
 
@@ -697,8 +740,10 @@
 - C. AWS Professional Services
 - D. AWS account managers
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `C`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q577.1-题干怎么拆
@@ -722,7 +767,7 @@
 
 ## Q602-AWS-Support与客户资源题
 
-**题目：** A company runs its production workload in the AWS Cloud. The company needs to choose one of the AWS Support Plans. Which of the AWS Support Plans will meet these requirements at the LOWEST cost?
+**题目：** A company runs its production workload in the AWS Cloud. The company needs to choose one of the AWS Support Plans. Which of the AWS Support Plans will meet these requirements at the LOWEST cost?；
 
 **选项：**
 
@@ -731,8 +776,10 @@
 - C. Enterprise
 - D. Business
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `D`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 85%, A 15%
 
 ### Q602.1-题干怎么拆
@@ -761,7 +808,7 @@
 
 ## Q640-AWS-Support与客户资源题
 
-**题目：** A company has an AWS Business Support plan. The company needs to gain access to the AWS DDoS Response Team (DRT) to help mitigate DDoS events. Which AWS service or resource must the company use to meet these requirements?
+**题目：** A company has an AWS Business Support plan. The company needs to gain access to the AWS DDoS Response Team (DRT) to help mitigate DDoS events. Which AWS service or resource must the company use to meet these requirements?；
 
 **选项：**
 
@@ -770,8 +817,10 @@
 - C. AWS WAF
 - D. AWS Shield Advanced
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `D`
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `D`；
+
 **需求/考点标签：** DDoS防护
 
 ### Q640.1-题干怎么拆
@@ -809,9 +858,12 @@
 - C. Sign up for AWS Enterprise Support
 - D. Contact AWS Professional Services
 
-**主分类：** C4-25 AWS-Support与客户资源题
-**题库记录答案：** `C`
-**需求/考点标签：** Event Driven
+**主分类：** C4-25 AWS-Support与客户资源题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Event Driven；
+
 **社区投票：** C 67%, D 33%
 
 ### Q698.1-题干怎么拆

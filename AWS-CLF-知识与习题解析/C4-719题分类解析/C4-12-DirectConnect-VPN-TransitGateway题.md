@@ -5,9 +5,10 @@
 本文件共收录 **17** 道主分类题。范围：Direct Connect、VPN、Transit Gateway、本地与多 VPC 连接。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q21-DirectConnect-VPN-TransitGateway题
 
-**题目：** Which AWS service or feature allows a user to establish a dedicated network connection between a company’s on-premises data center and the AWS Cloud?
+**题目：** Which AWS service or feature allows a user to establish a dedicated network connection between a company’s on-premises data center and the AWS Cloud?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. AWS VPN
 - D. Amazon Route 53
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `A`
-**需求/考点标签：** 本地到AWS专线
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 本地到AWS专线；
+
 **社区投票：** A 100%
 
 ### Q21.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q64-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company wants to provide managed Windows virtual desktops and applications to its remote employees over secure network connections. Which AWS services can the company use to meet these requirements? (Choose two.)
+**题目：** A company wants to provide managed Windows virtual desktops and applications to its remote employees over secure network connections. Which AWS services can the company use to meet these requirements? (Choose two.)；
 
 **选项：**
 
@@ -52,8 +56,10 @@
 - D. AWS Site-to-Site VPN
 - E. Amazon Elastic Container Service (Amazon ECS)
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `BC`
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `BC`；
+
 **社区投票：** BC 66%, CD 34%
 
 ### Q64.1-题干怎么拆
@@ -92,9 +98,12 @@
 - C. Amazon Route 53
 - D. AWS Secrets Manager
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `B`
-**需求/考点标签：** 本地到AWS专线
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 本地到AWS专线；
+
 **社区投票：** B 100%
 
 ### Q70.1-题干怎么拆
@@ -118,7 +127,7 @@
 
 ## Q73-DirectConnect-VPN-TransitGateway题
 
-**题目：** Which AWS service or feature can be used to create a private connection between an on-premises workload and an AWS Cloud workload?
+**题目：** Which AWS service or feature can be used to create a private connection between an on-premises workload and an AWS Cloud workload?；
 
 **选项：**
 
@@ -127,9 +136,12 @@
 - C. AWS Direct Connect
 - D. AWS PrivateLink
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 77%, D 23%
 
 ### Q73.1-题干怎么拆
@@ -153,7 +165,7 @@
 
 ## Q125-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company wants a unified tool to provide a consistent method to interact with AWS services. Which AWS service or tool will meet this requirement?
+**题目：** A company wants a unified tool to provide a consistent method to interact with AWS services. Which AWS service or tool will meet this requirement?；
 
 **选项：**
 
@@ -162,8 +174,10 @@
 - C. AWS Cloud9
 - D. AWS Virtual Private Network (AWS VPN)
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `A`
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q125.1-题干怎么拆
@@ -187,7 +201,7 @@
 
 ## Q181-DirectConnect-VPN-TransitGateway题
 
-**题目：** Which AWS services or features enable users to connect on-premises networks to a VPC? (Choose two.)
+**题目：** Which AWS services or features enable users to connect on-premises networks to a VPC? (Choose two.)；
 
 **选项：**
 
@@ -197,9 +211,12 @@
 - D. VPC peering
 - E. Amazon CloudFront
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `AC`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `AC`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** AC 100%
 
 ### Q181.1-题干怎么拆
@@ -224,7 +241,7 @@
 
 ## Q326-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company wants to establish a private network connection between AWS and its corporate network. Which AWS service or feature will meet this requirement?
+**题目：** A company wants to establish a private network connection between AWS and its corporate network. Which AWS service or feature will meet this requirement?；
 
 **选项：**
 
@@ -233,9 +250,12 @@
 - C. AWS Direct Connect
 - D. VPC peering
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `C`
-**需求/考点标签：** Disaster Recovery
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Disaster Recovery；
+
 **社区投票：** C 100%
 
 ### Q326.1-题干怎么拆
@@ -259,7 +279,7 @@
 
 ## Q357-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company needs to connect its on-premises data center to the AWS Cloud. The company needs a dedicated, low-latency connection with consistent network performance. Which AWS service will meet these requirements?
+**题目：** A company needs to connect its on-premises data center to the AWS Cloud. The company needs a dedicated, low-latency connection with consistent network performance. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -268,9 +288,12 @@
 - C. AWS Direct Connect
 - D. AWS Managed VPN
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 100%
 
 ### Q357.1-题干怎么拆
@@ -294,7 +317,7 @@
 
 ## Q443-DirectConnect-VPN-TransitGateway题
 
-**题目：** Which AWS service or feature gives users the ability to connect VPCs and on-premises networks to a central hub?
+**题目：** Which AWS service or feature gives users the ability to connect VPCs and on-premises networks to a central hub?；
 
 **选项：**
 
@@ -303,9 +326,12 @@
 - C. Internet gateway
 - D. Customer gateway
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** B 100%
 
 ### Q443.1-题干怎么拆
@@ -329,7 +355,7 @@
 
 ## Q445-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company is connecting multiple VPCs and on-premises networks. The company needs to use an AWS service as a cloud router to simplify peering relationships. Which AWS service can the company use to meet this requirement?
+**题目：** A company is connecting multiple VPCs and on-premises networks. The company needs to use an AWS service as a cloud router to simplify peering relationships. Which AWS service can the company use to meet this requirement?；
 
 **选项：**
 
@@ -338,9 +364,12 @@
 - C. Amazon Connect
 - D. Amazon Route 53
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** B 86%, A 14%
 
 ### Q445.1-题干怎么拆
@@ -373,9 +402,12 @@
 - C. AWS VPN
 - D. Amazon Connect
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** A 100%
 
 ### Q466.1-题干怎么拆
@@ -399,7 +431,7 @@
 
 ## Q471-DirectConnect-VPN-TransitGateway题
 
-**题目：** Which AWS service or feature requires an internet service provider (ISP) and a colocation facility to be implemented?
+**题目：** Which AWS service or feature requires an internet service provider (ISP) and a colocation facility to be implemented?；
 
 **选项：**
 
@@ -408,7 +440,8 @@
 - C. AWS Direct Connect
 - D. Internet gateway
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
 **题库记录答案：** `C`
 
 ### Q471.1-题干怎么拆
@@ -432,7 +465,7 @@
 
 ## Q547-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company wants to maintain bandwidth throughput and provide a more consistent network experience than public internet- based connections. Which AWS service should the company choose?
+**题目：** A company wants to maintain bandwidth throughput and provide a more consistent network experience than public internet- based connections. Which AWS service should the company choose?；
 
 **选项：**
 
@@ -441,8 +474,10 @@
 - C. Amazon Connect
 - D. Amazon CloudFront
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `B`
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 80%, D 20%
 
 ### Q547.1-题干怎么拆
@@ -466,7 +501,7 @@
 
 ## Q608-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company wants to set up a secure network connection from on premises to the AWS Cloud within 1 week. Which solution will meet these requirements?
+**题目：** A company wants to set up a secure network connection from on premises to the AWS Cloud within 1 week. Which solution will meet these requirements?；
 
 **选项：**
 
@@ -475,9 +510,12 @@
 - C. AWS Site-to-Site VPN
 - D. Edge location
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 100%
 
 ### Q608.1-题干怎么拆
@@ -501,7 +539,7 @@
 
 ## Q616-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company needs to set up dedicated network connectivity between its on-premises data center and the AWS Cloud. The network cannot use the public internet. Which AWS service or feature will meet these requirements?
+**题目：** A company needs to set up dedicated network connectivity between its on-premises data center and the AWS Cloud. The network cannot use the public internet. Which AWS service or feature will meet these requirements?；
 
 **选项：**
 
@@ -510,9 +548,12 @@
 - C. Amazon CloudFront
 - D. AWS Direct Connect
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `D`
-**需求/考点标签：** 本地到AWS专线
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 本地到AWS专线；
+
 **社区投票：** D 100%
 
 ### Q616.1-题干怎么拆
@@ -536,7 +577,7 @@
 
 ## Q630-DirectConnect-VPN-TransitGateway题
 
-**题目：** Which AWS service can create a private network connection from on premises to the AWS Cloud?
+**题目：** Which AWS service can create a private network connection from on premises to the AWS Cloud?；
 
 **选项：**
 
@@ -545,9 +586,12 @@
 - C. AWS Direct Connect
 - D. Amazon Route 53
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 100%
 
 ### Q630.1-题干怎么拆
@@ -571,7 +615,7 @@
 
 ## Q653-DirectConnect-VPN-TransitGateway题
 
-**题目：** A company wants to use an AWS networking solution that can act as a centralized gateway between multiple VPCs and on- premises networks. Which AWS service or feature will meet this requirement?
+**题目：** A company wants to use an AWS networking solution that can act as a centralized gateway between multiple VPCs and on- premises networks. Which AWS service or feature will meet this requirement?；
 
 **选项：**
 
@@ -580,8 +624,10 @@
 - C. AWS Transit Gateway
 - D. AWS PrivateLink
 
-**主分类：** C4-12 DirectConnect-VPN-TransitGateway题
-**题库记录答案：** `C`
+**主分类：** C4-12 DirectConnect-VPN-TransitGateway题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q653.1-题干怎么拆

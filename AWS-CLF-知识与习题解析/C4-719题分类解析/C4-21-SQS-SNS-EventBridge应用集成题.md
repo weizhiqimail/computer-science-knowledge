@@ -5,9 +5,10 @@
 本文件共收录 **10** 道主分类题。范围：SQS、SNS、EventBridge、Step Functions、API Gateway、SES。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q31-SQS-SNS-EventBridge应用集成题
 
-**题目：** Which AWS service or feature is used to send both text and email messages from distributed applications?
+**题目：** Which AWS service or feature is used to send both text and email messages from distributed applications?；
 
 **选项：**
 
@@ -16,8 +17,10 @@
 - C. Amazon CloudWatch alerts
 - D. Amazon Simple Queue Service (Amazon SQS)
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `A`
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 97%
 
 ### Q31.1-题干怎么拆
@@ -41,7 +44,7 @@
 
 ## Q81-SQS-SNS-EventBridge应用集成题
 
-**题目：** A company has a set of ecommerce applications. The applications need to be able to send messages to each other. Which AWS service meets this requirement?
+**题目：** A company has a set of ecommerce applications. The applications need to be able to send messages to each other. Which AWS service meets this requirement?；
 
 **选项：**
 
@@ -50,8 +53,10 @@
 - C. Amazon Simple Queue Service (Amazon SQS)
 - D. Amazon Kinesis Data Streams
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `C`
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q81.1-题干怎么拆
@@ -75,7 +80,7 @@
 
 ## Q140-SQS-SNS-EventBridge应用集成题
 
-**题目：** Which AWS services can a company use to achieve a loosely coupled architecture? (Choose two.)
+**题目：** Which AWS services can a company use to achieve a loosely coupled architecture? (Choose two.)；
 
 **选项：**
 
@@ -85,8 +90,10 @@
 - D. AWS Trusted Advisor
 - E. AWS Step Functions
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `BE`
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `BE`；
+
 **社区投票：** BE 100%
 
 ### Q140.1-题干怎么拆
@@ -125,8 +132,10 @@
 - C. Amazon Kinesis Data Streams
 - D. Amazon Simple Queue Service (Amazon SQS)
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `D`
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q188.1-题干怎么拆
@@ -150,7 +159,7 @@
 
 ## Q376-SQS-SNS-EventBridge应用集成题
 
-**题目：** Which AWS service uses a combination of publishers and subscribers?
+**题目：** Which AWS service uses a combination of publishers and subscribers?；
 
 **选项：**
 
@@ -159,9 +168,12 @@
 - C. Amazon CloudWatch
 - D. AWS CloudFormation
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `B`
-**需求/考点标签：** 一对多通知
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 一对多通知；
+
 **社区投票：** B 100%
 
 ### Q376.1-题干怎么拆
@@ -185,7 +197,7 @@
 
 ## Q421-SQS-SNS-EventBridge应用集成题
 
-**题目：** Which AWS service or tool gives a company the ability to release application changes in an automated way?
+**题目：** Which AWS service or tool gives a company the ability to release application changes in an automated way?；
 
 **选项：**
 
@@ -194,8 +206,10 @@
 - C. AWS PrivateLink
 - D. Amazon EKS Distro
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `B`
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q421.1-题干怎么拆
@@ -224,7 +238,7 @@
 
 ## Q495-SQS-SNS-EventBridge应用集成题
 
-**题目：** Which AWS service can be used to send alerts when a specific Amazon CloudWatch alarm is invoked?
+**题目：** Which AWS service can be used to send alerts when a specific Amazon CloudWatch alarm is invoked?；
 
 **选项：**
 
@@ -233,9 +247,12 @@
 - C. Amazon Simple Queue Service (Amazon SQS)
 - D. Amazon EventBridge
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `B`
-**需求/考点标签：** 运行时指标监控
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 运行时指标监控；
+
 **社区投票：** B 100%
 
 ### Q495.1-题干怎么拆
@@ -259,7 +276,7 @@
 
 ## Q502-SQS-SNS-EventBridge应用集成题
 
-**题目：** A user wants to invoke an AWS Lambda function when an Amazon EC2 instance enters the “stopping” state. Which AWS service is appropriate for this use case?
+**题目：** A user wants to invoke an AWS Lambda function when an Amazon EC2 instance enters the “stopping” state. Which AWS service is appropriate for this use case?；
 
 **选项：**
 
@@ -268,9 +285,12 @@
 - C. Amazon Simple Notification Service (Amazon SNS)
 - D. AWS CloudFormation
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `A`
-**需求/考点标签：** Serverless
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Serverless；
+
 **社区投票：** A 100%
 
 ### Q502.1-题干怎么拆
@@ -294,7 +314,7 @@
 
 ## Q645-SQS-SNS-EventBridge应用集成题
 
-**题目：** A company wants an AWS service that can automate software deployment in Amazon EC2 instances and on-premises instances. Which AWS service will meet this requirement?
+**题目：** A company wants an AWS service that can automate software deployment in Amazon EC2 instances and on-premises instances. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -303,9 +323,12 @@
 - C. AWS CodeDeploy
 - D. AWS CodePipeline
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 100%
 
 ### Q645.1-题干怎么拆
@@ -334,7 +357,7 @@
 
 ## Q710-SQS-SNS-EventBridge应用集成题
 
-**题目：** A company wants to consolidate its call centers to improve the customer voice and chat experience with call center agents. Which AWS service or tool will meet these requirements?
+**题目：** A company wants to consolidate its call centers to improve the customer voice and chat experience with call center agents. Which AWS service or tool will meet these requirements?；
 
 **选项：**
 
@@ -343,8 +366,10 @@
 - C. Amazon Cognito
 - D. Amazon Connect
 
-**主分类：** C4-21 SQS-SNS-EventBridge应用集成题
-**题库记录答案：** `D`
+**主分类：** C4-21 SQS-SNS-EventBridge应用集成题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q710.1-题干怎么拆

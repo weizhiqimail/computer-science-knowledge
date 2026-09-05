@@ -5,9 +5,10 @@
 本文件共收录 **19** 道主分类题。范围：DNS、Route 53、CloudFront、Global Accelerator。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q49-Route53-CloudFront与全球网络题
 
-**题目：** A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach can the company use to accomplish this in a cost effective manner?
+**题目：** A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach can the company use to accomplish this in a cost effective manner?；
 
 **选项：**
 
@@ -16,8 +17,10 @@
 - C. Implement a VPN across multiple AWS Regions.
 - D. Deliver the content through AWS PrivateLink.
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `A`
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q49.1-题干怎么拆
@@ -41,7 +44,7 @@
 
 ## Q80-Route53-CloudFront与全球网络题
 
-**题目：** Which AWS service helps deliver highly available applications with fast failover for multi-Region and Multi-AZ architectures?
+**题目：** Which AWS service helps deliver highly available applications with fast failover for multi-Region and Multi-AZ architectures?；
 
 **选项：**
 
@@ -50,9 +53,12 @@
 - C. AWS Shield
 - D. AWS Direct Connect
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `B`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** B 100%
 
 ### Q80.1-题干怎么拆
@@ -76,7 +82,7 @@
 
 ## Q85-Route53-CloudFront与全球网络题
 
-**题目：** Which AWS service enables companies to deploy an application close to end users?
+**题目：** Which AWS service enables companies to deploy an application close to end users?；
 
 **选项：**
 
@@ -85,8 +91,10 @@
 - C. AWS AppSync
 - D. Amazon Route 53
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `A`
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q85.1-题干怎么拆
@@ -110,7 +118,7 @@
 
 ## Q86-Route53-CloudFront与全球网络题
 
-**题目：** Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?
+**题目：** Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?；
 
 **选项：**
 
@@ -119,8 +127,10 @@
 - C. AWS Global Accelerator
 - D. Amazon VPC
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `C`
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q86.1-题干怎么拆
@@ -144,7 +154,7 @@
 
 ## Q194-Route53-CloudFront与全球网络题
 
-**题目：** A company needs a content delivery network that provides secure delivery of data, videos, applications, and APIs to users globally with low latency and high transfer speeds. Which AWS service meets these requirements?
+**题目：** A company needs a content delivery network that provides secure delivery of data, videos, applications, and APIs to users globally with low latency and high transfer speeds. Which AWS service meets these requirements?；
 
 **选项：**
 
@@ -153,8 +163,10 @@
 - C. Amazon S3
 - D. Amazon Elastic Transcoder
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `A`
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q194.1-题干怎么拆
@@ -178,7 +190,7 @@
 
 ## Q208-Route53-CloudFront与全球网络题
 
-**题目：** Which AWS services or features provide high availability and low latency by enabling failover across different AWS Regions? (Choose two.)
+**题目：** Which AWS services or features provide high availability and low latency by enabling failover across different AWS Regions? (Choose two.)；
 
 **选项：**
 
@@ -188,9 +200,12 @@
 - D. AWS Global Accelerator
 - E. Application Load Balancer
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `AD`
-**需求/考点标签：** High Availability
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `AD`；
+
+**需求/考点标签：** High Availability；
+
 **社区投票：** AD 86%, BE 14%
 
 ### Q208.1-题干怎么拆
@@ -224,9 +239,12 @@
 - C. Amazon Route 53
 - D. Amazon RDS
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `C`
-**需求/考点标签：** DNS与流量路由
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** DNS与流量路由；
+
 **社区投票：** C 100%
 
 ### Q242.1-题干怎么拆
@@ -250,7 +268,7 @@
 
 ## Q321-Route53-CloudFront与全球网络题
 
-**题目：** Which AWS services make use of global edge locations? (Choose two.)
+**题目：** Which AWS services make use of global edge locations? (Choose two.)；
 
 **选项：**
 
@@ -260,9 +278,12 @@
 - D. AWS Wavelength
 - E. Amazon VPC
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `BC`
-**需求/考点标签：** 全球静态内容加速
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `BC`；
+
+**需求/考点标签：** 全球静态内容加速；
+
 **社区投票：** BC 100%
 
 ### Q321.1-题干怎么拆
@@ -292,7 +313,7 @@
 
 ## Q365-Route53-CloudFront与全球网络题
 
-**题目：** What does Amazon CloudFront provide?
+**题目：** What does Amazon CloudFront provide?；
 
 **选项：**
 
@@ -301,9 +322,12 @@
 - C. Ability to directly manage traffic globally through a variety of routing types, including latency-based routing, geo DNS,
 - D. Automatic distribution of incoming application traffic across multiple targets, such as Amazon EC2 instances, containers,
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `B`
-**需求/考点标签：** 全球静态内容加速
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 全球静态内容加速；
+
 **社区投票：** B 100%
 
 ### Q365.1-题干怎么拆
@@ -327,7 +351,7 @@
 
 ## Q372-Route53-CloudFront与全球网络题
 
-**题目：** Which benefit of cloud computing gives a company the ability to deploy applications to users all over the world through a network of AWS Regions, Availability Zones, and edge locations?
+**题目：** Which benefit of cloud computing gives a company the ability to deploy applications to users all over the world through a network of AWS Regions, Availability Zones, and edge locations?；
 
 **选项：**
 
@@ -336,9 +360,12 @@
 - C. Agility
 - D. High availability
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `B`
-**需求/考点标签：** 全球静态内容加速
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 全球静态内容加速；
+
 **社区投票：** B 100%
 
 ### Q372.1-题干怎么拆
@@ -371,9 +398,12 @@
 - C. Elastic Load Balancing
 - D. AWS Lambda
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `B`
-**需求/考点标签：** Block Storage
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** B 100%
 
 ### Q426.1-题干怎么拆
@@ -397,7 +427,7 @@
 
 ## Q476-Route53-CloudFront与全球网络题
 
-**题目：** A company is migrating its public website to AWS. The company wants to host the domain name for the website on AWS. Which AWS service should the company use to meet this requirement?
+**题目：** A company is migrating its public website to AWS. The company wants to host the domain name for the website on AWS. Which AWS service should the company use to meet this requirement?；
 
 **选项：**
 
@@ -406,9 +436,12 @@
 - C. Amazon CloudFront
 - D. AWS Direct Connect
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `B`
-**需求/考点标签：** Block Storage
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** B 100%
 
 ### Q476.1-题干怎么拆
@@ -432,7 +465,7 @@
 
 ## Q496-Route53-CloudFront与全球网络题
 
-**题目：** A cloud practitioner wants to use a highly available and scalable DNS service for its AWS workload. Which AWS service will meet this requirement?
+**题目：** A cloud practitioner wants to use a highly available and scalable DNS service for its AWS workload. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -441,9 +474,12 @@
 - C. AWS Amplify Hosting
 - D. Amazon S3
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `A`
-**需求/考点标签：** DNS与流量路由
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** DNS与流量路由；
+
 **社区投票：** A 100%
 
 ### Q496.1-题干怎么拆
@@ -467,7 +503,7 @@
 
 ## Q528-Route53-CloudFront与全球网络题
 
-**题目：** Which AWS service provides DNS resolution?
+**题目：** Which AWS service provides DNS resolution?；
 
 **选项：**
 
@@ -476,9 +512,12 @@
 - C. Amazon Route 53
 - D. AWS Direct Connect
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `C`
-**需求/考点标签：** DNS与流量路由
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** DNS与流量路由；
+
 **社区投票：** C 100%
 
 ### Q528.1-题干怎么拆
@@ -502,7 +541,7 @@
 
 ## Q597-Route53-CloudFront与全球网络题
 
-**题目：** A company has a website on AWS. The company wants to deliver the website to a worldwide audience and provide low-latency response times for global users. Which AWS service will meet these requirements?
+**题目：** A company has a website on AWS. The company wants to deliver the website to a worldwide audience and provide low-latency response times for global users. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -511,9 +550,12 @@
 - C. Amazon ElastiCache
 - D. Amazon DynamoDB
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `B`
-**需求/考点标签：** Block Storage
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** B 100%
 
 ### Q597.1-题干怎么拆
@@ -537,7 +579,7 @@
 
 ## Q643-Route53-CloudFront与全球网络题
 
-**题目：** Which AWS service uses edge locations to cache content?
+**题目：** Which AWS service uses edge locations to cache content?；
 
 **选项：**
 
@@ -546,9 +588,12 @@
 - C. Amazon CloudFront
 - D. Amazon Route 53
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `C`
-**需求/考点标签：** 全球静态内容加速 / 热点数据缓存
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 全球静态内容加速 / 热点数据缓存；
+
 **社区投票：** C 100%
 
 ### Q643.1-题干怎么拆
@@ -572,7 +617,7 @@
 
 ## Q663-Route53-CloudFront与全球网络题
 
-**题目：** A company deployed an application in multiple AWS Regions around the world. The company wants to improve the application’s performance and availability. Which AWS service will meet these requirements?
+**题目：** A company deployed an application in multiple AWS Regions around the world. The company wants to improve the application’s performance and availability. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -581,8 +626,10 @@
 - C. AWS Cloud Map
 - D. AWS Auto Scaling
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `A`
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q663.1-题干怎么拆
@@ -615,8 +662,10 @@
 - C. Amazon Workspaces
 - D. Amazon CloudFront
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `C`
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q694.1-题干怎么拆
@@ -640,7 +689,7 @@
 
 ## Q707-Route53-CloudFront与全球网络题
 
-**题目：** A company has deployed several public applications behind Application Load Balancers. The company wants to improve the performance of the applications. Which AWS service will meet these requirements?
+**题目：** A company has deployed several public applications behind Application Load Balancers. The company wants to improve the performance of the applications. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -649,8 +698,10 @@
 - C. Amazon ElastiCache
 - D. Amazon CloudWatch
 
-**主分类：** C4-13 Route53-CloudFront与全球网络题
-**题库记录答案：** `A`
+**主分类：** C4-13 Route53-CloudFront与全球网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q707.1-题干怎么拆

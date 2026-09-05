@@ -5,9 +5,10 @@
 本文件共收录 **30** 道主分类题。范围：Cost Explorer、Budgets、Pricing Calculator、CUR、Billing、成本优化。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q13-Cost-Billing-Pricing题
 
-**题目：** Which AWS service or tool helps users visualize, understand, and manage spending and usage over time?
+**题目：** Which AWS service or tool helps users visualize, understand, and manage spending and usage over time?；
 
 **选项：**
 
@@ -16,8 +17,10 @@
 - C. AWS Cost Explorer
 - D. AWS Service Catalog
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `C`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q13.1-题干怎么拆
@@ -41,7 +44,7 @@
 
 ## Q48-Cost-Billing-Pricing题
 
-**题目：** A company is exploring the use of the AWS Cloud, and needs to create a cost estimate for a project before the infrastructure is provisioned. Which AWS service or feature can be used to estimate costs before deployment?
+**题目：** A company is exploring the use of the AWS Cloud, and needs to create a cost estimate for a project before the infrastructure is provisioned. Which AWS service or feature can be used to estimate costs before deployment?；
 
 **选项：**
 
@@ -50,8 +53,10 @@
 - C. AWS Billing and Cost Management
 - D. AWS Cost and Usage Report
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q48.1-题干怎么拆
@@ -75,7 +80,7 @@
 
 ## Q82-Cost-Billing-Pricing题
 
-**题目：** What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)
+**题目：** What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)；
 
 **选项：**
 
@@ -85,8 +90,10 @@
 - D. Installment payment options
 - E. Custom cost and usage budget creation
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `AC`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `AC`；
+
 **社区投票：** AC 87%, CE 13%
 
 ### Q82.1-题干怎么拆
@@ -116,7 +123,7 @@
 
 ## Q91-Cost-Billing-Pricing题
 
-**题目：** A company plans to migrate to AWS and wants to create cost estimates for its AWS use cases. Which AWS service or tool can the company use to meet these requirements?
+**题目：** A company plans to migrate to AWS and wants to create cost estimates for its AWS use cases. Which AWS service or tool can the company use to meet these requirements?；
 
 **选项：**
 
@@ -125,9 +132,12 @@
 - C. AWS Cost Explorer
 - D. AWS Budgets
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
-**需求/考点标签：** Migration
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** A 100%
 
 ### Q91.1-题干怎么拆
@@ -151,7 +161,7 @@
 
 ## Q102-Cost-Billing-Pricing题
 
-**题目：** A company is running a workload in the AWS Cloud. Which AWS best practice ensures the MOST cost-effective architecture for the workload?
+**题目：** A company is running a workload in the AWS Cloud. Which AWS best practice ensures the MOST cost-effective architecture for the workload?；
 
 **选项：**
 
@@ -160,9 +170,12 @@
 - C. Caching
 - D. Redundancy
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
-**需求/考点标签：** Cost Optimization
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Cost Optimization；
+
 **社区投票：** B 100%
 
 ### Q102.1-题干怎么拆
@@ -186,7 +199,7 @@
 
 ## Q104-Cost-Billing-Pricing题
 
-**题目：** Which AWS tool gives users the ability to plan their service usage, service costs, and instance reservations, and also allows them to set custom alerts when their costs or usage exceed established thresholds?
+**题目：** Which AWS tool gives users the ability to plan their service usage, service costs, and instance reservations, and also allows them to set custom alerts when their costs or usage exceed established thresholds?；
 
 **选项：**
 
@@ -195,9 +208,12 @@
 - C. AWS Cost and Usage Report
 - D. Reserved Instance reporting
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
-**需求/考点标签：** 预算阈值告警
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 预算阈值告警；
+
 **社区投票：** B 100%
 
 ### Q104.1-题干怎么拆
@@ -230,9 +246,12 @@
 - C. Pay-as-you-go pricing
 - D. Spot Instances
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
-**需求/考点标签：** 可中断低成本计算
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 可中断低成本计算；
+
 **社区投票：** B 97%
 
 ### Q107.1-题干怎么拆
@@ -261,7 +280,7 @@
 
 ## Q141-Cost-Billing-Pricing题
 
-**题目：** Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?
+**题目：** Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?；
 
 **选项：**
 
@@ -270,9 +289,12 @@
 - C. AWS Cost Allocation Tags
 - D. AWS Organizations
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
-**需求/考点标签：** 预算阈值告警
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 预算阈值告警；
+
 **社区投票：** A 100%
 
 ### Q141.1-题干怎么拆
@@ -296,7 +318,7 @@
 
 ## Q204-Cost-Billing-Pricing题
 
-**题目：** A company wants to create Amazon QuickSight dashboards every week by using its billing data. Which AWS feature or tool can the company use to meet these requirements?
+**题目：** A company wants to create Amazon QuickSight dashboards every week by using its billing data. Which AWS feature or tool can the company use to meet these requirements?；
 
 **选项：**
 
@@ -305,9 +327,12 @@
 - C. AWS Cost and Usage Report
 - D. AWS Cost Anomaly Detection
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q204.1-题干怎么拆
@@ -331,7 +356,7 @@
 
 ## Q206-Cost-Billing-Pricing题
 
-**题目：** A company needs to organize its resources and track AWS costs on a detailed level. The company needs to categorize costs by business department, environment, and application. Which solution will meet these requirements?
+**题目：** A company needs to organize its resources and track AWS costs on a detailed level. The company needs to categorize costs by business department, environment, and application. Which solution will meet these requirements?；
 
 **选项：**
 
@@ -340,8 +365,10 @@
 - C. Create Amazon CloudWatch dashboards to visually organize and track costs individually.
 - D. Access the AWS Billing and Cost Management dashboard to organize and track resource consumption on a detailed
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 83%, A 17%
 
 ### Q206.1-题干怎么拆
@@ -365,7 +392,7 @@
 
 ## Q264-Cost-Billing-Pricing题
 
-**题目：** A company wants to receive alerts to monitor its overall operating costs for its AWS public cloud infrastructure. Which AWS offering will meet these requirements?
+**题目：** A company wants to receive alerts to monitor its overall operating costs for its AWS public cloud infrastructure. Which AWS offering will meet these requirements?；
 
 **选项：**
 
@@ -374,9 +401,12 @@
 - C. AWS Budgets
 - D. Migration Evaluator
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `C`
-**需求/考点标签：** Monitoring
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Monitoring；
+
 **社区投票：** C 92%, B 8%
 
 ### Q264.1-题干怎么拆
@@ -405,7 +435,7 @@
 
 ## Q331-Cost-Billing-Pricing题
 
-**题目：** Which AWS service or tool can provide rightsizing recommendations for Amazon EC2 resources at no additional cost?
+**题目：** Which AWS service or tool can provide rightsizing recommendations for Amazon EC2 resources at no additional cost?；
 
 **选项：**
 
@@ -414,8 +444,10 @@
 - C. AWS Cost Explorer
 - D. Amazon S3 analytics
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `C`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q331.1-题干怎么拆
@@ -439,7 +471,7 @@
 
 ## Q342-Cost-Billing-Pricing题
 
-**题目：** A company wants a web application to interact with various AWS services. Which AWS service or resource will meet this requirement?
+**题目：** A company wants a web application to interact with various AWS services. Which AWS service or resource will meet this requirement?；
 
 **选项：**
 
@@ -448,8 +480,10 @@
 - C. AWS Management Console
 - D. AWS CLI
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `C`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 68%, D 32%
 
 ### Q342.1-题干怎么拆
@@ -487,9 +521,12 @@
 - C. AWS Trusted Advisor
 - D. AWS Application Migration Service
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
-**需求/考点标签：** Migration
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** A 100%
 
 ### Q377.1-题干怎么拆
@@ -513,7 +550,7 @@
 
 ## Q396-Cost-Billing-Pricing题
 
-**题目：** Which cloud concept is demonstrated by using AWS Cost Explorer?
+**题目：** Which cloud concept is demonstrated by using AWS Cost Explorer?；
 
 **选项：**
 
@@ -522,9 +559,12 @@
 - C. Resilience
 - D. Modernization
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
-**需求/考点标签：** 分析已经发生的成本
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 分析已经发生的成本；
+
 **社区投票：** A 100%
 
 ### Q396.1-题干怎么拆
@@ -548,7 +588,7 @@
 
 ## Q401-Cost-Billing-Pricing题
 
-**题目：** A company needs to categorize and track AWS usage cost based on business categories. Which AWS service or feature should the company use to meet these requirements?
+**题目：** A company needs to categorize and track AWS usage cost based on business categories. Which AWS service or feature should the company use to meet these requirements?；
 
 **选项：**
 
@@ -557,8 +597,10 @@
 - C. AWS Security Hub
 - D. AWS Cost and Usage Report
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q401.1-题干怎么拆
@@ -582,7 +624,7 @@
 
 ## Q403-Cost-Billing-Pricing题
 
-**题目：** Which statements represent the cost-effectiveness of the AWS Cloud? (Choose two.)
+**题目：** Which statements represent the cost-effectiveness of the AWS Cloud? (Choose two.)；
 
 **选项：**
 
@@ -592,9 +634,12 @@
 - D. AWS is responsible for patching the infrastructure.
 - E. Users benefit from economies of scale.
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `AE`
-**需求/考点标签：** Cost Optimization
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `AE`；
+
+**需求/考点标签：** Cost Optimization；
+
 **社区投票：** AE 83%, DE 17%
 
 ### Q403.1-题干怎么拆
@@ -633,9 +678,12 @@
 - C. AWS Organizations consolidated billing
 - D. Cost Explorer
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud / Pub/Sub
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud / Pub/Sub；
+
 **社区投票：** B 100%
 
 ### Q406.1-题干怎么拆
@@ -659,7 +707,7 @@
 
 ## Q501-Cost-Billing-Pricing题
 
-**题目：** A company wants to implement detailed tracking of its cloud costs by department and project. Which AWS feature or service should the company use?
+**题目：** A company wants to implement detailed tracking of its cloud costs by department and project. Which AWS feature or service should the company use?；
 
 **选项：**
 
@@ -668,8 +716,10 @@
 - C. AWS Marketplace
 - D. AWS Budgets
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q501.1-题干怎么拆
@@ -702,9 +752,12 @@
 - C. AWS shared responsibility model
 - D. AWS Cloud Adoption Framework (AWS CAF)
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
-**需求/考点标签：** 部署前估算成本
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 部署前估算成本；
+
 **社区投票：** A 100%
 
 ### Q514.1-题干怎么拆
@@ -728,7 +781,7 @@
 
 ## Q530-Cost-Billing-Pricing题
 
-**题目：** An ecommerce company plans to move its data center workload to the AWS Cloud to support highly dynamic usage patterns. Which benefits make the AWS Cloud cost-effective for the migration of this type of workload? (Choose two.)
+**题目：** An ecommerce company plans to move its data center workload to the AWS Cloud to support highly dynamic usage patterns. Which benefits make the AWS Cloud cost-effective for the migration of this type of workload? (Choose two.)；
 
 **选项：**
 
@@ -738,9 +791,12 @@
 - D. Pay-as-you-go resource
 - E. High availability
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `CD`
-**需求/考点标签：** Migration / Cost Optimization
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `CD`；
+
+**需求/考点标签：** Migration / Cost Optimization；
+
 **社区投票：** CD 100%
 
 ### Q530.1-题干怎么拆
@@ -765,7 +821,7 @@
 
 ## Q532-Cost-Billing-Pricing题
 
-**题目：** Which of the following can the AWS Pricing Calculator do?
+**题目：** Which of the following can the AWS Pricing Calculator do?；
 
 **选项：**
 
@@ -774,9 +830,12 @@
 - C. Provide in-depth information about AWS pricing strategies.
 - D. Provide users with access to their monthly bills.
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
-**需求/考点标签：** 部署前估算成本
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 部署前估算成本；
+
 **社区投票：** A 100%
 
 ### Q532.1-题干怎么拆
@@ -800,7 +859,7 @@
 
 ## Q561-Cost-Billing-Pricing题
 
-**题目：** Which recommendation can AWS Cost Explorer provide to help reduce cost?
+**题目：** Which recommendation can AWS Cost Explorer provide to help reduce cost?；
 
 **选项：**
 
@@ -809,9 +868,12 @@
 - C. Deploy a specific operating system.
 - D. Terminate an idle instance.
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `D`
-**需求/考点标签：** 分析已经发生的成本
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 分析已经发生的成本；
+
 **社区投票：** D 100%
 
 ### Q561.1-题干怎么拆
@@ -835,7 +897,7 @@
 
 ## Q570-Cost-Billing-Pricing题
 
-**题目：** A company wants to estimate the cost for its AWS architecture solution before migration. Which AWS service or feature will meet this requirement?
+**题目：** A company wants to estimate the cost for its AWS architecture solution before migration. Which AWS service or feature will meet this requirement?；
 
 **选项：**
 
@@ -844,9 +906,12 @@
 - C. AWS Resource Explorer
 - D. AWS Pricing Calculator
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `D`
-**需求/考点标签：** 部署前估算成本
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 部署前估算成本；
+
 **社区投票：** D 100%
 
 ### Q570.1-题干怎么拆
@@ -879,8 +944,10 @@
 - C. Cost allocation tags
 - D. Cost categories
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q572.1-题干怎么拆
@@ -904,7 +971,7 @@
 
 ## Q637-Cost-Billing-Pricing题
 
-**题目：** A company wants to track the monthly cost and usage of all Amazon EC2 instances in a specific AWS environment. Which AWS service or tool will meet these requirements?
+**题目：** A company wants to track the monthly cost and usage of all Amazon EC2 instances in a specific AWS environment. Which AWS service or tool will meet these requirements?；
 
 **选项：**
 
@@ -913,8 +980,10 @@
 - C. AWS Compute Optimizer
 - D. AWS Trusted Advisor
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `B`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q637.1-题干怎么拆
@@ -938,7 +1007,7 @@
 
 ## Q641-Cost-Billing-Pricing题
 
-**题目：** Which AWS service or tool provides a visualization of historical AWS spending patterns and projections of future AWS costs?
+**题目：** Which AWS service or tool provides a visualization of historical AWS spending patterns and projections of future AWS costs?；
 
 **选项：**
 
@@ -947,7 +1016,8 @@
 - C. Cost Explorer
 - D. Amazon Cloud Watch
 
-**主分类：** C4-24 Cost-Billing-Pricing题
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
 **题库记录答案：** `C`
 
 ### Q641.1-题干怎么拆
@@ -980,8 +1050,10 @@
 - C. AWS Budgets
 - D. AWS Savings Plans
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `C`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q675.1-题干怎么拆
@@ -1005,7 +1077,7 @@
 
 ## Q695-Cost-Billing-Pricing题
 
-**题目：** A company wants to visualize and manage AWS Cloud costs and usage for a specific period of time. Which AWS service or feature will meet these requirements?
+**题目：** A company wants to visualize and manage AWS Cloud costs and usage for a specific period of time. Which AWS service or feature will meet these requirements?；
 
 **选项：**
 
@@ -1014,8 +1086,10 @@
 - C. AWS Organizations
 - D. AWS Budgets
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q695.1-题干怎么拆
@@ -1048,9 +1122,12 @@
 - C. EC2 Image Builder
 - D. AWS CloudFormation
 
-**主分类：** C4-24 Cost-Billing-Pricing题
-**题库记录答案：** `A`
-**需求/考点标签：** 预算阈值告警
+**主分类：** C4-24 Cost-Billing-Pricing题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 预算阈值告警；
+
 **社区投票：** A 67%, C 33%
 
 ### Q706.1-题干怎么拆

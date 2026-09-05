@@ -5,9 +5,10 @@
 本文件共收录 **10** 道主分类题。范围：KMS、Secrets Manager、ACM、Encryption、Credential。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q72-KMS-Secrets-加密与凭证题
 
-**题目：** A company wants to establish a schedule for rotating database user credentials. Which AWS service will support this requirement with the LEAST amount of operational overhead?
+**题目：** A company wants to establish a schedule for rotating database user credentials. Which AWS service will support this requirement with the LEAST amount of operational overhead?；
 
 **选项：**
 
@@ -16,8 +17,10 @@
 - C. AWS License Manager
 - D. AWS Managed Services
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `B`
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q72.1-题干怎么拆
@@ -41,7 +44,7 @@
 
 ## Q74-KMS-Secrets-加密与凭证题
 
-**题目：** Which AWS service is used to provide encryption for Amazon EBS?
+**题目：** Which AWS service is used to provide encryption for Amazon EBS?；
 
 **选项：**
 
@@ -50,9 +53,12 @@
 - C. AWS KMS
 - D. AWS Config
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `C`
-**需求/考点标签：** Encryption / Block Storage
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Encryption / Block Storage；
+
 **社区投票：** C 100%
 
 ### Q74.1-题干怎么拆
@@ -85,8 +91,10 @@
 - C. AWS Secrets Manager
 - D. Server-side encryption
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `C`
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q158.1-题干怎么拆
@@ -110,7 +118,7 @@
 
 ## Q217-KMS-Secrets-加密与凭证题
 
-**题目：** Which AWS service can a company use to securely store and encrypt passwords for a database?
+**题目：** Which AWS service can a company use to securely store and encrypt passwords for a database?；
 
 **选项：**
 
@@ -119,9 +127,12 @@
 - C. AWS Identity and Access Management (IAM)
 - D. Amazon Cognito
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `B`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** B 100%
 
 ### Q217.1-题干怎么拆
@@ -145,7 +156,7 @@
 
 ## Q418-KMS-Secrets-加密与凭证题
 
-**题目：** Which AWS service can a company use to manage encryption keys in the cloud?
+**题目：** Which AWS service can a company use to manage encryption keys in the cloud?；
 
 **选项：**
 
@@ -154,9 +165,12 @@
 - C. AWS CloudHSM
 - D. AWS Directory Service
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `C`
-**需求/考点标签：** Encryption
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Encryption；
+
 **社区投票：** C 100%
 
 ### Q418.1-题干怎么拆
@@ -180,7 +194,7 @@
 
 ## Q423-KMS-Secrets-加密与凭证题
 
-**题目：** Which AWS service or feature allows users to securely store encrypted credentials and retrieve these credentials when required?
+**题目：** Which AWS service or feature allows users to securely store encrypted credentials and retrieve these credentials when required?；
 
 **选项：**
 
@@ -189,9 +203,12 @@
 - C. AWS Secrets Manager
 - D. AWS Artifact
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `C`
-**需求/考点标签：** Encryption
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Encryption；
+
 **社区投票：** C 100%
 
 ### Q423.1-题干怎么拆
@@ -215,7 +232,7 @@
 
 ## Q449-KMS-Secrets-加密与凭证题
 
-**题目：** Which AWS service can a company use to manage encryption keys in the cloud?
+**题目：** Which AWS service can a company use to manage encryption keys in the cloud?；
 
 **选项：**
 
@@ -224,9 +241,12 @@
 - C. AWS CloudHSM
 - D. AWS Directory Service
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `C`
-**需求/考点标签：** Encryption
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Encryption；
+
 **社区投票：** C 100%
 
 ### Q449.1-题干怎么拆
@@ -250,7 +270,7 @@
 
 ## Q526-KMS-Secrets-加密与凭证题
 
-**题目：** What is the MOST secure way to store passwords on AWS?
+**题目：** What is the MOST secure way to store passwords on AWS?；
 
 **选项：**
 
@@ -259,9 +279,12 @@
 - C. Store passwords in AWS Storage Gateway.
 - D. Store passwords in AWS Secrets Manager.
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `D`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** D 100%
 
 ### Q526.1-题干怎么拆
@@ -285,7 +308,7 @@
 
 ## Q623-KMS-Secrets-加密与凭证题
 
-**题目：** A company wants to securely store Amazon RDS database credentials and automatically rotate user passwords periodically. Which AWS service or capability will meet these requirements?
+**题目：** A company wants to securely store Amazon RDS database credentials and automatically rotate user passwords periodically. Which AWS service or capability will meet these requirements?；
 
 **选项：**
 
@@ -294,8 +317,10 @@
 - C. AWS Secrets Manager
 - D. AWS CloudTrail
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `C`
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `C`；
+
 **需求/考点标签：** 关系数据库高可用
 
 ### Q623.1-题干怎么拆
@@ -319,7 +344,7 @@
 
 ## Q636-KMS-Secrets-加密与凭证题
 
-**题目：** Which AWS service integrates with other AWS services to provide the ability to encrypt data at rest?
+**题目：** Which AWS service integrates with other AWS services to provide the ability to encrypt data at rest?；
 
 **选项：**
 
@@ -328,9 +353,12 @@
 - C. AWS Identity and Access Management (IAM)
 - D. AWS Security Hub
 
-**主分类：** C4-16 KMS-Secrets-加密与凭证题
-**题库记录答案：** `A`
-**需求/考点标签：** Encryption
+**主分类：** C4-16 KMS-Secrets-加密与凭证题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Encryption；
+
 **社区投票：** A 100%
 
 ### Q636.1-题干怎么拆

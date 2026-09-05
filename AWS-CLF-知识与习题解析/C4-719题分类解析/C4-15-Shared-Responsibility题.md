@@ -5,9 +5,10 @@
 本文件共收录 **40** 道主分类题。范围：AWS Shared Responsibility Model 与不同服务的责任边界。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q5-Shared-Responsibility题
 
-**题目：** Which option is a customer responsibility when using Amazon DynamoDB under the AWS Shared Responsibility Model?
+**题目：** Which option is a customer responsibility when using Amazon DynamoDB under the AWS Shared Responsibility Model?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. Access to DynamoDB tables
 - D. Encryption of data at rest in DynamoDB
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** C 88%, Other 12%
 
 ### Q5.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q29-Shared-Responsibility题
 
-**题目：** Which tasks are customer responsibilities, according to the AWS shared responsibility model? (Choose two.)
+**题目：** Which tasks are customer responsibilities, according to the AWS shared responsibility model? (Choose two.)；
 
 **选项：**
 
@@ -52,9 +56,12 @@
 - D. Patch or upgrade Amazon DynamoDB.
 - E. Select Amazon EC2 instances to run AWS Lambda on.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `AB`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `AB`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** AB 92%, Other 8%
 
 ### Q29.1-题干怎么拆
@@ -79,7 +86,7 @@
 
 ## Q42-Shared-Responsibility题
 
-**题目：** What is a customer responsibility when using AWS Lambda according to the AWS shared responsibility model?
+**题目：** What is a customer responsibility when using AWS Lambda according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -88,9 +95,12 @@
 - C. Patching the operating system
 - D. Shutting down Lambda functions when they are no longer in use
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `A`
-**需求/考点标签：** Shared Responsibility / Serverless
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Shared Responsibility / Serverless；
+
 **社区投票：** A 100%
 
 ### Q42.1-题干怎么拆
@@ -114,7 +124,7 @@
 
 ## Q56-Shared-Responsibility题
 
-**题目：** A company is using Amazon DynamoDB. Which task is the company’s responsibility, according to the AWS shared responsibility model?
+**题目：** A company is using Amazon DynamoDB. Which task is the company’s responsibility, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -123,9 +133,12 @@
 - C. Manage database access permissions.
 - D. Secure the operating system.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** C 100%
 
 ### Q56.1-题干怎么拆
@@ -149,7 +162,7 @@
 
 ## Q79-Shared-Responsibility题
 
-**题目：** Which task is the customer’s responsibility, according to the AWS shared responsibility model?
+**题目：** Which task is the customer’s responsibility, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -158,9 +171,12 @@
 - C. Patch the operating system of Amazon RDS instances.
 - D. Implement physical and environmental controls.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `B`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** B 100%
 
 ### Q79.1-题干怎么拆
@@ -184,7 +200,7 @@
 
 ## Q105-Shared-Responsibility题
 
-**题目：** Which tasks are the customer’s responsibility, according to the AWS shared responsibility model? (Choose two.)
+**题目：** Which tasks are the customer’s responsibility, according to the AWS shared responsibility model? (Choose two.)；
 
 **选项：**
 
@@ -194,9 +210,12 @@
 - D. Secure edge locations.
 - E. Patch Amazon RDS DB instances.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `BC`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `BC`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** BC 100%
 
 ### Q105.1-题干怎么拆
@@ -221,7 +240,7 @@
 
 ## Q130-Shared-Responsibility题
 
-**题目：** Which option is a shared responsibility between AWS and its customers under the AWS shared responsibility model?
+**题目：** Which option is a shared responsibility between AWS and its customers under the AWS shared responsibility model?；
 
 **选项：**
 
@@ -230,9 +249,12 @@
 - C. Patch management
 - D. Security of the physical infrastructure
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** C 100%
 
 ### Q130.1-题干怎么拆
@@ -256,7 +278,7 @@
 
 ## Q132-Shared-Responsibility题
 
-**题目：** Which task is a responsibility of AWS, according to the AWS shared responsibility model?
+**题目：** Which task is a responsibility of AWS, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -265,9 +287,12 @@
 - C. Patch the guest operating system on an Amazon EC2 instance.
 - D. Apply updates to the Nitro Hypervisor.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** D 100%
 
 ### Q132.1-题干怎么拆
@@ -296,7 +321,7 @@
 
 ## Q146-Shared-Responsibility题
 
-**题目：** Which option is a customer responsibility under the AWS shared responsibility model?
+**题目：** Which option is a customer responsibility under the AWS shared responsibility model?；
 
 **选项：**
 
@@ -305,9 +330,12 @@
 - C. Physical security of data centers
 - D. Maintenance of VPC components
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `B`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** B 100%
 
 ### Q146.1-题干怎么拆
@@ -331,7 +359,7 @@
 
 ## Q156-Shared-Responsibility题
 
-**题目：** Which task is a customer’s responsibility, according to the AWS shared responsibility model?
+**题目：** Which task is a customer’s responsibility, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -340,9 +368,12 @@
 - C. Management of the host operating systems and virtualization
 - D. Maintenance of the software that powers Availability Zones
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `A`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** A 100%
 
 ### Q156.1-题干怎么拆
@@ -366,7 +397,7 @@
 
 ## Q163-Shared-Responsibility题
 
-**题目：** A company needs to transfer data between an Amazon S3 bucket and an on-premises application. Who is responsible for the security of this data, according to the AWS shared responsibility model?
+**题目：** A company needs to transfer data between an Amazon S3 bucket and an on-premises application. Who is responsible for the security of this data, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -375,9 +406,12 @@
 - C. Firewall vendor
 - D. AWS Marketplace partner
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `A`
-**需求/考点标签：** Shared Responsibility / Object Storage / Hybrid Cloud
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Shared Responsibility / Object Storage / Hybrid Cloud；
+
 **社区投票：** A 86%, B 14%
 
 ### Q163.1-题干怎么拆
@@ -401,7 +435,7 @@
 
 ## Q173-Shared-Responsibility题
 
-**题目：** What is the customer ALWAYS responsible for managing, according to the AWS shared responsibility model?
+**题目：** What is the customer ALWAYS responsible for managing, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -410,9 +444,12 @@
 - C. Customer data
 - D. Encryption keys
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** C 100%
 
 ### Q173.1-题干怎么拆
@@ -436,7 +473,7 @@
 
 ## Q198-Shared-Responsibility题
 
-**题目：** Which task is a responsibility of AWS, according to the AWS shared responsibility model?
+**题目：** Which task is a responsibility of AWS, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -445,9 +482,12 @@
 - C. Configure security groups for Amazon EC2 instances.
 - D. Maintain the physical hardware of the infrastructure.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** D 90%, B 10%
 
 ### Q198.1-题干怎么拆
@@ -471,7 +511,7 @@
 
 ## Q200-Shared-Responsibility题
 
-**题目：** Which actions are the responsibility of AWS, according to the AWS shared responsibility model? (Choose two.)
+**题目：** Which actions are the responsibility of AWS, according to the AWS shared responsibility model? (Choose two.)；
 
 **选项：**
 
@@ -481,9 +521,12 @@
 - D. Patching the operating system on Amazon RDS instances
 - E. Configuring security groups and network ACLs
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `AD`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `AD`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** AD 85%, AE 15%
 
 ### Q200.1-题干怎么拆
@@ -508,7 +551,7 @@
 
 ## Q239-Shared-Responsibility题
 
-**题目：** A company has deployed an Amazon EC2 instance. Which option is an AWS responsibility under the AWS shared responsibility model?
+**题目：** A company has deployed an Amazon EC2 instance. Which option is an AWS responsibility under the AWS shared responsibility model?；
 
 **选项：**
 
@@ -517,9 +560,12 @@
 - C. Configuration of infrastructure devices
 - D. Configuration of security groups on each instance
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** C 88%, B 12%
 
 ### Q239.1-题干怎么拆
@@ -543,7 +589,7 @@
 
 ## Q241-Shared-Responsibility题
 
-**题目：** A company is using Amazon DynamoDB for its application database. Which tasks are the responsibility of AWS, according to the AWS shared responsibility model? (Choose two.)
+**题目：** A company is using Amazon DynamoDB for its application database. Which tasks are the responsibility of AWS, according to the AWS shared responsibility model? (Choose two.)；
 
 **选项：**
 
@@ -553,9 +599,12 @@
 - D. Provide public endpoints to store and retrieve data.
 - E. Manage the infrastructure layer and the operating system.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `DE`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `DE`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** DE 100%
 
 ### Q241.1-题干怎么拆
@@ -580,7 +629,7 @@
 
 ## Q243-Shared-Responsibility题
 
-**题目：** Which maintenance task is the customer’s responsibility, according to the AWS shared responsibility model?
+**题目：** Which maintenance task is the customer’s responsibility, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -589,9 +638,12 @@
 - C. Hardware updates and firmware patches
 - D. Amazon EC2 updates and security patches
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** D 100%
 
 ### Q243.1-题干怎么拆
@@ -615,7 +667,7 @@
 
 ## Q249-Shared-Responsibility题
 
-**题目：** Which option is a shared control between AWS and the customer, according to the AWS shared responsibility model?
+**题目：** Which option is a shared control between AWS and the customer, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -624,9 +676,12 @@
 - C. Data integrity authentication
 - D. Identity and access management
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `A`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** A 100%
 
 ### Q249.1-题干怎么拆
@@ -655,7 +710,7 @@
 
 ## Q282-Shared-Responsibility题
 
-**题目：** Which of the following is the customer's responsibility under the AWS shared responsibility model? (Choose two.)
+**题目：** Which of the following is the customer's responsibility under the AWS shared responsibility model? (Choose two.)；
 
 **选项：**
 
@@ -665,9 +720,12 @@
 - D. Manage decisions involving encryption options.
 - E. Maintain infrastructure hardware.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `CD`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `CD`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** CD 100%
 
 ### Q282.1-题干怎么拆
@@ -692,7 +750,7 @@
 
 ## Q293-Shared-Responsibility题
 
-**题目：** According to the AWS shared responsibility model, the customer is responsible for applying the latest security updates and patches for which of the following?
+**题目：** According to the AWS shared responsibility model, the customer is responsible for applying the latest security updates and patches for which of the following?；
 
 **选项：**
 
@@ -701,9 +759,12 @@
 - C. Amazon RDS instances
 - D. Amazon S3
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `B`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** B 100%
 
 ### Q293.1-题干怎么拆
@@ -727,7 +788,7 @@
 
 ## Q297-Shared-Responsibility题
 
-**题目：** Who is responsible for managing IAM user access and secret keys according to the AWS shared responsibility model?
+**题目：** Who is responsible for managing IAM user access and secret keys according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -736,9 +797,12 @@
 - C. AWS will rotate the keys whenever required.
 - D. The AWS Support team will rotate keys when requested by the customer.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `B`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** B 100%
 
 ### Q297.1-题干怎么拆
@@ -762,7 +826,7 @@
 
 ## Q300-Shared-Responsibility题
 
-**题目：** Which of the following is entirely the responsibility of AWS, according to the AWS shared responsibility model?
+**题目：** Which of the following is entirely the responsibility of AWS, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -771,9 +835,12 @@
 - C. Patching of the guest operating system
 - D. Physical and environmental controls
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** D 100%
 
 ### Q300.1-题干怎么拆
@@ -797,7 +864,7 @@
 
 ## Q334-Shared-Responsibility题
 
-**题目：** Which task is a responsibility of AWS, according to the AWS shared responsibility model?
+**题目：** Which task is a responsibility of AWS, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -806,9 +873,12 @@
 - C. Protection of physical network infrastructure
 - D. Configuration of firewalls
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** C 100%
 
 ### Q334.1-题干怎么拆
@@ -832,7 +902,7 @@
 
 ## Q384-Shared-Responsibility题
 
-**题目：** Which option is a responsibility of AWS under the AWS shared responsibility model?
+**题目：** Which option is a responsibility of AWS under the AWS shared responsibility model?；
 
 **选项：**
 
@@ -841,9 +911,12 @@
 - C. Patch management of the underlying infrastructure for managed services
 - D. Application identity and access management
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** C 100%
 
 ### Q384.1-题干怎么拆
@@ -867,7 +940,7 @@
 
 ## Q434-Shared-Responsibility题
 
-**题目：** A company wants to build an application that uses AWS Lambda to run Python code. Under the AWS shared responsibility model, which tasks will be the company’s responsibility? (Choose two.)
+**题目：** A company wants to build an application that uses AWS Lambda to run Python code. Under the AWS shared responsibility model, which tasks will be the company’s responsibility? (Choose two.)；
 
 **选项：**
 
@@ -877,9 +950,12 @@
 - D. Installation of the computer language runtime.
 - E. Providing AWS Identity and Access Management (IAM) access to the Lambda service.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `CE`
-**需求/考点标签：** Shared Responsibility / Serverless
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `CE`；
+
+**需求/考点标签：** Shared Responsibility / Serverless；
+
 **社区投票：** CE 100%
 
 ### Q434.1-题干怎么拆
@@ -904,7 +980,7 @@
 
 ## Q437-Shared-Responsibility题
 
-**题目：** What does "security of the cloud” refer to in the AWS shared responsibility model?
+**题目：** What does "security of the cloud” refer to in the AWS shared responsibility model?；
 
 **选项：**
 
@@ -913,9 +989,12 @@
 - C. Implementation of password policies for IAM users
 - D. Security of customer environments by using AWS Network Firewall partners
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `B`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** B 100%
 
 ### Q437.1-题干怎么拆
@@ -939,7 +1018,7 @@
 
 ## Q475-Shared-Responsibility题
 
-**题目：** A company uses Amazon WorkSpaces. Which task is the responsibility of AWS, according to the AWS shared responsibility model?
+**题目：** A company uses Amazon WorkSpaces. Which task is the responsibility of AWS, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -948,9 +1027,12 @@
 - C. Provide security for WorkSpaces user accounts through AWS Identity and Access Management (IAM).
 - D. Configure AWS CloudTrail to log API calls and user activity.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `B`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** B 100%
 
 ### Q475.1-题干怎么拆
@@ -974,7 +1056,7 @@
 
 ## Q483-Shared-Responsibility题
 
-**题目：** Which option is AWS responsible for under the AWS shared responsibility model?
+**题目：** Which option is AWS responsible for under the AWS shared responsibility model?；
 
 **选项：**
 
@@ -983,9 +1065,12 @@
 - C. Management of user permissions
 - D. Hardware and infrastructure
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** D 100%
 
 ### Q483.1-题干怎么拆
@@ -1009,7 +1094,7 @@
 
 ## Q497-Shared-Responsibility题
 
-**题目：** According to the AWS shared responsibility model, which task is the customer's responsibility?
+**题目：** According to the AWS shared responsibility model, which task is the customer's responsibility?；
 
 **选项：**
 
@@ -1018,9 +1103,12 @@
 - C. Maintaining Amazon S3 infrastructure
 - D. Updating the guest operating system on Amazon EC2 instances
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** D 100%
 
 ### Q497.1-题干怎么拆
@@ -1054,9 +1142,12 @@
 - D. Install the physical hardware and cabling.
 - E. Provide physical security for the EC2 instances.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `BC`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `BC`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** BC 100%
 
 ### Q498.1-题干怎么拆
@@ -1081,7 +1172,7 @@
 
 ## Q511-Shared-Responsibility题
 
-**题目：** Which task is the responsibility of the customer, according to the AWS shared responsibility model?
+**题目：** Which task is the responsibility of the customer, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -1090,9 +1181,12 @@
 - C. Protect the hardware that runs AWS services.
 - D. Use AWS Identity and Access Management (IAM) according to the principle of least privilege.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** D 100%
 
 ### Q511.1-题干怎么拆
@@ -1116,7 +1210,7 @@
 
 ## Q535-Shared-Responsibility题
 
-**题目：** Which task is the customer's responsibility, according to the AWS shared responsibility model?
+**题目：** Which task is the customer's responsibility, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -1125,9 +1219,12 @@
 - C. Control access to AWS underlying hardware.
 - D. Patch a host operating system that is deployed on Amazon S3.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `A`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** A 100%
 
 ### Q535.1-题干怎么拆
@@ -1151,7 +1248,7 @@
 
 ## Q544-Shared-Responsibility题
 
-**题目：** According to the AWS shared responsibility model, which of the following are AWS responsibilities? (Choose two.)
+**题目：** According to the AWS shared responsibility model, which of the following are AWS responsibilities? (Choose two.)；
 
 **选项：**
 
@@ -1161,9 +1258,12 @@
 - D. Physical security of hardware
 - E. Credentials and policies
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `AD`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `AD`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** AD 100%
 
 ### Q544.1-题干怎么拆
@@ -1197,9 +1297,12 @@
 - C. AWS Marketplace partners
 - D. Third-party partners
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `B`
-**需求/考点标签：** Shared Responsibility / Encryption / Relational Database
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Shared Responsibility / Encryption / Relational Database；
+
 **社区投票：** B 86%, A 14%
 
 ### Q545.1-题干怎么拆
@@ -1223,7 +1326,7 @@
 
 ## Q592-Shared-Responsibility题
 
-**题目：** Which task is the responsibility of AWS, according to the AWS shared responsibility model?
+**题目：** Which task is the responsibility of AWS, according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -1232,9 +1335,12 @@
 - C. Perform automated backups of Amazon RDS instances.
 - D. Optimize the costs of running AWS services.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** C 100%
 
 ### Q592.1-题干怎么拆
@@ -1258,7 +1364,7 @@
 
 ## Q609-Shared-Responsibility题
 
-**题目：** What is a customer responsibility under the AWS shared responsibility model when using AWS Lambda?
+**题目：** What is a customer responsibility under the AWS shared responsibility model when using AWS Lambda?；
 
 **选项：**
 
@@ -1267,9 +1373,12 @@
 - C. The code and libraries that run in the Lambda functions.
 - D. The Lambda server software.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility / Serverless
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility / Serverless；
+
 **社区投票：** C 100%
 
 ### Q609.1-题干怎么拆
@@ -1293,7 +1402,7 @@
 
 ## Q610-Shared-Responsibility题
 
-**题目：** Which tasks are the responsibility of AWS according to the AWS shared responsibility model? (Choose two.)
+**题目：** Which tasks are the responsibility of AWS according to the AWS shared responsibility model? (Choose two.)；
 
 **选项：**
 
@@ -1303,9 +1412,12 @@
 - D. Patch applications that run on Amazon EC2 instances.
 - E. Perform infrastructure patching and maintenance.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `CE`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `CE`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** CE 100%
 
 ### Q610.1-题干怎么拆
@@ -1330,7 +1442,7 @@
 
 ## Q627-Shared-Responsibility题
 
-**题目：** Which tasks are responsibilities of the customer, according to the AWS shared responsibility model? (Choose two.)
+**题目：** Which tasks are responsibilities of the customer, according to the AWS shared responsibility model? (Choose two.)；
 
 **选项：**
 
@@ -1340,9 +1452,12 @@
 - D. Maintain identity and access management controls.
 - E. Secure Availability Zones.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `BD`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `BD`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** BD 100%
 
 ### Q627.1-题干怎么拆
@@ -1367,7 +1482,7 @@
 
 ## Q631-Shared-Responsibility题
 
-**题目：** Under the AWS shared responsibility model, which of the following is a responsibility of the customer?
+**题目：** Under the AWS shared responsibility model, which of the following is a responsibility of the customer?；
 
 **选项：**
 
@@ -1376,9 +1491,12 @@
 - C. Patch the guest operating system with the latest security patches.
 - D. Maintain security systems that provide physical monitoring of data centers.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `C`
-**需求/考点标签：** Shared Responsibility
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Shared Responsibility；
+
 **社区投票：** C 100%
 
 ### Q631.1-题干怎么拆
@@ -1402,7 +1520,7 @@
 
 ## Q648-Shared-Responsibility题
 
-**题目：** Which of the following is a customer responsibility according to the AWS shared responsibility model?
+**题目：** Which of the following is a customer responsibility according to the AWS shared responsibility model?；
 
 **选项：**
 
@@ -1411,8 +1529,10 @@
 - C. Install operating system updates on Lambda@Edge.
 - D. Implement multi-factor authentication (MFA) for IAM user accounts.
 
-**主分类：** C4-15 Shared-Responsibility题
-**题库记录答案：** `D`
+**主分类：** C4-15 Shared-Responsibility题；
+
+**题库记录答案：** `D`；
+
 **需求/考点标签：** Shared Responsibility
 
 ### Q648.1-题干怎么拆

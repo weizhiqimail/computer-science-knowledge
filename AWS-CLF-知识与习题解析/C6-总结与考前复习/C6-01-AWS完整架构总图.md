@@ -30,7 +30,6 @@ Security: IAM/KMS/Secrets/WAF/GuardDuty/Inspector/Macie
 Operations: CloudWatch/CloudTrail/Config/SystemsManager/CloudFormation
 Governance/Cost: Organizations/ControlTower/CostExplorer/Budgets
 ```
-
 ## 1-读图方法
 
 从上到下是用户请求与数据链路；横向能力不是“旁枝”，而是每一层都依赖的身份、安全、监控、治理与成本控制。

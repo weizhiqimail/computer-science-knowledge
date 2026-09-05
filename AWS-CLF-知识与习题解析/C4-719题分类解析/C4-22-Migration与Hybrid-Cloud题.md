@@ -5,6 +5,7 @@
 本文件共收录 **42** 道主分类题。范围：Discovery、MGN、DMS、DataSync、Migration Hub、Outposts、Hybrid。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q15-Migration与Hybrid-Cloud题
 
 **题目：** A global company wants to migrate its third-party applications to the AWS Cloud. The company wants help from a global team of experts to complete the migration faster and more reliably in accordance with AWS internal best practices. Which AWS service or resource will meet these requirements?
@@ -16,9 +17,12 @@
 - C. AWS Launch Wizard
 - D. AWS Managed Services (AMS)
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `B`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** B 100%
 
 ### Q15.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q38-Migration与Hybrid-Cloud题
 
-**题目：** An ecommerce company has migrated its IT infrastructure from an on-premises data center to the AWS Cloud. Which cost is the company’s direct responsibility?
+**题目：** An ecommerce company has migrated its IT infrastructure from an on-premises data center to the AWS Cloud. Which cost is the company’s direct responsibility?；
 
 **选项：**
 
@@ -51,9 +55,12 @@
 - C. Cost of power for the AWS servers
 - D. Cost of physical security for the AWS data center
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** A 100%
 
 ### Q38.1-题干怎么拆
@@ -86,9 +93,12 @@
 - C. AWS Regions
 - D. AWS Direct Connect
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q47.1-题干怎么拆
@@ -117,7 +127,7 @@
 
 ## Q62-Migration与Hybrid-Cloud题
 
-**题目：** Which AWS service supports a hybrid architecture that gives users the ability to extend AWS infrastructure, AWS services, APIs, and tools to data centers, co-location environments, or on-premises facilities?
+**题目：** Which AWS service supports a hybrid architecture that gives users the ability to extend AWS infrastructure, AWS services, APIs, and tools to data centers, co-location environments, or on-premises facilities?；
 
 **选项：**
 
@@ -126,9 +136,12 @@
 - C. AWS Outposts
 - D. AWS Fargate
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 100%
 
 ### Q62.1-题干怎么拆
@@ -162,9 +175,12 @@
 - D. AWS Config
 - E. Multiple AWS accounts
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `BE`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `BE`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** BE 100%
 
 ### Q131.1-题干怎么拆
@@ -198,9 +214,12 @@
 - C. AWS Application Discovery Service
 - D. AWS Database Migration Service (AWS DMS)
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** C 100%
 
 ### Q176.1-题干怎么拆
@@ -224,7 +243,7 @@
 
 ## Q224-Migration与Hybrid-Cloud题
 
-**题目：** A company wants a customized assessment of its current on-premises environment. The company wants to understand its projected running costs in the AWS Cloud. Which AWS service or tool will meet these requirements?
+**题目：** A company wants a customized assessment of its current on-premises environment. The company wants to understand its projected running costs in the AWS Cloud. Which AWS service or tool will meet these requirements?；
 
 **选项：**
 
@@ -233,9 +252,12 @@
 - C. AWS Control Tower
 - D. Migration Evaluator
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** D 100%
 
 ### Q224.1-题干怎么拆
@@ -259,7 +281,7 @@
 
 ## Q227-Migration与Hybrid-Cloud题
 
-**题目：** A company needs to migrate a PostgreSQL database from on-premises to Amazon RDS. Which AWS service or tool should the company use to meet this requirement?
+**题目：** A company needs to migrate a PostgreSQL database from on-premises to Amazon RDS. Which AWS service or tool should the company use to meet this requirement?；
 
 **选项：**
 
@@ -268,9 +290,12 @@
 - C. AWS Database Migration Service (AWS DMS)
 - D. AWS Application Migration Service
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q227.1-题干怎么拆
@@ -294,7 +319,7 @@
 
 ## Q252-Migration与Hybrid-Cloud题
 
-**题目：** A company has migrated its workloads to AWS. The company wants to adopt AWS at scale and operate more efficiently and securely. Which AWS service or framework should the company use for operational support?
+**题目：** A company has migrated its workloads to AWS. The company wants to adopt AWS at scale and operate more efficiently and securely. Which AWS service or framework should the company use for operational support?；
 
 **选项：**
 
@@ -303,9 +328,12 @@
 - C. AWS Managed Services (AMS)
 - D. AWS Well-Architected Framework
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** C 81%, Other 19%
 
 ### Q252.1-题干怎么拆
@@ -338,9 +366,12 @@
 - C. AWS Systems Manager Agent (SSM Agent)
 - D. Migration Evaluator
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** D 100%
 
 ### Q259.1-题干怎么拆
@@ -369,7 +400,7 @@
 
 ## Q304-Migration与Hybrid-Cloud题
 
-**题目：** A company wants to migrate unstructured data to AWS. The data needs to be securely moved with inflight encryption and end- to-end data validation. Which AWS service will meet these requirements?
+**题目：** A company wants to migrate unstructured data to AWS. The data needs to be securely moved with inflight encryption and end- to-end data validation. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -378,9 +409,12 @@
 - C. AWS DataSync
 - D. AWS Migration Hub
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Encryption / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Encryption / Migration；
+
 **社区投票：** C 100%
 
 ### Q304.1-题干怎么拆
@@ -404,7 +438,7 @@
 
 ## Q307-Migration与Hybrid-Cloud题
 
-**题目：** Which AWS Cloud deployment model uses AWS Outposts as part of the application deployment infrastructure?
+**题目：** Which AWS Cloud deployment model uses AWS Outposts as part of the application deployment infrastructure?；
 
 **选项：**
 
@@ -413,9 +447,12 @@
 - C. Cloud-native
 - D. Hybrid
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** D 93%, A 7%
 
 ### Q307.1-题干怎么拆
@@ -439,7 +476,7 @@
 
 ## Q316-Migration与Hybrid-Cloud题
 
-**题目：** A company wants to move its on-premises databases to managed cloud database services by using a simplified migration process. Which AWS service or tool can help the company meet this requirement?
+**题目：** A company wants to move its on-premises databases to managed cloud database services by using a simplified migration process. Which AWS service or tool can help the company meet this requirement?；
 
 **选项：**
 
@@ -448,9 +485,12 @@
 - C. AWS DataSync
 - D. AWS Database Migration Service (AWS DMS)
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** D 100%
 
 ### Q316.1-题干怎么拆
@@ -474,7 +514,7 @@
 
 ## Q345-Migration与Hybrid-Cloud题
 
-**题目：** Which AWS service provides a single location to track the progress of application migrations?
+**题目：** Which AWS service provides a single location to track the progress of application migrations?；
 
 **选项：**
 
@@ -483,9 +523,12 @@
 - C. AWS Service Catalog
 - D. AWS Migration Hub
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** D 100%
 
 ### Q345.1-题干怎么拆
@@ -518,9 +561,12 @@
 - C. Scale
 - D. Launch
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** A 92%, B 8%
 
 ### Q351.1-题干怎么拆
@@ -553,9 +599,12 @@
 - C. AWS Outposts
 - D. AWS Wavelength Zones
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 100%
 
 ### Q360.1-题干怎么拆
@@ -584,7 +633,7 @@
 
 ## Q375-Migration与Hybrid-Cloud题
 
-**题目：** Which AWS service will help a company plan a migration to AWS by collecting the configuration, usage, and behavior data of on-premises data centers?
+**题目：** Which AWS service will help a company plan a migration to AWS by collecting the configuration, usage, and behavior data of on-premises data centers?；
 
 **选项：**
 
@@ -593,9 +642,12 @@
 - C. AWS Service Catalog
 - D. AWS Systems Manager
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud / Migration / Configuration Compliance
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud / Migration / Configuration Compliance；
+
 **社区投票：** B 100%
 
 ### Q375.1-题干怎么拆
@@ -619,7 +671,7 @@
 
 ## Q389-Migration与Hybrid-Cloud题
 
-**题目：** A company wants to migrate its on-premises NoSQL workload to Amazon DynamoDB. Which AWS service will meet this requirement?
+**题目：** A company wants to migrate its on-premises NoSQL workload to Amazon DynamoDB. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -628,9 +680,12 @@
 - C. Migration Evaluator
 - D. AWS Application Migration Service
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `B`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** B 100%
 
 ### Q389.1-题干怎么拆
@@ -654,7 +709,7 @@
 
 ## Q395-Migration与Hybrid-Cloud题
 
-**题目：** Which complimentary AWS service or tool creates data-driven business cases for cloud planning?
+**题目：** Which complimentary AWS service or tool creates data-driven business cases for cloud planning?；
 
 **选项：**
 
@@ -663,8 +718,10 @@
 - C. AWS Billing Console
 - D. Amazon Forecast
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q395.1-题干怎么拆
@@ -688,7 +745,7 @@
 
 ## Q402-Migration与Hybrid-Cloud题
 
-**题目：** Which AWS service can migrate data between AWS storage services?
+**题目：** Which AWS service can migrate data between AWS storage services?；
 
 **选项：**
 
@@ -697,9 +754,12 @@
 - C. AWS Lake Formation
 - D. Amazon S3
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** A 100%
 
 ### Q402.1-题干怎么拆
@@ -723,7 +783,7 @@
 
 ## Q455-Migration与Hybrid-Cloud题
 
-**题目：** A user is moving a workload from a local data center to an architecture that is distributed between the local data center and the AWS Cloud. Which type of migration is this?
+**题目：** A user is moving a workload from a local data center to an architecture that is distributed between the local data center and the AWS Cloud. Which type of migration is this?；
 
 **选项：**
 
@@ -732,9 +792,12 @@
 - C. On-premises to hybrid
 - D. Cloud native to hybrid
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** C 86%, B 14%
 
 ### Q455.1-题干怎么拆
@@ -767,9 +830,12 @@
 - C. AWS Ground Station
 - D. AWS Outposts
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** D 100%
 
 ### Q459.1-题干怎么拆
@@ -807,9 +873,12 @@
 - C. AWS Direct Connect
 - D. Amazon Connect
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud / Migration / AI/ML
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud / Migration / AI/ML；
+
 **社区投票：** D 100%
 
 ### Q460.1-题干怎么拆
@@ -838,7 +907,7 @@
 
 ## Q478-Migration与Hybrid-Cloud题
 
-**题目：** Which combination of AWS services can be used to move a commercial relational database to an Amazon-managed open- source database? (Choose two.)
+**题目：** Which combination of AWS services can be used to move a commercial relational database to an Amazon-managed open- source database? (Choose two.)；
 
 **选项：**
 
@@ -848,9 +917,12 @@
 - D. AWS Systems Manager
 - E. Amazon EMR
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `AC`
-**需求/考点标签：** Relational Database
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `AC`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** AC 100%
 
 ### Q478.1-题干怎么拆
@@ -875,7 +947,7 @@
 
 ## Q480-Migration与Hybrid-Cloud题
 
-**题目：** A company runs a legacy workload in an on-premises data center. The company wants to migrate the workload to AWS. The company does not want to make any changes to the workload. Which migration strategy should the company use?
+**题目：** A company runs a legacy workload in an on-premises data center. The company wants to migrate the workload to AWS. The company does not want to make any changes to the workload. Which migration strategy should the company use?；
 
 **选项：**
 
@@ -884,9 +956,12 @@
 - C. Rehost
 - D. Refactor
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** C 100%
 
 ### Q480.1-题干怎么拆
@@ -920,9 +995,12 @@
 - D. Replatform
 - E. Refactor
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `BC`
-**需求/考点标签：** Migration / Audit Trail
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `BC`；
+
+**需求/考点标签：** Migration / Audit Trail；
+
 **社区投票：** BC 32%, CD 25%, AC 21%, Other 22%
 
 ### Q481.1-题干怎么拆
@@ -953,7 +1031,7 @@
 
 ## Q499-Migration与Hybrid-Cloud题
 
-**题目：** A company runs MySQL database workloads on self-managed servers in an on-premises data center. The company wants to migrate the database workloads to an AWS managed service. Which migration strategy should the company use?
+**题目：** A company runs MySQL database workloads on self-managed servers in an on-premises data center. The company wants to migrate the database workloads to an AWS managed service. Which migration strategy should the company use?；
 
 **选项：**
 
@@ -962,9 +1040,12 @@
 - C. Refactor
 - D. Replatform
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Relational Database / Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Relational Database / Hybrid Cloud / Migration；
+
 **社区投票：** D 100%
 
 ### Q499.1-题干怎么拆
@@ -997,9 +1078,12 @@
 - C. Replatform
 - D. Refactor
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** D 100%
 
 ### Q500.1-题干怎么拆
@@ -1023,7 +1107,7 @@
 
 ## Q568-Migration与Hybrid-Cloud题
 
-**题目：** A company migrated to the AWS Cloud. Now the company pays for services on an as-needed basis. Which advantage of cloud computing is the company benefiting from?
+**题目：** A company migrated to the AWS Cloud. Now the company pays for services on an as-needed basis. Which advantage of cloud computing is the company benefiting from?；
 
 **选项：**
 
@@ -1032,9 +1116,12 @@
 - C. Go global in minutes
 - D. Trade fixed expense for variable expense
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** D 100%
 
 ### Q568.1-题干怎么拆
@@ -1058,7 +1145,7 @@
 
 ## Q576-Migration与Hybrid-Cloud题
 
-**题目：** Which AWS service helps users plan and track their server and application inventory migration data to AWS?
+**题目：** Which AWS service helps users plan and track their server and application inventory migration data to AWS?；
 
 **选项：**
 
@@ -1067,9 +1154,12 @@
 - C. AWS Migration Hub
 - D. AWS Application Migration Service
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** C 75%, D 25%
 
 ### Q576.1-题干怎么拆
@@ -1093,7 +1183,7 @@
 
 ## Q600-Migration与Hybrid-Cloud题
 
-**题目：** A company has applications that control on-premises factory equipment. Which AWS service should the company use to run these applications with the LEAST latency?
+**题目：** A company has applications that control on-premises factory equipment. Which AWS service should the company use to run these applications with the LEAST latency?；
 
 **选项：**
 
@@ -1102,9 +1192,12 @@
 - C. AWS Lambda
 - D. AWS Fargate
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** A 100%
 
 ### Q600.1-题干怎么拆
@@ -1128,7 +1221,7 @@
 
 ## Q613-Migration与Hybrid-Cloud题
 
-**题目：** A company plans to perform a one-time migration of a large dataset with millions of files from its on-premises data center to the AWS Cloud. Which AWS service should the company use for the migration?
+**题目：** A company plans to perform a one-time migration of a large dataset with millions of files from its on-premises data center to the AWS Cloud. Which AWS service should the company use for the migration?；
 
 **选项：**
 
@@ -1137,9 +1230,12 @@
 - C. AWS Migration Hub
 - D. AWS Application Migration Service
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** B 100%
 
 ### Q613.1-题干怎么拆
@@ -1163,7 +1259,7 @@
 
 ## Q618-Migration与Hybrid-Cloud题
 
-**题目：** A company wants to migrate its on-premises infrastructure to the AWS Cloud. Which advantage of cloud computing will help the company reduce upfront costs?
+**题目：** A company wants to migrate its on-premises infrastructure to the AWS Cloud. Which advantage of cloud computing will help the company reduce upfront costs?；
 
 **选项：**
 
@@ -1172,9 +1268,12 @@
 - C. Benefit from massive economies of scale
 - D. Trade fixed expense for variable expense
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** D 100%
 
 ### Q618.1-题干怎么拆
@@ -1198,7 +1297,7 @@
 
 ## Q626-Migration与Hybrid-Cloud题
 
-**题目：** A company plans to migrate to the AWS Cloud. The company wants to gather information about its on-premises data center. Which AWS service should the company use to meet these requirements?
+**题目：** A company plans to migrate to the AWS Cloud. The company wants to gather information about its on-premises data center. Which AWS service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -1207,9 +1306,12 @@
 - C. AWS Storage Gateway
 - D. AWS Database Migration Service (AWS DMS)
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** A 100%
 
 ### Q626.1-题干怎么拆
@@ -1242,9 +1344,12 @@
 - C. Availability Zones
 - D. AWS Wavelength
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `B`
-**需求/考点标签：** 谁执行了API操作
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 谁执行了API操作；
+
 **社区投票：** B 100%
 
 ### Q651.1-题干怎么拆
@@ -1282,8 +1387,10 @@
 - C. AWS Application Discovery Service
 - D. AWS Application Migration Service
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `D`
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q661.1-题干怎么拆
@@ -1317,9 +1424,12 @@
 - D. AWS Application Discovery Service
 - E. AWS Database Migration Service (AWS DMS)
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `AB`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `AB`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** AB 100%
 
 ### Q667.1-题干怎么拆
@@ -1353,9 +1463,12 @@
 - C. Reliability
 - D. Durability
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** A 100%
 
 ### Q673.1-题干怎么拆
@@ -1379,7 +1492,7 @@
 
 ## Q686-Migration与Hybrid-Cloud题
 
-**题目：** A company plans to migrate its application from on premises to the AWS Cloud. The company needs to gather usage and configuration data for the application components. Which AWS service will meet these requirements?
+**题目：** A company plans to migrate its application from on premises to the AWS Cloud. The company needs to gather usage and configuration data for the application components. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -1388,8 +1501,10 @@
 - C. AWS Application Discovery Service
 - D. AWS Global Accelerator
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `C`
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `C`；
+
 **需求/考点标签：** Hybrid Cloud / Migration / Configuration Compliance
 
 ### Q686.1-题干怎么拆
@@ -1422,9 +1537,12 @@
 - C. Cloud Migration Factory
 - D. AWS Transfer Family
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud / Migration / Configuration Compliance
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud / Migration / Configuration Compliance；
+
 **社区投票：** A 100%
 
 ### Q703.1-题干怎么拆
@@ -1448,7 +1566,7 @@
 
 ## Q712-Migration与Hybrid-Cloud题
 
-**题目：** Which AWS service can migrate Amazon EC2 instances from one AWS Region to another?
+**题目：** Which AWS service can migrate Amazon EC2 instances from one AWS Region to another?；
 
 **选项：**
 
@@ -1457,9 +1575,12 @@
 - C. AWS DataSync
 - D. AWS Migration Hub
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `A`
-**需求/考点标签：** Migration
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** A 100%
 
 ### Q712.1-题干怎么拆
@@ -1483,7 +1604,7 @@
 
 ## Q717-Migration与Hybrid-Cloud题
 
-**题目：** A company needs to run some of its workload in the AWS Cloud. The company needs to keep some of the workload in its own on-site data center due to compliance reasons. Which AWS service will meet these requirements?
+**题目：** A company needs to run some of its workload in the AWS Cloud. The company needs to keep some of the workload in its own on-site data center due to compliance reasons. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -1492,8 +1613,10 @@
 - C. Amazon Lightsail
 - D. Amazon Connect
 
-**主分类：** C4-22 Migration与Hybrid-Cloud题
-**题库记录答案：** `B`
+**主分类：** C4-22 Migration与Hybrid-Cloud题；
+
+**题库记录答案：** `B`；
+
 **需求/考点标签：** 配置变化与合规
 
 ### Q717.1-题干怎么拆

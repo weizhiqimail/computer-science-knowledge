@@ -2,30 +2,13 @@
 
 > 资料口径说明：本章延续当前 AWS CLF-C02 学习项目既有规则，主要依据用户提供的 719 题题库、`chatGPT会话1.md`、`chatGPT会话2.md`、`cmd1.md` 与前序 C2 章节的结构整理。题库中的答案与评论用于识别高频考点、业务场景和易混项，不自动视为当前 AWS 官方结论。涉及会随时间变化的产品状态、考试范围与 Support 体系时，本章只沿用项目资料中已经明确记录的状态；正式考试前仍应再对照 AWS 当前官方页面。
 
-
 ## 1-本章目标
 
-云计算并不是“自动便宜”，而是把成本模型变得更可测量、更弹性。企业必须回答：
-
-```text
-上线前如何估算？
-上线后钱花在哪里？
-预算超标怎么提醒？
-详细账单怎么导出分析？
-稳定计算负载如何获得折扣？
-多个 Account 的账单如何统一？
-出现问题能获得什么 Support？
-```
-
-项目资料粗略分类中 Cost / Pricing / Support 约 86 题，是 CLF-C02 大模块。
+云计算并不是“自动便宜”，而是把成本模型变得更可测量、更弹性。企业必须回答：上线前如何估算？、上线后钱花在哪里？、预算超标怎么提醒？、详细账单怎么导出分析？、稳定计算负载如何获得折扣？、多个 Account 的账单如何统一？、出现问题能获得什么 Support？项目资料粗略分类中 Cost / Pricing / Support 约 86 题，是 CLF-C02 大模块。
 
 ## 2-Cloud-Economics：从-CAPEX-到-OPEX
 
-传统自建机房往往需要提前购买服务器，属于明显的 Capital Expenditure（CAPEX）特征。
-
-云资源更常体现 Operating Expenditure（OPEX）、Variable Expense 与 Pay-as-you-go。
-
-但“云 = 永远更便宜”是错误前提。真正优势来自：
+传统自建机房往往需要提前购买服务器，属于明显的 Capital Expenditure（CAPEX）特征。云资源更常体现 Operating Expenditure（OPEX）、Variable Expense 与 Pay-as-you-go。但“云 = 永远更便宜”是错误前提。真正优势来自：
 
 - 减少长期固定容量猜测；
 - 弹性扩缩；
@@ -41,10 +24,7 @@
 Before deployment
 → AWS Pricing Calculator
 ```
-
-GlobalShop 双十一新架构还没上线，先输入预计 EC2、RDS、S3、流量等配置估算月成本。
-
-不要与 Cost Explorer 混：Calculator 是预测/估算，Explorer 是分析实际发生过的成本。
+GlobalShop 双十一新架构还没上线，先输入预计 EC2、RDS、S3、流量等配置估算月成本。不要与 Cost Explorer 混：Calculator 是预测/估算，Explorer 是分析实际发生过的成本。
 
 ## 4-★★★★★-AWS-Cost-Explorer
 
@@ -54,14 +34,11 @@ GlobalShop 双十一新架构还没上线，先输入预计 EC2、RDS、S3、流
 After deployment
 → Cost Explorer
 ```
-
 可按服务、账号、Tag 等维度分析历史费用和趋势，并支持部分成本优化分析能力。
 
 ## 5-★★★★★-AWS-Budgets
 
-定位：**阈值、预算与提醒**。
-
-例如：
+定位：**阈值、预算与提醒**。例如：
 
 ```text
 Monthly budget = $100,000
@@ -69,14 +46,11 @@ Actual / Forecast > threshold
         ↓
 Alert
 ```
-
 Cost Explorer 告诉你“钱花哪儿”；Budgets 告诉你“超过目标了吗”。
 
 ## 6-★★★★-AWS-Cost-and-Usage-Report（CUR）
 
-CUR = Cost and Usage Report。
-
-用于获得非常详细的成本和使用数据，适合进入 S3 后用 Athena/BI 等进一步分析。
+CUR = Cost and Usage Report。用于获得非常详细的成本和使用数据，适合进入 S3 后用 Athena/BI 等进一步分析。
 
 ```text
 Billing Data
@@ -84,7 +58,6 @@ Billing Data
    ▼
 CUR → S3 → Athena / QuickSight
 ```
-
 ## 7-Tags-与-Cost-Allocation
 
 企业可以通过资源 Tag 建立成本归属：
@@ -95,7 +68,6 @@ Environment=Prod
 Team=Search
 CostCenter=JP-ECOM
 ```
-
 然后成本管理工具按 Tag 分析部门/项目费用。
 
 ## 8-EC2-/-Compute-购买模型再统一
@@ -109,9 +81,7 @@ CostCenter=JP-ECOM
 
 ### 8.2-★★★★★-Reserved-Instances（RI）
 
-项目题库对 RI 曝光很高。考试核心是：稳定、可预测、长期使用，以承诺换折扣。
-
-不要把 RI 与 Capacity Reservation 混为同一概念。
+项目题库对 RI 曝光很高。考试核心是：稳定、可预测、长期使用，以承诺换折扣。不要把 RI 与 Capacity Reservation 混为同一概念。
 
 ### 8.3-★★★★★-Savings-Plans
 
@@ -119,18 +89,7 @@ CostCenter=JP-ECOM
 
 ### 8.4-★★★★★-Spot-Instances
 
-利用 AWS 的闲置 EC2 Capacity，价格低，但实例可能被 AWS 中断。
-
-适合：
-
-```text
-Batch
-stateless
-fault-tolerant
-can retry
-```
-
-不适合把唯一关键数据库直接放在“随时可中断”的 Spot 上。
+利用 AWS 的闲置 EC2 Capacity，价格低，但实例可能被 AWS 中断。适合：Batch、stateless、fault-tolerant、can retry；不适合把唯一关键数据库直接放在“随时可中断”的 Spot 上。
 
 ### 8.5-★★★-Dedicated-Hosts-/-Dedicated-Instances
 
@@ -138,21 +97,11 @@ can retry
 
 ## 9-★★★-Capacity-Reservation
 
-Capacity Reservation 重点是预留某 AZ 中 EC2 Capacity，本身不等同于 RI 的计费折扣概念。
-
-考试如果说：
-
-```text
-Need guaranteed EC2 capacity in specific AZ
-```
-
-应想到 Capacity Reservation，而不是只凭“reservation”就选 RI。
+Capacity Reservation 重点是预留某 AZ 中 EC2 Capacity，本身不等同于 RI 的计费折扣概念。考试如果说：Need guaranteed EC2 capacity in specific AZ；应想到 Capacity Reservation，而不是只凭“reservation”就选 RI。
 
 ## 10-Data-Transfer-Cost-基本规律
 
-不要死背所有价格数字，因为价格随 Region 和服务变化。
-
-CLF 更重要的是理解：
+不要死背所有价格数字，因为价格随 Region 和服务变化。CLF 更重要的是理解：
 
 - Inbound data transfer 经常较便宜或免费，但具体服务需查定价；
 - Internet outbound 往往是重要成本项；
@@ -163,9 +112,7 @@ CLF 更重要的是理解：
 
 ## 11-★★★★★-AWS-Organizations-与-Consolidated-Billing
 
-多 Account 企业通过 Organizations 可实现集中组织管理和 Consolidated Billing（合并计费）。
-
-核心价值包括：
+多 Account 企业通过 Organizations 可实现集中组织管理和 Consolidated Billing（合并计费）。核心价值包括：
 
 - 一个组织级账单视图；
 - 账号成本集中管理；
@@ -189,21 +136,11 @@ Purchase wisely
 Architect
 → Auto Scaling / Serverless / Storage Lifecycle
 ```
-
 成本优化不是“选择最便宜实例”这么简单，而是业务 SLA、性能、弹性与成本之间的综合工程。
 
 ## 13-AWS-Support：项目资料中的当前状态提醒-[UPDATED]
 
-项目交接资料明确记录：AWS Support 体系在 2025-12-02 后发生调整，旧的 Developer Support、Business Support 等旧套餐已进入不再接受新订阅/过渡阶段，并记录了新的 Support 体系名称：
-
-```text
-Basic
-Business Support+
-Enterprise Support
-Unified Operations
-```
-
-同时项目资料提醒：旧题库中的 Support Plan 题必须标记为历史题 / 当前规则变化。
+项目交接资料明确记录：AWS Support 体系在 2025-12-02 后发生调整，旧的 Developer Support、Business Support 等旧套餐已进入不再接受新订阅/过渡阶段，并记录了新的 Support 体系名称：Basic、Business Support+、Enterprise Support、Unified Operations；同时项目资料提醒：旧题库中的 Support Plan 题必须标记为历史题 / 当前规则变化。
 
 因此本章不把 719 题里旧 Support Plan 的所有功能矩阵当成 2026 年永久事实。
 
@@ -216,7 +153,6 @@ Unified Operations
 [UPDATED]
 当前套餐结构已经变化
 ```
-
 正式考试前，Support 名称、响应时间、TAM/服务能力等细节必须再以 AWS 当前官方 Support 页面和 CLF-C02 In-Scope 内容确认。
 
 ## 14-Support-题真正应该理解什么
@@ -232,9 +168,7 @@ Unified Operations
 
 ## 15-★★★-AWS-Marketplace
 
-Marketplace 是第三方软件、数据和服务的数字目录，可购买并部署合作伙伴产品，并把部分费用整合到 AWS Billing 中。
-
-题目说“find/buy/deploy third-party software”时考虑 Marketplace。
+Marketplace 是第三方软件、数据和服务的数字目录，可购买并部署合作伙伴产品，并把部分费用整合到 AWS Billing 中。题目说“find/buy/deploy third-party software”时考虑 Marketplace。
 
 ## 16-GlobalShop-成本管理
 
@@ -263,7 +197,6 @@ Interruptible batch
 Many accounts
 → Organizations + Consolidated Billing
 ```
-
 ## 17-高频对比
 
 | 问题 | 工具/模型 |
@@ -295,7 +228,6 @@ Many accounts
         ↓
 其他相似服务为什么不合适？
 ```
-
 真正稳定的考试能力不是“看到关键词就背答案”，而是能够从业务要求推导到技术能力，再从技术能力推导到 AWS 服务。
 
 ---

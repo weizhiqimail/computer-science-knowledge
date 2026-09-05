@@ -5,9 +5,10 @@
 本文件共收录 **13** 道主分类题。范围：DynamoDB、NoSQL、ElastiCache、DocumentDB、Neptune、数据库选型。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q55-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** To reduce costs, a company is planning to migrate a NoSQL database to AWS. Which AWS service is fully managed and can automatically scale throughput capacity to meet database workload demands?
+**题目：** To reduce costs, a company is planning to migrate a NoSQL database to AWS. Which AWS service is fully managed and can automatically scale throughput capacity to meet database workload demands?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. Amazon DynamoDB
 - D. Amazon RDS
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `C`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** C 96%
 
 ### Q55.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q66-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** Which AWS service is a key-value database that provides sub-millisecond latency on a large scale?
+**题目：** Which AWS service is a key-value database that provides sub-millisecond latency on a large scale?；
 
 **选项：**
 
@@ -51,8 +55,10 @@
 - C. Amazon DocumentDB (with MongoDB compatibility)
 - D. Amazon Neptune
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `A`
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q66.1-题干怎么拆
@@ -76,7 +82,7 @@
 
 ## Q182-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** A user needs to quickly deploy a nonrelational database on AWS. The user does not want to manage the underlying hardware or the database software. Which AWS service can be used to accomplish this?
+**题目：** A user needs to quickly deploy a nonrelational database on AWS. The user does not want to manage the underlying hardware or the database software. Which AWS service can be used to accomplish this?；
 
 **选项：**
 
@@ -85,9 +91,12 @@
 - C. Amazon Aurora
 - D. Amazon Redshift
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `B`
-**需求/考点标签：** Relational Database
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** B 100%
 
 ### Q182.1-题干怎么拆
@@ -111,7 +120,7 @@
 
 ## Q248-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** A company wants a time-series database service that makes it easier to store and analyze trillions of events each day. Which AWS service will meet this requirement?
+**题目：** A company wants a time-series database service that makes it easier to store and analyze trillions of events each day. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -120,9 +129,12 @@
 - C. Amazon Forecast
 - D. Amazon DocumentDB (with MongoDB compatibility)
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `B`
-**需求/考点标签：** Event Driven
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Event Driven；
+
 **社区投票：** B 100%
 
 ### Q248.1-题干怎么拆
@@ -146,7 +158,7 @@
 
 ## Q308-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** Which of the following is a fully managed graph database service on AWS?
+**题目：** Which of the following is a fully managed graph database service on AWS?；
 
 **选项：**
 
@@ -155,8 +167,10 @@
 - C. Amazon DynamoDB
 - D. Amazon Neptune
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `D`
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q308.1-题干怎么拆
@@ -180,7 +194,7 @@
 
 ## Q369-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** Which AWS service provides the ability to host a NoSQL database in the AWS Cloud?
+**题目：** Which AWS service provides the ability to host a NoSQL database in the AWS Cloud?；
 
 **选项：**
 
@@ -189,9 +203,12 @@
 - C. Amazon RDS
 - D. Amazon Redshift
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `B`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** B 100%
 
 ### Q369.1-题干怎么拆
@@ -215,7 +232,7 @@
 
 ## Q438-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** A company has an application that produces unstructured data continuously. The company needs to store the data so that the data is durable and easy to query. Which AWS service can the company use to meet these requirements?
+**题目：** A company has an application that produces unstructured data continuously. The company needs to store the data so that the data is durable and easy to query. Which AWS service can the company use to meet these requirements?；
 
 **选项：**
 
@@ -224,9 +241,12 @@
 - C. Amazon QuickSight
 - D. Amazon DynamoDB
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `D`
-**需求/考点标签：** Durability
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Durability；
+
 **社区投票：** D 100%
 
 ### Q438.1-题干怎么拆
@@ -259,8 +279,10 @@
 - C. Amazon DynamoDB
 - D. Amazon Neptune
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `D`
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q484.1-题干怎么拆
@@ -284,7 +306,7 @@
 
 ## Q518-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** A company is building an application that will receive millions of database queries each second. The company needs the data store for the application to scale to meet these needs. Which AWS service will meet this requirement?
+**题目：** A company is building an application that will receive millions of database queries each second. The company needs the data store for the application to scale to meet these needs. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -293,8 +315,10 @@
 - C. Amazon ElastiCache for Memcached
 - D. Amazon Neptune
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `A`
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q518.1-题干怎么拆
@@ -318,7 +342,7 @@
 
 ## Q588-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** Which AWS service provides a fully managed graph database for highly connected datasets?
+**题目：** Which AWS service provides a fully managed graph database for highly connected datasets?；
 
 **选项：**
 
@@ -327,8 +351,10 @@
 - C. Amazon Neptune
 - D. Amazon Aurora
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `C`
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q588.1-题干怎么拆
@@ -352,7 +378,7 @@
 
 ## Q596-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** Which AWS service is designed for users running workloads that include a NoSQL database?
+**题目：** Which AWS service is designed for users running workloads that include a NoSQL database?；
 
 **选项：**
 
@@ -361,9 +387,12 @@
 - C. Amazon Redshift
 - D. Amazon DynamoDB
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `D`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** D 100%
 
 ### Q596.1-题干怎么拆
@@ -387,7 +416,7 @@
 
 ## Q662-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** Which AWS service is a fully managed NoSQL database service?
+**题目：** Which AWS service is a fully managed NoSQL database service?；
 
 **选项：**
 
@@ -396,8 +425,10 @@
 - C. Amazon DynamoDB
 - D. Amazon Aurora
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `C`
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `C`；
+
 **需求/考点标签：** NoSQL自动扩展
 
 ### Q662.1-题干怎么拆
@@ -421,7 +452,7 @@
 
 ## Q672-DynamoDB-NoSQL-缓存与数据库选择题
 
-**题目：** A company wants to build graph queries for real-time fraud pattern detection. Which AWS service will meet this requirement?
+**题目：** A company wants to build graph queries for real-time fraud pattern detection. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -430,8 +461,10 @@
 - C. Amazon Timestream
 - D. Amazon Forecast
 
-**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题
-**题库记录答案：** `A`
+**主分类：** C4-09 DynamoDB-NoSQL-缓存与数据库选择题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q672.1-题干怎么拆

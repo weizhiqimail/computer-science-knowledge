@@ -5,9 +5,10 @@
 本文件共收录 **8** 道主分类题。范围：Block/File Storage、EBS、Instance Store、EFS、FSx。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q109-EBS-EFS-FSx与存储对比题
 
-**题目：** A company wants a fully managed Windows file server for its Windows-based applications. Which AWS service will meet this requirement?
+**题目：** A company wants a fully managed Windows file server for its Windows-based applications. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -16,8 +17,10 @@
 - C. Amazon Elastic Container Service (Amazon ECS)
 - D. Amazon EMR
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `A`
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q109.1-题干怎么拆
@@ -41,7 +44,7 @@
 
 ## Q196-EBS-EFS-FSx与存储对比题
 
-**题目：** A company needs fully managed, highly reliable, and scalable file storage that is accessible over the Server Message Block (SMB) protocol. Which AWS service will meet these requirements?
+**题目：** A company needs fully managed, highly reliable, and scalable file storage that is accessible over the Server Message Block (SMB) protocol. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -50,9 +53,12 @@
 - C. Amazon FSx for Windows File Server
 - D. Amazon Elastic Block Store (Amazon EBS)
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `C`
-**需求/考点标签：** Scalability / File Storage
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Scalability / File Storage；
+
 **社区投票：** C 100%
 
 ### Q196.1-题干怎么拆
@@ -76,7 +82,7 @@
 
 ## Q231-EBS-EFS-FSx与存储对比题
 
-**题目：** Who enables encryption of data at rest for Amazon Elastic Block Store (Amazon EBS)?
+**题目：** Who enables encryption of data at rest for Amazon Elastic Block Store (Amazon EBS)?；
 
 **选项：**
 
@@ -85,9 +91,12 @@
 - C. AWS Key Management Service (AWS KMS)
 - D. AWS Trusted Advisor
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `B`
-**需求/考点标签：** Encryption / Block Storage
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Encryption / Block Storage；
+
 **社区投票：** B 78%, C 22%
 
 ### Q231.1-题干怎么拆
@@ -125,9 +134,12 @@
 - C. Amazon S3
 - D. AWS Snow Family
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** A 100%
 
 ### Q312.1-题干怎么拆
@@ -151,7 +163,7 @@
 
 ## Q317-EBS-EFS-FSx与存储对比题
 
-**题目：** A company needs a fully managed file server that natively supports Microsoft workloads and file systems. The file server must also support the SMB protocol. Which AWS service should the company use to meet these requirements?
+**题目：** A company needs a fully managed file server that natively supports Microsoft workloads and file systems. The file server must also support the SMB protocol. Which AWS service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -160,9 +172,12 @@
 - C. Amazon FSx for Windows File Server
 - D. Amazon Elastic Block Store (Amazon EBS)
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `C`
-**需求/考点标签：** File Storage
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** File Storage；
+
 **社区投票：** C 100%
 
 ### Q317.1-题干怎么拆
@@ -186,7 +201,7 @@
 
 ## Q473-EBS-EFS-FSx与存储对比题
 
-**题目：** Which AWS service allows for file sharing between multiple Amazon EC2 instances?
+**题目：** Which AWS service allows for file sharing between multiple Amazon EC2 instances?；
 
 **选项：**
 
@@ -195,8 +210,10 @@
 - C. AWS Backup
 - D. Amazon Elastic File System (Amazon EFS)
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `D`
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q473.1-题干怎么拆
@@ -220,7 +237,7 @@
 
 ## Q593-EBS-EFS-FSx与存储对比题
 
-**题目：** A user needs to perform a one-time backup of an Amazon Elastic Block Store (Amazon EBS) volume that is attached to an Amazon EC2 instance. What is the MOST operationally efficient way to perform this backup?
+**题目：** A user needs to perform a one-time backup of an Amazon Elastic Block Store (Amazon EBS) volume that is attached to an Amazon EC2 instance. What is the MOST operationally efficient way to perform this backup?；
 
 **选项：**
 
@@ -229,9 +246,12 @@
 - C. Create an EBS snapshot of the volume.
 - D. Create a custom script to copy the EBS file contents to Amazon S3.
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `C`
-**需求/考点标签：** Block Storage
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** C 100%
 
 ### Q593.1-题干怎么拆
@@ -255,7 +275,7 @@
 
 ## Q625-EBS-EFS-FSx与存储对比题
 
-**题目：** A company needs a managed NFS file system that the company can use with its AWS compute resources. Which AWS service or feature will meet these requirements?
+**题目：** A company needs a managed NFS file system that the company can use with its AWS compute resources. Which AWS service or feature will meet these requirements?；
 
 **选项：**
 
@@ -264,8 +284,10 @@
 - C. Amazon S3 Glacier Flexible Retrieval
 - D. Amazon Elastic File System (Amazon EFS)
 
-**主分类：** C4-06 EBS-EFS-FSx与存储对比题
-**题库记录答案：** `D`
+**主分类：** C4-06 EBS-EFS-FSx与存储对比题；
+
+**题库记录答案：** `D`；
+
 **需求/考点标签：** File Storage
 
 ### Q625.1-题干怎么拆

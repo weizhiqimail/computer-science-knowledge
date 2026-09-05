@@ -5,6 +5,7 @@
 本文件共收录 **28** 道主分类题。范围：GuardDuty、Inspector、Macie、Security Hub、Detective、Artifact。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q2-GuardDuty-Inspector-Macie等安全题
 
 **题目：** A company has deployed applications on Amazon EC2 instances. The company needs to assess application vulnerabilities and must identify infrastructure deployments that do not meet best practices. Which AWS service can the company use to meet these requirements?
@@ -16,9 +17,12 @@
 - C. AWS Config
 - D. Amazon GuardDuty
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
-**需求/考点标签：** 漏洞扫描
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 漏洞扫描；
+
 **社区投票：** B 87%, Other 13%
 
 ### Q2.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q28-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service or resource provides answers to the most frequently asked security-related questions that AWS receives from its users?
+**题目：** Which AWS service or resource provides answers to the most frequently asked security-related questions that AWS receives from its users?；
 
 **选项：**
 
@@ -51,8 +55,10 @@
 - C. AWS Chatbot
 - D. AWS Knowledge Center
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `D`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 93%, A 7%
 
 ### Q28.1-题干怎么拆
@@ -76,7 +82,7 @@
 
 ## Q32-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A user needs programmatic access to AWS resources through the AWS CLI or the AWS API. Which option will provide the user with the appropriate access?
+**题目：** A user needs programmatic access to AWS resources through the AWS CLI or the AWS API. Which option will provide the user with the appropriate access?；
 
 **选项：**
 
@@ -85,8 +91,10 @@
 - C. SSH public keys
 - D. AWS Key Management Service (AWS KMS) keys
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q32.1-题干怎么拆
@@ -110,7 +118,7 @@
 
 ## Q37-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud. How can these reports be generated?
+**题目：** A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud. How can these reports be generated?；
 
 **选项：**
 
@@ -119,9 +127,12 @@
 - C. Open a case with AWS Support.
 - D. Generate the reports with Amazon Macie.
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** B 100%
 
 ### Q37.1-题干怎么拆
@@ -145,7 +156,7 @@
 
 ## Q53-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service is a cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardized format?
+**题目：** Which AWS service is a cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardized format?；
 
 **选项：**
 
@@ -154,8 +165,10 @@
 - C. Amazon EventBridge
 - D. Amazon GuardDuty
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `A`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q53.1-题干怎么拆
@@ -179,7 +192,7 @@
 
 ## Q58-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service gives users the ability to discover and protect sensitive data that is stored in Amazon S3 buckets?
+**题目：** Which AWS service gives users the ability to discover and protect sensitive data that is stored in Amazon S3 buckets?；
 
 **选项：**
 
@@ -188,9 +201,12 @@
 - C. Amazon GuardDuty
 - D. AWS IAM Access Analyzer
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `A`
-**需求/考点标签：** S3敏感数据发现
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** S3敏感数据发现；
+
 **社区投票：** A 100%
 
 ### Q58.1-题干怎么拆
@@ -214,7 +230,7 @@
 
 ## Q84-GuardDuty-Inspector-Macie等安全题
 
-**题目：** What is the best resource for a user to find compliance-related information and reports about AWS?
+**题目：** What is the best resource for a user to find compliance-related information and reports about AWS?；
 
 **选项：**
 
@@ -223,9 +239,12 @@
 - C. Amazon Inspector
 - D. AWS Support
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `A`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** A 100%
 
 ### Q84.1-题干怎么拆
@@ -249,7 +268,7 @@
 
 ## Q117-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A company wants an automated process to continuously scan its Amazon EC2 instances for software vulnerabilities. Which AWS service will meet these requirements?
+**题目：** A company wants an automated process to continuously scan its Amazon EC2 instances for software vulnerabilities. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -258,9 +277,12 @@
 - C. Amazon Detective
 - D. Amazon Cognito
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
-**需求/考点标签：** 漏洞扫描
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 漏洞扫描；
+
 **社区投票：** B 100%
 
 ### Q117.1-题干怎么拆
@@ -284,7 +306,7 @@
 
 ## Q159-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?
+**题目：** Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?；
 
 **选项：**
 
@@ -293,9 +315,12 @@
 - C. Amazon Inspector
 - D. AWS Shield
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
-**需求/考点标签：** S3敏感数据发现
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** S3敏感数据发现；
+
 **社区投票：** B 100%
 
 ### Q159.1-题干怎么拆
@@ -319,7 +344,7 @@
 
 ## Q174-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service can be used to retrieve compliance reports on demand?
+**题目：** Which AWS service can be used to retrieve compliance reports on demand?；
 
 **选项：**
 
@@ -328,9 +353,12 @@
 - C. AWS Security Hub
 - D. AWS Certificate Manager
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** B 100%
 
 ### Q174.1-题干怎么拆
@@ -354,7 +382,7 @@
 
 ## Q175-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service enables users to check for vulnerabilities on Amazon EC2 instances by using predefined assessment templates?
+**题目：** Which AWS service enables users to check for vulnerabilities on Amazon EC2 instances by using predefined assessment templates?；
 
 **选项：**
 
@@ -363,9 +391,12 @@
 - C. Amazon Inspector
 - D. AWS Shield
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
-**需求/考点标签：** 漏洞扫描
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 漏洞扫描；
+
 **社区投票：** C 100%
 
 ### Q175.1-题干怎么拆
@@ -389,7 +420,7 @@
 
 ## Q218-GuardDuty-Inspector-Macie等安全题
 
-**题目：** What can a cloud practitioner use to retrieve AWS security and compliance documents and submit them as evidence to an auditor or regulator?
+**题目：** What can a cloud practitioner use to retrieve AWS security and compliance documents and submit them as evidence to an auditor or regulator?；
 
 **选项：**
 
@@ -398,9 +429,12 @@
 - C. AWS Artifact
 - D. Amazon Inspector
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** C 100%
 
 ### Q218.1-题干怎么拆
@@ -424,7 +458,7 @@
 
 ## Q229-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A company hosts a large amount of data in AWS. The company wants to identify if any of the data should be considered sensitive. Which AWS service will meet the requirement?
+**题目：** A company hosts a large amount of data in AWS. The company wants to identify if any of the data should be considered sensitive. Which AWS service will meet the requirement?；
 
 **选项：**
 
@@ -433,8 +467,10 @@
 - C. AWS Identity and Access Management (IAM)
 - D. Amazon CloudWatch
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q229.1-题干怎么拆
@@ -467,8 +503,10 @@
 - C. Amazon Macie
 - D. AWS Security Hub
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `D`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 94%, B 6%
 
 ### Q284.1-题干怎么拆
@@ -501,9 +539,12 @@
 - C. Amazon Macie
 - D. AWS Shield
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
-**需求/考点标签：** 漏洞扫描 / 关系数据库高可用
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 漏洞扫描 / 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q286.1-题干怎么拆
@@ -527,7 +568,7 @@
 
 ## Q287-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?
+**题目：** Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?；
 
 **选项：**
 
@@ -536,9 +577,12 @@
 - C. AWS Artifact
 - D. AWS Shield
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** C 100%
 
 ### Q287.1-题干怎么拆
@@ -562,7 +606,7 @@
 
 ## Q393-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A company wants to use machine learning capabilities to analyze log data from its Amazon EC2 instances and efficiently conduct security investigations. Which AWS service will meet these requirements?
+**题目：** A company wants to use machine learning capabilities to analyze log data from its Amazon EC2 instances and efficiently conduct security investigations. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -571,9 +615,12 @@
 - C. Amazon Detective -
 - D. Amazon GuardDuty
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
-**需求/考点标签：** AI/ML
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** AI/ML；
+
 **社区投票：** C 100%
 
 ### Q393.1-题干怎么拆
@@ -597,7 +644,7 @@
 
 ## Q416-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A company wants to use a managed service to identify and protect sensitive data that is stored in Amazon S3. Which AWS service will meet these requirements?
+**题目：** A company wants to use a managed service to identify and protect sensitive data that is stored in Amazon S3. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -606,9 +653,12 @@
 - C. Amazon Inspector
 - D. Amazon Macie
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `D`
-**需求/考点标签：** S3敏感数据发现
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** S3敏感数据发现；
+
 **社区投票：** D 100%
 
 ### Q416.1-题干怎么拆
@@ -632,7 +682,7 @@
 
 ## Q457-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service provides users with AWS issued reports, certifications, accreditations, and third-party attestations?
+**题目：** Which AWS service provides users with AWS issued reports, certifications, accreditations, and third-party attestations?；
 
 **选项：**
 
@@ -641,8 +691,10 @@
 - C. AWS Health Dashboard
 - D. AWS Config
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `A`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q457.1-题干怎么拆
@@ -666,7 +718,7 @@
 
 ## Q479-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS service gives users on-demand, self-service access to AWS compliance control reports?
+**题目：** Which AWS service gives users on-demand, self-service access to AWS compliance control reports?；
 
 **选项：**
 
@@ -675,9 +727,12 @@
 - C. AWS Trusted Advisor
 - D. AWS Artifact
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `D`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** D 100%
 
 ### Q479.1-题干怎么拆
@@ -701,7 +756,7 @@
 
 ## Q506-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A company needs a threat detection service that will continuously monitor its AWS accounts, workloads, and Amazon S3 buckets for malicious activity and unauthorized behavior. Which AWS service meets these requirements?
+**题目：** A company needs a threat detection service that will continuously monitor its AWS accounts, workloads, and Amazon S3 buckets for malicious activity and unauthorized behavior. Which AWS service meets these requirements?；
 
 **选项：**
 
@@ -710,9 +765,12 @@
 - C. Amazon GuardDuty
 - D. Amazon Inspector
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
-**需求/考点标签：** 威胁检测
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 威胁检测；
+
 **社区投票：** C 100%
 
 ### Q506.1-题干怎么拆
@@ -736,7 +794,7 @@
 
 ## Q519-GuardDuty-Inspector-Macie等安全题
 
-**题目：** An AWS user wants to proactively detect when an instance or account might be compromised or if there are threats from attacks. Which AWS service should the user choose?
+**题目：** An AWS user wants to proactively detect when an instance or account might be compromised or if there are threats from attacks. Which AWS service should the user choose?；
 
 **选项：**
 
@@ -745,8 +803,10 @@
 - C. AWS Shield
 - D. Amazon Inspector
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `A`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q519.1-题干怎么拆
@@ -770,7 +830,7 @@
 
 ## Q541-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A company is requesting Payment Card Industry (PCI) reports that validate the operating effectiveness of AWS security controls. How should the company obtain these reports?
+**题目：** A company is requesting Payment Card Industry (PCI) reports that validate the operating effectiveness of AWS security controls. How should the company obtain these reports?；
 
 **选项：**
 
@@ -779,8 +839,10 @@
 - C. Download reports from AWS Security Hub.
 - D. Contact an AWS technical account manager (TAM).
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q541.1-题干怎么拆
@@ -804,7 +866,7 @@
 
 ## Q585-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which group shares responsibility with AWS for security and compliance of AWS accounts and resources?
+**题目：** Which group shares responsibility with AWS for security and compliance of AWS accounts and resources?；
 
 **选项：**
 
@@ -813,9 +875,12 @@
 - C. Reseller partners
 - D. Internet providers
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `B`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** B 100%
 
 ### Q585.1-题干怎么拆
@@ -839,7 +904,7 @@
 
 ## Q603-GuardDuty-Inspector-Macie等安全题
 
-**题目：** What is the primary use case for Amazon GuardDuty?
+**题目：** What is the primary use case for Amazon GuardDuty?；
 
 **选项：**
 
@@ -848,9 +913,12 @@
 - C. Automatic monitoring for threats to AWS workloads
 - D. Automatic provisioning of AWS resources
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
-**需求/考点标签：** 威胁检测
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 威胁检测；
+
 **社区投票：** C 100%
 
 ### Q603.1-题干怎么拆
@@ -874,7 +942,7 @@
 
 ## Q611-GuardDuty-Inspector-Macie等安全题
 
-**题目：** A company's compliance officer wants to review the AWS Service Organization Control (SOC) reports. Which AWS service or feature should the compliance officer use to complete this task?
+**题目：** A company's compliance officer wants to review the AWS Service Organization Control (SOC) reports. Which AWS service or feature should the compliance officer use to complete this task?；
 
 **选项：**
 
@@ -883,9 +951,12 @@
 - C. AWS Support
 - D. AWS Trusted Advisor
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `A`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** A 100%
 
 ### Q611.1-题干怎么拆
@@ -918,8 +989,10 @@
 - C. an AWS Attestation of Compliance (AOC) report for specific AWS services.
 - D. professional PCI compliance services.
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `C`
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `C`；
+
 **需求/考点标签：** 配置变化与合规
 
 ### Q655.1-题干怎么拆
@@ -943,7 +1016,7 @@
 
 ## Q693-GuardDuty-Inspector-Macie等安全题
 
-**题目：** Which AWS offering can analyze a company’s AWS environment to discover security vulnerabilities on Amazon EC2 instances?
+**题目：** Which AWS offering can analyze a company’s AWS environment to discover security vulnerabilities on Amazon EC2 instances?；
 
 **选项：**
 
@@ -952,9 +1025,12 @@
 - C. AWS Shield Standard
 - D. Security groups
 
-**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题
-**题库记录答案：** `A`
-**需求/考点标签：** 漏洞扫描
+**主分类：** C4-17 GuardDuty-Inspector-Macie等安全题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 漏洞扫描；
+
 **社区投票：** A 100%
 
 ### Q693.1-题干怎么拆

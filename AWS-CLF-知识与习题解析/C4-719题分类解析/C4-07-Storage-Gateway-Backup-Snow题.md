@@ -5,9 +5,10 @@
 本文件共收录 **18** 道主分类题。范围：Storage Gateway、AWS Backup、Snow Family、混合存储。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q1-Storage-Gateway-Backup-Snow题
 
-**题目：** A company plans to use an Amazon Snowball Edge device to transfer files to the AWS Cloud. Which activities related to a Snowball Edge device are available to the company at no cost?
+**题目：** A company plans to use an Amazon Snowball Edge device to transfer files to the AWS Cloud. Which activities related to a Snowball Edge device are available to the company at no cost?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. The transfer of data from the Snowball Edge appliance into Amazon S3
 - D. Daily use of the Snowball Edge appliance after 10 days
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `C`
-**需求/考点标签：** 离线大规模数据迁移
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 离线大规模数据迁移；
+
 **社区投票：** C 84%, A 16%
 
 ### Q1.1-题干怎么拆
@@ -51,9 +55,12 @@
 - C. Move each user’s working environment to Amazon WorkSpaces. Set up an Amazon WorkDocs account for each user.
 - D. Deploy an Amazon EC2 instance and attach an Amazon Elastic Block Store (Amazon EBS) Provisioned IOPS volume.
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `B`
-**需求/考点标签：** File Storage / Hybrid Cloud
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** File Storage / Hybrid Cloud；
+
 **社区投票：** B 97%
 
 ### Q3.1-题干怎么拆
@@ -82,7 +89,7 @@
 
 ## Q90-Storage-Gateway-Backup-Snow题
 
-**题目：** Which AWS service is a hybrid cloud storage service that provides on-premises users access to virtually unlimited cloud storage?
+**题目：** Which AWS service is a hybrid cloud storage service that provides on-premises users access to virtually unlimited cloud storage?；
 
 **选项：**
 
@@ -91,9 +98,12 @@
 - C. AWS Storage Gateway
 - D. Amazon Elastic Block Store (Amazon EBS)
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** C 100%
 
 ### Q90.1-题干怎么拆
@@ -126,9 +136,12 @@
 - C. Amazon Elastic Container Service (Amazon ECS)
 - D. AWS Lambda
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `B`
-**需求/考点标签：** 工作流编排
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 工作流编排；
+
 **社区投票：** B 100%
 
 ### Q103.1-题干怎么拆
@@ -152,7 +165,7 @@
 
 ## Q110-Storage-Gateway-Backup-Snow题
 
-**题目：** A company wants to migrate its NFS on-premises workload to AWS. Which AWS Storage Gateway type should the company use to meet this requirement?
+**题目：** A company wants to migrate its NFS on-premises workload to AWS. Which AWS Storage Gateway type should the company use to meet this requirement?；
 
 **选项：**
 
@@ -161,9 +174,12 @@
 - C. Amazon FSx File Gateway
 - D. Amazon S3 File Gateway
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `D`
-**需求/考点标签：** File Storage / Hybrid Cloud / Migration
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** File Storage / Hybrid Cloud / Migration；
+
 **社区投票：** D 72%, C 28%
 
 ### Q110.1-题干怎么拆
@@ -196,9 +212,12 @@
 - C. AWS Data Exchange
 - D. AWS Database Migration Service (AWS DMS)
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `A`
-**需求/考点标签：** File Storage / Hybrid Cloud / Migration
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** File Storage / Hybrid Cloud / Migration；
+
 **社区投票：** A 89%, B 11%
 
 ### Q151.1-题干怎么拆
@@ -231,8 +250,10 @@
 - C. AWS Storage Gateway
 - D. AWS Snowball Edge
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `D`
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q191.1-题干怎么拆
@@ -256,7 +277,7 @@
 
 ## Q205-Storage-Gateway-Backup-Snow题
 
-**题目：** A company is planning to move data backups to the AWS Cloud. The company needs to replace on-premises storage with storage that is cloud-based but locally cached. Which AWS service meets these requirements?
+**题目：** A company is planning to move data backups to the AWS Cloud. The company needs to replace on-premises storage with storage that is cloud-based but locally cached. Which AWS service meets these requirements?；
 
 **选项：**
 
@@ -265,9 +286,12 @@
 - C. AWS Backup
 - D. Amazon Elastic File System (Amazon EFS)
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `A`
-**需求/考点标签：** 热点数据缓存
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 热点数据缓存；
+
 **社区投票：** A 91%, D 9%
 
 ### Q205.1-题干怎么拆
@@ -300,8 +324,10 @@
 - C. Amazon S3
 - D. AWS Storage Gateway
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `D`
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q255.1-题干怎么拆
@@ -325,7 +351,7 @@
 
 ## Q263-Storage-Gateway-Backup-Snow题
 
-**题目：** A company wants to migrate petabytes of data from its on-premises data center to AWS. The company does not want to use an internet connection to perform the migration. Which AWS service will meet these requirements?
+**题目：** A company wants to migrate petabytes of data from its on-premises data center to AWS. The company does not want to use an internet connection to perform the migration. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -334,9 +360,12 @@
 - C. AWS Snowmobile
 - D. AWS Direct Connect
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** C 100%
 
 ### Q263.1-题干怎么拆
@@ -369,8 +398,10 @@
 - C. AWS Snow Family
 - D. AWS Migration Hub
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `C`
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 93%, A 7%
 
 ### Q270.1-题干怎么拆
@@ -394,7 +425,7 @@
 
 ## Q276-Storage-Gateway-Backup-Snow题
 
-**题目：** A company wants an AWS service to collect and process 10 TB of data locally and transfer the data to AWS. The company has intermittent connectivity. Which AWS service will meet these requirements?
+**题目：** A company wants an AWS service to collect and process 10 TB of data locally and transfer the data to AWS. The company has intermittent connectivity. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -403,8 +434,10 @@
 - C. AWS Backup
 - D. AWS Snowball Edge
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `D`
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q276.1-题干怎么拆
@@ -428,7 +461,7 @@
 
 ## Q355-Storage-Gateway-Backup-Snow题
 
-**题目：** A company needs to move 75 petabytes of data from its on-premises data centers to AWS. Which AWS service should the company use to meet these requirements MOST cost-effectively?
+**题目：** A company needs to move 75 petabytes of data from its on-premises data centers to AWS. Which AWS service should the company use to meet these requirements MOST cost-effectively?；
 
 **选项：**
 
@@ -437,9 +470,12 @@
 - C. AWS Direct Connect
 - D. AWS Storage Gateway
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud / Cost Optimization
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud / Cost Optimization；
+
 **社区投票：** B 75%, A 25%
 
 ### Q355.1-题干怎么拆
@@ -463,7 +499,7 @@
 
 ## Q364-Storage-Gateway-Backup-Snow题
 
-**题目：** Which AWS service provides on-premises applications with low-latency access to data that is stored in the AWS Cloud?
+**题目：** Which AWS service provides on-premises applications with low-latency access to data that is stored in the AWS Cloud?；
 
 **选项：**
 
@@ -472,9 +508,12 @@
 - C. AWS Backup
 - D. AWS DataSync
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** B 100%
 
 ### Q364.1-题干怎么拆
@@ -498,7 +537,7 @@
 
 ## Q400-Storage-Gateway-Backup-Snow题
 
-**题目：** A company wants to define a central data protection policy that works across AWS services for compute, storage, and database resources. Which AWS service will meet this requirement?
+**题目：** A company wants to define a central data protection policy that works across AWS services for compute, storage, and database resources. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -507,8 +546,10 @@
 - C. AWS Backup
 - D. Amazon FSx
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `C`
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q400.1-题干怎么拆
@@ -532,7 +573,7 @@
 
 ## Q533-Storage-Gateway-Backup-Snow题
 
-**题目：** Which AWS solution gives companies the ability to use protocols such as NFS to store and retrieve objects in Amazon S3?
+**题目：** Which AWS solution gives companies the ability to use protocols such as NFS to store and retrieve objects in Amazon S3?；
 
 **选项：**
 
@@ -541,9 +582,12 @@
 - C. AWS Storage Gateway file gateway
 - D. Amazon Elastic File System (Amazon EFS)
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `C`
-**需求/考点标签：** Object Storage / File Storage
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Object Storage / File Storage；
+
 **社区投票：** C 80%, A 20%
 
 ### Q533.1-题干怎么拆
@@ -576,9 +620,12 @@
 - C. AWS Storage Gateway
 - D. AWS Backup
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** B 100%
 
 ### Q671.1-题干怎么拆
@@ -602,7 +649,7 @@
 
 ## Q685-Storage-Gateway-Backup-Snow题
 
-**题目：** A company wants a fully managed service that centralizes and automates data protection across AWS services and hybrid workloads. Which AWS service will meet these requirements?
+**题目：** A company wants a fully managed service that centralizes and automates data protection across AWS services and hybrid workloads. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -611,9 +658,12 @@
 - C. AWS Batch
 - D. AWS Shield
 
-**主分类：** C4-07 Storage-Gateway-Backup-Snow题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-07 Storage-Gateway-Backup-Snow题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** B 100%
 
 ### Q685.1-题干怎么拆

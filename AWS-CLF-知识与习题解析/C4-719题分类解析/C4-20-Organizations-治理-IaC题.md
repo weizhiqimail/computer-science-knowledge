@@ -5,9 +5,10 @@
 本文件共收录 **47** 道主分类题。范围：Organizations、CloudFormation、Systems Manager、Control Tower、Service Catalog、Trusted Advisor。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q9-Organizations-治理-IaC题
 
-**题目：** Which AWS services or tools can identify rightsizing opportunities for Amazon EC2 instances? (Choose two.)
+**题目：** Which AWS services or tools can identify rightsizing opportunities for Amazon EC2 instances? (Choose two.)；
 
 **选项：**
 
@@ -17,8 +18,10 @@
 - D. Amazon SageMaker
 - E. AWS Compute Optimizer
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `AE`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `AE`；
+
 **社区投票：** AE 100%
 
 ### Q9.1-题干怎么拆
@@ -43,7 +46,7 @@
 
 ## Q10-Organizations-治理-IaC题
 
-**题目：** Which of the following are benefits of using AWS Trusted Advisor? (Choose two.)
+**题目：** Which of the following are benefits of using AWS Trusted Advisor? (Choose two.)；
 
 **选项：**
 
@@ -53,8 +56,10 @@
 - D. Improving security by proactively monitoring the AWS environment
 - E. Implementing enforced tagging across AWS resources
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `CD`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `CD`；
+
 **社区投票：** CD 100%
 
 ### Q10.1-题干怎么拆
@@ -79,7 +84,7 @@
 
 ## Q12-Organizations-治理-IaC题
 
-**题目：** A company wants to manage deployed IT services and govern its infrastructure as code (IaC) templates. Which AWS service will meet this requirement?
+**题目：** A company wants to manage deployed IT services and govern its infrastructure as code (IaC) templates. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -88,9 +93,12 @@
 - C. AWS Organizations
 - D. AWS Systems Manager
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
-**需求/考点标签：** IaC
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** IaC；
+
 **社区投票：** B 89%, Other 11%
 
 ### Q12.1-题干怎么拆
@@ -114,7 +122,7 @@
 
 ## Q19-Organizations-治理-IaC题
 
-**题目：** Which AWS service provides the ability to manage infrastructure as code?
+**题目：** Which AWS service provides the ability to manage infrastructure as code?；
 
 **选项：**
 
@@ -123,9 +131,12 @@
 - C. AWS Direct Connect
 - D. AWS CloudFormation
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
-**需求/考点标签：** IaC
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** IaC；
+
 **社区投票：** D 100%
 
 ### Q19.1-题干怎么拆
@@ -154,7 +165,7 @@
 
 ## Q22-Organizations-治理-IaC题
 
-**题目：** Which option is a physical location of the AWS global infrastructure?
+**题目：** Which option is a physical location of the AWS global infrastructure?；
 
 **选项：**
 
@@ -163,8 +174,10 @@
 - C. Amazon Connect
 - D. AWS Organizations
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q22.1-题干怎么拆
@@ -188,7 +201,7 @@
 
 ## Q44-Organizations-治理-IaC题
 
-**题目：** Which AWS service can be used at no additional cost?
+**题目：** Which AWS service can be used at no additional cost?；
 
 **选项：**
 
@@ -197,8 +210,10 @@
 - C. AWS Organizations
 - D. Amazon CloudWatch
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `C`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 91%, A 9%
 
 ### Q44.1-题干怎么拆
@@ -222,7 +237,7 @@
 
 ## Q51-Organizations-治理-IaC题
 
-**题目：** Which of the following is a software development framework that a company can use to define cloud resources as code and provision the resources through AWS CloudFormation?
+**题目：** Which of the following is a software development framework that a company can use to define cloud resources as code and provision the resources through AWS CloudFormation?；
 
 **选项：**
 
@@ -231,9 +246,12 @@
 - C. AWS Cloud Development Kit (AWS CDK)
 - D. AWS CodeStar
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `C`
-**需求/考点标签：** IaC
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** IaC；
+
 **社区投票：** C 100%
 
 ### Q51.1-题干怎么拆
@@ -257,7 +275,7 @@
 
 ## Q65-Organizations-治理-IaC题
 
-**题目：** A company wants to monitor for misconfigured security groups that are allowing unrestricted access to specific ports. Which AWS service will meet this requirement?
+**题目：** A company wants to monitor for misconfigured security groups that are allowing unrestricted access to specific ports. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -266,9 +284,12 @@
 - C. Amazon GuardDuty
 - D. AWS Health Dashboard
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
-**需求/考点标签：** Monitoring / Configuration Compliance
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Monitoring / Configuration Compliance；
+
 **社区投票：** A 72%, C 23%, B 5%
 
 ### Q65.1-题干怎么拆
@@ -292,7 +313,7 @@
 
 ## Q78-Organizations-治理-IaC题
 
-**题目：** A developer needs to maintain a development environment infrastructure and a production environment infrastructure in a repeatable fashion. Which AWS service should the developer use to meet these requirements?
+**题目：** A developer needs to maintain a development environment infrastructure and a production environment infrastructure in a repeatable fashion. Which AWS service should the developer use to meet these requirements?；
 
 **选项：**
 
@@ -301,8 +322,10 @@
 - C. AWS IoT Device Defender
 - D. AWS CloudFormation
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q78.1-题干怎么拆
@@ -340,9 +363,12 @@
 - C. AWS Trusted Advisor
 - D. AWS CloudFormation
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
-**需求/考点标签：** IaC
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** IaC；
+
 **社区投票：** D 100%
 
 ### Q100.1-题干怎么拆
@@ -366,7 +392,7 @@
 
 ## Q120-Organizations-治理-IaC题
 
-**题目：** A company wants to design a centralized storage system to manage the configuration data and passwords for its critical business applications. Which AWS service or capability will meet these requirements MOST cost-effectively?
+**题目：** A company wants to design a centralized storage system to manage the configuration data and passwords for its critical business applications. Which AWS service or capability will meet these requirements MOST cost-effectively?；
 
 **选项：**
 
@@ -375,9 +401,12 @@
 - C. AWS Config
 - D. Amazon S3
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** A 74%, B 26%
 
 ### Q120.1-题干怎么拆
@@ -401,7 +430,7 @@
 
 ## Q122-Organizations-治理-IaC题
 
-**题目：** Which AWS service or feature allows users to create new AWS accounts, group multiple accounts to organize workflows, and apply policies to groups of accounts?
+**题目：** Which AWS service or feature allows users to create new AWS accounts, group multiple accounts to organize workflows, and apply policies to groups of accounts?；
 
 **选项：**
 
@@ -410,9 +439,12 @@
 - C. AWS CloudFormation
 - D. AWS Organizations
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
-**需求/考点标签：** 工作流编排
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 工作流编排；
+
 **社区投票：** D 83%, A 17%
 
 ### Q122.1-题干怎么拆
@@ -445,9 +477,12 @@
 - C. AWS Trusted Advisor
 - D. AWS Service Catalog
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `C`
-**需求/考点标签：** Fault Tolerance
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Fault Tolerance；
+
 **社区投票：** C 100%
 
 ### Q126.1-题干怎么拆
@@ -471,7 +506,7 @@
 
 ## Q171-Organizations-治理-IaC题
 
-**题目：** Which AWS service should users use to learn about AWS service availability and operations?
+**题目：** Which AWS service should users use to learn about AWS service availability and operations?；
 
 **选项：**
 
@@ -480,8 +515,10 @@
 - C. AWS Control Tower
 - D. AWS Health Dashboard
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 92%, B 8%
 
 ### Q171.1-题干怎么拆
@@ -510,7 +547,7 @@
 
 ## Q187-Organizations-治理-IaC题
 
-**题目：** A company wants to create templates that the company can reuse to deploy multiple AWS resources. Which AWS service or feature can the company use to meet this requirement?
+**题目：** A company wants to create templates that the company can reuse to deploy multiple AWS resources. Which AWS service or feature can the company use to meet this requirement?；
 
 **选项：**
 
@@ -519,8 +556,10 @@
 - C. AWS CloudFormation
 - D. AWS OpsWorks
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `C`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q187.1-题干怎么拆
@@ -544,7 +583,7 @@
 
 ## Q197-Organizations-治理-IaC题
 
-**题目：** A company needs to centrally configure and manage Amazon VPC security groups across multiple AWS accounts within an organization in AWS Organizations. Which AWS service should the company use to meet these requirements?
+**题目：** A company needs to centrally configure and manage Amazon VPC security groups across multiple AWS accounts within an organization in AWS Organizations. Which AWS service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -553,9 +592,12 @@
 - C. Amazon Detective
 - D. AWS WAF
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
-**需求/考点标签：** Configuration Compliance / Governance
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Configuration Compliance / Governance；
+
 **社区投票：** A 100%
 
 ### Q197.1-题干怎么拆
@@ -579,7 +621,7 @@
 
 ## Q203-Organizations-治理-IaC题
 
-**题目：** A company needs to engage third-party consultants to help maintain and support its AWS environment and the company’s business needs. Which AWS service or resource will meet these requirements?
+**题目：** A company needs to engage third-party consultants to help maintain and support its AWS environment and the company’s business needs. Which AWS service or resource will meet these requirements?；
 
 **选项：**
 
@@ -588,8 +630,10 @@
 - C. AWS Service Catalog
 - D. AWS Partner Network (APN)
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q203.1-题干怎么拆
@@ -613,7 +657,7 @@
 
 ## Q212-Organizations-治理-IaC题
 
-**题目：** Which AWS service allows users to model and provision AWS resources using common programming languages?
+**题目：** Which AWS service allows users to model and provision AWS resources using common programming languages?；
 
 **选项：**
 
@@ -622,8 +666,10 @@
 - C. AWS Cloud Development Kit (AWS CDK)
 - D. AWS Systems Manager
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `C`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 69%, A 31%
 
 ### Q212.1-题干怎么拆
@@ -661,8 +707,10 @@
 - C. AWS Budgets
 - D. AWS Trusted Advisor
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q225.1-题干怎么拆
@@ -696,8 +744,10 @@
 - D. AWS Service Health Dashboard
 - E. AWS Service Catalog
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `AD`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `AD`；
+
 **社区投票：** AD 100%
 
 ### Q226.1-题干怎么拆
@@ -722,7 +772,7 @@
 
 ## Q228-Organizations-治理-IaC题
 
-**题目：** Which cloud concept is demonstrated by using AWS Compute Optimizer?
+**题目：** Which cloud concept is demonstrated by using AWS Compute Optimizer?；
 
 **选项：**
 
@@ -731,8 +781,10 @@
 - C. Elasticity
 - D. Global reach
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q228.1-题干怎么拆
@@ -765,8 +817,10 @@
 - C. Use an Amazon DynamoDB table to record costs for each business unit.
 - D. Use the AWS Billing console to assign owners to resources and track costs.
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 82%, D 18%
 
 ### Q247.1-题干怎么拆
@@ -795,7 +849,7 @@
 
 ## Q253-Organizations-治理-IaC题
 
-**题目：** A company wants to provision and manage its AWS infrastructure by using the common programming languages Typescript, Python, Java, and .NET. Which AWS service will meet this requirement?
+**题目：** A company wants to provision and manage its AWS infrastructure by using the common programming languages Typescript, Python, Java, and .NET. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -804,8 +858,10 @@
 - C. AWS CLI
 - D. AWS Cloud Development Kit (AWS CDK)
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q253.1-题干怎么拆
@@ -834,7 +890,7 @@
 
 ## Q260-Organizations-治理-IaC题
 
-**题目：** A company acquired another corporation. The company now has two AWS accounts. Which AWS service or tool can the company use to consolidate the billing for these two accounts?
+**题目：** A company acquired another corporation. The company now has two AWS accounts. Which AWS service or tool can the company use to consolidate the billing for these two accounts?；
 
 **选项：**
 
@@ -843,9 +899,12 @@
 - C. AWS License Manager
 - D. Cost Explorer
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
-**需求/考点标签：** Disaster Recovery
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Disaster Recovery；
+
 **社区投票：** B 96%
 
 ### Q260.1-题干怎么拆
@@ -874,7 +933,7 @@
 
 ## Q273-Organizations-治理-IaC题
 
-**题目：** Which of the following are benefits of AWS Trusted Advisor? (Choose two.)
+**题目：** Which of the following are benefits of AWS Trusted Advisor? (Choose two.)；
 
 **选项：**
 
@@ -884,8 +943,10 @@
 - D. Security checks
 - E. AWS Identity and Access Management (IAM) approval management
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `BD`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `BD`；
+
 **社区投票：** BD 100%
 
 ### Q273.1-题干怎么拆
@@ -910,7 +971,7 @@
 
 ## Q305-Organizations-治理-IaC题
 
-**题目：** A development team wants to deploy multiple test environments for an application in a fast, repeatable manner. Which AWS service should the team use?
+**题目：** A development team wants to deploy multiple test environments for an application in a fast, repeatable manner. Which AWS service should the team use?；
 
 **选项：**
 
@@ -919,8 +980,10 @@
 - C. Amazon QuickSight
 - D. Amazon Elastic Container Service (Amazon ECS)
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q305.1-题干怎么拆
@@ -944,7 +1007,7 @@
 
 ## Q353-Organizations-治理-IaC题
 
-**题目：** Which AWS service can companies use to create infrastructure from code?
+**题目：** Which AWS service can companies use to create infrastructure from code?；
 
 **选项：**
 
@@ -953,8 +1016,10 @@
 - C. AWS CodePipeline
 - D. AWS CloudFormation
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q353.1-题干怎么拆
@@ -978,7 +1043,7 @@
 
 ## Q399-Organizations-治理-IaC题
 
-**题目：** A company has deployed a web application to Amazon EC2 instances. The EC2 instances have low usage. Which AWS service or feature should the company use to rightsize the EC2 instances?
+**题目：** A company has deployed a web application to Amazon EC2 instances. The EC2 instances have low usage. Which AWS service or feature should the company use to rightsize the EC2 instances?；
 
 **选项：**
 
@@ -987,8 +1052,10 @@
 - C. AWS Budgets
 - D. AWS Compute Optimizer
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q399.1-题干怎么拆
@@ -1012,7 +1079,7 @@
 
 ## Q405-Organizations-治理-IaC题
 
-**题目：** A company needs to consolidate the billing for multiple AWS accounts. The company needs to use one account to pay on behalf of all the other accounts. Which AWS service or tool should the company use to meet this requirement?
+**题目：** A company needs to consolidate the billing for multiple AWS accounts. The company needs to use one account to pay on behalf of all the other accounts. Which AWS service or tool should the company use to meet this requirement?；
 
 **选项：**
 
@@ -1021,8 +1088,10 @@
 - C. AWS Budgets
 - D. AWS Service Catalog
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q405.1-题干怎么拆
@@ -1046,7 +1115,7 @@
 
 ## Q408-Organizations-治理-IaC题
 
-**题目：** Where can users find examples of AWS Cloud solution designs?
+**题目：** Where can users find examples of AWS Cloud solution designs?；
 
 **选项：**
 
@@ -1055,8 +1124,10 @@
 - C. AWS Architecture Center
 - D. AWS Trusted Advisor
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `C`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q408.1-题干怎么拆
@@ -1080,7 +1151,7 @@
 
 ## Q412-Organizations-治理-IaC题
 
-**题目：** A company needs to check for IAM access keys that have not been rotated recently. Which AWS service should the company use to meet this requirement?
+**题目：** A company needs to check for IAM access keys that have not been rotated recently. Which AWS service should the company use to meet this requirement?；
 
 **选项：**
 
@@ -1089,8 +1160,10 @@
 - C. Amazon Cognito
 - D. AWS Trusted Advisor
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q412.1-题干怎么拆
@@ -1123,9 +1196,12 @@
 - C. Amazon GuardDuty
 - D. AWS Security Hub
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
-**需求/考点标签：** 配置变化与合规 / 关系数据库高可用
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 配置变化与合规 / 关系数据库高可用；
+
 **社区投票：** B 100%
 
 ### Q436.1-题干怎么拆
@@ -1149,7 +1225,7 @@
 
 ## Q487-Organizations-治理-IaC题
 
-**题目：** Which AWS service gives users the ability to deploy highly repeatable infrastructure configurations?
+**题目：** Which AWS service gives users the ability to deploy highly repeatable infrastructure configurations?；
 
 **选项：**
 
@@ -1158,9 +1234,12 @@
 - C. AWS CodeBuild
 - D. AWS Systems Manager
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
-**需求/考点标签：** Configuration Compliance
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Configuration Compliance；
+
 **社区投票：** A 100%
 
 ### Q487.1-题干怎么拆
@@ -1189,7 +1268,7 @@
 
 ## Q488-Organizations-治理-IaC题
 
-**题目：** A company needs to provide customer service by using voice calls and web chat features. Which AWS service should the company use to meet these requirements?
+**题目：** A company needs to provide customer service by using voice calls and web chat features. Which AWS service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -1198,8 +1277,10 @@
 - C. Amazon WorkSpaces
 - D. AWS Organizations
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q488.1-题干怎么拆
@@ -1223,7 +1304,7 @@
 
 ## Q512-Organizations-治理-IaC题
 
-**题目：** A company wants to manage its cloud resources by using infrastructure as code (IaC) templates. The company needs to meet compliance requirements. Which AWS service should the company use to meet these requirements?
+**题目：** A company wants to manage its cloud resources by using infrastructure as code (IaC) templates. The company needs to meet compliance requirements. Which AWS service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -1232,9 +1313,12 @@
 - C. AWS License Manager
 - D. AWS Service Catalog
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** D 100%
 
 ### Q512.1-题干怎么拆
@@ -1258,7 +1342,7 @@
 
 ## Q517-Organizations-治理-IaC题
 
-**题目：** Which AWS service supports a company's ability to treat infrastructure as code?
+**题目：** Which AWS service supports a company's ability to treat infrastructure as code?；
 
 **选项：**
 
@@ -1267,9 +1351,12 @@
 - C. Amazon API Gateway
 - D. AWS CloudFormation
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
-**需求/考点标签：** IaC
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** IaC；
+
 **社区投票：** D 100%
 
 ### Q517.1-题干怎么拆
@@ -1307,8 +1394,10 @@
 - C. Cost Explorer
 - D. AWS Budgets
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q553.1-题干怎么拆
@@ -1332,7 +1421,7 @@
 
 ## Q563-Organizations-治理-IaC题
 
-**题目：** Which AWS service can companies use to subscribe to RSS feeds for updates about all AWS service issues?
+**题目：** Which AWS service can companies use to subscribe to RSS feeds for updates about all AWS service issues?；
 
 **选项：**
 
@@ -1341,9 +1430,12 @@
 - C. AWS Config
 - D. AWS CodeCommit
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
-**需求/考点标签：** 一对多通知
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 一对多通知；
+
 **社区投票：** B 100%
 
 ### Q563.1-题干怎么拆
@@ -1372,7 +1464,7 @@
 
 ## Q573-Organizations-治理-IaC题
 
-**题目：** A company has migrated its workload to the AWS Cloud. The company wants to optimize existing Amazon EC2 resources. Which AWS services or tools provide this functionality? (Choose two.)
+**题目：** A company has migrated its workload to the AWS Cloud. The company wants to optimize existing Amazon EC2 resources. Which AWS services or tools provide this functionality? (Choose two.)；
 
 **选项：**
 
@@ -1382,8 +1474,10 @@
 - D. AWS Compute Optimizer
 - E. AWS Billing Conductor
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `BD`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `BD`；
+
 **需求/考点标签：** Migration
 
 ### Q573.1-题干怎么拆
@@ -1408,7 +1502,7 @@
 
 ## Q574-Organizations-治理-IaC题
 
-**题目：** A company with multiple accounts and teams wants to set up a new multi-account AWS environment. Which AWS service supports this requirement?
+**题目：** A company with multiple accounts and teams wants to set up a new multi-account AWS environment. Which AWS service supports this requirement?；
 
 **选项：**
 
@@ -1417,8 +1511,10 @@
 - C. AWS Config
 - D. Amazon Virtual Private Cloud (Amazon VPC)
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q574.1-题干怎么拆
@@ -1442,7 +1538,7 @@
 
 ## Q583-Organizations-治理-IaC题
 
-**题目：** Why are AWS CloudFormation templates used?
+**题目：** Why are AWS CloudFormation templates used?；
 
 **选项：**
 
@@ -1451,9 +1547,12 @@
 - C. To reuse on-premises infrastructure in the AWS Cloud.
 - D. To deploy large infrastructure with no cost implications.
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
-**需求/考点标签：** IaC
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** IaC；
+
 **社区投票：** A 100%
 
 ### Q583.1-题干怎么拆
@@ -1477,7 +1576,7 @@
 
 ## Q591-Organizations-治理-IaC题
 
-**题目：** Which AWS service enables users to create copies of resources across AWS Regions?
+**题目：** Which AWS service enables users to create copies of resources across AWS Regions?；
 
 **选项：**
 
@@ -1486,8 +1585,10 @@
 - C. AWS CloudTrail
 - D. AWS Systems Manager
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q591.1-题干怎么拆
@@ -1511,7 +1612,7 @@
 
 ## Q605-Organizations-治理-IaC题
 
-**题目：** A developer needs to interact with AWS by using the AWS CLI. Which security feature or AWS service must be provisioned in the developer's account to meet this requirement?
+**题目：** A developer needs to interact with AWS by using the AWS CLI. Which security feature or AWS service must be provisioned in the developer's account to meet this requirement?；
 
 **选项：**
 
@@ -1520,8 +1621,10 @@
 - C. Root password access
 - D. AWS access key
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `D`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q605.1-题干怎么拆
@@ -1545,7 +1648,7 @@
 
 ## Q629-Organizations-治理-IaC题
 
-**题目：** A developer needs to use a standardized template to create copies of a company's AWS architecture for development, test, and production environments. Which AWS service should the developer use to meet this requirement?
+**题目：** A developer needs to use a standardized template to create copies of a company's AWS architecture for development, test, and production environments. Which AWS service should the developer use to meet this requirement?；
 
 **选项：**
 
@@ -1554,8 +1657,10 @@
 - C. Amazon Cloud Front
 - D. AWS CloudTrail
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q629.1-题干怎么拆
@@ -1588,9 +1693,12 @@
 - C. Amazon Connect
 - D. AWS Systems Manager
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `A`
-**需求/考点标签：** Migration
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** A 100%
 
 ### Q635.1-题干怎么拆
@@ -1614,7 +1722,7 @@
 
 ## Q682-Organizations-治理-IaC题
 
-**题目：** Which AWS service or tool provides recommendations to help users get rightsized Amazon EC2 instances based on historical workload usage data?
+**题目：** Which AWS service or tool provides recommendations to help users get rightsized Amazon EC2 instances based on historical workload usage data?；
 
 **选项：**
 
@@ -1623,8 +1731,10 @@
 - C. AWS App Runner
 - D. AWS Systems Manager
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q682.1-题干怎么拆
@@ -1648,7 +1758,7 @@
 
 ## Q690-Organizations-治理-IaC题
 
-**题目：** A company has multiple AWS accounts. The company needs to receive a consolidated bill from AWS and must centrally manage security and compliance. Which AWS service or feature should the company use to meet these requirements?
+**题目：** A company has multiple AWS accounts. The company needs to receive a consolidated bill from AWS and must centrally manage security and compliance. Which AWS service or feature should the company use to meet these requirements?；
 
 **选项：**
 
@@ -1657,9 +1767,12 @@
 - C. AWS Config
 - D. AWS Security Hub
 
-**主分类：** C4-20 Organizations-治理-IaC题
-**题库记录答案：** `B`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-20 Organizations-治理-IaC题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** B 100%
 
 ### Q690.1-题干怎么拆

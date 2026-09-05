@@ -5,9 +5,10 @@
 本文件共收录 **3** 道主分类题。范围：VPC Endpoint、PrivateLink、VPC Peering 与各类 Gateway 混淆。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q327-Gateway-Endpoint-Peering-PrivateLink题
 
-**题目：** Which AWS services or features give users the ability to create a network connection between two VPCs? (Choose two.)
+**题目：** Which AWS services or features give users the ability to create a network connection between two VPCs? (Choose two.)；
 
 **选项：**
 
@@ -17,8 +18,10 @@
 - D. AWS Direct Connect
 - E. AWS Transit Gateway
 
-**主分类：** C4-11 Gateway-Endpoint-Peering-PrivateLink题
-**题库记录答案：** `CE`
+**主分类：** C4-11 Gateway-Endpoint-Peering-PrivateLink题；
+
+**题库记录答案：** `CE`；
+
 **社区投票：** CE 100%
 
 ### Q327.1-题干怎么拆
@@ -43,7 +46,7 @@
 
 ## Q644-Gateway-Endpoint-Peering-PrivateLink题
 
-**题目：** A company wants to securely access an Amazon S3 bucket from an Amazon EC2 instance without accessing the internet. What should the company use to accomplish this goal?
+**题目：** A company wants to securely access an Amazon S3 bucket from an Amazon EC2 instance without accessing the internet. What should the company use to accomplish this goal?；
 
 **选项：**
 
@@ -52,9 +55,12 @@
 - C. VPC endpoint
 - D. NAT gateway
 
-**主分类：** C4-11 Gateway-Endpoint-Peering-PrivateLink题
-**题库记录答案：** `C`
-**需求/考点标签：** Object Storage
+**主分类：** C4-11 Gateway-Endpoint-Peering-PrivateLink题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** C 100%
 
 ### Q644.1-题干怎么拆
@@ -78,7 +84,7 @@
 
 ## Q715-Gateway-Endpoint-Peering-PrivateLink题
 
-**题目：** A company wants to connect its supported AWS services and VPCs. The company does not want to expose its internal traffic to the public internet. Which AWS service will meet these requirements?
+**题目：** A company wants to connect its supported AWS services and VPCs. The company does not want to expose its internal traffic to the public internet. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -87,8 +93,10 @@
 - C. Amazon Connect
 - D. AWS Internet Gateway
 
-**主分类：** C4-11 Gateway-Endpoint-Peering-PrivateLink题
-**题库记录答案：** `B`
+**主分类：** C4-11 Gateway-Endpoint-Peering-PrivateLink题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q715.1-题干怎么拆

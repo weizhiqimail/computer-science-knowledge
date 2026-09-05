@@ -5,9 +5,10 @@
 本文件共收录 **10** 道主分类题。范围：Region、AZ、Multi-AZ、Multi-Region、HA、DR、RTO/RPO。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q186-Region-AZ-高可用与灾备题
 
-**题目：** A company that uses AWS needs to transfer 2 TB of data. Which type of transfer of that data would result in no cost for the company?
+**题目：** A company that uses AWS needs to transfer 2 TB of data. Which type of transfer of that data would result in no cost for the company?；
 
 **选项：**
 
@@ -16,8 +17,10 @@
 - C. Data transfer between AWS Regions
 - D. Data transfer between Availability Zones
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `A`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 73%, D 20%, C 7%
 
 ### Q186.1-题干怎么拆
@@ -46,7 +49,7 @@
 
 ## Q275-Region-AZ-高可用与灾备题
 
-**题目：** Which cloud computing advantage is a company applying when it uses AWS Regions to increase application availability to users in different countries?
+**题目：** Which cloud computing advantage is a company applying when it uses AWS Regions to increase application availability to users in different countries?；
 
 **选项：**
 
@@ -55,8 +58,10 @@
 - C. Economies of scale
 - D. Global reach
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `D`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q275.1-题干怎么拆
@@ -80,7 +85,7 @@
 
 ## Q341-Region-AZ-高可用与灾备题
 
-**题目：** A company wants to use the AWS Cloud to deploy an application globally. Which architecture deployment model should the company use to meet this requirement?
+**题目：** A company wants to use the AWS Cloud to deploy an application globally. Which architecture deployment model should the company use to meet this requirement?；
 
 **选项：**
 
@@ -89,8 +94,10 @@
 - C. Multi-AZ
 - D. Single-AZ
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `A`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q341.1-题干怎么拆
@@ -114,7 +121,7 @@
 
 ## Q347-Region-AZ-高可用与灾备题
 
-**题目：** Which architecture concept describes the ability to deploy resources on demand and release resources when they are no longer needed?
+**题目：** Which architecture concept describes the ability to deploy resources on demand and release resources when they are no longer needed?；
 
 **选项：**
 
@@ -123,8 +130,10 @@
 - C. Resilience
 - D. Elasticity
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `D`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q347.1-题干怎么拆
@@ -148,7 +157,7 @@
 
 ## Q527-Region-AZ-高可用与灾备题
 
-**题目：** Which statements accurately describe the relationships among components of AWS global infrastructure? (Choose two.)
+**题目：** Which statements accurately describe the relationships among components of AWS global infrastructure? (Choose two.)；
 
 **选项：**
 
@@ -158,8 +167,10 @@
 - D. There are more AWS Regions than edge locations.
 - E. There are more Availability Zones than AWS Regions.
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `BE`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `BE`；
+
 **社区投票：** BE 100%
 
 ### Q527.1-题干怎么拆
@@ -184,7 +195,7 @@
 
 ## Q529-Region-AZ-高可用与灾备题
 
-**题目：** A company needs to host an application in a specific geographic area to comply with regulations. Which feature of the AWS global infrastructure will help the company meet this requirement?
+**题目：** A company needs to host an application in a specific geographic area to comply with regulations. Which feature of the AWS global infrastructure will help the company meet this requirement?；
 
 **选项：**
 
@@ -193,8 +204,10 @@
 - C. Availability
 - D. Performance
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `B`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 75%, C 25%
 
 ### Q529.1-题干怎么拆
@@ -218,7 +231,7 @@
 
 ## Q531-Region-AZ-高可用与灾备题
 
-**题目：** When designing AWS workloads to be operational even when there are component failures, what is an AWS best practice?
+**题目：** When designing AWS workloads to be operational even when there are component failures, what is an AWS best practice?；
 
 **选项：**
 
@@ -227,8 +240,10 @@
 - C. Design for automatic failover to healthy resources.
 - D. Design workloads to fit on a single Amazon EC2 instance.
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `C`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q531.1-题干怎么拆
@@ -252,7 +267,7 @@
 
 ## Q543-Region-AZ-高可用与灾备题
 
-**题目：** Which AWS services or features form the AWS Cloud global infrastructure? (Choose two.)
+**题目：** Which AWS services or features form the AWS Cloud global infrastructure? (Choose two.)；
 
 **选项：**
 
@@ -262,8 +277,10 @@
 - D. Amazon S3
 - E. Amazon VPC
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `AC`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `AC`；
+
 **社区投票：** AC 100%
 
 ### Q543.1-题干怎么拆
@@ -288,7 +305,7 @@
 
 ## Q562-Region-AZ-高可用与灾备题
 
-**题目：** A company wants to deploy an application in multiple Availability Zones in a single AWS Region. Which benefit will this deployment provide to the company?
+**题目：** A company wants to deploy an application in multiple Availability Zones in a single AWS Region. Which benefit will this deployment provide to the company?；
 
 **选项：**
 
@@ -297,8 +314,10 @@
 - C. Reduced overall data storage costs
 - D. Ability to shut down an Availability Zone during periods of low demand
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `B`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q562.1-题干怎么拆
@@ -322,7 +341,7 @@
 
 ## Q669-Region-AZ-高可用与灾备题
 
-**题目：** Which benefits does a company gain when the company moves from on-premises IT architecture to the AWS Cloud? (Choose two.)
+**题目：** Which benefits does a company gain when the company moves from on-premises IT architecture to the AWS Cloud? (Choose two.)；
 
 **选项：**
 
@@ -332,8 +351,10 @@
 - D. Elimination of the need for disaster recovery planning
 - E. Faster deployment of new features and applications
 
-**主分类：** C4-02 Region-AZ-高可用与灾备题
-**题库记录答案：** `AE`
+**主分类：** C4-02 Region-AZ-高可用与灾备题；
+
+**题库记录答案：** `AE`；
+
 **需求/考点标签：** Hybrid Cloud
 
 ### Q669.1-题干怎么拆

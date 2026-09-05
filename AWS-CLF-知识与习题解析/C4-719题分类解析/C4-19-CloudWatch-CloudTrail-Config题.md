@@ -5,9 +5,10 @@
 本文件共收录 **24** 道主分类题。范围：运行监控、API 审计、资源配置与合规。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q27-CloudWatch-CloudTrail-Config题
 
-**题目：** A company wants to receive a notification when a specific AWS cost threshold is reached. Which AWS services or tools can the company use to meet this requirement? (Choose two.)
+**题目：** A company wants to receive a notification when a specific AWS cost threshold is reached. Which AWS services or tools can the company use to meet this requirement? (Choose two.)；
 
 **选项：**
 
@@ -17,9 +18,12 @@
 - D. Amazon CloudWatch
 - E. AWS Cost and Usage Report
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `BD`
-**需求/考点标签：** 预算阈值告警
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `BD`；
+
+**需求/考点标签：** 预算阈值告警；
+
 **社区投票：** BD 93%, Other 7%
 
 ### Q27.1-题干怎么拆
@@ -44,7 +48,7 @@
 
 ## Q41-CloudWatch-CloudTrail-Config题
 
-**题目：** Which service enables customers to audit API calls in their AWS accounts?
+**题目：** Which service enables customers to audit API calls in their AWS accounts?；
 
 **选项：**
 
@@ -53,9 +57,12 @@
 - C. Amazon Inspector
 - D. AWS X-Ray
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
-**需求/考点标签：** 谁执行了API操作
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 谁执行了API操作；
+
 **社区投票：** A 100%
 
 ### Q41.1-题干怎么拆
@@ -79,7 +86,7 @@
 
 ## Q60-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service can identify when an Amazon EC2 instance was terminated?
+**题目：** Which AWS service can identify when an Amazon EC2 instance was terminated?；
 
 **选项：**
 
@@ -88,8 +95,10 @@
 - C. AWS Compute Optimizer
 - D. Amazon EventBridge
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `B`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q60.1-题干怎么拆
@@ -113,7 +122,7 @@
 
 ## Q111-CloudWatch-CloudTrail-Config题
 
-**题目：** A company needs to track the activity in its AWS accounts, and needs to know when an API call is made against its AWS resources. Which AWS tool or service can be used to meet these requirements?
+**题目：** A company needs to track the activity in its AWS accounts, and needs to know when an API call is made against its AWS resources. Which AWS tool or service can be used to meet these requirements?；
 
 **选项：**
 
@@ -122,8 +131,10 @@
 - C. AWS CloudTrail
 - D. AWS IAM
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `C`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q111.1-题干怎么拆
@@ -147,7 +158,7 @@
 
 ## Q155-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service helps users audit API activity across their AWS account?
+**题目：** Which AWS service helps users audit API activity across their AWS account?；
 
 **选项：**
 
@@ -156,9 +167,12 @@
 - C. AWS WAF
 - D. AWS Config
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
-**需求/考点标签：** Audit Trail
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Audit Trail；
+
 **社区投票：** A 100%
 
 ### Q155.1-题干怎么拆
@@ -182,7 +196,7 @@
 
 ## Q221-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service is used to track, record, and audit configuration changes made to AWS resources?
+**题目：** Which AWS service is used to track, record, and audit configuration changes made to AWS resources?；
 
 **选项：**
 
@@ -191,9 +205,12 @@
 - C. AWS IAM
 - D. Amazon Inspector
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `B`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** B 100%
 
 ### Q221.1-题干怎么拆
@@ -217,7 +234,7 @@
 
 ## Q232-CloudWatch-CloudTrail-Config题
 
-**题目：** What can a user accomplish using AWS CloudTrail?
+**题目：** What can a user accomplish using AWS CloudTrail?；
 
 **选项：**
 
@@ -226,9 +243,12 @@
 - C. Assess the compliance of AWS resource configurations with policies and guidelines.
 - D. Ensure that Amazon EC2 instances are patched with the latest security updates.
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `B`
-**需求/考点标签：** 谁执行了API操作
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 谁执行了API操作；
+
 **社区投票：** B 100%
 
 ### Q232.1-题干怎么拆
@@ -252,7 +272,7 @@
 
 ## Q244-CloudWatch-CloudTrail-Config题
 
-**题目：** A company wants to improve its security posture by reviewing user activity through API calls. Which AWS service will meet this requirement?
+**题目：** A company wants to improve its security posture by reviewing user activity through API calls. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -261,9 +281,12 @@
 - C. Amazon CloudWatch
 - D. AWS CloudTrail
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `D`
-**需求/考点标签：** 谁执行了API操作
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 谁执行了API操作；
+
 **社区投票：** D 100%
 
 ### Q244.1-题干怎么拆
@@ -287,7 +310,7 @@
 
 ## Q314-CloudWatch-CloudTrail-Config题
 
-**题目：** An ecommerce company wants to use Amazon EC2 Auto Scaling to add and remove EC2 instances based on CPU utilization. Which AWS service or feature can initiate an Amazon EC2 Auto Scaling action to achieve this goal?
+**题目：** An ecommerce company wants to use Amazon EC2 Auto Scaling to add and remove EC2 instances based on CPU utilization. Which AWS service or feature can initiate an Amazon EC2 Auto Scaling action to achieve this goal?；
 
 **选项：**
 
@@ -296,9 +319,12 @@
 - C. AWS Systems Manager
 - D. Amazon CloudWatch alarm
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `D`
-**需求/考点标签：** 运行时指标监控
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 运行时指标监控；
+
 **社区投票：** D 100%
 
 ### Q314.1-题干怎么拆
@@ -322,7 +348,7 @@
 
 ## Q324-CloudWatch-CloudTrail-Config题
 
-**题目：** Which mechanism allows developers to access AWS services from application code?
+**题目：** Which mechanism allows developers to access AWS services from application code?；
 
 **选项：**
 
@@ -331,8 +357,10 @@
 - C. AWS CodePipeline
 - D. AWS Config
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q324.1-题干怎么拆
@@ -356,7 +384,7 @@
 
 ## Q373-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service makes it easier to monitor and troubleshoot application logs and cloud resources?
+**题目：** Which AWS service makes it easier to monitor and troubleshoot application logs and cloud resources?；
 
 **选项：**
 
@@ -365,9 +393,12 @@
 - C. Amazon CloudWatch
 - D. AWS CloudTrail
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `C`
-**需求/考点标签：** Monitoring
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Monitoring；
+
 **社区投票：** C 100%
 
 ### Q373.1-题干怎么拆
@@ -391,7 +422,7 @@
 
 ## Q378-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service or tool will monitor AWS resources and applications in real time?
+**题目：** Which AWS service or tool will monitor AWS resources and applications in real time?；
 
 **选项：**
 
@@ -400,9 +431,12 @@
 - C. AWS CloudTrail
 - D. AWS Cost Explorer
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `B`
-**需求/考点标签：** Monitoring
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Monitoring；
+
 **社区投票：** B 100%
 
 ### Q378.1-题干怎么拆
@@ -426,7 +460,7 @@
 
 ## Q388-CloudWatch-CloudTrail-Config题
 
-**题目：** A company wants to use AWS Managed Services (AMS) for operational support and wants to understand the scope of AMS. Which AMS feature will meet these requirements?
+**题目：** A company wants to use AWS Managed Services (AMS) for operational support and wants to understand the scope of AMS. Which AMS feature will meet these requirements?；
 
 **选项：**
 
@@ -435,8 +469,10 @@
 - C. DevSecOps pipeline configuration
 - D. Application log monitoring
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 80%, D 20%
 
 ### Q388.1-题干怎么拆
@@ -460,7 +496,7 @@
 
 ## Q435-CloudWatch-CloudTrail-Config题
 
-**题目：** A company needs to identify who accessed an AWS service and what action was performed for a given time period. Which AWS service should the company use to meet this requirement?
+**题目：** A company needs to identify who accessed an AWS service and what action was performed for a given time period. Which AWS service should the company use to meet this requirement?；
 
 **选项：**
 
@@ -469,8 +505,10 @@
 - C. AWS Security Hub
 - D. Amazon Inspector
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `B`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q435.1-题干怎么拆
@@ -494,7 +532,7 @@
 
 ## Q470-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service can generate information that can be used by external auditors?
+**题目：** Which AWS service can generate information that can be used by external auditors?；
 
 **选项：**
 
@@ -503,9 +541,12 @@
 - C. AWS Config
 - D. Amazon Inspector
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `C`
-**需求/考点标签：** Audit Trail
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Audit Trail；
+
 **社区投票：** C 100%
 
 ### Q470.1-题干怎么拆
@@ -529,7 +570,7 @@
 
 ## Q504-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service or feature supports governance, compliance, and risk auditing of AWS accounts?
+**题目：** Which AWS service or feature supports governance, compliance, and risk auditing of AWS accounts?；
 
 **选项：**
 
@@ -538,9 +579,12 @@
 - C. Amazon Simple Notification Service (Amazon SNS)
 - D. AWS CloudTrail
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `D`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** D 100%
 
 ### Q504.1-题干怎么拆
@@ -564,7 +608,7 @@
 
 ## Q505-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS Cloud design principle is a company using when the company implements AWS CloudTrail?
+**题目：** Which AWS Cloud design principle is a company using when the company implements AWS CloudTrail?；
 
 **选项：**
 
@@ -573,9 +617,12 @@
 - C. Perform operations as code.
 - D. Go global in minutes.
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
-**需求/考点标签：** 谁执行了API操作
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 谁执行了API操作；
+
 **社区投票：** A 100%
 
 ### Q505.1-题干怎么拆
@@ -599,7 +646,7 @@
 
 ## Q513-CloudWatch-CloudTrail-Config题
 
-**题目：** A systems administrator wants to monitor the CPU utilization of a company's Amazon EC2 instances. Which AWS service can provide this information?
+**题目：** A systems administrator wants to monitor the CPU utilization of a company's Amazon EC2 instances. Which AWS service can provide this information?；
 
 **选项：**
 
@@ -608,9 +655,12 @@
 - C. AWS CloudTrail
 - D. Amazon CloudWatch
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `D`
-**需求/考点标签：** 运行时指标监控
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 运行时指标监控；
+
 **社区投票：** D 100%
 
 ### Q513.1-题干怎么拆
@@ -634,7 +684,7 @@
 
 ## Q558-CloudWatch-CloudTrail-Config题
 
-**题目：** A company needs to perform an audit of recent AWS account activity. The audit will investigate who initiated an event and what actions were performed. Which AWS service should the company use to meet these requirements?
+**题目：** A company needs to perform an audit of recent AWS account activity. The audit will investigate who initiated an event and what actions were performed. Which AWS service should the company use to meet these requirements?；
 
 **选项：**
 
@@ -643,9 +693,12 @@
 - C. AWS CloudTrail
 - D. Amazon Simple Notification Service (Amazon SNS)
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `C`
-**需求/考点标签：** Audit Trail / Event Driven
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Audit Trail / Event Driven；
+
 **社区投票：** C 100%
 
 ### Q558.1-题干怎么拆
@@ -669,7 +722,7 @@
 
 ## Q580-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service or feature gives users the ability to provision AWS infrastructure programmatically?
+**题目：** Which AWS service or feature gives users the ability to provision AWS infrastructure programmatically?；
 
 **选项：**
 
@@ -678,8 +731,10 @@
 - C. AWS Config
 - D. AWS CodeCommit
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q580.1-题干怎么拆
@@ -703,7 +758,7 @@
 
 ## Q586-CloudWatch-CloudTrail-Config题
 
-**题目：** A company needs an event history of which AWS resources the company has created. Which AWS service will provide this information?
+**题目：** A company needs an event history of which AWS resources the company has created. Which AWS service will provide this information?；
 
 **选项：**
 
@@ -712,9 +767,12 @@
 - C. Amazon Aurora
 - D. Amazon EventBridge
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `B`
-**需求/考点标签：** Event Driven
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Event Driven；
+
 **社区投票：** B 100%
 
 ### Q586.1-题干怎么拆
@@ -738,7 +796,7 @@
 
 ## Q599-CloudWatch-CloudTrail-Config题
 
-**题目：** Which AWS service or feature can be used to monitor for potential disk write spikes on a system that is running on Amazon EC2?
+**题目：** Which AWS service or feature can be used to monitor for potential disk write spikes on a system that is running on Amazon EC2?；
 
 **选项：**
 
@@ -747,8 +805,10 @@
 - C. AWS Trusted Advisor
 - D. Amazon CloudWatch
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `D`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `D`；
+
 **需求/考点标签：** Monitoring
 
 ### Q599.1-题干怎么拆
@@ -772,7 +832,7 @@
 
 ## Q612-CloudWatch-CloudTrail-Config题
 
-**题目：** A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. Which AWS service should the company use?
+**题目：** A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. Which AWS service should the company use?；
 
 **选项：**
 
@@ -781,9 +841,12 @@
 - C. AWS CloudTrail
 - D. AWS Trusted Advisor
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** A 100%
 
 ### Q612.1-题干怎么拆
@@ -807,7 +870,7 @@
 
 ## Q654-CloudWatch-CloudTrail-Config题
 
-**题目：** An administrator observed that multiple AWS resources were deleted yesterday. Which AWS service will help identify the cause and determine which user deleted the resources?
+**题目：** An administrator observed that multiple AWS resources were deleted yesterday. Which AWS service will help identify the cause and determine which user deleted the resources?；
 
 **选项：**
 
@@ -816,8 +879,10 @@
 - C. Amazon GuardDuty
 - D. AWS Trusted Advisor
 
-**主分类：** C4-19 CloudWatch-CloudTrail-Config题
-**题库记录答案：** `A`
+**主分类：** C4-19 CloudWatch-CloudTrail-Config题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q654.1-题干怎么拆

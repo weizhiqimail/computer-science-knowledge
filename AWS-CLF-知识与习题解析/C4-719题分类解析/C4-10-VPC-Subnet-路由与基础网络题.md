@@ -5,9 +5,10 @@
 本文件共收录 **24** 道主分类题。范围：VPC、Subnet、Route Table、Security Group、NACL、IGW、NAT。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q24-VPC-Subnet-路由与基础网络题
 
-**题目：** What is the purpose of having an internet gateway within a VPC?
+**题目：** What is the purpose of having an internet gateway within a VPC?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. To impose bandwidth constraints on internet traffic
 - D. To load balance traffic from the internet across Amazon EC2 instances
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
-**需求/考点标签：** Disaster Recovery
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Disaster Recovery；
+
 **社区投票：** B 100%
 
 ### Q24.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q59-VPC-Subnet-路由与基础网络题
 
-**题目：** Which of the following services can be used to block network traffic to an instance? (Choose two.)
+**题目：** Which of the following services can be used to block network traffic to an instance? (Choose two.)；
 
 **选项：**
 
@@ -52,8 +56,10 @@
 - D. Amazon CloudWatch
 - E. AWS CloudTrail
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `AC`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `AC`；
+
 **社区投票：** AC 100%
 
 ### Q59.1-题干怎么拆
@@ -78,7 +84,7 @@
 
 ## Q95-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or tool can be used to set up a firewall to control traffic going into and coming out of an Amazon VPC subnet?
+**题目：** Which AWS service or tool can be used to set up a firewall to control traffic going into and coming out of an Amazon VPC subnet?；
 
 **选项：**
 
@@ -87,8 +93,10 @@
 - C. AWS Firewall Manager
 - D. Network ACL
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `D`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 77%, C 15%, A 8%
 
 ### Q95.1-题干怎么拆
@@ -112,7 +120,7 @@
 
 ## Q119-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or feature provides log information of the inbound and outbound traffic on network interfaces in a VPC?
+**题目：** Which AWS service or feature provides log information of the inbound and outbound traffic on network interfaces in a VPC?；
 
 **选项：**
 
@@ -121,8 +129,10 @@
 - C. VPC Flow Logs
 - D. AWS Identity and Access Management (IAM)
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `C`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q119.1-题干怎么拆
@@ -146,7 +156,7 @@
 
 ## Q150-VPC-Subnet-路由与基础网络题
 
-**题目：** Which option is an environment that consists of one or more data centers?
+**题目：** Which option is an environment that consists of one or more data centers?；
 
 **选项：**
 
@@ -155,8 +165,10 @@
 - C. VPC
 - D. AWS Outposts
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 93%, C 7%
 
 ### Q150.1-题干怎么拆
@@ -180,7 +192,7 @@
 
 ## Q172-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or tool can be used to capture information about inbound and outbound traffic in an Amazon VPC?
+**题目：** Which AWS service or tool can be used to capture information about inbound and outbound traffic in an Amazon VPC?；
 
 **选项：**
 
@@ -189,8 +201,10 @@
 - C. VPC endpoint services
 - D. NAT gateway
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `A`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q172.1-题干怎么拆
@@ -214,7 +228,7 @@
 
 ## Q184-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or feature can a company use to apply security rules to specific Amazon EC2 instances?
+**题目：** Which AWS service or feature can a company use to apply security rules to specific Amazon EC2 instances?；
 
 **选项：**
 
@@ -223,8 +237,10 @@
 - C. AWS Trusted Advisor
 - D. AWS WAF
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q184.1-题干怎么拆
@@ -257,9 +273,12 @@
 - C. Amazon PrivateLink
 - D. VPC peering
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
-**需求/考点标签：** 私网实例访问互联网
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 私网实例访问互联网；
+
 **社区投票：** B 100%
 
 ### Q199.1-题干怎么拆
@@ -283,7 +302,7 @@
 
 ## Q214-VPC-Subnet-路由与基础网络题
 
-**题目：** Which of the following acts as an instance-level firewall to control inbound and outbound access?
+**题目：** Which of the following acts as an instance-level firewall to control inbound and outbound access?；
 
 **选项：**
 
@@ -292,8 +311,10 @@
 - C. AWS Trusted Advisor
 - D. Virtual private gateways
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q214.1-题干怎么拆
@@ -317,7 +338,7 @@
 
 ## Q291-VPC-Subnet-路由与基础网络题
 
-**题目：** Which of the following are features of network ACLs as they are used in the AWS Cloud? (Choose two.)
+**题目：** Which of the following are features of network ACLs as they are used in the AWS Cloud? (Choose two.)；
 
 **选项：**
 
@@ -327,8 +348,10 @@
 - D. They process rules in order, starting with the lowest numbered rule, when deciding whether to allow traffic.
 - E. They operate at the instance level.
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `AD`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `AD`；
+
 **社区投票：** AD 90%, CD 10%
 
 ### Q291.1-题干怎么拆
@@ -358,7 +381,7 @@
 
 ## Q310-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or feature gives users the ability to capture information about network traffic in a VPC?
+**题目：** Which AWS service or feature gives users the ability to capture information about network traffic in a VPC?；
 
 **选项：**
 
@@ -367,8 +390,10 @@
 - C. VPC route tables
 - D. AWS CloudTrail
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `A`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q310.1-题干怎么拆
@@ -392,7 +417,7 @@
 
 ## Q340-VPC-Subnet-路由与基础网络题
 
-**题目：** A company created an Amazon EC2 instance. The company wants to control the incoming and outgoing network traffic at the instance level. Which AWS resource or service will meet this requirement?
+**题目：** A company created an Amazon EC2 instance. The company wants to control the incoming and outgoing network traffic at the instance level. Which AWS resource or service will meet this requirement?；
 
 **选项：**
 
@@ -401,8 +426,10 @@
 - C. Network Access Analyzer
 - D. VPC endpoints
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q340.1-题干怎么拆
@@ -426,7 +453,7 @@
 
 ## Q352-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or component allows inbound traffic from the internet to access a VPC?
+**题目：** Which AWS service or component allows inbound traffic from the internet to access a VPC?；
 
 **选项：**
 
@@ -435,8 +462,10 @@
 - C. AWS WAF
 - D. VPC peering
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `A`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 94%, B 6%
 
 ### Q352.1-题干怎么拆
@@ -460,7 +489,7 @@
 
 ## Q413-VPC-Subnet-路由与基础网络题
 
-**题目：** A company runs many Amazon EC2 instances in its VPC. The company wants to use a native AWS security resource to control network traffic between certain EC2 instances. Which AWS service or feature will meet this requirement?
+**题目：** A company runs many Amazon EC2 instances in its VPC. The company wants to use a native AWS security resource to control network traffic between certain EC2 instances. Which AWS service or feature will meet this requirement?；
 
 **选项：**
 
@@ -469,8 +498,10 @@
 - C. Amazon GuardDuty
 - D. Security groups
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `D`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q413.1-题干怎么拆
@@ -494,7 +525,7 @@
 
 ## Q414-VPC-Subnet-路由与基础网络题
 
-**题目：** Which of the following can be components of a VPC in the AWS Cloud? (Choose two.)
+**题目：** Which of the following can be components of a VPC in the AWS Cloud? (Choose two.)；
 
 **选项：**
 
@@ -504,8 +535,10 @@
 - D. Internet gateway
 - E. Subnet
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `DE`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `DE`；
+
 **社区投票：** DE 100%
 
 ### Q414.1-题干怎么拆
@@ -530,7 +563,7 @@
 
 ## Q417-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or feature can a user configure to limit network access at the subnet level?
+**题目：** Which AWS service or feature can a user configure to limit network access at the subnet level?；
 
 **选项：**
 
@@ -539,9 +572,12 @@
 - C. Network ACL
 - D. Security group
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `C`
-**需求/考点标签：** Configuration Compliance
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Configuration Compliance；
+
 **社区投票：** C 100%
 
 ### Q417.1-题干怎么拆
@@ -565,7 +601,7 @@
 
 ## Q493-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS tool or feature acts as a VPC firewall at the subnet level?
+**题目：** Which AWS tool or feature acts as a VPC firewall at the subnet level?；
 
 **选项：**
 
@@ -574,8 +610,10 @@
 - C. Traffic Mirroring
 - D. Internet gateway
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q493.1-题干怎么拆
@@ -599,7 +637,7 @@
 
 ## Q516-VPC-Subnet-路由与基础网络题
 
-**题目：** Which component must be attached to a VPC to enable inbound internet access?
+**题目：** Which component must be attached to a VPC to enable inbound internet access?；
 
 **选项：**
 
@@ -608,8 +646,10 @@
 - C. VPN connection
 - D. Internet gateway
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `D`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q516.1-题干怎么拆
@@ -633,7 +673,7 @@
 
 ## Q536-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or feature provides a firewall at the subnet level within a VPC?
+**题目：** Which AWS service or feature provides a firewall at the subnet level within a VPC?；
 
 **选项：**
 
@@ -642,8 +682,10 @@
 - C. Elastic network interface
 - D. AWS WAF
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q536.1-题干怎么拆
@@ -676,8 +718,10 @@
 - C. Route table
 - D. Security group
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `D`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q554.1-题干怎么拆
@@ -701,7 +745,7 @@
 
 ## Q581-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS service or feature allows a company to have its own logically isolated section of the AWS Cloud?
+**题目：** Which AWS service or feature allows a company to have its own logically isolated section of the AWS Cloud?；
 
 **选项：**
 
@@ -710,8 +754,10 @@
 - C. Amazon Virtual Private Cloud (Amazon VPC)
 - D. AWS Regions
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `C`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q581.1-题干怎么拆
@@ -735,7 +781,7 @@
 
 ## Q604-VPC-Subnet-路由与基础网络题
 
-**题目：** Which VPC component can a company use to set up a virtual firewall at the Amazon EC2 instance level?
+**题目：** Which VPC component can a company use to set up a virtual firewall at the Amazon EC2 instance level?；
 
 **选项：**
 
@@ -744,8 +790,10 @@
 - C. Route table
 - D. NAT gateway
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `B`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q604.1-题干怎么拆
@@ -769,7 +817,7 @@
 
 ## Q614-VPC-Subnet-路由与基础网络题
 
-**题目：** Which AWS network services or features allow CIDR block notation when providing an IP address range? (Choose two.)
+**题目：** Which AWS network services or features allow CIDR block notation when providing an IP address range? (Choose two.)；
 
 **选项：**
 
@@ -779,8 +827,10 @@
 - D. AWS Budgets
 - E. Amazon Elastic Block Store (Amazon EBS)
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `AC`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `AC`；
+
 **社区投票：** AC 100%
 
 ### Q614.1-题干怎么拆
@@ -805,7 +855,7 @@
 
 ## Q665-VPC-Subnet-路由与基础网络题
 
-**题目：** A company needs stateless network filtering for its VPC. Which AWS service, tool, or feature will meet this requirement?
+**题目：** A company needs stateless network filtering for its VPC. Which AWS service, tool, or feature will meet this requirement?；
 
 **选项：**
 
@@ -814,8 +864,10 @@
 - C. Network access control list (ACL)
 - D. AWS WAF
 
-**主分类：** C4-10 VPC-Subnet-路由与基础网络题
-**题库记录答案：** `C`
+**主分类：** C4-10 VPC-Subnet-路由与基础网络题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q665.1-题干怎么拆

@@ -5,9 +5,10 @@
 本文件共收录 **62** 道主分类题。范围：EC2、AMI、Instance Type、Auto Scaling、ELB、Lambda、容器和基础计算定位。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q4-EC2-AMI与计算服务题
 
-**题目：** According to security best practices, how should an Amazon EC2 instance be given access to an Amazon S3 bucket?
+**题目：** According to security best practices, how should an Amazon EC2 instance be given access to an Amazon S3 bucket?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. Have the EC2 instance assume a role to obtain the privileges to upload the file.
 - D. Modify the S3 bucket policy so that any service can upload to it at any time.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
-**需求/考点标签：** Object Storage
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** C 91%, D 9%
 
 ### Q4.1-题干怎么拆
@@ -51,8 +55,10 @@
 - C. AWS Fargate
 - D. Amazon Athena
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q7.1-题干怎么拆
@@ -76,7 +82,7 @@
 
 ## Q8-EC2-AMI与计算服务题
 
-**题目：** A company wants to run a NoSQL database on Amazon EC2 instances. Which task is the responsibility of AWS in this scenario?
+**题目：** A company wants to run a NoSQL database on Amazon EC2 instances. Which task is the responsibility of AWS in this scenario?；
 
 **选项：**
 
@@ -85,9 +91,12 @@
 - C. Patch the physical infrastructure that hosts the EC2 instances.
 - D. Configure the security group firewall.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
-**需求/考点标签：** NoSQL自动扩展
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** NoSQL自动扩展；
+
 **社区投票：** C 96%
 
 ### Q8.1-题干怎么拆
@@ -111,7 +120,7 @@
 
 ## Q17-EC2-AMI与计算服务题
 
-**题目：** A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?
+**题目：** A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -120,8 +129,10 @@
 - C. AWS CodeBuild
 - D. Amazon Personalize
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q17.1-题干怎么拆
@@ -151,7 +162,7 @@
 
 ## Q88-EC2-AMI与计算服务题
 
-**题目：** Which responsibility belongs to AWS when a company hosts its databases on Amazon EC2 instances?
+**题目：** Which responsibility belongs to AWS when a company hosts its databases on Amazon EC2 instances?；
 
 **选项：**
 
@@ -160,8 +171,10 @@
 - C. Operating system patches
 - D. Operating system installations
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 60%, C 36%
 
 ### Q88.1-题干怎么拆
@@ -190,7 +203,7 @@
 
 ## Q92-EC2-AMI与计算服务题
 
-**题目：** Which tool should a developer use to integrate AWS service features directly into an application?
+**题目：** Which tool should a developer use to integrate AWS service features directly into an application?；
 
 **选项：**
 
@@ -199,8 +212,10 @@
 - C. AWS Lambda
 - D. AWS Batch
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q92.1-题干怎么拆
@@ -229,7 +244,7 @@
 
 ## Q116-EC2-AMI与计算服务题
 
-**题目：** Which fully managed AWS service assists with the creation, testing, and management of custom Amazon EC2 images?
+**题目：** Which fully managed AWS service assists with the creation, testing, and management of custom Amazon EC2 images?；
 
 **选项：**
 
@@ -238,8 +253,10 @@
 - C. AWS Launch Wizard
 - D. AWS Elastic Beanstalk
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q116.1-题干怎么拆
@@ -263,7 +280,7 @@
 
 ## Q118-EC2-AMI与计算服务题
 
-**题目：** A company needs to perform data processing once a week that typically takes about 5 hours to complete. Which AWS service should the company use for this workload?
+**题目：** A company needs to perform data processing once a week that typically takes about 5 hours to complete. Which AWS service should the company use for this workload?；
 
 **选项：**
 
@@ -272,8 +289,10 @@
 - C. AWS CodeDeploy
 - D. AWS Wavelength
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 96%
 
 ### Q118.1-题干怎么拆
@@ -302,7 +321,7 @@
 
 ## Q121-EC2-AMI与计算服务题
 
-**题目：** A company plans to deploy containers on AWS. The company wants full control of the compute resources that host the containers. Which AWS service will meet these requirements?
+**题目：** A company plans to deploy containers on AWS. The company wants full control of the compute resources that host the containers. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -311,9 +330,12 @@
 - C. Amazon EC2
 - D. Amazon Elastic Container Service (Amazon ECS)
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
-**需求/考点标签：** Container
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Container；
+
 **社区投票：** C 79%, D 21%
 
 ### Q121.1-题干怎么拆
@@ -342,7 +364,7 @@
 
 ## Q147-EC2-AMI与计算服务题
 
-**题目：** A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural disaster in a particular geographic area. Which approach will achieve this goal?
+**题目：** A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural disaster in a particular geographic area. Which approach will achieve this goal?；
 
 **选项：**
 
@@ -351,9 +373,12 @@
 - C. Use EC2 instances in multiple edge locations.
 - D. Use EC2 instances in AWS Local Zones.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
-**需求/考点标签：** High Availability
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** High Availability；
+
 **社区投票：** A 100%
 
 ### Q147.1-题干怎么拆
@@ -386,8 +411,10 @@
 - C. Amazon WorkLink
 - D. AWS Elastic Beanstalk
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 79%, D 21%
 
 ### Q152.1-题干怎么拆
@@ -411,7 +438,7 @@
 
 ## Q183-EC2-AMI与计算服务题
 
-**题目：** Which actions are examples of a company’s effort to rightsize its AWS resources to control cloud costs? (Choose two.)
+**题目：** Which actions are examples of a company’s effort to rightsize its AWS resources to control cloud costs? (Choose two.)；
 
 **选项：**
 
@@ -421,8 +448,10 @@
 - D. Use Multi-AZ deployments for Amazon RDS.
 - E. Replace existing Amazon EC2 instances with AWS Elastic Beanstalk.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `BC`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `BC`；
+
 **社区投票：** BC 80%, AC 20%
 
 ### Q183.1-题干怎么拆
@@ -447,7 +476,7 @@
 
 ## Q189-EC2-AMI与计算服务题
 
-**题目：** Which AWS service or feature is a browser-based, pre-authenticated service that can be launched directly from the AWS Management Console?
+**题目：** Which AWS service or feature is a browser-based, pre-authenticated service that can be launched directly from the AWS Management Console?；
 
 **选项：**
 
@@ -456,8 +485,10 @@
 - C. AWS Cloud9
 - D. AWS CloudShell
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q189.1-题干怎么拆
@@ -481,7 +512,7 @@
 
 ## Q193-EC2-AMI与计算服务题
 
-**题目：** A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. Which service should be used to deploy the application?
+**题目：** A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. Which service should be used to deploy the application?；
 
 **选项：**
 
@@ -490,9 +521,12 @@
 - C. Amazon EC2
 - D. AWS OpsWorks
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
-**需求/考点标签：** Scalability
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Scalability；
+
 **社区投票：** B 100%
 
 ### Q193.1-题干怎么拆
@@ -516,7 +550,7 @@
 
 ## Q207-EC2-AMI与计算服务题
 
-**题目：** A company needs to plan, schedule, and run hundreds of thousands of computing jobs on AWS. Which AWS service can the company use to meet this requirement?
+**题目：** A company needs to plan, schedule, and run hundreds of thousands of computing jobs on AWS. Which AWS service can the company use to meet this requirement?；
 
 **选项：**
 
@@ -525,8 +559,10 @@
 - C. Amazon Simple Queue Service (Amazon SQS)
 - D. AWS Batch
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q207.1-题干怎么拆
@@ -550,7 +586,7 @@
 
 ## Q209-EC2-AMI与计算服务题
 
-**题目：** Which of the following is a way to use Amazon EC2 Auto Scaling groups to scale capacity in the AWS Cloud?
+**题目：** Which of the following is a way to use Amazon EC2 Auto Scaling groups to scale capacity in the AWS Cloud?；
 
 **选项：**
 
@@ -559,8 +595,10 @@
 - C. Scale the size of EC2 instances up or down automatically, based on demand.
 - D. Transfer unused CPU resources between EC2 instances.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q209.1-题干怎么拆
@@ -584,7 +622,7 @@
 
 ## Q222-EC2-AMI与计算服务题
 
-**题目：** A customer runs an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds. For how much time will the customer be billed?
+**题目：** A customer runs an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds. For how much time will the customer be billed?；
 
 **选项：**
 
@@ -593,8 +631,10 @@
 - C. 3 hours, 6 minutes
 - D. 4 hours
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 56%, C 28%, D 16%
 
 ### Q222.1-题干怎么拆
@@ -623,7 +663,7 @@
 
 ## Q233-EC2-AMI与计算服务题
 
-**题目：** A company is planning to host its workloads on AWS. Which AWS service requires the company to update and patch the guest operating system?
+**题目：** A company is planning to host its workloads on AWS. Which AWS service requires the company to update and patch the guest operating system?；
 
 **选项：**
 
@@ -632,8 +672,10 @@
 - C. Amazon EC2
 - D. Amazon Aurora
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q233.1-题干怎么拆
@@ -666,8 +708,10 @@
 - C. AWS Lambda
 - D. Amazon RDS
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q235.1-题干怎么拆
@@ -691,7 +735,7 @@
 
 ## Q237-EC2-AMI与计算服务题
 
-**题目：** Which AWS service can a company use to visually design and build serverless applications?
+**题目：** Which AWS service can a company use to visually design and build serverless applications?；
 
 **选项：**
 
@@ -700,9 +744,12 @@
 - C. AWS Application Composer
 - D. AWS App Runner
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
-**需求/考点标签：** Serverless
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Serverless；
+
 **社区投票：** C 100%
 
 ### Q237.1-题干怎么拆
@@ -726,7 +773,7 @@
 
 ## Q269-EC2-AMI与计算服务题
 
-**题目：** A company wants to use Amazon EC2 instances to provide a static website to users all over the world. The company needs to minimize latency for the users. Which solution meets these requirements?
+**题目：** A company wants to use Amazon EC2 instances to provide a static website to users all over the world. The company needs to minimize latency for the users. Which solution meets these requirements?；
 
 **选项：**
 
@@ -735,9 +782,12 @@
 - C. Use Amazon CloudFront with the EC2 instances configured as the source.
 - D. Use EC2 instances in the same Availability Zone but in different AWS accounts.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
-**需求/考点标签：** Block Storage
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** C 94%, A 6%
 
 ### Q269.1-题干怎么拆
@@ -761,7 +811,7 @@
 
 ## Q289-EC2-AMI与计算服务题
 
-**题目：** Which task can a company perform by using security groups in the AWS Cloud?
+**题目：** Which task can a company perform by using security groups in the AWS Cloud?；
 
 **选项：**
 
@@ -770,8 +820,10 @@
 - C. Protect data that is cached by Amazon CloudFront.
 - D. Apply a stateless firewall to an Amazon EC2 instance.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q289.1-题干怎么拆
@@ -800,7 +852,7 @@
 
 ## Q290-EC2-AMI与计算服务题
 
-**题目：** A company plans to run a compute-intensive workload that uses graphics processing units (GPUs). Which Amazon EC2 instance type should the company use?
+**题目：** A company plans to run a compute-intensive workload that uses graphics processing units (GPUs). Which Amazon EC2 instance type should the company use?；
 
 **选项：**
 
@@ -809,8 +861,10 @@
 - C. Storage optimized
 - D. General purpose
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q290.1-题干怎么拆
@@ -834,7 +888,7 @@
 
 ## Q302-EC2-AMI与计算服务题
 
-**题目：** An Amazon EC2 instance previously used for development is inaccessible and no longer appears in the AWS Management Console. Which AWS service should be used to determine what action made this EC2 instance inaccessible?
+**题目：** An Amazon EC2 instance previously used for development is inaccessible and no longer appears in the AWS Management Console. Which AWS service should be used to determine what action made this EC2 instance inaccessible?；
 
 **选项：**
 
@@ -843,8 +897,10 @@
 - C. Amazon Inspector
 - D. AWS CloudTraiI
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q302.1-题干怎么拆
@@ -868,7 +924,7 @@
 
 ## Q311-EC2-AMI与计算服务题
 
-**题目：** Which type of AWS storage is ephemeral and is deleted when an Amazon EC2 instance is stopped or terminated?
+**题目：** Which type of AWS storage is ephemeral and is deleted when an Amazon EC2 instance is stopped or terminated?；
 
 **选项：**
 
@@ -877,8 +933,10 @@
 - C. Amazon Elastic File System (Amazon EFS)
 - D. Amazon S3
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q311.1-题干怎么拆
@@ -911,8 +969,10 @@
 - C. Amazon EC2
 - D. Amazon Personalize
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q323.1-题干怎么拆
@@ -941,7 +1001,7 @@
 
 ## Q329-EC2-AMI与计算服务题
 
-**题目：** A company wants to use application stacks to run a workload in the AWS Cloud. The company wants to use pre-configured instances. Which AWS service will meet these requirements?
+**题目：** A company wants to use application stacks to run a workload in the AWS Cloud. The company wants to use pre-configured instances. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -950,9 +1010,12 @@
 - C. AWS Outposts
 - D. Amazon EC2
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
-**需求/考点标签：** Configuration Compliance
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Configuration Compliance；
+
 **社区投票：** A 100%
 
 ### Q329.1-题干怎么拆
@@ -976,7 +1039,7 @@
 
 ## Q330-EC2-AMI与计算服务题
 
-**题目：** Which AWS services are supported by Savings Plans? (Choose two.)
+**题目：** Which AWS services are supported by Savings Plans? (Choose two.)；
 
 **选项：**
 
@@ -986,9 +1049,12 @@
 - D. Amazon Redshift
 - E. Amazon DynamoDB
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `AC`
-**需求/考点标签：** Cost Optimization
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `AC`；
+
+**需求/考点标签：** Cost Optimization；
+
 **社区投票：** AC 93%, AE 7%
 
 ### Q330.1-题干怎么拆
@@ -1013,7 +1079,7 @@
 
 ## Q346-EC2-AMI与计算服务题
 
-**题目：** A company launched an Amazon EC2 instance with the latest Amazon Linux 2 Amazon Machine Image (AMI). Which actions can a system administrator take to connect to the EC2 instance? (Choose two.)
+**题目：** A company launched an Amazon EC2 instance with the latest Amazon Linux 2 Amazon Machine Image (AMI). Which actions can a system administrator take to connect to the EC2 instance? (Choose two.)；
 
 **选项：**
 
@@ -1023,8 +1089,10 @@
 - D. Use AWS Systems Manager Session Manager.
 - E. Use Amazon Connect.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `AD`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `AD`；
+
 **社区投票：** AD 100%
 
 ### Q346.1-题干怎么拆
@@ -1049,7 +1117,7 @@
 
 ## Q361-EC2-AMI与计算服务题
 
-**题目：** Which of the following AWS services are serverless? (Choose two.)
+**题目：** Which of the following AWS services are serverless? (Choose two.)；
 
 **选项：**
 
@@ -1059,9 +1127,12 @@
 - D. AWS Fargate
 - E. AWS Lambda
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `DE`
-**需求/考点标签：** Serverless
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `DE`；
+
+**需求/考点标签：** Serverless；
+
 **社区投票：** DE 100%
 
 ### Q361.1-题干怎么拆
@@ -1086,7 +1157,7 @@
 
 ## Q363-EC2-AMI与计算服务题
 
-**题目：** A solutions architect needs to maintain a fleet of Amazon EC2 instances so that any impaired instances are replaced with new ones. Which AWS service should the solutions architect use?
+**题目：** A solutions architect needs to maintain a fleet of Amazon EC2 instances so that any impaired instances are replaced with new ones. Which AWS service should the solutions architect use?；
 
 **选项：**
 
@@ -1095,8 +1166,10 @@
 - C. AWS Shield
 - D. AWS Auto Scaling
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q363.1-题干怎么拆
@@ -1120,7 +1193,7 @@
 
 ## Q366-EC2-AMI与计算服务题
 
-**题目：** Which AWS service supports the deployment and management of applications in the AWS Cloud?
+**题目：** Which AWS service supports the deployment and management of applications in the AWS Cloud?；
 
 **选项：**
 
@@ -1129,8 +1202,10 @@
 - C. AWS CodeCommit
 - D. AWS Elastic Beanstalk
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q366.1-题干怎么拆
@@ -1154,7 +1229,7 @@
 
 ## Q374-EC2-AMI与计算服务题
 
-**题目：** Which AWS service uses AWS Compute Optimizer to provide sizing recommendations based on workload metrics?
+**题目：** Which AWS service uses AWS Compute Optimizer to provide sizing recommendations based on workload metrics?；
 
 **选项：**
 
@@ -1163,9 +1238,12 @@
 - C. Amazon Lightsail
 - D. AWS Step Functions
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
-**需求/考点标签：** 运行时指标监控
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 运行时指标监控；
+
 **社区投票：** A 100%
 
 ### Q374.1-题干怎么拆
@@ -1198,8 +1276,10 @@
 - C. Rightsizing
 - D. Instance scheduling
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q390.1-题干怎么拆
@@ -1232,9 +1312,12 @@
 - C. Amazon Elastic Kubernetes Service (Amazon EKS)
 - D. AWS Elastic Beanstalk
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
-**需求/考点标签：** Container / Monitoring
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Container / Monitoring；
+
 **社区投票：** D 100%
 
 ### Q397.1-题干怎么拆
@@ -1258,7 +1341,7 @@
 
 ## Q410-EC2-AMI与计算服务题
 
-**题目：** Which of the following is an advantage that the AWS Cloud provides to users?
+**题目：** Which of the following is an advantage that the AWS Cloud provides to users?；
 
 **选项：**
 
@@ -1267,8 +1350,10 @@
 - C. Users maintain control of underlying IT infrastructure hardware.
 - D. Users maintain control of operating systems for managed services.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q410.1-题干怎么拆
@@ -1292,7 +1377,7 @@
 
 ## Q425-EC2-AMI与计算服务题
 
-**题目：** Which AWS service or resource can a company use to deploy AWS WAF rules?
+**题目：** Which AWS service or resource can a company use to deploy AWS WAF rules?；
 
 **选项：**
 
@@ -1301,9 +1386,12 @@
 - C. AWS Trusted Advisor
 - D. Network Load Balancer
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
-**需求/考点标签：** Web攻击防护
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Web攻击防护；
+
 **社区投票：** B 100%
 
 ### Q425.1-题干怎么拆
@@ -1336,8 +1424,10 @@
 - C. AWS Cost Explorer
 - D. AWS Well-Architected Framework
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q432.1-题干怎么拆
@@ -1370,9 +1460,12 @@
 - C. Amazon Lightsail
 - D. Amazon EC2
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
-**需求/考点标签：** Serverless / Container / Hybrid Cloud / Migration
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Serverless / Container / Hybrid Cloud / Migration；
+
 **社区投票：** B 100%
 
 ### Q440.1-题干怎么拆
@@ -1405,8 +1498,10 @@
 - C. Use EC2 instances in multiple Amazon Connect locations in the same AWS Region.
 - D. Use EC2 instances in multiple AWS Artifact locations in the same AWS Region.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q441.1-题干怎么拆
@@ -1439,8 +1534,10 @@
 - C. Gateway Load Balancer
 - D. Network Load Balancer
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q442.1-题干怎么拆
@@ -1464,7 +1561,7 @@
 
 ## Q444-EC2-AMI与计算服务题
 
-**题目：** A company wants to run CPU-intensive workload across multiple Amazon EC2 instances. Which EC2 instance type should the company use to meet this requirement?
+**题目：** A company wants to run CPU-intensive workload across multiple Amazon EC2 instances. Which EC2 instance type should the company use to meet this requirement?；
 
 **选项：**
 
@@ -1473,8 +1570,10 @@
 - C. Memory optimized instances
 - D. Storage optimized instances
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q444.1-题干怎么拆
@@ -1507,8 +1606,10 @@
 - C. AWS Elastic Beanstalk
 - D. AWS CodeDeploy
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q451.1-题干怎么拆
@@ -1537,7 +1638,7 @@
 
 ## Q463-EC2-AMI与计算服务题
 
-**题目：** A company wants to log in securely to Linux Amazon EC2 instances. How can the company accomplish this goal?
+**题目：** A company wants to log in securely to Linux Amazon EC2 instances. How can the company accomplish this goal?；
 
 **选项：**
 
@@ -1546,8 +1647,10 @@
 - C. Use end-to-end encryption.
 - D. Use Amazon Route 53.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q463.1-题干怎么拆
@@ -1571,7 +1674,7 @@
 
 ## Q464-EC2-AMI与计算服务题
 
-**题目：** A company wants to use a serverless compute service for an application. Which AWS service will meet this requirement?
+**题目：** A company wants to use a serverless compute service for an application. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -1580,9 +1683,12 @@
 - C. AWS Elastic Beanstalk
 - D. Elastic Load Balancing
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
-**需求/考点标签：** Serverless
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Serverless；
+
 **社区投票：** A 100%
 
 ### Q464.1-题干怎么拆
@@ -1615,9 +1721,12 @@
 - C. Amazon Athena
 - D. Amazon EC2
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `D`
-**需求/考点标签：** Migration / Configuration Compliance
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Migration / Configuration Compliance；
+
 **社区投票：** D 100%
 
 ### Q467.1-题干怎么拆
@@ -1646,7 +1755,7 @@
 
 ## Q472-EC2-AMI与计算服务题
 
-**题目：** A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural disaster in a particular geographic area. Which solution achieves this goal?
+**题目：** A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural disaster in a particular geographic area. Which solution achieves this goal?；
 
 **选项：**
 
@@ -1655,9 +1764,12 @@
 - C. Use EC2 instances in the same Availability Zone but in different AWS Regions.
 - D. Use Amazon CloudFront with the EC2 instances configured as the source.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
-**需求/考点标签：** High Availability
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** High Availability；
+
 **社区投票：** A 100%
 
 ### Q472.1-题干怎么拆
@@ -1681,7 +1793,7 @@
 
 ## Q492-EC2-AMI与计算服务题
 
-**题目：** Which AWS compute service gives users the ability to securely and reliably run containers at scale?
+**题目：** Which AWS compute service gives users the ability to securely and reliably run containers at scale?；
 
 **选项：**
 
@@ -1690,9 +1802,12 @@
 - C. Amazon Athena
 - D. Amazon Polly
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
-**需求/考点标签：** Container
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Container；
+
 **社区投票：** A 100%
 
 ### Q492.1-题干怎么拆
@@ -1725,9 +1840,12 @@
 - C. Amazon EC2 Spot Instances
 - D. Amazon EC2 On-Demand Instances
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
-**需求/考点标签：** 可中断低成本计算
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 可中断低成本计算；
+
 **社区投票：** C 100%
 
 ### Q494.1-题干怎么拆
@@ -1751,7 +1869,7 @@
 
 ## Q542-EC2-AMI与计算服务题
 
-**题目：** An ecommerce company wants to distribute traffic between the Amazon EC2 instances that host its website. Which AWS service or resource will meet these requirements?
+**题目：** An ecommerce company wants to distribute traffic between the Amazon EC2 instances that host its website. Which AWS service or resource will meet these requirements?；
 
 **选项：**
 
@@ -1760,9 +1878,12 @@
 - C. AWS CloudHSM
 - D. AWS Direct Connect
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
-**需求/考点标签：** Block Storage
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** A 100%
 
 ### Q542.1-题干怎么拆
@@ -1795,8 +1916,10 @@
 - C. AWS Outposts
 - D. Amazon Lightsail
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `A`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q549.1-题干怎么拆
@@ -1820,7 +1943,7 @@
 
 ## Q552-EC2-AMI与计算服务题
 
-**题目：** Which AWS service provides serverless compute for use with containers?
+**题目：** Which AWS service provides serverless compute for use with containers?；
 
 **选项：**
 
@@ -1829,9 +1952,12 @@
 - C. AWS Elastic Beanstalk
 - D. Amazon SageMaker
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
-**需求/考点标签：** Serverless / Container
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Serverless / Container；
+
 **社区投票：** B 100%
 
 ### Q552.1-题干怎么拆
@@ -1864,8 +1990,10 @@
 - C. In a placement group
 - D. In private subnets
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q555.1-题干怎么拆
@@ -1898,9 +2026,12 @@
 - C. Amazon EC2
 - D. AWS Elastic Beanstalk
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
-**需求/考点标签：** Container
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Container；
+
 **社区投票：** B 75%, A 25%
 
 ### Q590.1-题干怎么拆
@@ -1924,7 +2055,7 @@
 
 ## Q594-EC2-AMI与计算服务题
 
-**题目：** A developer who has no AWS Cloud experience wants to use AWS technology to build a web application. Which AWS service should the developer use to start building the application?
+**题目：** A developer who has no AWS Cloud experience wants to use AWS technology to build a web application. Which AWS service should the developer use to start building the application?；
 
 **选项：**
 
@@ -1933,8 +2064,10 @@
 - C. Amazon Lightsail
 - D. Amazon Elastic Container Service (Amazon ECS)
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q594.1-题干怎么拆
@@ -1958,7 +2091,7 @@
 
 ## Q621-EC2-AMI与计算服务题
 
-**题目：** What is a benefit of using an Elastic Load Balancing (ELB) load balancer with applications running in the AWS Cloud?
+**题目：** What is a benefit of using an Elastic Load Balancing (ELB) load balancer with applications running in the AWS Cloud?；
 
 **选项：**
 
@@ -1967,8 +2100,10 @@
 - C. An ELB can span multiple AWS Regions.
 - D. An ELB can balance traffic between multiple internet gateways.
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q621.1-题干怎么拆
@@ -2002,9 +2137,12 @@
 - D. Auto Scaling policies
 - E. Centralized logging
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `BD`
-**需求/考点标签：** Hybrid Cloud / Migration / Cost Optimization
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `BD`；
+
+**需求/考点标签：** Hybrid Cloud / Migration / Cost Optimization；
+
 **社区投票：** BD 100%
 
 ### Q628.1-题干怎么拆
@@ -2029,7 +2167,7 @@
 
 ## Q646-EC2-AMI与计算服务题
 
-**题目：** Which AWS services are serverless? (Choose two.)
+**题目：** Which AWS services are serverless? (Choose two.)；
 
 **选项：**
 
@@ -2039,9 +2177,12 @@
 - D. Amazon S3
 - E. Amazon EC2
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `AD`
-**需求/考点标签：** Serverless
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `AD`；
+
+**需求/考点标签：** Serverless；
+
 **社区投票：** AD 100%
 
 ### Q646.1-题干怎么拆
@@ -2075,8 +2216,10 @@
 - C. NAT gateway
 - D. Internet gateway
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q657.1-题干怎么拆
@@ -2109,9 +2252,12 @@
 - C. AWS App Runner
 - D. Amazon EC2
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `C`
-**需求/考点标签：** Container
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Container；
+
 **社区投票：** C 75%, B 25%
 
 ### Q674.1-题干怎么拆
@@ -2135,7 +2281,7 @@
 
 ## Q702-EC2-AMI与计算服务题
 
-**题目：** A company wants to run its application's code without having to provision and manage servers. Which AWS service will meet this requirement?
+**题目：** A company wants to run its application's code without having to provision and manage servers. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -2144,8 +2290,10 @@
 - C. AWS CodeDeploy
 - D. Amazon CodeGuru
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q702.1-题干怎么拆
@@ -2183,9 +2331,12 @@
 - C. Amazon Elastic Kubernetes Service (Amazon EKS)
 - D. Amazon EC2
 
-**主分类：** C4-03 EC2-AMI与计算服务题
-**题库记录答案：** `B`
-**需求/考点标签：** Hybrid Cloud / Cost Optimization
+**主分类：** C4-03 EC2-AMI与计算服务题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Hybrid Cloud / Cost Optimization；
+
 **社区投票：** B 100%
 
 ### Q708.1-题干怎么拆

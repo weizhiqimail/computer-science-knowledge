@@ -5,9 +5,10 @@
 本文件共收录 **16** 道主分类题。范围：RDS、Aurora、Multi-AZ、Read Replica、关系数据库。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q61-RDS-Aurora与关系数据库题
 
-**题目：** Which of the following is a fully managed MySQL-compatible database?
+**题目：** Which of the following is a fully managed MySQL-compatible database?；
 
 **选项：**
 
@@ -16,8 +17,10 @@
 - C. Amazon Redshift
 - D. Amazon Aurora
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `D`
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q61.1-题干怎么拆
@@ -41,7 +44,7 @@
 
 ## Q63-RDS-Aurora与关系数据库题
 
-**题目：** Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?
+**题目：** Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?；
 
 **选项：**
 
@@ -50,9 +53,12 @@
 - C. Amazon RDS
 - D. Amazon EMR
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `C`
-**需求/考点标签：** Relational Database
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** C 100%
 
 ### Q63.1-题干怎么拆
@@ -76,7 +82,7 @@
 
 ## Q161-RDS-Aurora与关系数据库题
 
-**题目：** A company is running a critical workload on an Amazon RDS DB instance. The company needs the DB instance to be highly available with a recovery time of less than 5 minutes. Which solution will meet these requirements?
+**题目：** A company is running a critical workload on an Amazon RDS DB instance. The company needs the DB instance to be highly available with a recovery time of less than 5 minutes. Which solution will meet these requirements?；
 
 **选项：**
 
@@ -85,9 +91,12 @@
 - C. Take frequent snapshots of the DB instance. Store the snapshots in Amazon S3.
 - D. Modify the DB instance to be a Multi-AZ deployment.
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `D`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** D 100%
 
 ### Q161.1-题干怎么拆
@@ -111,7 +120,7 @@
 
 ## Q190-RDS-Aurora与关系数据库题
 
-**题目：** A company wants to migrate its database to a managed AWS service that is compatible with PostgreSQL. Which AWS services will meet these requirements? (Choose two.)
+**题目：** A company wants to migrate its database to a managed AWS service that is compatible with PostgreSQL. Which AWS services will meet these requirements? (Choose two.)；
 
 **选项：**
 
@@ -121,9 +130,12 @@
 - D. Amazon DynamoDB
 - E. Amazon Aurora
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `BE`
-**需求/考点标签：** Migration
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `BE`；
+
+**需求/考点标签：** Migration；
+
 **社区投票：** BE 100%
 
 ### Q190.1-题干怎么拆
@@ -148,7 +160,7 @@
 
 ## Q240-RDS-Aurora与关系数据库题
 
-**题目：** A company wants to migrate its PostgreSQL database to AWS. The company does not use the database frequently. Which AWS service or resource will meet these requirements with the LEAST management overhead?
+**题目：** A company wants to migrate its PostgreSQL database to AWS. The company does not use the database frequently. Which AWS service or resource will meet these requirements with the LEAST management overhead?；
 
 **选项：**
 
@@ -157,9 +169,12 @@
 - C. Amazon Aurora PostgreSQL-Compatible Edition
 - D. Amazon Aurora Serverless
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `D`
-**需求/考点标签：** Relational Database / Migration
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Relational Database / Migration；
+
 **社区投票：** D 71%, B 25%
 
 ### Q240.1-题干怎么拆
@@ -183,7 +198,7 @@
 
 ## Q322-RDS-Aurora与关系数据库题
 
-**题目：** A user needs a relational database but does not have the resources to manage the hardware, resiliency, and replication. Which AWS service option meets the user's requirements?
+**题目：** A user needs a relational database but does not have the resources to manage the hardware, resiliency, and replication. Which AWS service option meets the user's requirements?；
 
 **选项：**
 
@@ -192,9 +207,12 @@
 - C. Choose Amazon RDS for MySQL.
 - D. Choose Amazon ElastiCache for Redis.
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `C`
-**需求/考点标签：** Relational Database
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** C 100%
 
 ### Q322.1-题干怎么拆
@@ -218,7 +236,7 @@
 
 ## Q370-RDS-Aurora与关系数据库题
 
-**题目：** Which AWS service is a relational database compatible with MySQL and PostgreSQL?
+**题目：** Which AWS service is a relational database compatible with MySQL and PostgreSQL?；
 
 **选项：**
 
@@ -227,9 +245,12 @@
 - C. Amazon Aurora
 - D. Amazon Neptune
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `C`
-**需求/考点标签：** Relational Database
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** C 100%
 
 ### Q370.1-题干怎么拆
@@ -253,7 +274,7 @@
 
 ## Q469-RDS-Aurora与关系数据库题
 
-**题目：** Which AWS services can host PostgreSQL databases? (Choose two.)
+**题目：** Which AWS services can host PostgreSQL databases? (Choose two.)；
 
 **选项：**
 
@@ -263,9 +284,12 @@
 - D. Amazon OpenSearch Service
 - E. Amazon Elastic File System (Amazon EFS)
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `BC`
-**需求/考点标签：** Relational Database
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `BC`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** BC 100%
 
 ### Q469.1-题干怎么拆
@@ -290,7 +314,7 @@
 
 ## Q503-RDS-Aurora与关系数据库题
 
-**题目：** A company has a MariaDB database on premises. The company wants to move the data to the AWS Cloud. Which AWS service will host this database with the LEAST amount of operational overhead?
+**题目：** A company has a MariaDB database on premises. The company wants to move the data to the AWS Cloud. Which AWS service will host this database with the LEAST amount of operational overhead?；
 
 **选项：**
 
@@ -299,9 +323,12 @@
 - C. Amazon S3
 - D. Amazon DynamoDB
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** A 100%
 
 ### Q503.1-题干怎么拆
@@ -325,7 +352,7 @@
 
 ## Q525-RDS-Aurora与关系数据库题
 
-**题目：** A company needs to deploy a PostgreSQL database into Amazon RDS. The database must be highly available and fault tolerant. Which AWS solution should the company use to meet these requirements?
+**题目：** A company needs to deploy a PostgreSQL database into Amazon RDS. The database must be highly available and fault tolerant. Which AWS solution should the company use to meet these requirements?；
 
 **选项：**
 
@@ -334,9 +361,12 @@
 - C. Amazon RDS with multiple Availability Zones
 - D. AWS Database Migration Service (AWS DMS)
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q525.1-题干怎么拆
@@ -360,7 +390,7 @@
 
 ## Q551-RDS-Aurora与关系数据库题
 
-**题目：** A company uses Amazon RDS for a product database. The company wants to ensure the database is highly available. Which feature of Amazon RDS will meet this requirement?
+**题目：** A company uses Amazon RDS for a product database. The company wants to ensure the database is highly available. Which feature of Amazon RDS will meet this requirement?；
 
 **选项：**
 
@@ -369,9 +399,12 @@
 - C. Multi-AZ deployment
 - D. Reserved Instances
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `C`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** C 100%
 
 ### Q551.1-题干怎么拆
@@ -395,7 +428,7 @@
 
 ## Q587-RDS-Aurora与关系数据库题
 
-**题目：** A company wants to run relationship databases in the AWS Cloud. The company wants to use a managed service that will install the database and run regular software updates. Which AWS service will meet these requirements?
+**题目：** A company wants to run relationship databases in the AWS Cloud. The company wants to use a managed service that will install the database and run regular software updates. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -404,8 +437,10 @@
 - C. Amazon Elastic Block Store (Amazon EBS)
 - D. Amazon DynamoDB
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `B`
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q587.1-题干怎么拆
@@ -429,7 +464,7 @@
 
 ## Q664-RDS-Aurora与关系数据库题
 
-**题目：** A company wants to migrate its on-premises SQL Server database to the AWS Cloud. The company wants AWS to handle the day-to-day administration of the database. Which AWS service will meet the company's requirements?
+**题目：** A company wants to migrate its on-premises SQL Server database to the AWS Cloud. The company wants AWS to handle the day-to-day administration of the database. Which AWS service will meet the company's requirements?；
 
 **选项：**
 
@@ -438,9 +473,12 @@
 - C. Amazon RDS
 - D. Amazon Aurora
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `C`
-**需求/考点标签：** Hybrid Cloud / Migration
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Hybrid Cloud / Migration；
+
 **社区投票：** C 100%
 
 ### Q664.1-题干怎么拆
@@ -473,8 +511,10 @@
 - C. Amazon DynamoDB
 - D. OpenSearch
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `B`
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `B`；
+
 **需求/考点标签：** Migration
 
 ### Q680.1-题干怎么拆
@@ -498,7 +538,7 @@
 
 ## Q696-RDS-Aurora与关系数据库题
 
-**题目：** Which AWS service supports MySQL database engines?
+**题目：** Which AWS service supports MySQL database engines?；
 
 **选项：**
 
@@ -507,9 +547,12 @@
 - C. Amazon DocumentDB (with MongoDB compatibility)
 - D. Amazon ElastiCache
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `B`
-**需求/考点标签：** Relational Database
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** B 100%
 
 ### Q696.1-题干怎么拆
@@ -542,9 +585,12 @@
 - C. Amazon Elastic Block Store (Amazon EBS)
 - D. Amazon S3
 
-**主分类：** C4-08 RDS-Aurora与关系数据库题
-**题库记录答案：** `B`
-**需求/考点标签：** Relational Database
+**主分类：** C4-08 RDS-Aurora与关系数据库题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Relational Database；
+
 **社区投票：** B 67%, C 33%
 
 ### Q718.1-题干怎么拆

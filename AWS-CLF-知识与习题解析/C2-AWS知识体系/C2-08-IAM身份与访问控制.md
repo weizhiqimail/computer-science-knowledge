@@ -2,26 +2,13 @@
 
 > 资料口径说明：本章延续当前 AWS CLF-C02 学习项目既有规则，主要依据用户提供的 719 题题库、`chatGPT会话1.md`、`chatGPT会话2.md`、`cmd1.md` 与前序 C2 章节的结构整理。题库中的答案与评论用于识别高频考点、业务场景和易混项，不自动视为当前 AWS 官方结论。涉及会随时间变化的产品状态、考试范围与 Support 体系时，本章只沿用项目资料中已经明确记录的状态；正式考试前仍应再对照 AWS 当前官方页面。
 
-
 ## 1-本章目标
 
-安全的第一道问题不是“有没有防火墙”，而是：
-
-```text
-你是谁？
-你如何证明你是谁？
-你被允许做什么？
-谁给了你这个权限？
-应用访问 AWS 服务时用谁的身份？
-多个 AWS Account 如何统一管理访问？
-```
-
-题库粗略曝光中 IAM 约 76 题，是整个 CLF-C02 最核心的服务之一。
+安全的第一道问题不是“有没有防火墙”，而是：你是谁？、你如何证明你是谁？、你被允许做什么？、谁给了你这个权限？、应用访问 AWS 服务时用谁的身份？、多个 AWS Account 如何统一管理访问？题库粗略曝光中 IAM 约 76 题，是整个 CLF-C02 最核心的服务之一。
 
 ## 2-Authentication-与-Authorization
 
-**Authentication** = 身份验证 / 认证：证明“你是谁”。
-**Authorization** = 授权：确定“你能做什么”。
+**Authentication** = 身份验证 / 认证：证明“你是谁”。**Authorization** = 授权：确定“你能做什么”。
 
 ```text
 Login + MFA
@@ -30,13 +17,11 @@ Login + MFA
 Policy says s3:GetObject allowed
 → Authorization
 ```
-
 这两个概念不能混。
 
 ## 3-★★★★★-AWS-IAM
 
-**正式名称：** AWS Identity and Access Management
-**中文：** AWS 身份与访问管理
+**正式名称：** AWS Identity and Access Management；；；中文： AWS 身份与访问管理
 
 ### 3.1-为什么需要它
 
@@ -62,13 +47,9 @@ IAM 不等于 Cognito。IAM 主要控制 AWS 资源访问；Cognito 更偏应用
 
 least privilege、user/group/role/policy、AWS resource permissions 几乎都属于 IAM。
 
-
-
 ## 4-★★★★★-Root-User
 
-AWS Account 创建时有 Root User。
-
-Root 权限极高，因此最佳实践是：
+AWS Account 创建时有 Root User。Root 权限极高，因此最佳实践是：
 
 - 日常工作不要使用 Root；
 - 为 Root 启用 MFA；
@@ -93,7 +74,6 @@ Developers Group
 ├── Bob
 └── Carol
 ```
-
 ### 5.3-★★★★★-IAM-Role
 
 Role 与 User 最大直觉区别：
@@ -106,10 +86,7 @@ Role
 → 被某个可信主体 Assume
 → 获得临时凭证
 ```
-
-应用访问 AWS 服务时，优先使用 Role，而不是把长期 Access Key 写进代码。
-
-GlobalShop：
+应用访问 AWS 服务时，优先使用 Role，而不是把长期 Access Key 写进代码。GlobalShop：
 
 ```text
 EC2 Product Service
@@ -121,12 +98,9 @@ EC2 Product Service
        ▼
       S3
 ```
-
 ## 6-★★★★★-Policy：权限到底写在哪里？
 
-Policy = 策略。
-
-IAM Policy 常以 JSON 表达权限，核心概念包括：
+Policy = 策略。IAM Policy 常以 JSON 表达权限，核心概念包括：
 
 - Effect：Allow / Deny；
 - Action：允许/拒绝什么 API；
@@ -142,7 +116,6 @@ IAM Policy 常以 JSON 表达权限，核心概念包括：
   "Resource": "arn:aws:s3:::globalshop-images/*"
 }
 ```
-
 CLF 不要求手写复杂 JSON，但要读懂：这是“允许读取某 S3 Object”的权限思想。
 
 ## 7-Identity-based-与-Resource-based-Policy
@@ -178,45 +151,30 @@ Least Privilege = 最小权限原则。
 不需要删 Bucket
 → 不给 s3:DeleteBucket
 ```
-
 不要为了方便直接授予 `AdministratorAccess`。
 
 ## 10-★★★★★-MFA
 
-MFA = Multi-Factor Authentication = 多因素认证。
-
-密码属于“你知道的东西”，MFA 再增加另一个因素，提高账号被盗后的防护能力。
-
-Root 和高权限用户尤其应启用 MFA。
+MFA = Multi-Factor Authentication = 多因素认证。密码属于“你知道的东西”，MFA 再增加另一个因素，提高账号被盗后的防护能力。Root 和高权限用户尤其应启用 MFA。
 
 ## 11-Access-Key-与临时凭证
 
-Access Key 通常包括 Access Key ID 与 Secret Access Key，用于程序化访问。
-
-危险做法：
+Access Key 通常包括 Access Key ID 与 Secret Access Key，用于程序化访问。危险做法：
 
 ```text
 const accessKey = "AKIA..."
 const secret = "..."
 ```
-
-写死在代码仓库、AMI、脚本里。
-
-更好的 AWS 原生方式通常是：
+写死在代码仓库、AMI、脚本里。更好的 AWS 原生方式通常是：
 
 ```text
 Compute Service
 → IAM Role
 → Temporary Credentials
 ```
-
 ## 12-★★★★-AWS-STS
 
-STS = Security Token Service = 安全令牌服务。
-
-它与 AssumeRole、临时安全凭证紧密相关。
-
-跨账号访问典型结构：
+STS = Security Token Service = 安全令牌服务。它与 AssumeRole、临时安全凭证紧密相关。跨账号访问典型结构：
 
 ```text
 Account A User/Role
@@ -228,14 +186,9 @@ Account B Role
       ▼
 Resource in Account B
 ```
-
 ## 13-★★★★-Federation-与-IAM-Identity-Center
 
-企业通常已经有 Microsoft Entra ID、Okta、企业目录等身份系统，不希望每个员工再单独创建一个长期 IAM User。
-
-Federation = 联合身份。
-
-AWS IAM Identity Center 可用于集中管理员工对多个 AWS Account 和应用的访问，并结合外部身份源。
+企业通常已经有 Microsoft Entra ID、Okta、企业目录等身份系统，不希望每个员工再单独创建一个长期 IAM User。Federation = 联合身份。AWS IAM Identity Center 可用于集中管理员工对多个 AWS Account 和应用的访问，并结合外部身份源。
 
 ## 14-★★★-Amazon-Cognito
 
@@ -248,7 +201,6 @@ IAM
 Cognito
 → App 的 Customer / End User 身份
 ```
-
 GlobalShop 的消费者登录、注册、Social Login 等场景更接近 Cognito。
 
 ## 15-★★★★★-AWS-Organizations-与-SCP
@@ -264,10 +216,7 @@ Organization
 └── Sandbox OU
     └── Account C
 ```
-
-SCP = Service Control Policy = 服务控制策略。
-
-它是组织级权限边界工具之一。最关键的理解：
+SCP = Service Control Policy = 服务控制策略。它是组织级权限边界工具之一。最关键的理解：
 
 > SCP 不是给 IAM User “增加权限”的普通 IAM Policy；它主要限制成员账号中身份可获得的最大权限范围。
 
@@ -280,7 +229,6 @@ Organizations / SCP
 IAM
 → Account 内具体身份与权限
 ```
-
 两者经常一起出现，但层级不同。
 
 ## 17-GlobalShop-身份体系
@@ -312,7 +260,6 @@ Cognito
    ▼
 GlobalShop App
 ```
-
 ## 18-高频对比
 
 | 概念 | 核心定位 |
@@ -345,7 +292,6 @@ GlobalShop App
         ↓
 其他相似服务为什么不合适？
 ```
-
 真正稳定的考试能力不是“看到关键词就背答案”，而是能够从业务要求推导到技术能力，再从技术能力推导到 AWS 服务。
 
 ---

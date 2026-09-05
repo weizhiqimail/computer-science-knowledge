@@ -5,9 +5,10 @@
 本文件共收录 **54** 道主分类题。范围：IAM、User/Group/Role/Policy、MFA、Identity Center、Cognito、SCP。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q26-IAM-Role-Policy-MFA题
 
-**题目：** A company has an AWS account. The company wants to audit its password and access key rotation details for compliance purposes. Which AWS service or tool will meet this requirement?
+**题目：** A company has an AWS account. The company wants to audit its password and access key rotation details for compliance purposes. Which AWS service or tool will meet this requirement?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. IAM credential report
 - D. AWS Audit Manager
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** C 100%
 
 ### Q26.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q36-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service or feature identifies whether an Amazon S3 bucket or an IAM role has been shared with an external entity?
+**题目：** Which AWS service or feature identifies whether an Amazon S3 bucket or an IAM role has been shared with an external entity?；
 
 **选项：**
 
@@ -51,9 +55,12 @@
 - C. AWS IAM Access Analyzer
 - D. AWS Organizations
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
-**需求/考点标签：** Object Storage
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** C 100%
 
 ### Q36.1-题干怎么拆
@@ -77,7 +84,7 @@
 
 ## Q39-IAM-Role-Policy-MFA题
 
-**题目：** A company is setting up AWS Identity and Access Management (IAM) on an AWS account. Which recommendation complies with IAM security best practices?
+**题目：** A company is setting up AWS Identity and Access Management (IAM) on an AWS account. Which recommendation complies with IAM security best practices?；
 
 **选项：**
 
@@ -86,8 +93,10 @@
 - C. Turn on multi-factor authentication (MFA) for added security during the login process.
 - D. Avoid rotating credentials to prevent issues in production applications.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q39.1-题干怎么拆
@@ -120,8 +129,10 @@
 - C. AWS Security Token Service (AWS STS)
 - D. IAM instance profiles
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q52.1-题干怎么拆
@@ -145,7 +156,7 @@
 
 ## Q54-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service is always provided at no charge?
+**题目：** Which AWS service is always provided at no charge?；
 
 **选项：**
 
@@ -154,8 +165,10 @@
 - C. Elastic Load Balancers
 - D. AWS WAF
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 94%, A 6%
 
 ### Q54.1-题干怎么拆
@@ -188,8 +201,10 @@
 - C. least privilege access.
 - D. token access.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 92%, D 8%
 
 ### Q94.1-题干怎么拆
@@ -213,7 +228,7 @@
 
 ## Q98-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to grant users in one AWS account access to resources in another AWS account. The users do not currently have permission to access the resources. Which AWS service will meet this requirement?
+**题目：** A company wants to grant users in one AWS account access to resources in another AWS account. The users do not currently have permission to access the resources. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -222,8 +237,10 @@
 - C. IAM tag
 - D. IAM Access Analyzer
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 91%, A 9%
 
 ### Q98.1-题干怎么拆
@@ -252,7 +269,7 @@
 
 ## Q99-IAM-Role-Policy-MFA题
 
-**题目：** Which task is the responsibility of AWS when using AWS services?
+**题目：** Which task is the responsibility of AWS when using AWS services?；
 
 **选项：**
 
@@ -261,8 +278,10 @@
 - C. Maintenance of physical and environmental controls
 - D. Application of Amazon EC2 operating system patches
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 99%
 
 ### Q99.1-题干怎么拆
@@ -286,7 +305,7 @@
 
 ## Q106-IAM-Role-Policy-MFA题
 
-**题目：** A developer has been hired by a large company and needs AWS credentials. Which are security best practices that should be followed? (Choose two.)
+**题目：** A developer has been hired by a large company and needs AWS credentials. Which are security best practices that should be followed? (Choose two.)；
 
 **选项：**
 
@@ -296,8 +315,10 @@
 - D. Configure a password policy that ensures the developer’s password cannot be changed.
 - E. Ensure the account password policy requires a minimum length.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `AE`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `AE`；
+
 **社区投票：** AE 91%, AD 9%
 
 ### Q106.1-题干怎么拆
@@ -327,7 +348,7 @@
 
 ## Q108-IAM-Role-Policy-MFA题
 
-**题目：** A user wants to allow applications running on an Amazon EC2 instance to make calls to other AWS services. The access granted must be secure. Which AWS service or feature should be used?
+**题目：** A user wants to allow applications running on an Amazon EC2 instance to make calls to other AWS services. The access granted must be secure. Which AWS service or feature should be used?；
 
 **选项：**
 
@@ -336,8 +357,10 @@
 - C. IAM roles
 - D. IAM user SSH keys
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 93%, A 7%
 
 ### Q108.1-题干怎么拆
@@ -366,7 +389,7 @@
 
 ## Q149-IAM-Role-Policy-MFA题
 
-**题目：** A systems administrator created a new IAM user for a developer and assigned the user an access key instead of a user name and password. What is the access key used for?
+**题目：** A systems administrator created a new IAM user for a developer and assigned the user an access key instead of a user name and password. What is the access key used for?；
 
 **选项：**
 
@@ -375,8 +398,10 @@
 - C. To access the AWS account through a CLI
 - D. To access all of a company’s AWS accounts
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q149.1-题干怎么拆
@@ -400,7 +425,7 @@
 
 ## Q160-IAM-Role-Policy-MFA题
 
-**题目：** Which actions are best practices for an AWS account root user? (Choose two.)
+**题目：** Which actions are best practices for an AWS account root user? (Choose two.)；
 
 **选项：**
 
@@ -410,8 +435,10 @@
 - D. Create an IAM user with administrator privileges for daily administrative tasks, instead of using the root user.
 - E. Use programmatic access instead of the root user and password.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `CD`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `CD`；
+
 **社区投票：** CD 100%
 
 ### Q160.1-题干怎么拆
@@ -436,7 +463,7 @@
 
 ## Q165-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to identify Amazon S3 buckets that are shared with another AWS account. Which AWS service or feature will meet these requirements?
+**题目：** A company wants to identify Amazon S3 buckets that are shared with another AWS account. Which AWS service or feature will meet these requirements?；
 
 **选项：**
 
@@ -445,9 +472,12 @@
 - C. Amazon CloudWatch
 - D. IAM Access Analyzer
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `D`
-**需求/考点标签：** Object Storage
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** D 100%
 
 ### Q165.1-题干怎么拆
@@ -471,7 +501,7 @@
 
 ## Q168-IAM-Role-Policy-MFA题
 
-**题目：** Which action is a security best practice for access to sensitive data that is stored in an Amazon S3 bucket?
+**题目：** Which action is a security best practice for access to sensitive data that is stored in an Amazon S3 bucket?；
 
 **选项：**
 
@@ -480,9 +510,12 @@
 - C. Configure AWS WAF to prevent unauthorized access to the S3 bucket.
 - D. Configure Amazon GuardDuty to prevent unauthorized access to the S3 bucket.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
-**需求/考点标签：** S3敏感数据发现
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** S3敏感数据发现；
+
 **社区投票：** B 100%
 
 ### Q168.1-题干怎么拆
@@ -506,7 +539,7 @@
 
 ## Q170-IAM-Role-Policy-MFA题
 
-**题目：** A company needs a central user portal so that users can log in to third-party business applications that support Security Assertion Markup Language (SAML) 2.0. Which AWS service will meet this requirement?
+**题目：** A company needs a central user portal so that users can log in to third-party business applications that support Security Assertion Markup Language (SAML) 2.0. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -515,8 +548,10 @@
 - C. AWS IAM Identity Center (AWS Single Sign-On)
 - D. AWS CLI
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 52%, B 48%
 
 ### Q170.1-题干怎么拆
@@ -545,7 +580,7 @@
 
 ## Q177-IAM-Role-Policy-MFA题
 
-**题目：** Which action will help increase security in the AWS Cloud?
+**题目：** Which action will help increase security in the AWS Cloud?；
 
 **选项：**
 
@@ -554,8 +589,10 @@
 - C. Rotate access keys on a reoccurring basis.
 - D. Use inline policies instead of customer managed policies.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q177.1-题干怎么拆
@@ -593,9 +630,12 @@
 - C. AWS Security Hub
 - D. Amazon GuardDuty
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
-**需求/考点标签：** 一对多通知
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 一对多通知；
+
 **社区投票：** B 100%
 
 ### Q192.1-题干怎么拆
@@ -619,7 +659,7 @@
 
 ## Q202-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service or resource can be used to identify services that have been used by a user within a specified date range?
+**题目：** Which AWS service or resource can be used to identify services that have been used by a user within a specified date range?；
 
 **选项：**
 
@@ -628,8 +668,10 @@
 - C. Network Access Analyzer
 - D. AWS Identity and Access Management Access Analyzer
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `D`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q202.1-题干怎么拆
@@ -662,8 +704,10 @@
 - C. IAM instance profiles
 - D. IAM policies for individual users
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 52%, A 48%
 
 ### Q216.1-题干怎么拆
@@ -692,7 +736,7 @@
 
 ## Q220-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to integrate its online shopping website with social media login credentials. Which AWS service can the company use to make this integration?
+**题目：** A company wants to integrate its online shopping website with social media login credentials. Which AWS service can the company use to make this integration?；
 
 **选项：**
 
@@ -701,9 +745,12 @@
 - C. Amazon Cognito
 - D. AWS IAM Identity Center (AWS Single Sign-On)
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
-**需求/考点标签：** Block Storage
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** C 100%
 
 ### Q220.1-题干怎么拆
@@ -727,7 +774,7 @@
 
 ## Q234-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service or feature will search for and identify AWS resources that are shared externally?
+**题目：** Which AWS service or feature will search for and identify AWS resources that are shared externally?；
 
 **选项：**
 
@@ -736,8 +783,10 @@
 - C. AWS IAM Access Analyzer
 - D. AWS Fargate
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q234.1-题干怎么拆
@@ -761,7 +810,7 @@
 
 ## Q279-IAM-Role-Policy-MFA题
 
-**题目：** A developer wants AWS users to access AWS services by using temporary security credentials. Which AWS service or feature should the developer use to provide these credentials?
+**题目：** A developer wants AWS users to access AWS services by using temporary security credentials. Which AWS service or feature should the developer use to provide these credentials?；
 
 **选项：**
 
@@ -770,8 +819,10 @@
 - C. AWS Security Token Service (AWS STS)
 - D. AWS IAM Identity Center (AWS Single Sign-On)
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q279.1-题干怎么拆
@@ -795,7 +846,7 @@
 
 ## Q283-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to verify if multi-factor authentication (MFA) is enabled for all users within its AWS accounts. Which AWS service or resource will meet this requirement?
+**题目：** A company wants to verify if multi-factor authentication (MFA) is enabled for all users within its AWS accounts. Which AWS service or resource will meet this requirement?；
 
 **选项：**
 
@@ -804,9 +855,12 @@
 - C. AWS Artifact
 - D. Amazon CloudFront reports
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
-**需求/考点标签：** MFA
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** MFA；
+
 **社区投票：** B 100%
 
 ### Q283.1-题干怎么拆
@@ -830,7 +884,7 @@
 
 ## Q288-IAM-Role-Policy-MFA题
 
-**题目：** An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. What is the SIMPLEST way to provide this information?
+**题目：** An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. What is the SIMPLEST way to provide this information?；
 
 **选项：**
 
@@ -839,9 +893,12 @@
 - C. Download the IAM credential report, then provide the report to the auditor.
 - D. Download the AWS Trusted Advisor report, then provide the report to the auditor.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
-**需求/考点标签：** Audit Trail
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Audit Trail；
+
 **社区投票：** C 100%
 
 ### Q288.1-题干怎么拆
@@ -865,7 +922,7 @@
 
 ## Q296-IAM-Role-Policy-MFA题
 
-**题目：** A company has a managed IAM policy that does not grant the necessary permissions for users to accomplish required tasks. How can this be resolved?
+**题目：** A company has a managed IAM policy that does not grant the necessary permissions for users to accomplish required tasks. How can this be resolved?；
 
 **选项：**
 
@@ -874,8 +931,10 @@
 - C. Use a third-party web application firewall (WAF) managed rule from the AWS Marketplace.
 - D. Use AWS Key Management Service (AWS KMS) to create a customer-managed key.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q296.1-题干怎么拆
@@ -899,7 +958,7 @@
 
 ## Q301-IAM-Role-Policy-MFA题
 
-**题目：** Which of the following is a characteristic of the AWS account root user?
+**题目：** Which of the following is a characteristic of the AWS account root user?；
 
 **选项：**
 
@@ -908,8 +967,10 @@
 - C. The root user is the first sign-in identity that is available when an AWS account is created.
 - D. The root user has a password that cannot be changed.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q301.1-题干怎么拆
@@ -933,7 +994,7 @@
 
 ## Q306-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to quickly implement a continuous integration/continuous delivery (CI/CD) pipeline. Which AWS service will meet this requirement?
+**题目：** A company wants to quickly implement a continuous integration/continuous delivery (CI/CD) pipeline. Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -942,8 +1003,10 @@
 - C. AWS DataSync
 - D. AWS CodeStar
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `D`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q306.1-题干怎么拆
@@ -976,9 +1039,12 @@
 - C. AWS Identity and Access Management Access Analyzer
 - D. AWS Cost and Usage Report
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `A`
-**需求/考点标签：** MFA
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** MFA；
+
 **社区投票：** A 100%
 
 ### Q336.1-题干怎么拆
@@ -1002,7 +1068,7 @@
 
 ## Q339-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to allow users to authenticate and authorize multiple AWS accounts by using a single set of credentials. Which AWS service or resource will meet this requirement?
+**题目：** A company wants to allow users to authenticate and authorize multiple AWS accounts by using a single set of credentials. Which AWS service or resource will meet this requirement?；
 
 **选项：**
 
@@ -1011,8 +1077,10 @@
 - C. AWS IAM Identity Center (AWS Single Sign-On)
 - D. AWS Control Tower
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q339.1-题干怎么拆
@@ -1045,9 +1113,12 @@
 - C. Amazon Macie
 - D. Amazon GuardDuty
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `A`
-**需求/考点标签：** Hybrid Cloud
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Hybrid Cloud；
+
 **社区投票：** A 100%
 
 ### Q343.1-题干怎么拆
@@ -1071,7 +1142,7 @@
 
 ## Q348-IAM-Role-Policy-MFA题
 
-**题目：** Which task requires a user to sign in as the AWS account root user?
+**题目：** Which task requires a user to sign in as the AWS account root user?；
 
 **选项：**
 
@@ -1080,8 +1151,10 @@
 - C. The creation of an organization in AWS Organizations
 - D. The deletion of Amazon EC2 instances
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 82%, C 18%
 
 ### Q348.1-题干怎么拆
@@ -1105,7 +1178,7 @@
 
 ## Q385-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service or resource can identify and provide reports on IAM resources in one AWS account that is shared with another AWS account?
+**题目：** Which AWS service or resource can identify and provide reports on IAM resources in one AWS account that is shared with another AWS account?；
 
 **选项：**
 
@@ -1114,8 +1187,10 @@
 - C. AWS Identity and Access Management Access Analyzer
 - D. Amazon Cognito user pool
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q385.1-题干怎么拆
@@ -1148,8 +1223,10 @@
 - C. AWS Security Hub
 - D. AWS IAM Identity Center (AWS Single Sign-On)
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `D`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 90%, B 10%
 
 ### Q391.1-题干怎么拆
@@ -1173,7 +1250,7 @@
 
 ## Q392-IAM-Role-Policy-MFA题
 
-**题目：** A company wants a report that lists the status of multi-factor authentication (MFA) devices that all users in the company's AWS account use. Which AWS feature or service will meet this requirement?
+**题目：** A company wants a report that lists the status of multi-factor authentication (MFA) devices that all users in the company's AWS account use. Which AWS feature or service will meet this requirement?；
 
 **选项：**
 
@@ -1182,9 +1259,12 @@
 - C. Detailed Billing Reports -
 - D. AWS Cost Explorer reports
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
-**需求/考点标签：** MFA
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** MFA；
+
 **社区投票：** B 100%
 
 ### Q392.1-题干怎么拆
@@ -1208,7 +1288,7 @@
 
 ## Q394-IAM-Role-Policy-MFA题
 
-**题目：** A company is launching a mobile app in the AWS Cloud. The company wants the app's users to sign in through social media identity providers (IdPs). Which AWS service will meet this requirement?
+**题目：** A company is launching a mobile app in the AWS Cloud. The company wants the app's users to sign in through social media identity providers (IdPs). Which AWS service will meet this requirement?；
 
 **选项：**
 
@@ -1217,8 +1297,10 @@
 - C. AWS Secrets Manager
 - D. Amazon CloudFront
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q394.1-题干怎么拆
@@ -1242,7 +1324,7 @@
 
 ## Q409-IAM-Role-Policy-MFA题
 
-**题目：** Which task is the responsibility of a company that is using Amazon RDS?
+**题目：** Which task is the responsibility of a company that is using Amazon RDS?；
 
 **选项：**
 
@@ -1251,9 +1333,12 @@
 - C. Install the cables to connect the hardware for compute and storage.
 - D. Install and patch the RDS operating system.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** B 75%, D 25%
 
 ### Q409.1-题干怎么拆
@@ -1287,9 +1372,12 @@
 - D. Create an IAM policy with administrator access and attach it to the IAM user.
 - E. Create an IAM policy with Amazon RDS access and attach it to the IAM user.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `BE`
-**需求/考点标签：** 关系数据库高可用
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `BE`；
+
+**需求/考点标签：** 关系数据库高可用；
+
 **社区投票：** BE 100%
 
 ### Q428.1-题干怎么拆
@@ -1314,7 +1402,7 @@
 
 ## Q433-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to organize its users so that the company can grant permissions to the users as a group. Which AWS service or tool can the company use to meet this requirement?
+**题目：** A company wants to organize its users so that the company can grant permissions to the users as a group. Which AWS service or tool can the company use to meet this requirement?；
 
 **选项：**
 
@@ -1323,8 +1411,10 @@
 - C. Resource groups
 - D. AWS Security Hub
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q433.1-题干怎么拆
@@ -1348,7 +1438,7 @@
 
 ## Q447-IAM-Role-Policy-MFA题
 
-**题目：** Which action should a company take to improve security in its AWS account?
+**题目：** Which action should a company take to improve security in its AWS account?；
 
 **选项：**
 
@@ -1357,8 +1447,10 @@
 - C. Create an access key for the AWS account root user.
 - D. Create an access key for each privileged user.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `A`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q447.1-题干怎么拆
@@ -1382,7 +1474,7 @@
 
 ## Q448-IAM-Role-Policy-MFA题
 
-**题目：** Which of the following are ways to improve security on AWS? (Choose two.)
+**题目：** Which of the following are ways to improve security on AWS? (Choose two.)；
 
 **选项：**
 
@@ -1392,8 +1484,10 @@
 - D. Enabling multi-factor authentication (MFA) with Amazon Cognito
 - E. Using AWS Trusted Advisor security checks
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `DE`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `DE`；
+
 **社区投票：** DE 100%
 
 ### Q448.1-题干怎么拆
@@ -1418,7 +1512,7 @@
 
 ## Q474-IAM-Role-Policy-MFA题
 
-**题目：** A company needs to manage multiple logins across AWS accounts within the same organization in AWS Organizations. Which AWS service should the company use to meet this requirement?
+**题目：** A company needs to manage multiple logins across AWS accounts within the same organization in AWS Organizations. Which AWS service should the company use to meet this requirement?；
 
 **选项：**
 
@@ -1427,9 +1521,12 @@
 - C. Amazon Cognito
 - D. AWS IAM Identity Center
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `D`
-**需求/考点标签：** Governance
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Governance；
+
 **社区投票：** D 100%
 
 ### Q474.1-题干怎么拆
@@ -1462,8 +1559,10 @@
 - C. AWS IAM Identity Center
 - D. AWS Resource Access Manager (AWS RAM)
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 76%, B 18%, A 6%
 
 ### Q477.1-题干怎么拆
@@ -1487,7 +1586,7 @@
 
 ## Q482-IAM-Role-Policy-MFA题
 
-**题目：** Which of the following are AWS best practice recommendations for the use of AWS Identity and Access Management (IAM)? (Choose two.)
+**题目：** Which of the following are AWS best practice recommendations for the use of AWS Identity and Access Management (IAM)? (Choose two.)；
 
 **选项：**
 
@@ -1497,8 +1596,10 @@
 - D. Create a shared set of access keys for system administrators.
 - E. Configure multi-factor authentication (MFA).
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `CE`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `CE`；
+
 **社区投票：** CE 100%
 
 ### Q482.1-题干怎么拆
@@ -1523,7 +1624,7 @@
 
 ## Q509-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service supports user sign-up functionality and authentication to mobile and web applications?
+**题目：** Which AWS service supports user sign-up functionality and authentication to mobile and web applications?；
 
 **选项：**
 
@@ -1532,8 +1633,10 @@
 - C. Amazon GuardDuty
 - D. AWS Systems Manager
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `A`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q509.1-题干怎么拆
@@ -1557,7 +1660,7 @@
 
 ## Q534-IAM-Role-Policy-MFA题
 
-**题目：** A user has been granted permission to change their own IAM user password. Which AWS services can the user use to change the password? (Choose two.)
+**题目：** A user has been granted permission to change their own IAM user password. Which AWS services can the user use to change the password? (Choose two.)；
 
 **选项：**
 
@@ -1567,8 +1670,10 @@
 - D. AWS Resource Access Manager (AWS RAM)
 - E. AWS Secrets Manager
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `AC`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `AC`；
+
 **社区投票：** AC 100%
 
 ### Q534.1-题干怎么拆
@@ -1593,7 +1698,7 @@
 
 ## Q539-IAM-Role-Policy-MFA题
 
-**题目：** Which guidelines are best practices for using AWS Identity and Access Management (IAM)? (Choose two.)
+**题目：** Which guidelines are best practices for using AWS Identity and Access Management (IAM)? (Choose two.)；
 
 **选项：**
 
@@ -1603,8 +1708,10 @@
 - D. Grant maximum privileges to IAM users.
 - E. Use groups to assign permissions to IAM users.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `BE`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `BE`；
+
 **社区投票：** BE 100%
 
 ### Q539.1-题干怎么拆
@@ -1629,7 +1736,7 @@
 
 ## Q571-IAM-Role-Policy-MFA题
 
-**题目：** A company wants to centrally manage its employee's access to multiple AWS accounts. Which AWS service or feature should the company use to meet this requirement?
+**题目：** A company wants to centrally manage its employee's access to multiple AWS accounts. Which AWS service or feature should the company use to meet this requirement?；
 
 **选项：**
 
@@ -1638,8 +1745,10 @@
 - C. AWS IAM Identity Center
 - D. AWS Security Token Service (AWS STS)
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `C`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q571.1-题干怎么拆
@@ -1663,7 +1772,7 @@
 
 ## Q582-IAM-Role-Policy-MFA题
 
-**题目：** Which of the following actions are controlled with AWS Identity and Access Management (IAM)? (Choose two.)
+**题目：** Which of the following actions are controlled with AWS Identity and Access Management (IAM)? (Choose two.)；
 
 **选项：**
 
@@ -1673,8 +1782,10 @@
 - D. Grant users access to AWS data centers.
 - E. Provide firewall protection for applications from common web attacks.
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `AC`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `AC`；
+
 **社区投票：** AC 100%
 
 ### Q582.1-题干怎么拆
@@ -1699,7 +1810,7 @@
 
 ## Q584-IAM-Role-Policy-MFA题
 
-**题目：** A company is using AWS Identity and Access Management (IAM). Who can manage the access keys of the AWS account root user?
+**题目：** A company is using AWS Identity and Access Management (IAM). Who can manage the access keys of the AWS account root user?；
 
 **选项：**
 
@@ -1708,8 +1819,10 @@
 - C. IAM users and roles that have been granted permission
 - D. The AWS account owner
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `D`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q584.1-题干怎么拆
@@ -1742,8 +1855,10 @@
 - C. AWS Identity and Access Management (IAM)
 - D. AWS Directory Service for Microsoft Active Directory
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q595.1-题干怎么拆
@@ -1767,7 +1882,7 @@
 
 ## Q620-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service is used to temporarily provide federated security credentials to access AWS resources?
+**题目：** Which AWS service is used to temporarily provide federated security credentials to access AWS resources?；
 
 **选项：**
 
@@ -1776,8 +1891,10 @@
 - C. AWS Secrets Manager
 - D. AWS Certificate Manager
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q620.1-题干怎么拆
@@ -1801,7 +1918,7 @@
 
 ## Q650-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service is always available free of charge to users?
+**题目：** Which AWS service is always available free of charge to users?；
 
 **选项：**
 
@@ -1810,8 +1927,10 @@
 - C. AWS Secrets Manager
 - D. Amazon ElastiCache
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 100%
 
 ### Q650.1-题干怎么拆
@@ -1835,7 +1954,7 @@
 
 ## Q656-IAM-Role-Policy-MFA题
 
-**题目：** In which situations should a company create an IAM user instead of an IAM role?
+**题目：** In which situations should a company create an IAM user instead of an IAM role?；
 
 **选项：**
 
@@ -1845,8 +1964,10 @@
 - D. When the company needs to add users to IAM groups
 - E. When users are authenticated in the corporate network and want to be able to use AWS without having to sign in a
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
-**题库记录答案：** `B`
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
+**题库记录答案：** `B`；
+
 **社区投票：** B 50%, D 50%
 
 ### Q656.1-题干怎么拆
@@ -1876,7 +1997,7 @@
 
 ## Q716-IAM-Role-Policy-MFA题
 
-**题目：** Which AWS service can manage permissions for AWS resources by using policies?
+**题目：** Which AWS service can manage permissions for AWS resources by using policies?；
 
 **选项：**
 
@@ -1885,7 +2006,8 @@
 - C. AWS Identity and Access Management (IAM)
 - D. Amazon GuardDuty
 
-**主分类：** C4-14 IAM-Role-Policy-MFA题
+**主分类：** C4-14 IAM-Role-Policy-MFA题；
+
 **题库记录答案：** `C`
 
 ### Q716.1-题干怎么拆

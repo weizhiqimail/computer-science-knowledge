@@ -5,9 +5,10 @@
 本文件共收录 **26** 道主分类题。范围：S3、Object、Bucket、Storage Class、Lifecycle、Versioning。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q18-S3对象存储与Storage-Class题
 
-**题目：** A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to protect the data from accidental deletion or overwriting. Which S3 feature should the company use to meet these requirements?
+**题目：** A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to protect the data from accidental deletion or overwriting. Which S3 feature should the company use to meet these requirements?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. S3 bucket policies
 - D. S3 server-side encryption
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** B 100%
 
 ### Q18.1-题干怎么拆
@@ -42,7 +46,7 @@
 
 ## Q83-S3对象存储与Storage-Class题
 
-**题目：** A user wants to review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console. Which AWS service or resource will meet this requirement?
+**题目：** A user wants to review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console. Which AWS service or resource will meet this requirement?；
 
 **选项：**
 
@@ -51,9 +55,12 @@
 - C. AWS IAM Identity Center (AWS Single Sign-On)
 - D. Access Analyzer for S3
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** D 97%
 
 ### Q83.1-题干怎么拆
@@ -77,7 +84,7 @@
 
 ## Q87-S3对象存储与Storage-Class题
 
-**题目：** Which AWS service provides highly durable object storage?
+**题目：** Which AWS service provides highly durable object storage?；
 
 **选项：**
 
@@ -86,9 +93,12 @@
 - C. Amazon Elastic Block Store (Amazon EBS)
 - D. Amazon FSx
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `A`
-**需求/考点标签：** Durability / Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Durability / Object Storage；
+
 **社区投票：** A 100%
 
 ### Q87.1-题干怎么拆
@@ -112,7 +122,7 @@
 
 ## Q123-S3对象存储与Storage-Class题
 
-**题目：** A company wants to store and retrieve files in Amazon S3 for its existing on-premises applications by using industry-standard file system protocols. Which AWS service will meet these requirements?
+**题目：** A company wants to store and retrieve files in Amazon S3 for its existing on-premises applications by using industry-standard file system protocols. Which AWS service will meet these requirements?；
 
 **选项：**
 
@@ -121,9 +131,12 @@
 - C. Amazon S3 File Gateway
 - D. AWS Transfer Family
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `C`
-**需求/考点标签：** Object Storage / Hybrid Cloud
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Object Storage / Hybrid Cloud；
+
 **社区投票：** C 82%, D 18%
 
 ### Q123.1-题干怎么拆
@@ -147,7 +160,7 @@
 
 ## Q143-S3对象存储与Storage-Class题
 
-**题目：** A company needs to quickly and securely move files over long distances between its client and an Amazon S3 bucket. Which S3 feature will meet this requirement?
+**题目：** A company needs to quickly and securely move files over long distances between its client and an Amazon S3 bucket. Which S3 feature will meet this requirement?；
 
 **选项：**
 
@@ -156,9 +169,12 @@
 - C. S3ACLs
 - D. S3 Intelligent-Tiering
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** B 100%
 
 ### Q143.1-题干怎么拆
@@ -182,7 +198,7 @@
 
 ## Q153-S3对象存储与Storage-Class题
 
-**题目：** A company wants to query its server logs to gain insights about its customers’ experiences. Which AWS service will store this data MOST cost-effectively?
+**题目：** A company wants to query its server logs to gain insights about its customers’ experiences. Which AWS service will store this data MOST cost-effectively?；
 
 **选项：**
 
@@ -191,9 +207,12 @@
 - C. Amazon Elastic Block Store (Amazon EBS)
 - D. Amazon S3
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** Cost Optimization
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Cost Optimization；
+
 **社区投票：** D 100%
 
 ### Q153.1-题干怎么拆
@@ -217,7 +236,7 @@
 
 ## Q179-S3对象存储与Storage-Class题
 
-**题目：** Which of the following describes some of the core functionality of Amazon S3?
+**题目：** Which of the following describes some of the core functionality of Amazon S3?；
 
 **选项：**
 
@@ -226,9 +245,12 @@
 - C. Amazon S3 is a fully managed, highly reliable, and scalable file storage system that is accessible over the industry-
 - D. Amazon S3 is a scalable, fully managed elastic NFS for use with AWS Cloud services and on-premises resources.
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** B 100%
 
 ### Q179.1-题干怎么拆
@@ -261,9 +283,12 @@
 - C. S3 One Zone-Infrequent Access (S3 One Zone-IA)
 - D. S3 Standard-Infrequent Access (S3 Standard-IA)
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage / Cost Optimization
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage / Cost Optimization；
+
 **社区投票：** B 67%, C 33%
 
 ### Q201.1-题干怎么拆
@@ -292,7 +317,7 @@
 
 ## Q219-S3对象存储与Storage-Class题
 
-**题目：** Which encryption types can be used to protect objects at rest in Amazon S3? (Choose two.)
+**题目：** Which encryption types can be used to protect objects at rest in Amazon S3? (Choose two.)；
 
 **选项：**
 
@@ -302,9 +327,12 @@
 - D. SSL
 - E. Transparent Data Encryption (TDE)
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `AB`
-**需求/考点标签：** Encryption / Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `AB`；
+
+**需求/考点标签：** Encryption / Object Storage；
+
 **社区投票：** AB 67%, AE 33%
 
 ### Q219.1-题干怎么拆
@@ -343,9 +371,12 @@
 - C. S3 Standard-Infrequent Access (S3 Standard-IA)
 - D. S3 One Zone-Infrequent Access (S3 One Zone-IA)
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** Object Storage / Cost Optimization
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Object Storage / Cost Optimization；
+
 **社区投票：** D 84%, C 16%
 
 ### Q251.1-题干怎么拆
@@ -369,7 +400,7 @@
 
 ## Q274-S3对象存储与Storage-Class题
 
-**题目：** A company wants to save costs by archiving data that is no longer frequently accessed by end users. Which Amazon S3 feature will meet this requirement?
+**题目：** A company wants to save costs by archiving data that is no longer frequently accessed by end users. Which Amazon S3 feature will meet this requirement?；
 
 **选项：**
 
@@ -378,9 +409,12 @@
 - C. S3 Object Lock
 - D. S3 Inventory
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** B 100%
 
 ### Q274.1-题干怎么拆
@@ -404,7 +438,7 @@
 
 ## Q294-S3对象存储与Storage-Class题
 
-**题目：** Which Amazon S3 storage class is MOST cost-effective for unknown access patterns?
+**题目：** Which Amazon S3 storage class is MOST cost-effective for unknown access patterns?；
 
 **选项：**
 
@@ -413,9 +447,12 @@
 - C. S3 One Zone-Infrequent Access (S3 One Zone-IA)
 - D. S3 Intelligent-Tiering
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** Object Storage / Cost Optimization
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Object Storage / Cost Optimization；
+
 **社区投票：** D 100%
 
 ### Q294.1-题干怎么拆
@@ -439,7 +476,7 @@
 
 ## Q313-S3对象存储与Storage-Class题
 
-**题目：** A company wants durable storage for static content and infinitely scalable data storage infrastructure at the lowest cost. Which AWS service should the company choose?
+**题目：** A company wants durable storage for static content and infinitely scalable data storage infrastructure at the lowest cost. Which AWS service should the company choose?；
 
 **选项：**
 
@@ -448,9 +485,12 @@
 - C. AWS Storage Gateway
 - D. Amazon Elastic File System (Amazon EFS)
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Scalability / Durability
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Scalability / Durability；
+
 **社区投票：** B 100%
 
 ### Q313.1-题干怎么拆
@@ -474,7 +514,7 @@
 
 ## Q338-S3对象存储与Storage-Class题
 
-**题目：** A company wants to track tags, buckets, and prefixes for its Amazon S3 objects. Which S3 feature will meet this requirement?
+**题目：** A company wants to track tags, buckets, and prefixes for its Amazon S3 objects. Which S3 feature will meet this requirement?；
 
 **选项：**
 
@@ -483,9 +523,12 @@
 - C. S3 Versioning
 - D. S3 ACLs
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `A`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** A 100%
 
 ### Q338.1-题干怎么拆
@@ -509,7 +552,7 @@
 
 ## Q349-S3对象存储与Storage-Class题
 
-**题目：** What does the Amazon S3 Intelligent-Tiering storage class offer?
+**题目：** What does the Amazon S3 Intelligent-Tiering storage class offer?；
 
 **选项：**
 
@@ -518,9 +561,12 @@
 - C. Automatic cost savings by moving objects between tiers based on access pattern changes
 - D. Secure, durable, and lowest cost storage for data archival
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `C`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** C 100%
 
 ### Q349.1-题干怎么拆
@@ -544,7 +590,7 @@
 
 ## Q368-S3对象存储与Storage-Class题
 
-**题目：** Which Amazon S3 feature or storage class uses the AWS backbone network and edge locations to reduce latencies from the end user to Amazon S3?
+**题目：** Which Amazon S3 feature or storage class uses the AWS backbone network and edge locations to reduce latencies from the end user to Amazon S3?；
 
 **选项：**
 
@@ -553,9 +599,12 @@
 - C. S3 Event Notifications
 - D. S3 Standard-Infrequent Access (S3 Standard-IA)
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** 全球静态内容加速
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 全球静态内容加速；
+
 **社区投票：** B 100%
 
 ### Q368.1-题干怎么拆
@@ -579,7 +628,7 @@
 
 ## Q446-S3对象存储与Storage-Class题
 
-**题目：** A company stores a large amount of data that auditors access only twice each year. Which Amazon S3 storage class should the company use to store the data with the LOWEST cost?
+**题目：** A company stores a large amount of data that auditors access only twice each year. Which Amazon S3 storage class should the company use to store the data with the LOWEST cost?；
 
 **选项：**
 
@@ -588,9 +637,12 @@
 - C. Amazon S3 Standard
 - D. Amazon S3 Intelligent-Tiering
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage / Audit Trail
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage / Audit Trail；
+
 **社区投票：** B 65%, D 35%
 
 ### Q446.1-题干怎么拆
@@ -619,7 +671,7 @@
 
 ## Q450-S3对象存储与Storage-Class题
 
-**题目：** A company wants to store its files in the AWS Cloud. Users need to be able to download these files directly using a public URL. Which AWS service or feature will meet this requirement?
+**题目：** A company wants to store its files in the AWS Cloud. Users need to be able to download these files directly using a public URL. Which AWS service or feature will meet this requirement?；
 
 **选项：**
 
@@ -628,8 +680,10 @@
 - C. Amazon Elastic File System (Amazon EFS)
 - D. Amazon S3
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
 **社区投票：** D 100%
 
 ### Q450.1-题干怎么拆
@@ -653,7 +707,7 @@
 
 ## Q453-S3对象存储与Storage-Class题
 
-**题目：** A cloud engineer wants to store data in Amazon S3. The engineer will access some of the data yearly and some of the data daily. Which S3 storage class will meet these requirements MOST cost-effectively?
+**题目：** A cloud engineer wants to store data in Amazon S3. The engineer will access some of the data yearly and some of the data daily. Which S3 storage class will meet these requirements MOST cost-effectively?；
 
 **选项：**
 
@@ -662,9 +716,12 @@
 - C. S3 One Zone-Infrequent Access (S3 One Zone-IA)
 - D. S3 Intelligent-Tiering
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** Object Storage / Cost Optimization
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Object Storage / Cost Optimization；
+
 **社区投票：** D 100%
 
 ### Q453.1-题干怎么拆
@@ -688,7 +745,7 @@
 
 ## Q456-S3对象存储与Storage-Class题
 
-**题目：** A company needs to store infrequently used data for data archives and long-term backups. Which AWS service or storage class will meet these requirements MOST cost-effectively?
+**题目：** A company needs to store infrequently used data for data archives and long-term backups. Which AWS service or storage class will meet these requirements MOST cost-effectively?；
 
 **选项：**
 
@@ -697,9 +754,12 @@
 - C. Amazon Elastic File System (Amazon EFS)
 - D. Amazon S3 Glacier Flexible Retrieval
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** 稳定长期计算
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 稳定长期计算；
+
 **社区投票：** D 100%
 
 ### Q456.1-题干怎么拆
@@ -723,7 +783,7 @@
 
 ## Q523-S3对象存储与Storage-Class题
 
-**题目：** A company must archive its documents by using a write-once, read-many (WORM) model to meet legal and compliance obligations. Which feature of Amazon S3 can the company use to meet this requirement?
+**题目：** A company must archive its documents by using a write-once, read-many (WORM) model to meet legal and compliance obligations. Which feature of Amazon S3 can the company use to meet this requirement?；
 
 **选项：**
 
@@ -732,9 +792,12 @@
 - C. S3 Glacier Vault Lock
 - D. S3 multi-factor authentication (MFA) delete
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `C`
-**需求/考点标签：** 配置变化与合规
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 配置变化与合规；
+
 **社区投票：** C 100%
 
 ### Q523.1-题干怎么拆
@@ -758,7 +821,7 @@
 
 ## Q560-S3对象存储与Storage-Class题
 
-**题目：** A company needs to use AWS technology to deploy a static website. Which solution meets this requirement with the LEAST amount of operational overhead?
+**题目：** A company needs to use AWS technology to deploy a static website. Which solution meets this requirement with the LEAST amount of operational overhead?；
 
 **选项：**
 
@@ -767,9 +830,12 @@
 - C. Deploy the website with Amazon Lightsail.
 - D. Host the website on Amazon S3.
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** Block Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Block Storage；
+
 **社区投票：** D 100%
 
 ### Q560.1-题干怎么拆
@@ -802,9 +868,12 @@
 - C. S3 Glacier Flexible Retrieval
 - D. S3 Glacier Deep Archive
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `B`
-**需求/考点标签：** Object Storage / Cost Optimization
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** Object Storage / Cost Optimization；
+
 **社区投票：** B 80%, C 20%
 
 ### Q607.1-题干怎么拆
@@ -828,7 +897,7 @@
 
 ## Q658-S3对象存储与Storage-Class题
 
-**题目：** What is the total volume of data that can be stored in Amazon S3?
+**题目：** What is the total volume of data that can be stored in Amazon S3?；
 
 **选项：**
 
@@ -837,9 +906,12 @@
 - C. 100 PB
 - D. Virtually unlimited
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** D 100%
 
 ### Q658.1-题干怎么拆
@@ -863,7 +935,7 @@
 
 ## Q660-S3对象存储与Storage-Class题
 
-**题目：** A company stores data in an Amazon S3 bucket. Which task is the responsibility of AWS?
+**题目：** A company stores data in an Amazon S3 bucket. Which task is the responsibility of AWS?；
 
 **选项：**
 
@@ -872,8 +944,10 @@
 - C. Configure S3 bucket policies.
 - D. Protect the infrastructure that supports S3 storage.
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `D`
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `D`；
+
 **需求/考点标签：** Object Storage
 
 ### Q660.1-题干怎么拆
@@ -897,7 +971,7 @@
 
 ## Q700-S3对象存储与Storage-Class题
 
-**题目：** A company wants an Amazon S3 solution that provides access to object storage within single-digit milliseconds. Which solution will meet these requirements?
+**题目：** A company wants an Amazon S3 solution that provides access to object storage within single-digit milliseconds. Which solution will meet these requirements?；
 
 **选项：**
 
@@ -906,9 +980,12 @@
 - C. S3 Glacier Flexible Retrieval
 - D. S3 Glacier Instant Retrieval
 
-**主分类：** C4-05 S3对象存储与Storage-Class题
-**题库记录答案：** `A`
-**需求/考点标签：** Object Storage
+**主分类：** C4-05 S3对象存储与Storage-Class题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** Object Storage；
+
 **社区投票：** A 56%, B 44%
 
 ### Q700.1-题干怎么拆

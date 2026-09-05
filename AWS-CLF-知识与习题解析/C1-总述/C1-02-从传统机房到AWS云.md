@@ -2,103 +2,13 @@
 
 ## 1-为什么要先讲传统机房？
 
-如果不知道传统 IT 是怎么工作的，就很难真正理解：
-
-```text
-EC2 为什么存在
-EBS 为什么存在
-VPC 为什么存在
-RDS 为什么存在
-Auto Scaling 为什么重要
-Availability Zone 为什么重要
-```
-
-因为 AWS 并没有凭空创造企业 IT 的需求。
-
-AWS 做的事情之一，是把大量过去需要：
-
-```text
-买硬件
-建设机房
-拉网络
-采购存储
-安装数据库
-维护设备
-```
-
-才能获得的 IT 能力，转变为可以通过网络按需获得的服务。
+如果不知道传统 IT 是怎么工作的，就很难真正理解：EC2 为什么存在、EBS 为什么存在、VPC 为什么存在、RDS 为什么存在、Auto Scaling 为什么重要、Availability Zone 为什么重要；因为 AWS 并没有凭空创造企业 IT 的需求。AWS 做的事情之一，是把大量过去需要：买硬件、建设机房、拉网络、采购存储、安装数据库、维护设备；才能获得的 IT 能力，转变为可以通过网络按需获得的服务。
 
 ---
 
 ## 2-假设-2005-年要创建-GlobalShop
 
-你准备创建一个全球电商系统。
-
-业务包括：
-
-```text
-用户
-商品
-订单
-库存
-支付
-物流
-图片
-客服
-数据分析
-```
-
-首先需要运行程序。
-
-于是需要：
-
-```text
-服务器
-```
-
-数据不能丢，需要：
-
-```text
-磁盘
-存储设备
-```
-
-商品和订单需要查询：
-
-```text
-数据库
-```
-
-用户访问网站：
-
-```text
-网络
-路由器
-交换机
-DNS
-公网IP
-```
-
-防止所有请求打一台机器：
-
-```text
-负载均衡器
-```
-
-还需要：
-
-```text
-防火墙
-日志系统
-备份
-监控
-机房
-UPS
-空调
-备用电源
-```
-
-一个传统架构可能是：
+你准备创建一个全球电商系统。业务包括：用户、商品、订单、库存、支付、物流、图片、客服、数据分析；首先需要运行程序。于是需要：服务器；数据不能丢，需要：磁盘、存储设备；商品和订单需要查询：数据库；用户访问网站：网络、路由器、交换机、DNS、公网IP；防止所有请求打一台机器：负载均衡器；还需要：防火墙、日志系统、备份、监控、机房、UPS、空调、备用电源；一个传统架构可能是：
 
 ```text
                          Internet
@@ -124,27 +34,16 @@ UPS
               ▼
           SAN / Storage
 
-
 整个系统位于：
 
 Company Data Center
 企业自己的数据中心
 ```
-
 ---
 
 ## 3-★★★-Data-Center-是什么？
 
-
-**Data Center**
-
-中文：
-
-**数据中心 / 机房**
-
-它不是简单的一间“放电脑的屋子”。
-
-真正的数据中心要解决：
+**Data Center**；；；；中文：**数据中心 / 机房**；它不是简单的一间“放电脑的屋子”。真正的数据中心要解决：
 
 ```text
 电力
@@ -162,10 +61,7 @@ Company Data Center
 监控
 灾备
 ```
-
-假设 GlobalShop 买了 1000 台服务器。
-
-还需要考虑：
+假设 GlobalShop 买了 1000 台服务器。还需要考虑：
 
 > 一旦停电，这 1000 台服务器怎么办？
 
@@ -179,10 +75,7 @@ Uninterruptible Power Supply
 Backup Generator
 备用发电机
 ```
-
-服务器会产生大量热量，又需要大规模制冷。
-
-所以企业维护 IT 的成本远远不只是：
+服务器会产生大量热量，又需要大规模制冷。所以企业维护 IT 的成本远远不只是：
 
 > “服务器多少钱？”
 
@@ -190,52 +83,23 @@ Backup Generator
 
 ## 4-★★★★-CAPEX-和-OPEX
 
-
 这是 CLF-C02 非常重要的云经济概念。
 
 ### 4.1-CAPEX
 
-**Capital Expenditure**
-
-中文：
-
-**资本性支出**
-
-例如公司提前花：
-
-```text
-1000万元
-```
-
-购买：
-
-```text
-服务器
-存储设备
-交换机
-机房设施
-```
-
-不管这些服务器以后用不用，钱已经花掉了。
+**Capital Expenditure**；；；；中文：**资本性支出**；例如公司提前花：1000万元购买：服务器、存储设备、交换机、机房设施；不管这些服务器以后用不用，钱已经花掉了。
 
 ---
 
 ### 4.2-OPEX
 
-**Operating Expenditure**
-
-中文：
-
-**运营性支出 / 经营性支出**
-
-例如：
+**Operating Expenditure**；；；；中文：**运营性支出 / 经营性支出**；例如：
 
 ```text
 这个月使用多少计算资源
 ↓
 支付多少
 ```
-
 云计算的重要经济变化之一就是：
 
 ```text
@@ -247,35 +111,13 @@ Backup Generator
 Variable Expense
 可变支出
 ```
-
-AWS 官方将这一点列为云计算的重要优势之一：把数据中心和物理服务器这样的固定成本转换为随实际使用变化的可变成本。([AWS Documentation][5])
+AWS 官方将这一点列为云计算的重要优势之一：把数据中心和物理服务器这样的固定成本转换为随实际使用变化的可变成本。([AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html?utm_source=chatgpt.com))
 
 ---
 
 ## 5-★★★★-Capacity-Planning：容量规划
 
-
-假设 GlobalShop 平时需要：
-
-```text
-100 台服务器
-```
-
-双十一需要：
-
-```text
-2000 台服务器
-```
-
-传统系统必须提前做：
-
-**Capacity Planning**
-
-中文：
-
-**容量规划**
-
-问题是，你不知道未来真实需要多少。
+假设 GlobalShop 平时需要：100 台服务器双十一需要：2000 台服务器传统系统必须提前做：**Capacity Planning**；；；；中文：**容量规划**；问题是，你不知道未来真实需要多少。
 
 ---
 
@@ -288,7 +130,6 @@ AWS 官方将这一点列为云计算的重要优势之一：把数据中心和�
 容量 = 100
 正常
 
-
 双十一：
 
 需求 = 2000
@@ -298,14 +139,11 @@ AWS 官方将这一点列为云计算的重要优势之一：把数据中心和�
 
 系统过载
 ```
-
 ---
 
 ### 5.2-买-2000-台
 
-双十一没问题。
-
-但其他 364 天：
+双十一没问题。但其他 364 天：
 
 ```text
 容量：
@@ -314,19 +152,13 @@ AWS 官方将这一点列为云计算的重要优势之一：把数据中心和�
 使用：
 ██
 ```
-
 1900 台左右的容量长期闲置。
 
 ---
 
 ## 6-★★★★★-Stop-Guessing-Capacity
 
-
-AWS 官方所说的云计算优势之一就是：
-
-**Stop guessing capacity**
-
-中文可以理解为：
+AWS 官方所说的云计算优势之一就是：**Stop guessing capacity**；中文可以理解为：
 
 > **不再依赖提前猜测未来需要多少 IT 容量。**
 
@@ -339,7 +171,6 @@ AWS 官方所说的云计算优势之一就是：
 ↓
 预测错了也只能承担结果
 ```
-
 云：
 
 ```text
@@ -351,21 +182,13 @@ AWS 官方所说的云计算优势之一就是：
 ↓
 减少资源
 ```
-
-([AWS Documentation][5])
+([AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html?utm_source=chatgpt.com))
 
 ---
 
 ## 7-★★★★★-Cloud-Computing-是什么？
 
-
-**Cloud Computing**
-
-中文：
-
-**云计算**
-
-可以先理解成：
+**Cloud Computing**；；；；中文：**云计算**；可以先理解成：
 
 > 通过网络按需获得计算、存储、数据库、网络等 IT 能力，并根据实际需求动态使用，而不是所有基础设施都必须自己提前采购和建设。
 
@@ -380,7 +203,6 @@ Infrastructure ownership
 Infrastructure as a service
 按服务使用基础设施
 ```
-
 ---
 
 ## 8-一个最简单的变化：服务器
@@ -411,10 +233,7 @@ IT部门
 
 部署应用
 ```
-
-可能需要数周。
-
-AWS：
+可能需要数周。AWS：
 
 ```text
 需要服务器
@@ -425,21 +244,13 @@ Amazon EC2
    ▼
 创建 Instance
 ```
-
 几分钟即可获得计算资源。
 
 ---
 
 ## 9-★★★-Provisioning
 
-
-**Provisioning**
-
-中文：
-
-**资源供应 / 资源配置 / 开通资源**
-
-在云环境里经常出现：
+**Provisioning**；；；；中文：**资源供应 / 资源配置 / 开通资源**；在云环境里经常出现：
 
 ```text
 provision an EC2 instance
@@ -448,16 +259,7 @@ provision an EC2 instance
 provision infrastructure
 配置基础设施
 ```
-
-所以：
-
-```text
-CloudFormation reduces provisioning time
-```
-
-意思不是“传输速度更快”。
-
-而是：
+所以：CloudFormation reduces provisioning time；意思不是“传输速度更快”。而是：
 
 > 自动创建基础设施，降低人工开通资源所需的时间。
 
@@ -465,113 +267,42 @@ CloudFormation reduces provisioning time
 
 ## 10-★★★★★-Pay-as-you-go
 
-
-**Pay as you go**
-
-中文：
-
-**按使用量付费 / 按需付费思想**
-
-概念非常直观：
+**Pay as you go**；；；；中文：**按使用量付费 / 按需付费思想**；概念非常直观：
 
 ```text
 使用多少
 ↓
 支付多少
 ```
-
 注意：
 
 > AWS 并不是所有服务都完全只有一种“按秒计费”方式。
 
-有些服务：
+有些服务：按小时、按秒、按请求、按 GB、按存储量、按数据传输、按 provisioned capacity、按承诺使用量
 
-```text
-按小时
-按秒
-按请求
-按 GB
-按存储量
-按数据传输
-按 provisioned capacity
-按承诺使用量
-```
-
-AWS 官方定价原则也明确指出，不同资源采用不同计量单位，例如计算资源可能按时间，存储和数据传输通常按 GB。([AWS Documentation][6])
+AWS 官方定价原则也明确指出，不同资源采用不同计量单位，例如计算资源可能按时间，存储和数据传输通常按 GB。([AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/key-principles.html?utm_source=chatgpt.com))
 
 ---
 
 ## 11-★★★★-Economies-of-Scale
 
-
-完整英文：
-
-**Economies of Scale**
-
-中文：
-
-**规模经济**
-
-假设 GlobalShop 自己买服务器：
-
-```text
-购买：
-500 台
-```
-
-AWS：
-
-```text
-为大量客户共同建设基础设施
-规模：
-远大于单个企业
-```
-
-大规模采购：
-
-```text
-服务器
-网络
-电力
-带宽
-数据中心设备
-```
-
-通常能够获得更低的单位成本。
-
-这就是：
+完整英文：**Economies of Scale**；；；；中文：**规模经济**；假设 GlobalShop 自己买服务器：购买：、500 台；AWS：为大量客户共同建设基础设施、规模：、远大于单个企业；大规模采购：服务器、网络、电力、带宽、数据中心设备；通常能够获得更低的单位成本。这就是：
 
 ```text
 Scale ↑
 单位成本可能 ↓
 ```
-
-AWS 官方将“Benefit from massive economies of scale”列为云计算优势之一。([AWS Documentation][5])
+AWS 官方将“Benefit from massive economies of scale”列为云计算优势之一。([AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html?utm_source=chatgpt.com))
 
 ---
 
 ## 12-★★★★-Agility
 
-
-**Agility**
-
-中文：
-
-**敏捷性**
-
-这里不是 Scrum 的 Agile。
-
-它强调：
+**Agility**；；；；中文：**敏捷性**；这里不是 Scrum 的 Agile。它强调：
 
 > 企业能够更快获得资源、更快试验、更快上线新产品。
 
-例如 GlobalShop 想测试一个：
-
-```text
-AI商品推荐系统
-```
-
-传统模式：
+例如 GlobalShop 想测试一个：AI商品推荐系统；传统模式：
 
 ```text
 先申请 GPU
@@ -582,7 +313,6 @@ AI商品推荐系统
 一个月以后：
 开始实验
 ```
-
 AWS：
 
 ```text
@@ -590,33 +320,13 @@ AWS：
 ↓
 当天开始实验
 ```
-
-实验失败：
-
-```text
-关闭资源
-```
-
-实验成功：
-
-```text
-继续扩展
-```
-
-这就是 Cloud Agility。
+实验失败：关闭资源；实验成功：继续扩展；这就是 Cloud Agility。
 
 ---
 
 ## 13-★★★★★-Scalability
 
-
-**Scalability**
-
-中文：
-
-**可扩展性**
-
-意思是：
+**Scalability**；；；；中文：**可扩展性**；意思是：
 
 > 系统处理更大工作负载的能力。
 
@@ -627,38 +337,13 @@ AWS：
 ↓
 100万请求 / 分钟
 ```
-
 系统仍然能够通过增加资源继续工作。
 
 ---
 
 ### 13.1-Vertical-Scaling
 
-**Vertical Scaling**
-
-中文：
-
-**纵向扩展 / 垂直扩展**
-
-也叫：
-
-**Scale Up**
-
-原来：
-
-```text
-2 CPU
-4 GB RAM
-```
-
-变成：
-
-```text
-32 CPU
-128 GB RAM
-```
-
-即：
+**Vertical Scaling**；；；；中文：**纵向扩展 / 垂直扩展**；也叫：**Scale Up**；原来：2 CPU、4 GB RAM变成：32 CPU、128 GB RAM即：
 
 > 把一台机器变强。
 
@@ -666,33 +351,7 @@ AWS：
 
 ### 13.2-Horizontal-Scaling
 
-**Horizontal Scaling**
-
-中文：
-
-**横向扩展 / 水平扩展**
-
-也叫：
-
-**Scale Out**
-
-原来：
-
-```text
-EC2
-```
-
-增加：
-
-```text
-EC2
-EC2
-EC2
-EC2
-EC2
-```
-
-即：
+**Horizontal Scaling**；；；；中文：**横向扩展 / 水平扩展**；也叫：**Scale Out**；原来：EC2；增加：EC2、EC2、EC2、EC2、EC2；即：
 
 > 增加机器数量。
 
@@ -702,16 +361,7 @@ EC2
 
 ## 14-★★★★★-Elasticity
 
-
-**Elasticity**
-
-中文：
-
-**弹性**
-
-它和 Scalability 不是完全一样。
-
-Scalability：
+**Elasticity**；；；；中文：**弹性**；它和 Scalability 不是完全一样。Scalability：
 
 > 能不能扩。
 
@@ -737,7 +387,6 @@ Elasticity：
 02:00
 20台
 ```
-
 这就是：
 
 ```text
@@ -749,21 +398,13 @@ Scale Out
 Scale In
 缩回来
 ```
-
 题库中也明确区分 High Availability、Elasticity、Scalability 和 Agility。例如第 77 题将“出现故障仍尽量减少停机”归到 High Availability，而不是 Elasticity 或 Scalability。
 
 ---
 
 ## 15-★★★★★-High-Availability
 
-
-**HA = High Availability**
-
-中文：
-
-**高可用性**
-
-解决：
+**HA = High Availability**；；；；中文：**高可用性**；解决：
 
 > 一部分系统发生故障时，业务仍然尽可能保持可用。
 
@@ -777,7 +418,6 @@ Scale In
        │                │
      EC2              EC2
 ```
-
 AZ-A 故障：
 
 ```text
@@ -788,30 +428,13 @@ AZ-A
  ↓
 AZ-B
 ```
-
-High Availability 关注的是：
-
-```text
-减少单点故障
-减少停机时间
-冗余
-多可用区部署
-```
+High Availability 关注的是：减少单点故障、减少停机时间、冗余、多可用区部署
 
 ---
 
 ## 16-★★★★-Fault-Tolerance
 
-
-**Fault Tolerance**
-
-中文：
-
-**容错能力 / 故障容忍**
-
-它与 High Availability 很接近，但语义更强。
-
-可以粗略理解：
+**Fault Tolerance**；；；；中文：**容错能力 / 故障容忍**；它与 High Availability 很接近，但语义更强。可以粗略理解：
 
 ```text
 High Availability
@@ -822,7 +445,6 @@ Fault Tolerance
 目标：
 组件发生故障时，系统仍然继续工作，尽量不感知中断
 ```
-
 CLF-C02 不要求把二者做非常学术化的可用性数学区分，但需要知道两者都与：
 
 ```text
@@ -835,23 +457,13 @@ failure
 availability
 可用性
 ```
-
 有关。
 
 ---
 
 ## 17-★★★★-Disaster-Recovery
 
-
-**DR = Disaster Recovery**
-
-中文：
-
-**灾难恢复 / 灾备**
-
-解决的不再只是一台服务器坏掉。
-
-可能考虑：
+**DR = Disaster Recovery**；；；；中文：**灾难恢复 / 灾备**；解决的不再只是一台服务器坏掉。可能考虑：
 
 ```text
 Availability Zone failure
@@ -869,7 +481,6 @@ ransomware
 human error
 人为错误
 ```
-
 GlobalShop：
 
 ```text
@@ -883,7 +494,6 @@ Tokyo Region
 Osaka Region
 灾备
 ```
-
 如果东京出现重大区域级问题，可以根据灾备方案在大阪恢复业务。
 
 ---
@@ -921,17 +531,7 @@ Osaka Region
 
 ## 19-Cloud-并不意味着“不需要服务器”
 
-这是一个重要误解。
-
-比如 Lambda 被称为：
-
-**Serverless**
-
-中文：
-
-**无服务器**
-
-不是：
+这是一个重要误解。比如 Lambda 被称为：**Serverless**；；；；中文：**无服务器**；不是：
 
 > AWS 真的没有服务器。
 
@@ -939,14 +539,7 @@ Osaka Region
 
 > 服务器的创建、维护、操作系统、扩缩容等大量基础设施工作由 AWS 承担，开发者不再直接管理这些服务器。
 
-物理机器依然存在。
-
-只是：
-
-```text
-你管理的抽象层
-变高了
-```
+物理机器依然存在。只是：你管理的抽象层、变高了
 
 ---
 
@@ -970,7 +563,6 @@ OS
 数据
 你负责
 ```
-
 AWS：
 
 ```text
@@ -993,18 +585,7 @@ Application
 Data / IAM
 客户通常仍承担重要责任
 ```
-
-这最终形成：
-
-★★★★★ **AWS Shared Responsibility Model**
-
-中文：
-
-**AWS 责任共担模型**
-
-后续安全章节详细展开。
-
-题库中也大量直接考“什么是 AWS 的责任、什么是客户责任”，例如 DynamoDB 题目要求区分 AWS 管理的底层基础设施与客户自己管理的数据访问权限。
+这最终形成：★★★★★ **AWS Shared Responsibility Model**；；；；中文：**AWS 责任共担模型**；后续安全章节详细展开。题库中也大量直接考“什么是 AWS 的责任、什么是客户责任”，例如 DynamoDB 题目要求区分 AWS 管理的底层基础设施与客户自己管理的数据访问权限。
 
 ---
 
@@ -1023,7 +604,6 @@ Data / IAM
 ↓
 扩大基础设施需要时间
 ```
-
 Cloud 的核心变化是：
 
 ```text
@@ -1037,7 +617,6 @@ Cloud 的核心变化是：
 ↓
 从固定成本向可变成本转化
 ```
-
 后续 AWS 几乎所有服务，都可以从这个变化中理解。
 
 ---

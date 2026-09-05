@@ -5,9 +5,10 @@
 本文件共收录 **56** 道主分类题。范围：AWS CAF、Well-Architected、Pillars、Perspectives、云采用与架构方法论。
 
 > 注意：这里的“正确”指题库 `correct_answer` 记录。若题目存在明显争议/历史差异，会明确标记并同时收入 C4-27。
+
 ## Q6-CAF-Well-Architected题
 
-**题目：** Which option is a perspective that includes foundational capabilities of the AWS Cloud Adoption Framework (AWS CAF)?
+**题目：** Which option is a perspective that includes foundational capabilities of the AWS Cloud Adoption Framework (AWS CAF)?；
 
 **选项：**
 
@@ -16,9 +17,12 @@
 - C. Governance
 - D. Reliability
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** C 100%
 
 ### Q6.1-题干怎么拆
@@ -47,7 +51,7 @@
 
 ## Q23-CAF-Well-Architected题
 
-**题目：** A company wants to protect its AWS Cloud information, systems, and assets while performing risk assessment and mitigation tasks. Which pillar of the AWS Well-Architected Framework is supported by these goals?
+**题目：** A company wants to protect its AWS Cloud information, systems, and assets while performing risk assessment and mitigation tasks. Which pillar of the AWS Well-Architected Framework is supported by these goals?；
 
 **选项：**
 
@@ -56,9 +60,12 @@
 - C. Operational excellence
 - D. Performance efficiency
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** B 100%
 
 ### Q23.1-题干怎么拆
@@ -91,9 +98,12 @@
 - C. Deploy the application to multiple locations.
 - D. Implement loosely coupled dependencies.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `D`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** D 100%
 
 ### Q25.1-题干怎么拆
@@ -117,7 +127,7 @@
 
 ## Q30-CAF-Well-Architected题
 
-**题目：** Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)
+**题目：** Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)；
 
 **选项：**
 
@@ -127,9 +137,12 @@
 - D. Responsive design
 - E. Operational excellence
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `BE`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `BE`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** BE 100%
 
 ### Q30.1-题干怎么拆
@@ -154,7 +167,7 @@
 
 ## Q45-CAF-Well-Architected题
 
-**题目：** Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the people perspective?
+**题目：** Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the people perspective?；
 
 **选项：**
 
@@ -163,9 +176,12 @@
 - C. Cloud fluency
 - D. Strategic partnership
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** C 100%
 
 ### Q45.1-题干怎么拆
@@ -189,7 +205,7 @@
 
 ## Q93-CAF-Well-Architected题
 
-**题目：** Which of the following is a recommended design principle of the AWS Well-Architected Framework?
+**题目：** Which of the following is a recommended design principle of the AWS Well-Architected Framework?；
 
 **选项：**
 
@@ -198,9 +214,12 @@
 - C. Learn to improve from operational failures.
 - D. Use monolithic application design for centralization.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 100%
 
 ### Q93.1-题干怎么拆
@@ -224,7 +243,7 @@
 
 ## Q101-CAF-Well-Architected题
 
-**题目：** Which option is an AWS Cloud Adoption Framework (AWS CAF) platform perspective capability?
+**题目：** Which option is an AWS Cloud Adoption Framework (AWS CAF) platform perspective capability?；
 
 **选项：**
 
@@ -233,9 +252,12 @@
 - C. Data governance
 - D. Data science
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** A 79%, C 20%
 
 ### Q101.1-题干怎么拆
@@ -268,9 +290,12 @@
 - C. Scale
 - D. Launch
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** B 83%, A 17%
 
 ### Q114.1-题干怎么拆
@@ -294,7 +319,7 @@
 
 ## Q127-CAF-Well-Architected题
 
-**题目：** Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes capabilities for configuration management and patch management?
+**题目：** Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes capabilities for configuration management and patch management?；
 
 **选项：**
 
@@ -303,9 +328,12 @@
 - C. Security
 - D. Governance
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** B 100%
 
 ### Q127.1-题干怎么拆
@@ -329,7 +357,7 @@
 
 ## Q134-CAF-Well-Architected题
 
-**题目：** Which option is an AWS Cloud Adoption Framework (AWS CAF) business perspective capability?
+**题目：** Which option is an AWS Cloud Adoption Framework (AWS CAF) business perspective capability?；
 
 **选项：**
 
@@ -338,9 +366,12 @@
 - C. Data monetization
 - D. Platform architecture
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** C 88%, A 12%
 
 ### Q134.1-题干怎么拆
@@ -364,7 +395,7 @@
 
 ## Q137-CAF-Well-Architected题
 
-**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) security perspective capabilities? (Choose two.)
+**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) security perspective capabilities? (Choose two.)；
 
 **选项：**
 
@@ -374,9 +405,12 @@
 - D. Infrastructure protection
 - E. Availability and continuity
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `CD`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `CD`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** CD 100%
 
 ### Q137.1-题干怎么拆
@@ -410,9 +444,12 @@
 - C. Application portfolio management
 - D. Cloud financial management
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** A 76%, C 18%, D 6%
 
 ### Q142.1-题干怎么拆
@@ -436,7 +473,7 @@
 
 ## Q145-CAF-Well-Architected题
 
-**题目：** Which cloud transformation journey phase of the AWS Cloud Adoption Framework (AWS CAF) focuses on demonstrating how the cloud helps accelerate business outcomes?
+**题目：** Which cloud transformation journey phase of the AWS Cloud Adoption Framework (AWS CAF) focuses on demonstrating how the cloud helps accelerate business outcomes?；
 
 **选项：**
 
@@ -445,9 +482,12 @@
 - C. Align
 - D. Launch
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** B 100%
 
 ### Q145.1-题干怎么拆
@@ -471,7 +511,7 @@
 
 ## Q164-CAF-Well-Architected题
 
-**题目：** Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?
+**题目：** Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?；
 
 **选项：**
 
@@ -480,9 +520,12 @@
 - C. Performance efficiency
 - D. Cost optimization
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** B 100%
 
 ### Q164.1-题干怎么拆
@@ -506,7 +549,7 @@
 
 ## Q178-CAF-Well-Architected题
 
-**题目：** A company is planning to migrate its application to the AWS Cloud. Which AWS tool or set of resources should the company use to analyze and assess its readiness for migration?
+**题目：** A company is planning to migrate its application to the AWS Cloud. Which AWS tool or set of resources should the company use to analyze and assess its readiness for migration?；
 
 **选项：**
 
@@ -515,9 +558,12 @@
 - C. AWS Well-Architected Framework
 - D. AWS Budgets
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** A 79%, C 21%
 
 ### Q178.1-题干怎么拆
@@ -541,7 +587,7 @@
 
 ## Q185-CAF-Well-Architected题
 
-**题目：** Which design principles support the reliability pillar of the AWS Well-Architected Framework? (Choose two.)
+**题目：** Which design principles support the reliability pillar of the AWS Well-Architected Framework? (Choose two.)；
 
 **选项：**
 
@@ -551,9 +597,12 @@
 - D. Deploy resources globally to improve response time.
 - E. Automatically recover from failure.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `CE`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `CE`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** CE 73%, AE 27%
 
 ### Q185.1-题干怎么拆
@@ -587,9 +636,12 @@
 - C. Platform
 - D. Operations
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `D`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** D 93%, A 7%
 
 ### Q257.1-题干怎么拆
@@ -622,9 +674,12 @@
 - C. AWS Well-Architected Framework
 - D. AWS Migration Hub
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** A 100%
 
 ### Q258.1-题干怎么拆
@@ -648,7 +703,7 @@
 
 ## Q261-CAF-Well-Architected题
 
-**题目：** A company wants to set up its workloads to perform their intended functions and recover quickly from failure. Which pillar of the AWS Well-Architected Framework aligns with these goals?
+**题目：** A company wants to set up its workloads to perform their intended functions and recover quickly from failure. Which pillar of the AWS Well-Architected Framework aligns with these goals?；
 
 **选项：**
 
@@ -657,9 +712,12 @@
 - C. Reliability
 - D. Security
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 96%
 
 ### Q261.1-题干怎么拆
@@ -683,7 +741,7 @@
 
 ## Q268-CAF-Well-Architected题
 
-**题目：** Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)
+**题目：** Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)；
 
 **选项：**
 
@@ -693,9 +751,12 @@
 - D. Going global in minutes
 - E. Continuous development
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** B 65%, C 23%, A 13%
 
 ### Q268.1-题干怎么拆
@@ -726,7 +787,7 @@
 
 ## Q277-CAF-Well-Architected题
 
-**题目：** Which of the following is an AWS Well-Architected Framework design principle for operational excellence in the AWS Cloud?
+**题目：** Which of the following is an AWS Well-Architected Framework design principle for operational excellence in the AWS Cloud?；
 
 **选项：**
 
@@ -735,9 +796,12 @@
 - C. Implement a strong foundation of identity and access management
 - D. Stop spending money on hardware infrastructure for data center operations.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** B 100%
 
 ### Q277.1-题干怎么拆
@@ -761,7 +825,7 @@
 
 ## Q285-CAF-Well-Architected题
 
-**题目：** A company wants to run its workloads in the AWS Cloud effectively, reduce management overhead, and improve processes. Which AWS Well-Architected Framework pillar represents these requirements?
+**题目：** A company wants to run its workloads in the AWS Cloud effectively, reduce management overhead, and improve processes. Which AWS Well-Architected Framework pillar represents these requirements?；
 
 **选项：**
 
@@ -770,9 +834,12 @@
 - C. Performance efficiency
 - D. Cost optimization
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** B 100%
 
 ### Q285.1-题干怎么拆
@@ -796,7 +863,7 @@
 
 ## Q292-CAF-Well-Architected题
 
-**题目：** Which capabilities are in the platform perspective of the AWS Cloud Adoption Framework (AWS CAF)? (Choose two.)
+**题目：** Which capabilities are in the platform perspective of the AWS Cloud Adoption Framework (AWS CAF)? (Choose two.)；
 
 **选项：**
 
@@ -806,9 +873,12 @@
 - D. Infrastructure protection
 - E. Change and release management
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `BC`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `BC`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** BC 72%, AD 12%, Other 16%
 
 ### Q292.1-题干怎么拆
@@ -838,7 +908,7 @@
 
 ## Q295-CAF-Well-Architected题
 
-**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) security perspective capabilities? (Choose two.)
+**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) security perspective capabilities? (Choose two.)；
 
 **选项：**
 
@@ -848,9 +918,12 @@
 - D. Infrastructure protection
 - E. Availability and continuity
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `CD`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `CD`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** CD 88%, Other 12%
 
 ### Q295.1-题干怎么拆
@@ -875,7 +948,7 @@
 
 ## Q303-CAF-Well-Architected题
 
-**题目：** A company's application developers need to quickly provision and manage AWS services by using scripts. Which AWS offering should the developers use to meet these requirements?
+**题目：** A company's application developers need to quickly provision and manage AWS services by using scripts. Which AWS offering should the developers use to meet these requirements?；
 
 **选项：**
 
@@ -884,8 +957,10 @@
 - C. AWS Cloud Adoption Framework (AWS CAF)
 - D. AWS Systems Manager Session Manager
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
 **社区投票：** A 100%
 
 ### Q303.1-题干怎么拆
@@ -918,9 +993,12 @@
 - C. Platform
 - D. Operations
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** B 100%
 
 ### Q315.1-题干怎么拆
@@ -953,9 +1031,12 @@
 - C. Platform engineering
 - D. Availability and continuity management
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** B 100%
 
 ### Q325.1-题干怎么拆
@@ -979,7 +1060,7 @@
 
 ## Q335-CAF-Well-Architected题
 
-**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) cloud transformation journey recommendations? (Choose two.)
+**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) cloud transformation journey recommendations? (Choose two.)；
 
 **选项：**
 
@@ -989,9 +1070,12 @@
 - D. Mobilize phase
 - E. Migrate and modernize phase
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `AB`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `AB`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** AB 72%, AD 28%
 
 ### Q335.1-题干怎么拆
@@ -1025,9 +1109,12 @@
 - C. Operational excellence
 - D. Reliability
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 100%
 
 ### Q337.1-题干怎么拆
@@ -1051,7 +1138,7 @@
 
 ## Q344-CAF-Well-Architected题
 
-**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) governance perspective capabilities? (Choose two.)
+**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) governance perspective capabilities? (Choose two.)；
 
 **选项：**
 
@@ -1061,9 +1148,12 @@
 - D. Innovation management
 - E. Product management
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `BC`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `BC`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** BC 78%, AB 22%
 
 ### Q344.1-题干怎么拆
@@ -1088,7 +1178,7 @@
 
 ## Q354-CAF-Well-Architected题
 
-**题目：** Which guideline is a well-architected design principle for building cloud applications?
+**题目：** Which guideline is a well-architected design principle for building cloud applications?；
 
 **选项：**
 
@@ -1097,9 +1187,12 @@
 - C. Design for automated recovery from failure.
 - D. Use tightly coupled components.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 100%
 
 ### Q354.1-题干怎么拆
@@ -1123,7 +1216,7 @@
 
 ## Q356-CAF-Well-Architected题
 
-**题目：** Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)
+**题目：** Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)；
 
 **选项：**
 
@@ -1133,9 +1226,12 @@
 - D. Agile development
 - E. Operational excellence
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `BE`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `BE`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** BE 100%
 
 ### Q356.1-题干怎么拆
@@ -1160,7 +1256,7 @@
 
 ## Q358-CAF-Well-Architected题
 
-**题目：** Which design principles should a company apply to AWS Cloud workloads to maximize sustainability and minimize environmental impact? (Choose two.)
+**题目：** Which design principles should a company apply to AWS Cloud workloads to maximize sustainability and minimize environmental impact? (Choose two.)；
 
 **选项：**
 
@@ -1170,8 +1266,10 @@
 - D. Force frequent application reinstallations by users.
 - E. Reduce the need for users to reinstall applications.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `AE`
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `AE`；
+
 **社区投票：** AE 100%
 
 ### Q358.1-题干怎么拆
@@ -1196,7 +1294,7 @@
 
 ## Q379-CAF-Well-Architected题
 
-**题目：** Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the business perspective?
+**题目：** Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the business perspective?；
 
 **选项：**
 
@@ -1205,9 +1303,12 @@
 - C. Observability
 - D. Change and release management
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** B 90%, A 10%
 
 ### Q379.1-题干怎么拆
@@ -1231,7 +1332,7 @@
 
 ## Q381-CAF-Well-Architected题
 
-**题目：** Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes a capability for well-designed data and analytics architecture?
+**题目：** Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes a capability for well-designed data and analytics architecture?；
 
 **选项：**
 
@@ -1240,9 +1341,12 @@
 - C. Operations
 - D. Platform
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `D`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** D 100%
 
 ### Q381.1-题干怎么拆
@@ -1266,7 +1370,7 @@
 
 ## Q382-CAF-Well-Architected题
 
-**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) people perspective capabilities? (Choose two.)
+**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) people perspective capabilities? (Choose two.)；
 
 **选项：**
 
@@ -1276,9 +1380,12 @@
 - D. Risk management
 - E. Modern application development
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `AC`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `AC`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** AC 100%
 
 ### Q382.1-题干怎么拆
@@ -1303,7 +1410,7 @@
 
 ## Q383-CAF-Well-Architected题
 
-**题目：** A company needs a bridge between technology and business to help evolve to a culture of continuous growth and learning. Which perspective in the AWS Cloud Adoption Framework (AWS CAF) serves as this bridge?
+**题目：** A company needs a bridge between technology and business to help evolve to a culture of continuous growth and learning. Which perspective in the AWS Cloud Adoption Framework (AWS CAF) serves as this bridge?；
 
 **选项：**
 
@@ -1312,9 +1419,12 @@
 - C. Operations
 - D. Security
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** A 100%
 
 ### Q383.1-题干怎么拆
@@ -1338,7 +1448,7 @@
 
 ## Q386-CAF-Well-Architected题
 
-**题目：** Which AWS Well-Architected Framework pillar focuses on structured and streamlined allocation of computing resources?
+**题目：** Which AWS Well-Architected Framework pillar focuses on structured and streamlined allocation of computing resources?；
 
 **选项：**
 
@@ -1347,9 +1457,12 @@
 - C. Performance efficiency
 - D. Sustainability
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 100%
 
 ### Q386.1-题干怎么拆
@@ -1373,7 +1486,7 @@
 
 ## Q387-CAF-Well-Architected题
 
-**题目：** Which AWS Cloud Adoption Framework (AWS CAF) capabilities belong to the governance perspective? (Choose two.)
+**题目：** Which AWS Cloud Adoption Framework (AWS CAF) capabilities belong to the governance perspective? (Choose two.)；
 
 **选项：**
 
@@ -1383,9 +1496,12 @@
 - D. Risk management
 - E. Event management
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `AD`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `AD`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** AD 100%
 
 ### Q387.1-题干怎么拆
@@ -1410,7 +1526,7 @@
 
 ## Q404-CAF-Well-Architected题
 
-**题目：** A company wants to design its cloud architecture so that it can support development innovations, and continuously improve processes and procedures. This is an example of which pillar of the AWS Well-Architected Framework?
+**题目：** A company wants to design its cloud architecture so that it can support development innovations, and continuously improve processes and procedures. This is an example of which pillar of the AWS Well-Architected Framework?；
 
 **选项：**
 
@@ -1419,9 +1535,12 @@
 - C. Operational excellence
 - D. Reliability
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 83%, D 17%
 
 ### Q404.1-题干怎么拆
@@ -1450,7 +1569,7 @@
 
 ## Q422-CAF-Well-Architected题
 
-**题目：** Which AWS Cloud Adoption Framework (AWS CAF) perspective focuses on managing identities and permissions at scale?
+**题目：** Which AWS Cloud Adoption Framework (AWS CAF) perspective focuses on managing identities and permissions at scale?；
 
 **选项：**
 
@@ -1459,9 +1578,12 @@
 - C. Governance
 - D. Security
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `D`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** D 100%
 
 ### Q422.1-题干怎么拆
@@ -1485,7 +1607,7 @@
 
 ## Q424-CAF-Well-Architected题
 
-**题目：** Which pillar of the AWS Well-Architected Framework aligns with the ability to make frequent, small, and reversible changes to AWS Cloud architecture?
+**题目：** Which pillar of the AWS Well-Architected Framework aligns with the ability to make frequent, small, and reversible changes to AWS Cloud architecture?；
 
 **选项：**
 
@@ -1494,9 +1616,12 @@
 - C. Operational excellence
 - D. Performance efficiency
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 100%
 
 ### Q424.1-题干怎么拆
@@ -1520,7 +1645,7 @@
 
 ## Q439-CAF-Well-Architected题
 
-**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) perspectives? (Choose two.)
+**题目：** Which options are AWS Cloud Adoption Framework (AWS CAF) perspectives? (Choose two.)；
 
 **选项：**
 
@@ -1530,9 +1655,12 @@
 - D. Architecture
 - E. Business
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `BE`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `BE`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** BE 100%
 
 ### Q439.1-题干怎么拆
@@ -1566,8 +1694,10 @@
 - C. Elasticity
 - D. Operational excellence
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
 **社区投票：** C 100%
 
 ### Q461.1-题干怎么拆
@@ -1600,9 +1730,12 @@
 - C. Use a new data and analytics platform to create actionable insights.
 - D. Migrate and modernize legacy infrastructure.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** A 100%
 
 ### Q507.1-题干怎么拆
@@ -1626,7 +1759,7 @@
 
 ## Q559-CAF-Well-Architected题
 
-**题目：** Which design principles are included in the reliability pillar of the AWS Well-Architected Framework? (Choose two.)
+**题目：** Which design principles are included in the reliability pillar of the AWS Well-Architected Framework? (Choose two.)；
 
 **选项：**
 
@@ -1636,9 +1769,12 @@
 - D. Design applications to run in a single Availability Zone.
 - E. Plan to increase AWS service quotas first in a secondary AWS Region.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `AC`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `AC`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** AC 100%
 
 ### Q559.1-题干怎么拆
@@ -1663,7 +1799,7 @@
 
 ## Q601-CAF-Well-Architected题
 
-**题目：** Which AWS Cloud Adoption Framework (AWS CAF) perspective focuses on organizing an inventory of data products in a data catalog?
+**题目：** Which AWS Cloud Adoption Framework (AWS CAF) perspective focuses on organizing an inventory of data products in a data catalog?；
 
 **选项：**
 
@@ -1672,9 +1808,12 @@
 - C. Business
 - D. Platform
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** ETL与数据目录 / 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** ETL与数据目录 / 组织云采用准备度；
+
 **社区投票：** B 100%
 
 ### Q601.1-题干怎么拆
@@ -1707,9 +1846,12 @@
 - C. Reliability
 - D. Performance efficiency
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** C 100%
 
 ### Q619.1-题干怎么拆
@@ -1733,7 +1875,7 @@
 
 ## Q647-CAF-Well-Architected题
 
-**题目：** A company wants to continuously improve processes and procedures to deliver business value. Which pillar of the AWS Well-Architected Framework does this goal represent?
+**题目：** A company wants to continuously improve processes and procedures to deliver business value. Which pillar of the AWS Well-Architected Framework does this goal represent?；
 
 **选项：**
 
@@ -1742,9 +1884,12 @@
 - C. Reliability
 - D. Sustainability
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `B`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `B`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** B 100%
 
 ### Q647.1-题干怎么拆
@@ -1768,7 +1913,7 @@
 
 ## Q659-CAF-Well-Architected题
 
-**题目：** Which design principle is related to the reliability pillar according to the AWS Well-Architected Framework?
+**题目：** Which design principle is related to the reliability pillar according to the AWS Well-Architected Framework?；
 
 **选项：**
 
@@ -1777,8 +1922,10 @@
 - C. Go global in minutes
 - D. Analyze and attribute to expenditure
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
 **需求/考点标签：** 工作负载架构评审
 
 ### Q659.1-题干怎么拆
@@ -1812,9 +1959,12 @@
 - D. Use a new data and analytics platform to create actionable insights.
 - E. Migrate and modernize legacy infrastructure.
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `AC`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `AC`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** AC 100%
 
 ### Q670.1-题干怎么拆
@@ -1839,7 +1989,7 @@
 
 ## Q676-CAF-Well-Architected题
 
-**题目：** Which AWS Cloud Adoption Framework (AWS CAF) perspective focuses on real-time insights and answers questions about strategy?
+**题目：** Which AWS Cloud Adoption Framework (AWS CAF) perspective focuses on real-time insights and answers questions about strategy?；
 
 **选项：**
 
@@ -1848,9 +1998,12 @@
 - C. Business
 - D. Platform
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
-**需求/考点标签：** 组织云采用准备度
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
+**需求/考点标签：** 组织云采用准备度；
+
 **社区投票：** C 100%
 
 ### Q676.1-题干怎么拆
@@ -1874,7 +2027,7 @@
 
 ## Q678-CAF-Well-Architected题
 
-**题目：** Which AWS Well-Architected Framework concept represents a system's ability to remain functional when the system encounters operational problems?
+**题目：** Which AWS Well-Architected Framework concept represents a system's ability to remain functional when the system encounters operational problems?；
 
 **选项：**
 
@@ -1883,8 +2036,10 @@
 - C. Durability
 - D. Latency
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `C`
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `C`；
+
 **需求/考点标签：** 工作负载架构评审
 
 ### Q678.1-题干怎么拆
@@ -1908,7 +2063,7 @@
 
 ## Q679-CAF-Well-Architected题
 
-**题目：** Which pillar of the AWS Well-Architected Framework focuses on the ability to recover automatically from service interruptions?
+**题目：** Which pillar of the AWS Well-Architected Framework focuses on the ability to recover automatically from service interruptions?；
 
 **选项：**
 
@@ -1917,9 +2072,12 @@
 - C. Operational excellence
 - D. Reliability
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `D`
-**需求/考点标签：** 可中断低成本计算 / 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `D`；
+
+**需求/考点标签：** 可中断低成本计算 / 工作负载架构评审；
+
 **社区投票：** D 100%
 
 ### Q679.1-题干怎么拆
@@ -1943,7 +2101,7 @@
 
 ## Q687-CAF-Well-Architected题
 
-**题目：** Which design principle aligns with performance efficiency pillar of the AWS Well-Architected Framework?
+**题目：** Which design principle aligns with performance efficiency pillar of the AWS Well-Architected Framework?；
 
 **选项：**
 
@@ -1952,9 +2110,12 @@
 - C. Measuring the cost of workloads
 - D. Using managed services
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
-**需求/考点标签：** 工作负载架构评审
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
+**需求/考点标签：** 工作负载架构评审；
+
 **社区投票：** A 64%, B 36%
 
 ### Q687.1-题干怎么拆
@@ -1983,7 +2144,7 @@
 
 ## Q709-CAF-Well-Architected题
 
-**题目：** A company is learning about the perspectives of the AWS Cloud Adoption Framework (AWS CAF). Which perspective of the AWS CAF addresses the strategy management capability?
+**题目：** A company is learning about the perspectives of the AWS Cloud Adoption Framework (AWS CAF). Which perspective of the AWS CAF addresses the strategy management capability?；
 
 **选项：**
 
@@ -1992,8 +2153,10 @@
 - C. Governance perspective
 - D. Operations perspective
 
-**主分类：** C4-26 CAF-Well-Architected题
-**题库记录答案：** `A`
+**主分类：** C4-26 CAF-Well-Architected题；
+
+**题库记录答案：** `A`；
+
 **需求/考点标签：** 组织云采用准备度
 
 ### Q709.1-题干怎么拆

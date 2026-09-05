@@ -69,22 +69,26 @@
 4. 是否强调 managed / serverless / no infrastructure management？
 5. 最后才在同类服务里做比较。
 ```
-
 ## 4-先按“对象”而不是服务名分类
 
 ### 4.1-代码在哪里运行
+
 EC2 / ECS / EKS / Fargate / Lambda 的区别首先是运行抽象层和管理责任。
 
 ### 4.2-数据是什么形态
+
 Object → S3；Block → EBS；File → EFS/FSx；Relational → RDS/Aurora；Key-Value/NoSQL → DynamoDB；Cache → ElastiCache。
 
 ### 4.3-流量正在去哪儿
+
 Internet/VPC/On-Prem/AWS Service/Global User 是五种完全不同的网络问题。
 
 ### 4.4-安全问题发生在哪一层
+
 Identity → IAM；Encryption → KMS/Secrets；Web Protection → WAF/Shield；Detection → GuardDuty/Inspector/Macie；Audit → CloudTrail/Config。
 
 ### 4.5-时间发生在什么时候
+
 部署前估算 → Pricing Calculator；运行中监控 → CloudWatch；事后成本分析 → Cost Explorer；达到阈值 → Budgets。
 
 ## 5-Gateway-家族单独决策
@@ -97,7 +101,6 @@ Transit Gateway   → 多 VPC / On-Prem 中央 Hub
 Storage Gateway   → On-Prem 存储协议 ↔ AWS Storage
 API Gateway       → API 前门/管理
 ```
-
 ## 6-Managed-/-Serverless-不能机械背
 
 题目出现“无需管理服务器”时，还要继续问：它运行的是函数、容器、数据库、分析查询，还是 ETL。Lambda、Fargate、DynamoDB、Athena、Glue 都可能具有较高托管/Serverless 特征，但解决的问题完全不同。

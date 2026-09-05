@@ -2,22 +2,9 @@
 
 > 资料口径说明：本章延续当前 AWS CLF-C02 学习项目既有规则，主要依据用户提供的 719 题题库、`chatGPT会话1.md`、`chatGPT会话2.md`、`cmd1.md` 与前序 C2 章节的结构整理。题库中的答案与评论用于识别高频考点、业务场景和易混项，不自动视为当前 AWS 官方结论。涉及会随时间变化的产品状态、考试范围与 Support 体系时，本章只沿用项目资料中已经明确记录的状态；正式考试前仍应再对照 AWS 当前官方页面。
 
-
 ## 1-本章目标
 
-这一章先不讨论“全球网络加速”或“本地机房专线”，而只解决 AWS 内部最基础的网络问题：
-
-```text
-一台 EC2 / ECS / RDS 为什么能互相通信？
-谁可以直接访问 Internet？
-谁只能待在私网？
-流量从哪里进、从哪里出？
-安全边界放在哪里？
-多个 VPC 怎么连接？
-访问 S3 等 AWS 服务时，能不能不经过公网？
-```
-
-上一章计算与数据库已经回答“应用在哪里运行、数据放在哪里”；这一章回答的是：
+这一章先不讨论“全球网络加速”或“本地机房专线”，而只解决 AWS 内部最基础的网络问题：一台 EC2 / ECS / RDS 为什么能互相通信？、谁可以直接访问 Internet？、谁只能待在私网？、流量从哪里进、从哪里出？、安全边界放在哪里？、多个 VPC 怎么连接？、访问 S3 等 AWS 服务时，能不能不经过公网？上一章计算与数据库已经回答“应用在哪里运行、数据放在哪里”；这一章回答的是：
 
 > 这些资源如何被放进一个可控、可路由、可隔离的网络空间里。
 
@@ -40,10 +27,7 @@ Switch
 ├── App Server
 └── Database Server
 ```
-
-云上并没有取消这些概念，而是把很多能力软件定义化、服务化。
-
-在 AWS 中可以先建立一张概念映射：
+云上并没有取消这些概念，而是把很多能力软件定义化、服务化。在 AWS 中可以先建立一张概念映射：
 
 | 传统概念 | AWS 中常见对应 |
 |---|---|
@@ -57,11 +41,9 @@ Switch
 | 固定公网 IPv4 | Elastic IP |
 | 私网访问 AWS 服务 | VPC Endpoint / PrivateLink |
 
-
 ## 3-★★★★★-Amazon-VPC
 
-**正式名称：** Amazon Virtual Private Cloud
-**中文：** Amazon 虚拟私有云
+**正式名称：** Amazon Virtual Private Cloud；；；；中文： Amazon 虚拟私有云
 
 ### 3.1-为什么需要它
 
@@ -87,15 +69,9 @@ VPC 不是 VPN；VPC 是云内网络空间，VPN 是连接两个网络的一种�
 
 看到 logically isolated network、private network、custom IP range，首先想到 VPC。
 
-
-
 ## 4-★★★★-CIDR、IP-与地址规划
 
-CIDR = Classless Inter-Domain Routing，中文常说无类别域间路由。
-
-CLF-C02 不要求手算复杂子网，但必须理解：VPC 与 Subnet 都需要 IP 地址范围。
-
-例如：
+CIDR = Classless Inter-Domain Routing，中文常说无类别域间路由。CLF-C02 不要求手算复杂子网，但必须理解：VPC 与 Subnet 都需要 IP 地址范围。例如：
 
 ```text
 VPC: 10.0.0.0/16
@@ -105,16 +81,13 @@ VPC: 10.0.0.0/16
 ├── Public Subnet B:  10.0.3.0/24
 └── Private Subnet B: 10.0.4.0/24
 ```
-
 地址规划的核心不是考试算术，而是理解：
 
 > Subnet 是 VPC 地址空间的进一步划分。
 
 ## 5-★★★★★-Subnet
 
-Subnet = Subnetwork = 子网。
-
-Subnet 本质上是 VPC 内的一段 IP 地址范围，并且属于一个 Availability Zone。
+Subnet = Subnetwork = 子网。Subnet 本质上是 VPC 内的一段 IP 地址范围，并且属于一个 Availability Zone。
 
 ```text
 VPC
@@ -125,12 +98,9 @@ VPC
     ├── Public Subnet B
     └── Private Subnet B
 ```
-
 ### 5.1-Public-与-Private-不是名字决定的
 
-一个 Subnet 是否“公网”，关键看它的路由与资源公网地址能力，而不是你给它取名叫 public。
-
-典型理解：
+一个 Subnet 是否“公网”，关键看它的路由与资源公网地址能力，而不是你给它取名叫 public。典型理解：
 
 ```text
 Public Subnet
@@ -140,31 +110,19 @@ Route Table:
 Private Subnet
 通常没有直接指向 Internet Gateway 的公网路由
 ```
-
 数据库通常更适合放在 Private Subnet。
 
 ## 6-★★★★★-Route-Table
 
-Route Table = 路由表。
-
-它回答：
+Route Table = 路由表。它回答：
 
 > “去往某个目标网段的流量，下一跳应该送到哪里？”
 
-概念示例：
-
-```text
-Destination      Target
-10.0.0.0/16      local
-0.0.0.0/0        igw-xxxx
-```
-
-`local` 让 VPC 内部地址之间能够按规则通信；默认路由 `0.0.0.0/0` 则经常代表其他 IPv4 目标。
+概念示例：Destination      Target、10.0.0.0/16      local、0.0.0.0/0        igw-xxxx`local` 让 VPC 内部地址之间能够按规则通信；默认路由 `0.0.0.0/0` 则经常代表其他 IPv4 目标。
 
 ## 7-★★★★★-Internet-Gateway
 
-**正式名称：** Internet Gateway
-**中文：** 互联网网关
+**正式名称：** Internet Gateway；；；；中文： 互联网网关
 
 ### 7.1-为什么需要它
 
@@ -190,12 +148,9 @@ Internet Gateway 不等于 NAT Gateway。IGW 是 VPC 与 Internet 的连接点�
 
 题目强调 public subnet、direct internet access、internet-facing workload 时要识别 IGW。
 
-
-
 ## 8-★★★★★-NAT-Gateway
 
-**正式名称：** NAT Gateway
-**中文：** 网络地址转换网关
+**正式名称：** NAT Gateway；；；；中文： 网络地址转换网关
 
 ### 8.1-为什么需要它
 
@@ -221,30 +176,15 @@ NAT Gateway ≠ Internet Gateway。前者解决私网出站地址转换，后者
 
 private subnet instances need outbound internet access without inbound public exposure，是 NAT Gateway 高频场景。
 
-
-
 ## 9-Security-Group-与-Network-ACL：最重要的双层安全边界
 
 ### 9.1-★★★★★-Security-Group
 
-Security Group = 安全组。
-
-可以把它理解成：
+Security Group = 安全组。可以把它理解成：
 
 > 附着在 ENI / 实例等资源上的有状态虚拟防火墙。
 
-核心：
-
-```text
-Stateful
-有状态
-```
-
-允许请求进入后，与该请求对应的返回流量不需要再单独写一条完全对称的返回规则。
-
-Security Group 主要使用 Allow 规则。
-
-GlobalShop：
+核心：Stateful、有状态；允许请求进入后，与该请求对应的返回流量不需要再单独写一条完全对称的返回规则。Security Group 主要使用 Allow 规则。GlobalShop：
 
 ```text
 Internet
@@ -258,14 +198,11 @@ App-SG
    ▼
 DB-SG
 ```
-
 这种“Security Group 引用另一个 Security Group”的思路，比把数据库开放给一大片 IP 更清晰。
 
 ### 9.2-★★★★-Network-ACL
 
-NACL = Network Access Control List = 网络访问控制列表。
-
-它工作在 Subnet 层，属于无状态访问控制。
+NACL = Network Access Control List = 网络访问控制列表。它工作在 Subnet 层，属于无状态访问控制。
 
 ```text
 Security Group
@@ -278,16 +215,11 @@ Network ACL
 → Stateless
 → Allow + Deny
 ```
-
 考试如果强调 explicit deny、subnet boundary，NACL 的优先级会明显提高。
 
 ## 10-ENI-与-Elastic-IP
 
-ENI = Elastic Network Interface = 弹性网络接口。
-
-可以粗略理解成 AWS 中的虚拟网卡。EC2 网络通信最终会落到网络接口与私有 IP 等概念上。
-
-Elastic IP（EIP）是可分配的静态公网 IPv4 地址。它不是“自动等于高可用”，只是提供一个可重新映射的公网地址资源。
+ENI = Elastic Network Interface = 弹性网络接口。可以粗略理解成 AWS 中的虚拟网卡。EC2 网络通信最终会落到网络接口与私有 IP 等概念上。Elastic IP（EIP）是可分配的静态公网 IPv4 地址。它不是“自动等于高可用”，只是提供一个可重新映射的公网地址资源。
 
 ## 11-★★★★-VPC-Peering
 
@@ -296,7 +228,6 @@ VPC Peering 用于把两个 VPC 直接连接起来，使双方可通过私有 IP
 ```text
 VPC-A  <──── Peering ────>  VPC-B
 ```
-
 核心特点：
 
 - 点对点关系；
@@ -312,7 +243,6 @@ VPC-A  <──── Peering ────>  VPC-B
 大量 VPC / 本地网络集中互联
 → Transit Gateway（C2-07 深入）
 ```
-
 ## 12-★★★★★-VPC-Endpoint：为什么不想走公网？
 
 假设 Private Subnet 中的 EC2 要访问 S3：
@@ -322,7 +252,6 @@ EC2
  │
  ├── NAT / Internet path → S3 public endpoint
 ```
-
 技术上可能可行，但很多企业希望：
 
 > 访问 AWS 服务时，不依赖公网路径。
@@ -331,14 +260,7 @@ EC2
 
 ### 12.1-Gateway-Endpoint
 
-经典 CLF 考点主要是：
-
-```text
-S3
-DynamoDB
-```
-
-通过 Gateway Endpoint 可让 VPC 内资源以私有方式访问这些服务。
+经典 CLF 考点主要是：S3、DynamoDB；通过 Gateway Endpoint 可让 VPC 内资源以私有方式访问这些服务。
 
 ### 12.2-Interface-Endpoint-/-AWS-PrivateLink
 
@@ -353,7 +275,6 @@ Interface Endpoint
     ▼
 AWS Service / Endpoint Service
 ```
-
 ## 13-Gateway-家族不要混
 
 | Gateway | 解决的问题 |
@@ -394,7 +315,6 @@ App → NAT Gateway → IGW → Internet
 Private AWS service access:
 App → VPC Endpoint → S3 / DynamoDB
 ```
-
 ## 15-高频对比表
 
 | 需求 | 优先考虑 |
@@ -427,7 +347,6 @@ App → VPC Endpoint → S3 / DynamoDB
         ↓
 其他相似服务为什么不合适？
 ```
-
 真正稳定的考试能力不是“看到关键词就背答案”，而是能够从业务要求推导到技术能力，再从技术能力推导到 AWS 服务。
 
 ---
